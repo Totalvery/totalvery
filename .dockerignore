@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+env/
+db.sqlite3
+.vscode
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
