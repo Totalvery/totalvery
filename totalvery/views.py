@@ -2,6 +2,6 @@ from django.http import JsonResponse
 
 
 def ping(request):
-    data = {'ping': 'pong!'}
+    data = {'ping': 'paaagn!'}
     return JsonResponse(data)
 

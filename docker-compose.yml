@@ -3,10 +3,10 @@ version: "3"
 
 services:
   web:
-    image: registry.heroku.com/totalvery/web
     build:
       context: .
     volumes:
       - .:/app
+    command: python manage.py runserver 0.0.0.0:8000
     ports:
       - 8000:8000
