@@ -1,0 +1,12 @@
+# docker-compose is used only for development.
+version: "3"
+
+services:
+  web:
+    image: registry.heroku.com/totalvery/web
+    build:
+      context: .
+    volumes:
+      - .:/app
+    ports:
+      - 8000:8000

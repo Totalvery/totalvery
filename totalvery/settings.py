@@ -24,13 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECRET_KEY = '-r8qu!atb9it1lf+5t&9*^9u1fivj^f-!lrnz=^+v4@!(vr+)^'
 
 # # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
+DEBUG = True
 
 # ALLOWED_HOSTS = []
 
 SECRET_KEY = os.environ.get("SECRET_KEY", default="foo")
-
-DEBUG = int(os.environ.get("DEBUG", default=0))
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", 'totalvery.herokuapp.com']
 
