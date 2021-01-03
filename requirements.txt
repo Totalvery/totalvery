@@ -1,4 +1,5 @@
-Django
+django
+djangorestframework
 gunicorn
 whitenoise
 ipdb
