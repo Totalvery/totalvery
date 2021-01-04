@@ -6,6 +6,7 @@ WORKDIR /app
 
 RUN pip install django djangorestframework gunicorn whitenoise ipdb
 RUN npx create-react-app totalvery_react
+RUN npm start
 
 # copy project
 COPY . /app
