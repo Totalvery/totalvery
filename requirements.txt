@@ -1,4 +1,5 @@
 requests
+BeautifulSoup4
 django
 djangorestframework
 gunicorn
