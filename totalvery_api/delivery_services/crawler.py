@@ -67,9 +67,14 @@ class GrubhubCrawler:
         }
         self.s.headers.update(self.headers)
         static = 'https://www.grubhub.com/eat/static-content-unauth?contentOnly=1'
-        soup = BeautifulSoup(self.s.get(static).text, 'html.parser')
-        client = re.findall(
-            "beta_[a-zA-Z0-9]+", soup.find('script', {'type': 'text/javascript'}).string)
+        res = self.s.get(static)
+        soup = BeautifulSoup(res.text, 'html.parser')
+
+        try:
+            client = re.findall(
+                "beta_[a-zA-Z0-9]+", soup.find('script', {'type': 'text/javascript'}).string)
+        except:
+            print("Grubhub food delivery is not available in your country")
 
         out = check_output(["curl", "https://api-gtm.grubhub.com/auth", "-H", "content-type: application/json;charset=UTF-8", "--data-binary",
                             "{\"brand\":\"GRUBHUB\",\"client_id\":\"" + client[0] + "\",\"device_id\":-1709487668,\"scope\":\"anonymous\"}", "--compressed"]).decode("utf-8")
@@ -77,7 +82,7 @@ class GrubhubCrawler:
             access = json.loads(out)['session_handle']['access_token']
         except:
             print(client[0] + "is blocked")
-            # import ipdb; ipdb.set_trace()
+
             # # TODO: 너무 자주 try 하면 가끔 curl 했을 때 블락당하는 문제 해결하기. 일단 time.sleep(1)로 해놓으면 해결될 것 같아서 해놨음.
             time.sleep(1)
 
@@ -99,3 +104,7 @@ class GrubhubCrawler:
             f'https://api-gtm.grubhub.com/restaurants/{restaurantId}', params=params)
         store_json = response.json()
         return store_json
+
+
+gc = GrubhubCrawler()
+res = gc.get_store('332063')

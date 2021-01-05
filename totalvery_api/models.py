@@ -2,13 +2,17 @@ from django.db import models
 
 # Create your models here.
 
-class RestaurantIDs (models.Model):
-    ubereatsID  = models.CharField(max_length=100)
+
+class RestaurantID (models.Model):
+    ubereats = models.BooleanField(default=False)
+    doordash = models.BooleanField(default=False)
+    grubhub = models.BooleanField(default=False)
+    ubereatsID = models.CharField(max_length=100)
     doordashID = models.CharField(max_length=100)
-    grubhubID = models.CharField(max_length=100) 
+    grubhubID = models.CharField(max_length=100)
 
 
-class Restaurant (models.Model): # 테스트용으로 만들어 본 임시 모델임. 
+class Restaurant (models.Model):  # 테스트용으로 만들어 본 임시 모델임.
     name = models.CharField(max_length=100)
     address = models.CharField(max_length=100)
     phone = models.CharField(max_length=100)

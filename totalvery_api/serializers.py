@@ -1,11 +1,26 @@
 from rest_framework import serializers
-from .models import RestaurantIDs, Restaurant
+from .models import RestaurantID, Restaurant
 
 
-class RestaurantIDsSerializer(serializers.ModelSerializer):
+class NestedMetaSerializer(serializers.Serializer):
+    ubereats = serializers.BooleanField()
+    doordash = serializers.BooleanField()
+    grubhub = serializers.BooleanField()
+
+
+class NestedIDSerializer(serializers.Serializer):
+    ubereatsID = serializers.CharField()
+    doordashID = serializers.CharField()
+    grubhubID = serializers.CharField()
+
+
+class RestaurantIDSerializer(serializers.ModelSerializer):
+    meta = NestedMetaSerializer(source='*')
+    ids = NestedIDSerializer(source='*')
+
     class Meta:
-        model = RestaurantIDs
-        fields = '__all__'
+        model = RestaurantID
+        fields = ['meta', 'ids']
 
 
 class RestaurantSerializer(serializers.ModelSerializer):
