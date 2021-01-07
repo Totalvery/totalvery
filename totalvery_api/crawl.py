@@ -1,4 +1,4 @@
-from .serializers import RestaurantIDSerializer
+from .serializers import RestaurantIDSerializer,CustomerSerializer
 
 from rest_framework import status
 from rest_framework.response import Response
@@ -16,6 +16,23 @@ import time
 
 from totalvery_api.delivery_services.crawler import UbereatsCrawler, DoordashCrawler, GrubhubCrawler
 
+@csrf_exempt
+@api_view(['POST'])
+def stores_feed(request):
+    if request.method == 'POST':
+        #location = request.form.get("location") #sample: form에 user가 location입력 가정
+        location = "Tucson"
+        serializer = CustomerSerializer(data=request.data)
+        if(serializer.is_valid()):
+            crawlers = [GrubhubCrawler(), DoordashCrawler(),UbereatsCrawler()]
+            for crawler in crawlers:
+                # TODO: 각각 데이터 합치기 / 따로 보여주기에 따라 처리
+                feed_json = crawler.get_feed(location)
+                return Response(feed_json, status=status.HTTP_201_CREATED)
+                break
+               
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 @csrf_exempt
 @api_view(['POST'])

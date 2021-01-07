@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import RestaurantID, Restaurant
+from .models import RestaurantID, Restaurant,Customer
 
 
 class NestedMetaSerializer(serializers.Serializer):
@@ -27,3 +27,8 @@ class RestaurantSerializer(serializers.ModelSerializer):
     class Meta:
         model = Restaurant
         fields = '__all__'
+
+class CustomerSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Customer
+        fields= '__all__'

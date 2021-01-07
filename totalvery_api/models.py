@@ -20,3 +20,6 @@ class Restaurant (models.Model):  # 테스트용으로 만들어 본 임시 모�
 
     def __str__(self):
         return self.name
+
+class Customer (models.Model):
+    location = models.CharField(max_length=100)
