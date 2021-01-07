@@ -1,4 +1,7 @@
-Django
+requests
+BeautifulSoup4
+django
+djangorestframework
 gunicorn
 whitenoise
 ipdb
