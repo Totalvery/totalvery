@@ -30,6 +30,10 @@ class UbereatsCrawler:
         store_json = response.json()
         return store_json
 
+    def estimate_service_fee(self, cart_size): # TODO: implement to crawl getOrderEstimateV1
+        fee = 0
+        return fee
+
 
 class DoordashCrawler:
 
@@ -52,6 +56,10 @@ class DoordashCrawler:
             "POST", url, data=self.payload, headers=headers)
         store_json = response.json()
         return store_json
+
+    def estimate_service_fee(self, cart_size): # TODO: 
+        fee = 0
+        return fee
 
 
 class GrubhubCrawler:
@@ -106,5 +114,6 @@ class GrubhubCrawler:
         return store_json
 
 
-gc = GrubhubCrawler()
-res = gc.get_store('332063')
+# gc = UbereatsCrawler()
+# import ipdb; ipdb.set_trace()
+# res = gc.get_store('65f472f1-5f54-4429-8956-0774ffee6cdd')
