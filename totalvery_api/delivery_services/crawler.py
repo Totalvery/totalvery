@@ -81,6 +81,10 @@ class UbereatsCrawler:
                 feed_list.append(a_dict)
 
         return json.dumps(feed_list, indent=2)
+    def estimate_service_fee(self, cart_size): # TODO: implement to crawl getOrderEstimateV1
+        fee = 0
+        return fee
+
 
 class DoordashCrawler:
 
@@ -180,6 +184,10 @@ class DoordashCrawler:
                         'rating': store_rating, 'delivery_fee': delivery_fee}
                 feed_list.append(a_dict)
         return json.dumps(feed_list, indent=2)
+    def estimate_service_fee(self, cart_size): # TODO: 
+        fee = 0
+        return fee
+
 
 class GrubhubCrawler:
 
@@ -313,7 +321,3 @@ class GrubhubCrawler:
                 feed_list.append(a_dict)
   
         return json.dumps(feed_list, indent=2)
-
-
-gc = GrubhubCrawler()
-res = gc.get_store('332063')
