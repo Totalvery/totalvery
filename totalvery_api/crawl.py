@@ -47,27 +47,74 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
     dic['fee']['deliveryFee'] = defaultdict()
     dic['fee']['serviceFee'] = defaultdict()
     dic['menu'] = defaultdict()
+
+    location_dic = {"address": None, "streetAddress": None, "city": None, "country": None,
+                    "postalCode": None, "region": None, "latitude": None, "longitude": None}
+    rating_dic = {"ratingValue": None, "reviewCount": None}
+
     if Ubereats:
         crawler = UbereatsCrawler()
         store_info = crawler.get_store(ID_dict["ubereatsID"])
-        dic['heroImageUrl'] = store_info['data']['heroImageUrls'][0]['url']
+
+        # width = 1080
+        dic['heroImageUrl'] = store_info['data']['heroImageUrls'][-2]['url']
         dic['title'] = store_info['data']['title']
         dic['location'] = store_info['data']['location']
         dic['isOpen'] = store_info['data']['isOpen']
-        # "11:00 AM – 9:00 PM"
-        dic['openHours']['ubereats'] = store_info['data']['sections'][0]['subtitle']
         dic['priceRange'] = store_info['data']['categories'][0]  # "$$"
-        # "20–30 Min"
-        dic['etaRange']['ubereats'] = store_info['data']['etaRange']['text']
-        dic['rating']['ubereats'] = store_info['data']['rating']
-        # "$0.49 Delivery Fee"
-        dic['fee']['deliveryFee']['ubereats'] = store_info['data']['fareBadge']['text']
-        dic['fee']['serviceFee']['ubereats'] = crawler.estimate_service_fee(
-            cart_size)  # set the default of cart size as $20
         uuid = store_info['data']['sections'][0]['uuid']
         dic['menu']['ubereats'] = store_info['data']['sectionEntitiesMap'][uuid]
 
-    # TODO: if Doordash, Grubhub
+        # "11:00 AM – 9:00 PM"
+        dic['openHours']['ubereats'] = store_info['data']['sections'][0]['subtitle']
+        if dic['isOpen']:
+            # "20–30 Min"
+            dic['etaRange']['ubereats'] = store_info['data']['etaRange']['text']
+            # "$0.49 Delivery Fee"
+            dic['fee']['deliveryFee']['ubereats'] = store_info['data']['fareBadge']['text']
+        else:
+            dic['etaRange']['ubereats'] = None
+            dic['fee']['deliveryFee']['ubereats'] = None
+        dic['rating']['ubereats'] = store_info['data']['rating']
+
+        dic['fee']['serviceFee']['ubereats'] = crawler.estimate_service_fee(
+            cart_size)  # set the default of cart size as $20
+
+    if Doordash:
+        crawler = DoordashCrawler()
+        store_info = crawler.get_store(ID_dict["doordashID"])[
+            'data']['storepageFeed']
+
+        if Ubereats == False:
+            dic['heroImageUrl'] = store_info['storeHeader']['businessHeaderImgUrl']
+            dic['title'] = store_info['storeHeader']['name']
+            location_dic["address"] = store_info['storeHeader']['address']['displayAddress']
+            location_dic["streetAddress"] = store_info['storeHeader']['address']['street']
+            location_dic["city"] = store_info['storeHeader']['address']['city']
+            dic['location'] = location_dic
+            dic['isOpen'] = store_info['storeHeader']['status']['delivery']['isAvailable']
+            dic['menu']['doordash'] = store_info['itemLists']
+
+        # "11:00 AM - 8:30 PM"
+        dic['openHours']['doordash'] = store_info['menuBook']['displayOpenHours']
+        dic['priceRange'] = store_info['storeHeader']['priceRange'] * "$"
+        if dic['isOpen']:
+            # "19 - 29"
+            dic['etaRange']['doordash'] = store_info['storeHeader']['status']['delivery']['minutes']
+            # "$0.00 delivery fee"
+            dic['fee']['deliveryFee']['doordash'] = store_info['storeHeader']['deliveryFeeLayout']['displayDeliveryFee']
+        else:
+            dic['etaRange']['doordash'] = None
+            dic['fee']['deliveryFee']['doordash'] = None
+        rating_dic["ratingValue"] = store_info['storeHeader']['ratings']['averageRating']
+        rating_dic["reviewCount"] = store_info['storeHeader']['ratings']['numRatingsDisplayString'].split(' ')[
+            0]  # "2,900+"
+        dic['rating']['doordash'] = rating_dic
+
+        dic['fee']['serviceFee']['doordash'] = crawler.estimate_service_fee(
+            cart_size)  # set the default of cart size as $20
+
+    # TODO: if Grubhub:
 
     return dic
 

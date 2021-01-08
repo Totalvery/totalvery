@@ -18,3 +18,11 @@ res = requests.post("http://127.0.0.1:8000/api/getStoreDetails/",
 ipdb.set_trace()
 
 dic = res.json()
+
+
+# from totalvery_api.delivery_services.crawler import UbereatsCrawler, DoordashCrawler, GrubhubCrawler
+
+
+# uc = UbereatsCrawler()
+# dummy = uc.get_store("65f472f1-5f54-4429-8956-0774ffee6cdd")
+# import ipdb; ipdb.set_trace()

@@ -16,7 +16,7 @@ class UbereatsCrawler:
 
     def create_headers(self):
         pass
-    
+
     def get_store(self, restaurantId):
         headers = {
             'x-csrf-token': 'x',
@@ -30,29 +30,29 @@ class UbereatsCrawler:
         store_json = response.json()
         return store_json
 
-    def get_feed(self,location):
+    def get_feed(self, location):
         headers = {"x-csrf-token": "x"}
         dataForm = {'query': location}
         s = requests.Session()
         response = s.post(
-             "https://www.ubereats.com/api/getLocationAutocompleteV1", data=dataForm, headers=headers)
+            "https://www.ubereats.com/api/getLocationAutocompleteV1", data=dataForm, headers=headers)
         location_json = response.json()['data'][0]
 
         response = s.post(
-             'https://www.ubereats.com/api/getLocationDetailsV1', headers=headers, data=location_json)
+            'https://www.ubereats.com/api/getLocationDetailsV1', headers=headers, data=location_json)
         location_json = response.json()['data']
         location_str = json.dumps(location_json)
         location_cookie = 'uev2.loc=' + location_str
         headers.update({'cookie': location_cookie, 'content-type': 'application/json',
-                    'accept': '*/*'})
+                        'accept': '*/*'})
 
         dict_stores = {}
         offset = 1
         while True:
             data = '{"pageInfo":{"offset":' + \
-                    str(offset)+',"pageSize":80}}'
+                str(offset)+',"pageSize":80}}'
             response = s.post(
-                    'https://www.ubereats.com/api/getFeedV1', headers=headers, data=data)
+                'https://www.ubereats.com/api/getFeedV1', headers=headers, data=data)
 
             feed_json = response.json()['data']
             stores = feed_json['storesMap']
@@ -66,28 +66,29 @@ class UbereatsCrawler:
 
         feed_list = []
         for key in dict_stores.keys():
-            if(dict_stores[key]['isOpen']==True):
+            if(dict_stores[key]['isOpen'] == True):
                 restaurantId = key
-                store_name =dict_stores[key]['title']
+                store_name = dict_stores[key]['title']
                 store_img = dict_stores[key]['heroImageUrl']
-                if(dict_stores[key]['feedback']!= None):
+                if(dict_stores[key]['feedback'] != None):
                     store_rating = dict_stores[key]['feedback']['rating']
-                if(dict_stores[key]['meta']['deliveryFee']!= None):
+                if(dict_stores[key]['meta']['deliveryFee'] != None):
                     delivery_fee = dict_stores[key]['meta']['deliveryFee']['text']
 
-                a_dict = {'name':store_name, 
-                    'img':store_img, 'rating':store_rating, 'delivery_fee':delivery_fee}
+                a_dict = {'name': store_name,
+                          'img': store_img, 'rating': store_rating, 'delivery_fee': delivery_fee}
 
                 feed_list.append(a_dict)
 
         return json.dumps(feed_list, indent=2)
-    def estimate_service_fee(self, cart_size): # TODO: implement to crawl getOrderEstimateV1
+
+    # TODO: implement to crawl getOrderEstimateV1
+    def estimate_service_fee(self, cart_size):
         fee = 0
         return fee
 
 
 class DoordashCrawler:
-
 
     def __init__(self):
         self.headers = {}
@@ -96,9 +97,9 @@ class DoordashCrawler:
     def create_headers(self):
         pass
 
-    def search_all_stores(self,session,searchStore, limit):
+    def search_all_stores(self, session, searchStore, limit):
         LIMIT = 200  # max num of searchStores
-        assert LIMIT <= 200, "the maximum of limit is 200"  
+        assert LIMIT <= 200, "the maximum of limit is 200"
         total_num = searchStore['data']['storeSearch']['numStores']
         if total_num > limit:
             offsets = total_num // limit  # max limits == 200
@@ -124,10 +125,10 @@ class DoordashCrawler:
             "POST", url, data=self.payload, headers=headers)
         store_json = response.json()
         return store_json
-    
-    def get_feed(self,location):
+
+    def get_feed(self, location):
         LIMIT = 200  # max num of searchStores
-        assert LIMIT <= 200, "the maximum of limit is 200"  
+        assert LIMIT <= 200, "the maximum of limit is 200"
         headers = {"x-csrf-token": "x"}
         dataForm = {'query': location}
 
@@ -149,7 +150,6 @@ class DoordashCrawler:
         zipcode = location_json['addressComponents']['postalCode']
         shortname = location_json['address']['title']
 
-
         headers = {
             'content-type': 'application/json',
         }
@@ -164,8 +164,8 @@ class DoordashCrawler:
         session.headers = headers
 
         res = session.post(url, data=data)
-        searchStore = session.post(url,data=data2).json()
-        searchStore = self.search_all_stores(session,searchStore, LIMIT)
+        searchStore = session.post(url, data=data2).json()
+        searchStore = self.search_all_stores(session, searchStore, LIMIT)
 
         # Get information for feed
         feed_list = []
@@ -173,7 +173,7 @@ class DoordashCrawler:
 
         for i in range(len(stores_data)):
             store_data = searchStore['data']['storeSearch']['stores'][i]
-            if(store_data['status']['asapAvailable']==True):
+            if(store_data['status']['asapAvailable'] == True):
                 restaurantId = store_data['id']
                 store_name = store_data['name']
                 store_img = store_data['headerImgUrl']
@@ -181,10 +181,11 @@ class DoordashCrawler:
                 delivery_fee = store_data['deliveryFee']
 
                 a_dict = {'name': store_name,  'img': store_img,
-                        'rating': store_rating, 'delivery_fee': delivery_fee}
+                          'rating': store_rating, 'delivery_fee': delivery_fee}
                 feed_list.append(a_dict)
         return json.dumps(feed_list, indent=2)
-    def estimate_service_fee(self, cart_size): # TODO: 
+
+    def estimate_service_fee(self, cart_size):  # TODO:
         fee = 0
         return fee
 
@@ -240,18 +241,19 @@ class GrubhubCrawler:
         store_json = response.json()
         return store_json
 
-    def get_feed(self,location):
+    def get_feed(self, location):
         self.create_headers()
         params = (
-        ('queryText', location),
+            ('queryText', location),
         )
-       
+
         response = self.s.get(
             'https://api-gtm.grubhub.com/geocode/autocomplete', params=params)
         params = (
             ('address', response.json()[0]),
         )
-        response = self.s.get('https://api-gtm.grubhub.com/geocode', params=params)
+        response = self.s.get(
+            'https://api-gtm.grubhub.com/geocode', params=params)
         locality = response.json()[0]['location_address']['locality']
         administrative_area = response.json(
         )[0]['location_address']['administrative_area']
@@ -305,19 +307,19 @@ class GrubhubCrawler:
                 'https://api-gtm.grubhub.com/restaurants/search', params=params)
             stores = stores + response.json()['search_result']['results']
 
-        #Get information for feed 
+        # Get information for feed
         feed_list = []
         for i in range(len(stores)):
-            if(stores[i]['open']==True):
+            if(stores[i]['open'] == True):
                 restaurantId = stores[i]['restaurant_id']
                 store_name = stores[i]['name']
                 store_img = stores[i]['logo']
                 store_rating = stores[i]['ratings']['rating_value']
                 delivery_fee = stores[i]['delivery_fee']['price']
 
-                a_dict = {'name':store_name, 
-                    'img':store_img, 'rating':store_rating, 'delivery_fee':delivery_fee}
+                a_dict = {'name': store_name,
+                          'img': store_img, 'rating': store_rating, 'delivery_fee': delivery_fee}
 
                 feed_list.append(a_dict)
-  
+
         return json.dumps(feed_list, indent=2)
