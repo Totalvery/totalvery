@@ -109,10 +109,11 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
         else:
             dic['etaRange']['doordash'] = None
             dic['fee']['deliveryFee']['doordash'] = None
-        rating_dic["ratingValue"] = store_info['storeHeader']['ratings']['averageRating']
-        rating_dic["reviewCount"] = store_info['storeHeader']['ratings']['numRatingsDisplayString'].split(' ')[
+        doordash_rating_dic = rating_dic.copy()
+        doordash_rating_dic["ratingValue"] = store_info['storeHeader']['ratings']['averageRating']
+        doordash_rating_dic["reviewCount"] = store_info['storeHeader']['ratings']['numRatingsDisplayString'].split(' ')[
             0]  # "2,900+"
-        dic['rating']['doordash'] = rating_dic
+        dic['rating']['doordash'] = doordash_rating_dic
 
         dic['fee']['serviceFee']['doordash'] = crawler.estimate_service_fee(
             cart_size)  # set the default of cart size as $20
@@ -163,14 +164,15 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
         else:
             dic['etaRange']['grubhub'] = None
             dic['fee']['deliveryFee']['grubhub'] = None
+        grubhub_rating_dic = rating_dic.copy()
         # (str) "4"
-        rating_dic["ratingValue"] = store_info['restaurant']['rating']['rating_value']
+        grubhub_rating_dic["ratingValue"] = store_info['restaurant']['rating']['rating_value']
         # "2391"
-        rating_dic["reviewCount"] = store_info['restaurant']['rating']['rating_count']
-        dic['rating']['grubhub'] = rating_dic
+        grubhub_rating_dic["reviewCount"] = store_info['restaurant']['rating']['rating_count']
+        dic['rating']['grubhub'] = grubhub_rating_dic
 
         dic['fee']['serviceFee']['grubhub'] = (
-            store_info['restaurant_availability']['service_fee']['delivery_fee']['percent_value'])/100 * cart_size
+            store_info['restaurant_availability']['service_fee']['delivery_fee']['percent_value'])/100 * cart_size  # TODO: set the min and max value of the service fee
 
     return dic
 
