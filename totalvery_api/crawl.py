@@ -125,12 +125,6 @@ def store_detail(request):
     if request.method == 'POST':
         serializer = RestaurantIDSerializer(data=request.data)
         if serializer.is_valid():
-            # crawler = UbereatsCrawler()
-            # crawler = DoordashCrawler()
-            crawler = GrubhubCrawler()
-
-            store_json = crawler.get_store(serializer.data["ids"]["grubhubID"])
-
             compressed_store_json = create_store_json(serializer.data["ids"], serializer.data['meta']['ubereats'],
                                                       serializer.data['meta']['doordash'], serializer.data['meta']['grubhub'])
 
