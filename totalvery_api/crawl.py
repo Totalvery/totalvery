@@ -39,7 +39,7 @@ def stores_feed(request):
 
 def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, cart_size=2000):
 
-    # small order fee
+    # TODO: small order fee
 
     dic = defaultdict()
     dic['ids'] = ID_dict
@@ -151,7 +151,7 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
         #       "18:00-03:45"
         #     ]
         #   },
-        dic['openHours']['grubhub'] = store_info['restaurant_availability']['available_hours']
+        dic['openHours']['grubhub'] = store_info['restaurant_availability']['available_hours'] # TODO: ignore timezone
 
         dic['priceRange'] = int(store_info['restaurant']['price_rating']) * "$"
         if dic['isOpen']:

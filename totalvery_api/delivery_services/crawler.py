@@ -206,14 +206,16 @@ class GrubhubCrawler:
         res = self.s.get(static)
         soup = BeautifulSoup(res.text, 'html.parser')
 
+        client = None
+        out = None
         try:
             client = re.findall(
                 "beta_[a-zA-Z0-9]+", soup.find('script', {'type': 'text/javascript'}).string)
-        except:
-            print("Grubhub food delivery is not available in your country")
-
-        out = check_output(["curl", "https://api-gtm.grubhub.com/auth", "-H", "content-type: application/json;charset=UTF-8", "--data-binary",
+            out = check_output(["curl", "https://api-gtm.grubhub.com/auth", "-H", "content-type: application/json;charset=UTF-8", "--data-binary",
                             "{\"brand\":\"GRUBHUB\",\"client_id\":\"" + client[0] + "\",\"device_id\":-1709487668,\"scope\":\"anonymous\"}", "--compressed"]).decode("utf-8")
+        except:
+            raise Exception("Grubhub food delivery is not available in your country")
+        
         try:
             access = json.loads(out)['session_handle']['access_token']
         except:
