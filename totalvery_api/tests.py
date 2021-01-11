@@ -9,7 +9,7 @@ headers = {
 }
 
 # TODO: cart size도 넘겨주기
-payload = json.dumps({"meta": {"ubereats": True, "doordash": False, "grubhub": True}, "ids": {"ubereatsID": "ad169977-8618-4736-8d27-5cf1e9969658", "doordashID": "0", "grubhubID": "1188511"}, "customer_location": {"latitude": 32.2250168,
+payload = json.dumps({"meta": {"ubereats": True, "doordash": False, "grubhub": True}, "ids": {"ubereatsID": "ad169977-8618-4736-8d27-5cf1e9969658", "doordashID": "null", "grubhubID": "1188511"}, "customer_location": {"latitude": 32.2250168,
                                                                                                            "longitude": -110.9539833}})
 
 res = requests.post("http://127.0.0.1:8000/api/getStoreDetails/",
