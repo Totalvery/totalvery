@@ -4,10 +4,14 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
 from .views import RestaurantViewSet
+from .crawl import store_detail,stores_feed
+
 
 router = DefaultRouter()
 router.register('restaurant', RestaurantViewSet, basename='restaurant')
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('getStoreDetails/', store_detail),
+    path('getFeed/',stores_feed)
 ]
