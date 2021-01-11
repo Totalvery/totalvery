@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.app {
+  min-height: 120vh;
+  min-width: 134vh;
+  background: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.topbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 50px;
+  background: rgb(61, 109, 175);
+  font-size: 30px; 
+}
+
+.mainhome {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.textfield {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 'lg';
+}
+
+.button {
+  background:rgb(61, 109, 175);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.doordash {
+  height: 100px;
+  width: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ubereats{
+  height: 100px;
+  width: 100px;
+}
+
+.grubhub{
+  height: 100px;
+  width: 100px;
+}
+
+.addresssearch{
+  display: flex;
+  justify-content: center;
+}
+
+.showresult{
+  display: center;
+  height: 500px;
+  width: 400px;
+  border: 2px solid rgb(61, 109, 175);
 }
