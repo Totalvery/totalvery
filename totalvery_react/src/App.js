@@ -5,16 +5,20 @@ import AddressSearch from './AddressSearch';
 import ShowResult from './ShowResult';
 import "./App.css";
 
+import RequestsTest from './RequestsTest'
+
 function App() {
   return(
     <div className="app">
       <TopBar />
 
-      <MainHome />
+      {/* <MainHome /> */}
       
       {/* <AddressSearch /> */}
 
       {/* <ShowResult /> */}
+
+      <RequestsTest />
     </div>
   )
 }

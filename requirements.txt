@@ -5,3 +5,4 @@ djangorestframework
 gunicorn
 whitenoise
 ipdb
+django-cors-headers

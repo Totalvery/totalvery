@@ -4,7 +4,7 @@ FROM python:3.8
 # set work directory
 WORKDIR /app
 
-RUN pip install requests BeautifulSoup4 django djangorestframework gunicorn whitenoise ipdb
+RUN pip install requests BeautifulSoup4 django djangorestframework gunicorn whitenoise ipdb django-cors-headers 
 
 # RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends apt-utils
 # RUN apt-get install npm -y
