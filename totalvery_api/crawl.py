@@ -1,5 +1,5 @@
 from collections import defaultdict
-from .serializers import RestaurantIDSerializer, CustomerSerializer
+from .serializers import StoreDetailSerializer, CustomerSerializer
 
 from rest_framework import status
 from rest_framework.response import Response
@@ -37,7 +37,7 @@ def stores_feed(request):
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, cart_size=2000):
+def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False, Grubhub=False, cart_size=20.00):
 
     # TODO: small order fee
 
@@ -47,6 +47,7 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
     dic['etaRange'] = defaultdict()
     dic['rating'] = defaultdict()
     dic['fee'] = defaultdict()
+    dic['fee']['smallOrderFee'] = defaultdict()
     dic['fee']['deliveryFee'] = defaultdict()
     dic['fee']['serviceFee'] = defaultdict()
     dic['menu'] = defaultdict()
@@ -56,8 +57,9 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
     rating_dic = {"ratingValue": None, "reviewCount": None}
 
     if Ubereats:
-        crawler = UbereatsCrawler()
-        store_info = crawler.get_store(ID_dict["ubereatsID"])
+        uc = UbereatsCrawler()
+        store_info, fee_dic = uc.get_store(
+            ID_dict["ubereatsID"], [customer_location["latitude"], customer_location["longitude"]])
 
         # width = 1080
         dic['heroImageUrl'] = store_info['data']['heroImageUrls'][-2]['url']
@@ -80,12 +82,20 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
             dic['fee']['deliveryFee']['ubereats'] = None
         dic['rating']['ubereats'] = store_info['data']['rating']
 
-        dic['fee']['serviceFee']['ubereats'] = crawler.estimate_service_fee(
-            cart_size)  # set the default of cart size as $20
+        print("fee_dic: ", fee_dic)
+        if cart_size < fee_dic['min_small_order']:
+            dic['fee']['smallOrderFee'] = fee_dic['small_order_fee']
+        else:
+            dic['fee']['smallOrderFee'] = 0
+
+        service_fee = cart_size * fee_dic['service_fee']
+        if service_fee < fee_dic['min_service_fee']:
+            service_fee = fee_dic['min_service_fee']
+        dic['fee']['serviceFee']['ubereats'] = service_fee
 
     if Doordash:
-        crawler = DoordashCrawler()
-        store_info = crawler.get_store(ID_dict["doordashID"])[
+        dc = DoordashCrawler()
+        store_info = dc.get_store(ID_dict["doordashID"])[
             'data']['storepageFeed']
 
         if Ubereats == False:
@@ -115,12 +125,12 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
             0]  # "2,900+"
         dic['rating']['doordash'] = doordash_rating_dic
 
-        dic['fee']['serviceFee']['doordash'] = crawler.estimate_service_fee(
+        dic['fee']['serviceFee']['doordash'] = dc.estimate_service_fee(
             cart_size)  # set the default of cart size as $20
 
     if Grubhub:
-        crawler = GrubhubCrawler()
-        store_info = crawler.get_store(ID_dict["grubhubID"])
+        gc = GrubhubCrawler()
+        store_info = gc.get_store(ID_dict["grubhubID"])
 
         if Ubereats == False and Doordash == False:
             headerbackground = store_info['restaurant']['additional_media_images']['HEADER_BACKGROUND']
@@ -152,7 +162,8 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
         #       "18:00-03:45"
         #     ]
         #   },
-        dic['openHours']['grubhub'] = store_info['restaurant_availability']['available_hours'] # TODO: ignore timezone
+        # TODO: ignore timezone
+        dic['openHours']['grubhub'] = store_info['restaurant_availability']['available_hours']
 
         dic['priceRange'] = int(store_info['restaurant']['price_rating']) * "$"
         if dic['isOpen']:
@@ -160,7 +171,8 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
             dic['etaRange']['grubhub'] = str(store_info['restaurant_availability']['delivery_estimate_range_v2']['minimum']) + " - " + str(
                 store_info['restaurant_availability']['delivery_estimate_range_v2']['maximum'])
             # (int) "99"
-            dic['fee']['deliveryFee']['grubhub'] = store_info['restaurant_availability']['delivery_fee']['amount']
+            dic['fee']['deliveryFee']['grubhub'] = round(
+                store_info['restaurant_availability']['delivery_fee']['amount']/100, 2)
         else:
             dic['etaRange']['grubhub'] = None
             dic['fee']['deliveryFee']['grubhub'] = None
@@ -172,7 +184,7 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
         dic['rating']['grubhub'] = grubhub_rating_dic
 
         dic['fee']['serviceFee']['grubhub'] = (
-            store_info['restaurant_availability']['service_fee']['delivery_fee']['percent_value'])/100 * cart_size  # TODO: set the min and max value of the service fee
+            store_info['restaurant_availability']['service_fee']['delivery_fee']['percent_value'])/100 * cart_size  # TODO: set the min and max value of the service fee if any
 
     return dic
 
@@ -181,10 +193,10 @@ def create_store_json(ID_dict, Ubereats=False, Doordash=False, Grubhub=False, ca
 @api_view(['POST'])
 def store_detail(request):
     if request.method == 'POST':
-        serializer = RestaurantIDSerializer(data=request.data)
+        serializer = StoreDetailSerializer(data=request.data)
         if serializer.is_valid():
             compressed_store_json = create_store_json(
-                serializer.data["ids"], serializer.data['meta']['ubereats'], serializer.data['meta']['doordash'], serializer.data['meta']['grubhub'])
+                serializer.data["ids"], serializer.data['customer_location'], serializer.data['meta']['ubereats'], serializer.data['meta']['doordash'], serializer.data['meta']['grubhub'])
             # ubereats, doordash, grubhub에 각 id로 레스토랑 디테일 호출해와서 파싱한 뒤 적절한 것만 추려서 json으로 return
             return Response(compressed_store_json, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

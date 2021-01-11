@@ -1,3 +1,4 @@
+import ipdb
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -6,6 +7,8 @@ import json
 from subprocess import check_output
 import time
 
+from collections import defaultdict
+
 
 class UbereatsCrawler:
 
@@ -13,11 +16,83 @@ class UbereatsCrawler:
         self.headers = {}
         self.payload = ""
         self.s = requests.Session()
+        self.customer_location = []
 
     def create_headers(self):
         pass
 
-    def get_store(self, restaurantId):
+    def estimate_service_fee(self, session, restaurant_id, store_json, customer_location=None):
+        '''
+        @params customer_location (list): [lat, lon]
+        '''
+
+        if customer_location:
+            self.customer_location = customer_location
+        elif self.customer_location == []:
+            self.customer_location = [store_json['data']['location']
+                                      ['latitude'], store_json['data']['location']['longitude']]
+
+        sectionEntitiesMap = store_json['data']['sectionEntitiesMap']
+        for k, v in sectionEntitiesMap.items():
+            for sub_k, sub_v in sectionEntitiesMap[k].items():
+                if not sub_v['hasCustomizations']:
+                    uuid = sub_k
+                    sectionUuid = k
+                    break
+            break
+
+        if uuid and sectionUuid:
+            data = '{"cartItems":[{"shoppingCartItemUuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","uuid":"' + uuid + '","storeUuid":"'+restaurant_id+'","sectionUuid":"' + sectionUuid + '","subsectionUuid":"00000000-0000-0000-0000-000000000000","quantity":1,"customizations":{},"createdTimestamp":0}],"location":{"latitude":' + \
+                str(self.customer_location[0])+',"longitude":'+str(
+                    self.customer_location[1])+'},"deliveryType":"ASAP","interactionType":"door_to_door"}'
+
+        response = session.post(
+            'https://www.ubereats.com/api/getOrderEstimateV1', data=data)
+
+        while True:
+            try:
+                dic = defaultdict()
+                charges = response.json()['data']['charges']
+                for each in charges:
+                    if each['label'] == 'Small Order Fee':
+                        small_order_fee = each['rawValue']  # 2
+                        small_order_txt = each['bottomSheet']['body'][0]['children'][0]['text']
+                        min_small_order = float(re.findall(
+                            r'\d*\.\d+|\d+', small_order_txt)[0])
+
+                        dic['small_order_fee'] = small_order_fee
+                        dic['min_small_order'] = min_small_order
+
+                    elif each['label'] == 'Delivery Fee':
+                        delivery_fee = each['rawValue']  # 0.99
+
+                        dic['delivery_fee'] = delivery_fee
+
+                    elif each['label'] == 'Service Fee':
+                        service_fee_txt = each['bottomSheet']['body'][0]['children'][0]['text']
+                        service_fee_txt = re.findall(
+                            r'\d*\.\d+|\d+', service_fee_txt)
+                        service_fee = float(service_fee_txt[0])
+                        min_service_fee = float(service_fee_txt[1])
+
+                        dic['service_fee'] = service_fee
+                        dic['min_service_fee'] = min_service_fee
+
+                return dic
+
+            except:
+                print("Order Location is too far from store")
+                self.customer_location = [store_json['data']['location']
+                                          ['latitude'], store_json['data']['location']['longitude']]
+                if uuid and sectionUuid:
+                    data = '{"cartItems":[{"shoppingCartItemUuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","uuid":"' + uuid + '","storeUuid":"'+restaurant_id+'","sectionUuid":"' + sectionUuid + '","subsectionUuid":"00000000-0000-0000-0000-000000000000","quantity":1,"customizations":{},"createdTimestamp":0}],"location":{"latitude":' + \
+                        str(self.customer_location[0])+',"longitude":'+str(
+                            self.customer_location[1])+'},"deliveryType":"ASAP","interactionType":"door_to_door"}'
+
+                    response = session.post(
+                        'https://www.ubereats.com/api/getOrderEstimateV1', data=data)
+
+    def get_store(self, restaurantId, customer_location=None):
         headers = {
             'x-csrf-token': 'x',
             'content-type': 'application/json',
@@ -25,10 +100,16 @@ class UbereatsCrawler:
         }
         data = '{"storeUuid":"'+restaurantId+'"}'
 
-        response = requests.post(
-            'https://www.ubereats.com/api/getStoreV1', headers=headers, data=data)
-        store_json = response.json()
-        return store_json
+        with requests.Session() as s:
+            s.headers.update(headers)
+            response = s.post(
+                'https://www.ubereats.com/api/getStoreV1', data=data)
+            store_json = response.json()
+
+            fee_dic = self.estimate_service_fee(
+                s, restaurantId, store_json, customer_location)
+
+            return store_json, fee_dic
 
     def get_feed(self, location):
         headers = {"x-csrf-token": "x"}
@@ -40,6 +121,8 @@ class UbereatsCrawler:
 
         response = s.post(
             'https://www.ubereats.com/api/getLocationDetailsV1', headers=headers, data=location_json)
+        self.customer_location = (
+            response.json()['data']['latitude'], response.json()['data']['longitude'])
         location_json = response.json()['data']
         location_str = json.dumps(location_json)
         location_cookie = 'uev2.loc=' + location_str
@@ -82,11 +165,6 @@ class UbereatsCrawler:
 
         return json.dumps(feed_list, indent=2)
 
-    # TODO: implement to crawl getOrderEstimateV1
-    def estimate_service_fee(self, cart_size):
-        fee = 0
-        return fee
-
 
 class DoordashCrawler:
 
@@ -114,16 +192,20 @@ class DoordashCrawler:
         return searchStore
 
     def get_store(self, restaurantId):
-        url = "https://www.doordash.com/graphql"
+        url = "https://www.doordash.com/graphql/"
         if len(self.headers) == 0:
             headers = {
                 'content-type': "application/json"
             }
 
-        self.payload = "{\"operationName\":\"storepageFeed\",\"variables\":{\"fulfillmentType\":\"Delivery\",\"storeId\":" + str(restaurantId) + ",\"isMerchantPreview\":false,\"isStorePageFeedMigration\":true,\"includeDifferentialPricingEnabled\":true},\"query\":\"query storepageFeed($storeId: ID\\u0021, $menuId: ID, $isMerchantPreview: Boolean, $fulfillmentType: FulfillmentType, $includeDifferentialPricingEnabled: Boolean\\u0021) {  storepageFeed(isStorePageFeedMigration: true, storeId: $storeId, menuId: $menuId, isMerchantPreview: $isMerchantPreview, fulfillmentType: $fulfillmentType) {    storeHeader {      id      name      description      priceRange      offersDelivery      offersPickup      offersGroupOrder      isConvenience      isDashpassPartner      address {        city        street        displayAddress        cityLink        __typename      }      business {        id        name        link        ... @include(if: $includeDifferentialPricingEnabled) {          differentialPricingEnabled          __typename        }        __typename      }      businessTags {        name        link        __typename      }      deliveryFeeLayout {        title        subtitle        isSurging        displayDeliveryFee        __typename      }      deliveryFeeTooltip {        title        description        __typename      }      coverImgUrl      coverSquareImgUrl      businessHeaderImgUrl      ratings {        numRatings        numRatingsDisplayString        averageRating        isNewlyAdded        __typename      }      distanceFromConsumer {        value        label        __typename      }      enableSwitchToPickup      asapStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      asapPickupStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      status {        delivery {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isTooFarFromConsumer          isStoreInactive          __typename        }        pickup {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isStoreInactive          __typename        }        __typename      }      __typename    }    banners {      pickup {        id        title        text        __typename      }      catering {        id        text        __typename      }      demandGen {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      demandTest {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      __typename    }    carousels {      id      type      name      description      items {        id        name        description        displayPrice        imgUrl        calloutDisplayString        nextCursor        orderItemId        reorderCartId        reorderUuid        unitAmount        currency        __typename      }      __typename    }    menuBook {      id      name      displayOpenHours      menuCategories {        id        name        numItems        next {          anchor          cursor          __typename        }        __typename      }      menuList {        id        name        displayOpenHours        __typename      }      __typename    }    itemLists {      id      name      description      items {        id        name        description        displayPrice        imageUrl        calloutDisplayString        __typename      }      __typename    }    disclaimersList {      id      text      __typename    }    __typename  }}\"}"
+        self.payload = "{\"operationName\":\"storepageFeed\",\"variables\":{\"fulfillmentType\":\"Delivery\",\"storeId\": \"" + str(restaurantId) + "\",\"isMerchantPreview\":false,\"isStorePageFeedMigration\":true,\"includeDifferentialPricingEnabled\":true},\"query\":\"query storepageFeed($storeId: ID\\u0021, $menuId: ID, $isMerchantPreview: Boolean, $fulfillmentType: FulfillmentType, $includeDifferentialPricingEnabled: Boolean\\u0021) {  storepageFeed(isStorePageFeedMigration: true, storeId: $storeId, menuId: $menuId, isMerchantPreview: $isMerchantPreview, fulfillmentType: $fulfillmentType) {    storeHeader {      id      name      description      priceRange      offersDelivery      offersPickup      offersGroupOrder      isConvenience      isDashpassPartner      address {        city        street        displayAddress        cityLink        __typename      }      business {        id        name        link        ... @include(if: $includeDifferentialPricingEnabled) {          differentialPricingEnabled          __typename        }        __typename      }      businessTags {        name        link        __typename      }      deliveryFeeLayout {        title        subtitle        isSurging        displayDeliveryFee        __typename      }      deliveryFeeTooltip {        title        description        __typename      }      coverImgUrl      coverSquareImgUrl      businessHeaderImgUrl      ratings {        numRatings        numRatingsDisplayString        averageRating        isNewlyAdded        __typename      }      distanceFromConsumer {        value        label        __typename      }      enableSwitchToPickup      asapStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      asapPickupStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      status {        delivery {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isTooFarFromConsumer          isStoreInactive          __typename        }        pickup {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isStoreInactive          __typename        }        __typename      }      __typename    }    banners {      pickup {        id        title        text        __typename      }      catering {        id        text        __typename      }      demandGen {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      demandTest {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      __typename    }    carousels {      id      type      name      description      items {        id        name        description        displayPrice        imgUrl        calloutDisplayString        nextCursor        orderItemId        reorderCartId        reorderUuid        unitAmount        currency        __typename      }      __typename    }    menuBook {      id      name      displayOpenHours      menuCategories {        id        name        numItems        next {          anchor          cursor          __typename        }        __typename      }      menuList {        id        name        displayOpenHours        __typename      }      __typename    }    itemLists {      id      name      description      items {        id        name        description        displayPrice        imageUrl        calloutDisplayString        __typename      }      __typename    }    disclaimersList {      id      text      __typename    }    __typename  }}\"}"
         response = requests.request(
             "POST", url, data=self.payload, headers=headers)
-        store_json = response.json()
+        try:
+            store_json = response.json()
+        except:
+            raise Exception(
+                "Doordash food delivery is not available in your country")
         return store_json
 
     def get_feed(self, location):
@@ -212,10 +294,11 @@ class GrubhubCrawler:
             client = re.findall(
                 "beta_[a-zA-Z0-9]+", soup.find('script', {'type': 'text/javascript'}).string)
             out = check_output(["curl", "https://api-gtm.grubhub.com/auth", "-H", "content-type: application/json;charset=UTF-8", "--data-binary",
-                            "{\"brand\":\"GRUBHUB\",\"client_id\":\"" + client[0] + "\",\"device_id\":-1709487668,\"scope\":\"anonymous\"}", "--compressed"]).decode("utf-8")
+                                "{\"brand\":\"GRUBHUB\",\"client_id\":\"" + client[0] + "\",\"device_id\":-1709487668,\"scope\":\"anonymous\"}", "--compressed"]).decode("utf-8")
         except:
-            raise Exception("Grubhub food delivery is not available in your country")
-        
+            raise Exception(
+                "Grubhub food delivery is not available in your country")
+
         try:
             access = json.loads(out)['session_handle']['access_token']
         except:
@@ -325,3 +408,4 @@ class GrubhubCrawler:
                 feed_list.append(a_dict)
 
         return json.dumps(feed_list, indent=2)
+

@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 
-class RestaurantID (models.Model):
+class StoreDetail (models.Model):
     ubereats = models.BooleanField(default=False)
     doordash = models.BooleanField(default=False)
     grubhub = models.BooleanField(default=False)
@@ -11,6 +11,9 @@ class RestaurantID (models.Model):
     doordashID = models.CharField(max_length=100)
     grubhubID = models.CharField(max_length=100)
 
+    # customer location
+    latitude = models.FloatField() 
+    longitude = models.FloatField()
 
 class Restaurant (models.Model):  # 테스트용으로 만들어 본 임시 모델임.
     name = models.CharField(max_length=100)
