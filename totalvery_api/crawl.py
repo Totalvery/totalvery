@@ -90,14 +90,17 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
 
         if fee_dic:  # only if the store is open
             if cart_size < fee_dic['min_small_order']:
-                dic['fee']['smallOrderFee'] = fee_dic['small_order_fee']
+                dic['fee']['smallOrderFee']['ubereats'] = fee_dic['small_order_fee']
             else:
-                dic['fee']['smallOrderFee'] = 0
+                dic['fee']['smallOrderFee']['ubereats'] = 0
 
             service_fee = cart_size * fee_dic['service_fee']
             if service_fee < fee_dic['min_service_fee']:
                 service_fee = fee_dic['min_service_fee']
             dic['fee']['serviceFee']['ubereats'] = service_fee
+        else:
+            dic['fee']['smallOrderFee']['ubereats'] = 0
+            dic['fee']['serviceFee']['ubereats'] = 0
 
     if Doordash:
         dc = DoordashCrawler()
