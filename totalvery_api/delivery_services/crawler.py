@@ -38,16 +38,17 @@ class UbereatsCrawler:
                 if not sub_v['hasCustomizations']:
                     uuid = sub_k
                     sectionUuid = k
-                    break
+
+                    data = '{"cartItems":[{"shoppingCartItemUuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","uuid":"' + uuid + '","storeUuid":"'+restaurant_id+'","sectionUuid":"' + sectionUuid + '","subsectionUuid":"00000000-0000-0000-0000-000000000000","quantity":1,"customizations":{},"createdTimestamp":0}],"location":{"latitude":' + \
+                        str(self.customer_location[0])+',"longitude":'+str(
+                            self.customer_location[1])+'},"deliveryType":"ASAP","interactionType":"door_to_door"}'
+                    response = session.post(
+                        'https://www.ubereats.com/api/getOrderEstimateV1', data=data)
+                    if response.json()['status'] == 'success':
+                        break
+                    else:
+                        print(response.json()['data']['message'])
             break
-
-        if uuid and sectionUuid:
-            data = '{"cartItems":[{"shoppingCartItemUuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","uuid":"' + uuid + '","storeUuid":"'+restaurant_id+'","sectionUuid":"' + sectionUuid + '","subsectionUuid":"00000000-0000-0000-0000-000000000000","quantity":1,"customizations":{},"createdTimestamp":0}],"location":{"latitude":' + \
-                str(self.customer_location[0])+',"longitude":'+str(
-                    self.customer_location[1])+'},"deliveryType":"ASAP","interactionType":"door_to_door"}'
-
-        response = session.post(
-            'https://www.ubereats.com/api/getOrderEstimateV1', data=data)
 
         while True:
             try:
@@ -90,7 +91,7 @@ class UbereatsCrawler:
                             self.customer_location[1])+'},"deliveryType":"ASAP","interactionType":"door_to_door"}'
 
                     response = session.post(
-                        'https://www.ubereats.com/api/getOrderEstimateV1', data=data)
+                        'https://www.ubereats.com/api/getOrderEstimateV1/', data=data)
 
     def get_store(self, restaurantId, customer_location=None):
         headers = {
@@ -106,8 +107,11 @@ class UbereatsCrawler:
                 'https://www.ubereats.com/api/getStoreV1', data=data)
             store_json = response.json()
 
-            fee_dic = self.estimate_service_fee(
-                s, restaurantId, store_json, customer_location)
+            if store_json['data']['isOpen']:
+                fee_dic = self.estimate_service_fee(
+                    s, restaurantId, store_json, customer_location)
+            else:
+                fee_dic = None
 
             return store_json, fee_dic
 
@@ -408,4 +412,3 @@ class GrubhubCrawler:
                 feed_list.append(a_dict)
 
         return json.dumps(feed_list, indent=2)
-

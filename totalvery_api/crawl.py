@@ -18,6 +18,11 @@ import time
 from totalvery_api.delivery_services.crawler import UbereatsCrawler, DoordashCrawler, GrubhubCrawler
 
 
+DEFAULT_SMALL_ORDER_FEE = 2
+DEFAULT_MIN_SUBTOTAL = 8
+DEFAULT_SERVICE_FEE_PERCENT = 0.1  # 10%
+
+
 @csrf_exempt
 @api_view(['POST'])
 def stores_feed(request):
@@ -38,8 +43,9 @@ def stores_feed(request):
 
 
 def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False, Grubhub=False, cart_size=20.00):
-
-    # TODO: small order fee
+    '''
+    gathering all types of the fare only if the store is open. Otherwise, provides the static information about the store
+    '''
 
     dic = defaultdict()
     dic['ids'] = ID_dict
@@ -82,16 +88,16 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             dic['fee']['deliveryFee']['ubereats'] = None
         dic['rating']['ubereats'] = store_info['data']['rating']
 
-        print("fee_dic: ", fee_dic)
-        if cart_size < fee_dic['min_small_order']:
-            dic['fee']['smallOrderFee'] = fee_dic['small_order_fee']
-        else:
-            dic['fee']['smallOrderFee'] = 0
+        if fee_dic:  # only if the store is open
+            if cart_size < fee_dic['min_small_order']:
+                dic['fee']['smallOrderFee'] = fee_dic['small_order_fee']
+            else:
+                dic['fee']['smallOrderFee'] = 0
 
-        service_fee = cart_size * fee_dic['service_fee']
-        if service_fee < fee_dic['min_service_fee']:
-            service_fee = fee_dic['min_service_fee']
-        dic['fee']['serviceFee']['ubereats'] = service_fee
+            service_fee = cart_size * fee_dic['service_fee']
+            if service_fee < fee_dic['min_service_fee']:
+                service_fee = fee_dic['min_service_fee']
+            dic['fee']['serviceFee']['ubereats'] = service_fee
 
     if Doordash:
         dc = DoordashCrawler()
@@ -125,8 +131,13 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             0]  # "2,900+"
         dic['rating']['doordash'] = doordash_rating_dic
 
-        dic['fee']['serviceFee']['doordash'] = dc.estimate_service_fee(
-            cart_size)  # set the default of cart size as $20
+        if cart_size < DEFAULT_MIN_SUBTOTAL:
+            dic['fee']['smallOrderFee']['doordash'] = DEFAULT_SMALL_ORDER_FEE
+        else:
+            dic['fee']['smallOrderFee']['doordash'] = 0
+
+        dic['fee']['serviceFee']['doordash'] = cart_size * \
+            DEFAULT_SERVICE_FEE_PERCENT
 
     if Grubhub:
         gc = GrubhubCrawler()
@@ -170,7 +181,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             # "30 - 40"
             dic['etaRange']['grubhub'] = str(store_info['restaurant_availability']['delivery_estimate_range_v2']['minimum']) + " - " + str(
                 store_info['restaurant_availability']['delivery_estimate_range_v2']['maximum'])
-            # (int) "99"
+            # (float) 0.99
             dic['fee']['deliveryFee']['grubhub'] = round(
                 store_info['restaurant_availability']['delivery_fee']['amount']/100, 2)
         else:
@@ -183,8 +194,18 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
         grubhub_rating_dic["reviewCount"] = store_info['restaurant']['rating']['rating_count']
         dic['rating']['grubhub'] = grubhub_rating_dic
 
-        dic['fee']['serviceFee']['grubhub'] = (
-            store_info['restaurant_availability']['service_fee']['delivery_fee']['percent_value'])/100 * cart_size  # TODO: set the min and max value of the service fee if any
+        small_order_fee = store_info['restaurant_availability']['small_order_fee']
+        if cart_size < small_order_fee['minimum_order_value_cents']/100:
+            dic['fee']['smallOrderFee']['grubhub'] = (
+                small_order_fee['fee']['flat_cents_value']['amount'])/100  # (float) 2.00
+        else:
+            dic['fee']['smallOrderFee']['grubhub'] = 0
+
+        try:
+            dic['fee']['serviceFee']['grubhub'] = (
+                store_info['restaurant_availability']['service_fee']['delivery_fee']['percent_value'])/100 * cart_size
+        except:
+            dic['fee']['serviceFee']['grubhub'] = 0
 
     return dic
 
