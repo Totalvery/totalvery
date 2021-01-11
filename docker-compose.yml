@@ -5,6 +5,8 @@ services:
   web:
     build:
       context: .
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
     volumes:
       - .:/app
     command: python manage.py runserver 0.0.0.0:8000
@@ -13,6 +15,8 @@ services:
 
   frontend:
     build: ./totalvery_react
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
     command: ["npm", "start"]
     volumes:
       - ./totalvery_react:/app/totalvery_react
