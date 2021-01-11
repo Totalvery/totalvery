@@ -10,9 +10,9 @@ function App() {
     <div className="app">
       <TopBar />
 
-      <MainHome />
+      {/* <MainHome /> */}
       
-      {/* <AddressSearch /> */}
+      <AddressSearch />
 
       {/* <ShowResult /> */}
     </div>

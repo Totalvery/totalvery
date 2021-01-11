@@ -54,3 +54,9 @@
   width: 400px;
   border: 2px solid rgb(61, 109, 175);
 }
+
+.googlemap{
+  display: center;
+  justify-content: center;
+  margin-top: 120px;
+}

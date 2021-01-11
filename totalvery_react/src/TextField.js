@@ -1,16 +1,44 @@
-import React from "react";
+import React, {Component} from "react";
 
-function TextField() {
-    return(
-        <div className="textfield">
-            <label>
-                <input type="text" name="name" style={{width: "420px", height: "40px", fontSize:"20px"}}/>
-            </label>
-            {/* hyperlink the button to address search page */}
-            <button className="button" type="submit" variant='primary' style={{width:"130px", height:"40px", fontSize:"20px"}}>Find</button>
-            
-        </div>
-    )
+class TextField extends Component {
+    state = {address: ''}
+
+    constructor(props) {
+        super(props);
+        this.state = {address: ''};
+    }
+
+    handleChange = event => {
+        this.setState({address: event.target.value});
+    };
+
+    handleKeyDown = event => {
+        if (event.key === 'Enter') {
+            this.setState({address: event.target.value});
+            console.log('entered address: '+this.state.address);
+        }
+    }
+
+    render() {
+        return(
+            <React.Fragment>
+                <form>
+                    <input
+                        type="text"
+                        name="address"
+                        style={{width: "420px", height: "40px", fontSize:"20px"}}
+                        placeholder="Enter your address"
+                        value={this.state.address}
+                        onChange={this.handleChange}
+                        onKeyDown={this.handleKeyDown}
+                    />
+                    <button className="button" type="enter" variant='primary' style={{width:"130px", height:"40px", fontSize:"20px"}}>Find</button>
+                </form>
+                
+                {/* <h3>address: {this.state.address}</h3> */}
+            </React.Fragment>
+        )
+    }
 }
 
 export default TextField;

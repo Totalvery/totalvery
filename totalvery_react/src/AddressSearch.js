@@ -1,5 +1,6 @@
 import React from "react";
 import TextField from "./TextField";
+import GoogleMap from "./GoogleMap";
 
 function AddressSearch() {
     return(
@@ -7,7 +8,8 @@ function AddressSearch() {
             <view style={{position: 'absolute', top: 100, justifyContent:"center", alignItems:"center"}}>
                 <TextField />
             </view>
-            <text style={{position: 'relative', top: 600, right:300}}>Restsaurants near you:</text>
+            <GoogleMap />
+            <text style={{position: 'absolute', top: 800, left:500, fontSize:25}}>Restsaurants near you:</text>
         </div>
     )
 }
