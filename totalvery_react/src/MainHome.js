@@ -15,15 +15,15 @@ function MainHome() {
                 <TextField />
             </view>
             <text style={{position:"relative", top:940, marginRight:10}}>Currently supporting:</text>
-            <view>
+            <a href="https://www.doordash.com/" target='_blank'>
                 <img src = {doordash} alt="Doordash" className="doordash" style={{position:"relative", top:900, flex:2, padding:5}}/>
-            </view>
-            <view>
+            </a>
+            <a href="https://www.ubereats.com/" target='_blank'>
                 <img src = {ubereats} alt="UberEats" className="ubereats" style={{position:"relative", top:900, flex:2, padding:5}}/>
-            </view>
-            <view>
+            </a>
+            <a href="https://www.grubhub.com/" target='_blank'>
                 <img src = {grubhub} alt="Grubhub" className="grubhub" style={{position:"relative", top:900, flex:2, padding:5}}/>
-            </view>
+            </a>
         </div>
     )
 }
