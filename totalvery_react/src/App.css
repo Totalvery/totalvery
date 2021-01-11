@@ -1,0 +1,56 @@
+.app {
+  min-height: 120vh;
+  min-width: 134vh;
+  background: white;
+}
+
+.topbar {
+  display: flex;
+  height: 50px;
+  background: rgb(61, 109, 175);
+  font-size: 30px; 
+}
+
+.mainhome {
+  display: flex;
+  justify-content: center;
+}
+
+.textfield {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 'lg';
+}
+
+.button {
+  background:rgb(61, 109, 175);
+  color: white;
+}
+
+.doordash {
+  height: 100px;
+  width: 100px;
+}
+
+.ubereats{
+  height: 100px;
+  width: 100px;
+}
+
+.grubhub{
+  height: 100px;
+  width: 100px;
+}
+
+.addresssearch{
+  display: flex;
+  justify-content: center;
+}
+
+.showresult{
+  display: center;
+  height: 500px;
+  width: 400px;
+  border: 2px solid rgb(61, 109, 175);
+}
