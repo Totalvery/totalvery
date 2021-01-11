@@ -194,11 +194,14 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
         grubhub_rating_dic["reviewCount"] = store_info['restaurant']['rating']['rating_count']
         dic['rating']['grubhub'] = grubhub_rating_dic
 
-        small_order_fee = store_info['restaurant_availability']['small_order_fee']
-        if cart_size < small_order_fee['minimum_order_value_cents']/100:
-            dic['fee']['smallOrderFee']['grubhub'] = (
-                small_order_fee['fee']['flat_cents_value']['amount'])/100  # (float) 2.00
-        else:
+        try:
+            small_order_fee = store_info['restaurant_availability']['small_order_fee']
+            if cart_size < small_order_fee['minimum_order_value_cents']/100:
+                dic['fee']['smallOrderFee']['grubhub'] = (
+                    small_order_fee['fee']['flat_cents_value']['amount'])/100  # (float) 2.00
+            else:
+                dic['fee']['smallOrderFee']['grubhub'] = 0
+        except:
             dic['fee']['smallOrderFee']['grubhub'] = 0
 
         try:
