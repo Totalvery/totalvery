@@ -155,19 +155,48 @@ class UbereatsCrawler:
         for key in dict_stores.keys():
             if(dict_stores[key]['isOpen'] == True):
                 restaurantId = key
-                store_name = dict_stores[key]['title']
+                store_name =dict_stores[key]['title']
                 store_img = dict_stores[key]['heroImageUrl']
-                if(dict_stores[key]['feedback'] != None):
+                if(dict_stores[key]['feedback']!= None):
                     store_rating = dict_stores[key]['feedback']['rating']
-                if(dict_stores[key]['meta']['deliveryFee'] != None):
+                else:
+                    store_rating = 0
+                
+                if(dict_stores[key]['meta']['deliveryFee']!= None):
                     delivery_fee = dict_stores[key]['meta']['deliveryFee']['text']
+                else:
+                    delivery_fee = 'None'
 
-                a_dict = {'name': store_name,
-                          'img': store_img, 'rating': store_rating, 'delivery_fee': delivery_fee}
-
+                a_dict = {
+                    'name':store_name,
+                    'data':{
+                        'image':store_img,
+                        'rating':store_rating,
+                        'platform':[{
+                        
+                            'ubereats':{
+                                'support':True,
+                                'id':restaurantId,
+                                'delivery_fee':delivery_fee,
+                            },
+                            'doordash':{
+                                'support':False,
+                                'id':'',
+                                'delivery_fee':'',
+                            },
+                            'grubhub':{
+                                'support':False,
+                                'id':'',
+                                'delivery_fee':'',
+                            },
+                        }]
+                    }
+                }
                 feed_list.append(a_dict)
 
-        return json.dumps(feed_list, indent=2)
+        with open('ubereats_feed.json', mode='w') as f:
+            f.write(json.dumps(feed_list, indent=2))
+
 
 
 class DoordashCrawler:
@@ -258,19 +287,62 @@ class DoordashCrawler:
         feed_list = []
         stores_data = searchStore['data']['storeSearch']['stores']
 
+        f = open('update_feed.json',) 
+        total = json.load(f) 
+        if type(total) is dict:
+            total = [total]
+
+        feed_list = []
         for i in range(len(stores_data)):
             store_data = searchStore['data']['storeSearch']['stores'][i]
-            if(store_data['status']['asapAvailable'] == True):
+            if(store_data['status']['asapAvailable']==True):
                 restaurantId = store_data['id']
                 store_name = store_data['name']
-                store_img = store_data['headerImgUrl']
-                store_rating = store_data['averageRating']
-                delivery_fee = store_data['deliveryFee']
+                matchingElements = [d for d in total if d.get('name') == store_name]; 
+                if (len(matchingElements)): 
+                    doordash=matchingElements[0]['data']['platform'][0]['doordash']
+                    doordash['support']=True
+                    doordash['id']=restaurantId
+                    # grubhub['deliveryFee'] : depending on whether delivery fee is necessary to the field,
+                    # we can get it or not 
+                    continue
+                else:
+                    store_img = store_data['headerImgUrl']
+                    store_rating = store_data['averageRating']
+                    delivery_fee = store_data['deliveryFee']
+                    a_dict = {
+                        'name':store_name,
+                        'data':{
+                            'image':store_img,
+                            'rating':store_rating,
+                            'platform':[{
+                                'ubereats':{
+                                    'support':False,
+                                    'id':'',
+                                    'delivery_fee':'',
+                                },
+                                'doordash':{
+                                    'support':True,
+                                    'id':restaurantId,
+                                    'delivery_fee':delivery_fee,
+                                        
+                                },
+                                'grubhub':{
+                                'support':False,
+                                    'id':'',
+                                    'delivery_fee':'',
+                                        
+                                },
+                            }]
+                        }
+                    }
+                    total.append(a_dict)
+               
+        
+        with open('update_2_feed.json', mode='w') as f:
+          f.write(json.dumps(total, indent=2))
 
-                a_dict = {'name': store_name,  'img': store_img,
-                          'rating': store_rating, 'delivery_fee': delivery_fee}
-                feed_list.append(a_dict)
-        return json.dumps(feed_list, indent=2)
+        return total
 
     def estimate_service_fee(self, cart_size):  # TODO:
         fee = 0
@@ -397,19 +469,54 @@ class GrubhubCrawler:
                 'https://api-gtm.grubhub.com/restaurants/search', params=params)
             stores = stores + response.json()['search_result']['results']
 
-        # Get information for feed
-        feed_list = []
+        #Get information for feed 
+        f = open('ubereats_feed.json',) 
+        ubereats = json.load(f) 
+        if type(ubereats) is dict:
+            ubereats = [ubereats]
+
         for i in range(len(stores)):
-            if(stores[i]['open'] == True):
+            if(stores[i]['open']==True):
                 restaurantId = stores[i]['restaurant_id']
                 store_name = stores[i]['name']
-                store_img = stores[i]['logo']
-                store_rating = stores[i]['ratings']['rating_value']
-                delivery_fee = stores[i]['delivery_fee']['price']
-
-                a_dict = {'name': store_name,
-                          'img': store_img, 'rating': store_rating, 'delivery_fee': delivery_fee}
-
-                feed_list.append(a_dict)
-
-        return json.dumps(feed_list, indent=2)
+                matchingElements = [d for d in ubereats if d.get('name') == store_name]; 
+                if (len(matchingElements)): 
+                    grubhub=matchingElements[0]['data']['platform'][0]['grubhub']
+                    grubhub['support']=True
+                    grubhub['id']=restaurantId
+                # grubhub['deliveryFee'] : depending on whether delivery fee is necessary to the field,
+                # we can get it or not 
+                    continue
+                else:
+                    store_img = stores[i]['logo']
+                    store_rating = stores[i]['ratings']['rating_value']
+                    delivery_fee = stores[i]['delivery_fee']['price']
+                    a_dict = {
+                        'name':store_name,
+                        'data':{
+                            'image':store_img,
+                            'rating':store_rating,
+                            'platform':[{
+                                'ubereats':{
+                                    'support':False,
+                                    'id':'',
+                                    'delivery_fee':'',
+                                },
+                                'doordash':{
+                                    'support':False,
+                                    'id':'',
+                                    'delivery_fee':'',
+                                },
+                                'grubhub':{
+                                    'support':True,
+                                    'id':restaurantId,
+                                    'delivery_fee':delivery_fee,
+                                            
+                                            },
+                                    }]
+                        }
+                    }
+                    ubereats.append(a_dict)  
+        with open('update_feed.json', mode='w') as f:
+            f.write(json.dumps(ubereats, indent=2))
+        return json.dumps(ubereats)
