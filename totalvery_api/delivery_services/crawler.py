@@ -193,10 +193,10 @@ class UbereatsCrawler:
                     }
                 }
                 feed_list.append(a_dict)
-
-        with open('ubereats_feed.json', mode='w') as f:
+        
+        with open('total_feed.json', mode='w') as f:
             f.write(json.dumps(feed_list, indent=2))
-
+        
 
 
 class DoordashCrawler:
@@ -287,7 +287,7 @@ class DoordashCrawler:
         feed_list = []
         stores_data = searchStore['data']['storeSearch']['stores']
 
-        f = open('update_feed.json',) 
+        f = open('total_feed.json',) 
         total = json.load(f) 
         if type(total) is dict:
             total = [total]
@@ -339,7 +339,7 @@ class DoordashCrawler:
                     total.append(a_dict)
                
         
-        with open('update_2_feed.json', mode='w') as f:
+        with open('total_feed.json', mode='w') as f:
           f.write(json.dumps(total, indent=2))
 
         return total
@@ -470,7 +470,7 @@ class GrubhubCrawler:
             stores = stores + response.json()['search_result']['results']
 
         #Get information for feed 
-        f = open('ubereats_feed.json',) 
+        f = open('total_feed.json',) 
         ubereats = json.load(f) 
         if type(ubereats) is dict:
             ubereats = [ubereats]
@@ -517,6 +517,6 @@ class GrubhubCrawler:
                         }
                     }
                     ubereats.append(a_dict)  
-        with open('update_feed.json', mode='w') as f:
+        with open('total_feed.json', mode='w') as f:
             f.write(json.dumps(ubereats, indent=2))
         return json.dumps(ubereats)
