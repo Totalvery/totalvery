@@ -7,9 +7,9 @@ class StoreDetail (models.Model):
     ubereats = models.BooleanField(default=False)
     doordash = models.BooleanField(default=False)
     grubhub = models.BooleanField(default=False)
-    ubereatsID = models.CharField(max_length=100)
-    doordashID = models.CharField(max_length=100)
-    grubhubID = models.CharField(max_length=100)
+    ubereatsID = models.CharField(max_length=100, blank=True, null=True)
+    doordashID = models.CharField(max_length=100, blank=True, null=True)
+    grubhubID = models.CharField(max_length=100, blank=True, null=True)
 
     # customer location
     latitude = models.FloatField() 
