@@ -28,15 +28,13 @@ DEFAULT_SERVICE_FEE_PERCENT = 0.1  # 10%
 def stores_feed(request):
     if request.method == 'POST':
         # location = request.form.get("location") #sample: form에 user가 location입력 가정
-        location = "Tucson"
+        location = "San Fransico"
         serializer = CustomerSerializer(data=request.data)
+        feed_lists = []
         if(serializer.is_valid()):
-            crawlers = [GrubhubCrawler(), DoordashCrawler(), UbereatsCrawler()]
-            for crawler in crawlers:
-                # TODO: 각각 데이터 합치기 / 따로 보여주기에 따라 처리
-                feed_json = crawler.get_feed(location)
-                return Response(feed_json, status=status.HTTP_201_CREATED)
-                break
+            UbereatsCrawler().get_feed(location)
+            total_feed=GrubhubCrawler().get_feed(location)
+            return Response(total_feed, status=status.HTTP_201_CREATED)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
