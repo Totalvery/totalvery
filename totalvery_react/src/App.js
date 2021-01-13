@@ -4,6 +4,7 @@ import MainHome from './MainHome';
 import AddressSearch from './AddressSearch';
 import ShowResult from './ShowResult';
 import RequestsTest from './RequestsTest'
+import SearchBar from './SearchBar'
 import "./App.css";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -18,7 +19,7 @@ function App() {
              <Route path="/" component={MainHome} exact/>
              <Route path="/search" component={AddressSearch}/>
              <Route path="/result" component={ShowResult}/>
-             <Route path="/requestsTest" component={RequestsTest}/>
+             {/* <Route path="/requestsTest" component={RequestsTest}/> */}
            </Switch>
         </div> 
       </BrowserRouter>
