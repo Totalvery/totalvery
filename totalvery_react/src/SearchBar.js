@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withGoogleMap, withScriptjs	 } from "react-google-maps";
 import Autocomplete from 'react-google-autocomplete';
-// import { GoogleMapsAPI } from '../client-config';
+// import { GoogleMapsAPI } from './client-config';
 
 
 class SearchBar extends Component{
