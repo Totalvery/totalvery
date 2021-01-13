@@ -8,10 +8,11 @@
     "@testing-library/user-event": "^12.6.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4",
     "react-google-autocomplete": "^1.1.0",
-    "react-google-maps": "^9.4.5"
+    "react-google-maps": "^9.4.5",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,5 +37,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://127.0.0.1:8000/"
 }
