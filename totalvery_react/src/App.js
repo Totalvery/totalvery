@@ -12,9 +12,9 @@ function App() {
 
       {/* <MainHome /> */}
       
-      {/* <AddressSearch /> */}
+      <AddressSearch />
 
-      <ShowResult />
+      {/* <ShowResult /> */}
     </div>
   )
 }
