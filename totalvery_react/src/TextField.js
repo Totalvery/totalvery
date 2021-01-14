@@ -1,44 +1,43 @@
-import React, {Component} from "react";
-
-class TextField extends Component {
-    state = {address: ''}
-
-    constructor(props) {
-        super(props);
-        this.state = {address: ''};
-    }
-
-    handleChange = event => {
-        this.setState({address: event.target.value});
-    };
-
-    handleKeyDown = event => {
-        if (event.key === 'Enter') {
-            this.setState({address: event.target.value});
-            console.log('entered address: '+this.state.address);
+import React from "react";
+import { Redirect } from 'react-router';
+class TextField extends React.Component {
+    constructor(props){
+        super(props)
+        this.state={
+            location:'',
+            redirectToReferrer:false
         }
+        this.handleFormSubmit=this.handleFormSubmit.bind(this)
+        this.handleValueChange=this.handleValueChange.bind(this)
     }
-
-    render() {
+    handleFormSubmit(e){
+        e.preventDefault()
+        this.setState({
+            redirectToReferrer:true})
+    }
+    handleValueChange(e){
+        let nextState={};
+        nextState[e.target.name]=e.target.value;
+        this.setState(nextState)
+    }
+    render(){
+        const redirectToReferrer = this.state.redirectToReferrer;
+        if (redirectToReferrer) {
+            return <Redirect to={{ pathname: '/search', state: { location: this.state.location} }} />
+        }
         return(
-            <React.Fragment>
-                <form>
-                    <input
-                        type="text"
-                        name="address"
-                        style={{width: "420px", height: "40px", fontSize:"20px"}}
-                        placeholder="Enter your address"
-                        value={this.state.address}
-                        onChange={this.handleChange}
-                        onKeyDown={this.handleKeyDown}
-                    />
-                    <button className="button" type="enter" variant='primary' style={{width:"130px", height:"40px", fontSize:"20px"}}>Find</button>
+            <div className="textfield">
+                <form onSubmit={this.handleFormSubmit}>
+                <label>
+                    <input onChange={this.handleValueChange} value={this.state.location} type="text" name="location" style={{width: "420px", height: "40px", fontSize:"20px"}}/>
+                </label>
+                {/* hyperlink the button to address search page */}
+                <button className="button" type="submit" variant='primary' style={{width:"130px", height:"40px", fontSize:"20px"}}
+                    >Find</button>
                 </form>
-                
-                {/* <h3>address: {this.state.address}</h3> */}
-            </React.Fragment>
+            </div>
         )
-    }
+   }
 }
 
 export default TextField;

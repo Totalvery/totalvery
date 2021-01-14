@@ -5,8 +5,25 @@ services:
   web:
     build:
       context: .
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
     volumes:
       - .:/app
     command: python manage.py runserver 0.0.0.0:8000
     ports:
       - 8000:8000
+
+  frontend:
+    build: ./totalvery_react
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    command: ["npm", "start"]
+    volumes:
+      - ./totalvery_react:/app/totalvery_react
+      - node-modules:/app/totalvery_react/node_modules
+    ports:
+      - "3000:3000"
+
+volumes:
+  node-modules:
+

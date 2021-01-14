@@ -1,5 +1,5 @@
 import React from "react";
-import TextField from "./TextField";
+import GoogleApi from './GoogleApi'
 import logo from "./main_home.png";
 import doordash from "./Doordash.png";
 import grubhub from "./Grubhub.jpg";
@@ -11,8 +11,9 @@ function MainHome() {
             <view style={{position: 'absolute', justifyContent:"center", alignItems:"center"}}>
                 <img src = {logo} alt="Logo"/>
             </view>
+
             <view style={{position: 'absolute', top: 650, justifyContent:"center", alignItems:"center"}}>
-                <TextField />
+                <GoogleApi />
             </view>
             <text style={{position:"relative", top:940, marginRight:10}}>Currently supporting:</text>
             <a href="https://www.doordash.com/" target='_blank'>
