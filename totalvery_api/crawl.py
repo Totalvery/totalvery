@@ -27,19 +27,14 @@ DEFAULT_SERVICE_FEE_PERCENT = 0.1  # 10%
 @api_view(['POST'])
 def stores_feed(request):
     if request.method == 'POST':
-        # location = request.form.get("location") #sample: form에 user가 location입력 가정
-        location = "Tucson"
-        serializer = CustomerSerializer(data=request.data)
-        if(serializer.is_valid()):
-            crawlers = [GrubhubCrawler(), DoordashCrawler(), UbereatsCrawler()]
-            for crawler in crawlers:
-                # TODO: 각각 데이터 합치기 / 따로 보여주기에 따라 처리
-                feed_json = crawler.get_feed(location)
-                return Response(feed_json, status=status.HTTP_201_CREATED)
-                break
+        location = request.POST.get('location',False) #sample: form에 user가 location입력 가
+        UbereatsCrawler().get_feed(location)
+        GrubhubCrawler().get_feed(location)
+        total_feed = DoordashCrawler().get_feed(location)
+        return Response(total_feed, status=status.HTTP_201_CREATED)
 
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    else:
+        return Response(status=status.HTTP_400_BAD_REQUEST)
 
 
 def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False, Grubhub=False, cart_size=20.00):
