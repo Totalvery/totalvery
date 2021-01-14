@@ -10,11 +10,11 @@ function App() {
     <div className="app">
       <TopBar />
 
-      {/* <MainHome /> */}
+      <MainHome />
       
       {/* <AddressSearch /> */}
 
-      <ShowResult />
+      {/* <ShowResult /> */}
     </div>
   )
 }
