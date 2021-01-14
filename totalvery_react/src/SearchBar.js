@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withGoogleMap, withScriptjs	 } from "react-google-maps";
 import Autocomplete from 'react-google-autocomplete';
+import { Redirect } from 'react-router';
 // import { GoogleMapsAPI } from './client-config';
 
 
@@ -16,10 +17,17 @@ class SearchBar extends Component{
 			mapPosition: {
 				lat: 0,
 				lng: 0
-			}
+			},
+			location:'',
+            redirectToReferrer:false
 		}
 	}
 
+    handleValueChange=(e)=>{
+        let nextState={};
+        nextState[e.target.name]=e.target.value;
+        this.setState(nextState)
+    }
 	/**
 	 * Get the city and set the city input value to the one selected
 	 *
@@ -96,43 +104,58 @@ class SearchBar extends Component{
 				lng: lngValue
 			},
 		})
-	};
+		//redirect to /search
+		this.setState({
+            redirectToReferrer:true})
+    }
+	
 
 
 	render(){
+		const redirectToReferrer = this.state.redirectToReferrer;
+        if (redirectToReferrer) {
+            return <Redirect to={{ pathname: '/search', state: {location:this.state.address} }} />
+        }
 		const AsyncMap = withScriptjs(
 			withGoogleMap(
 				props => (
 						<Autocomplete
 							style={{
-								width: '100%',
+								width: '420px',
 								height: '40px',
 								paddingLeft: '16px',
 								marginTop: '2px',
-								marginBottom: '500px'
+								marginBottom: '500px',
+								fontSize:'20px'
 							}}
 							onPlaceSelected={ this.onPlaceSelected }
 							types={[]}
+							type="text"
+							name="location"
 						/>
+						  
 				)
 			)
 		);
 		let map;
-		map = <div>
-			<AsyncMap
-				googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyAx1Gg-3sXLsPNcZ9GP8DGIAsGH7ck5Lvk&libraries=places&v=weekly`}
-				loadingElement={
-					<div style={{ height: `0%` }} />
-				}
-				containerElement={
-					<div style={{ height: `0%` }} />
-				}
-				mapElement={
-					<div style={{ height: `100%` }} />
-				}
-			/>
-		</div>
-		return( map )
+		map = 
+					
+					<AsyncMap
+						googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyAx1Gg-3sXLsPNcZ9GP8DGIAsGH7ck5Lvk&libraries=places&v=weekly`}
+						loadingElement={
+							<div style={{ height: `0%` }} />
+						}
+						containerElement={
+							<div style={{ height: `0%` }} />
+						}
+						mapElement={
+							<div style={{ height: `100%` }} />
+						}
+					/>
+				
+		return(
+			map
+		 )
 	}
 }
 export default SearchBar

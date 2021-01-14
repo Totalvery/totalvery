@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import SearchBar from './SearchBar';
 
 
-class AddressSearch extends Component  {
+class GoogleApi extends Component  {
     render(){
         return(
             <div className="googleApi">
+                
                 <SearchBar
                         google={this.props.google}
                     />
@@ -15,4 +16,4 @@ class AddressSearch extends Component  {
     
 }
 
-export default AddressSearch;
+export default GoogleApi;
