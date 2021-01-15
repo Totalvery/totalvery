@@ -27,7 +27,8 @@ DEFAULT_SERVICE_FEE_PERCENT = 0.1  # 10%
 @api_view(['POST'])
 def stores_feed(request):
     if request.method == 'POST':
-        location = request.POST.get('location',False) #sample: form에 user가 location입력 가
+        # sample: form에 user가 location입력 가
+        location = request.POST.get('location', False)
         UbereatsCrawler().get_feed(location)
         GrubhubCrawler().get_feed(location)
         total_feed = DoordashCrawler().get_feed(location)
