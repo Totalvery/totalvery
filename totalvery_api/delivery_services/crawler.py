@@ -131,7 +131,7 @@ class UbereatsCrawler:
         while True:
             data = '{"pageInfo":{"offset":' + \
                 str(offset)+',"pageSize":80}}'
-            print('headers:', headers)
+
             response = s.post(
                 'https://www.ubereats.com/api/getFeedV1/', headers=headers, data=data)
 
