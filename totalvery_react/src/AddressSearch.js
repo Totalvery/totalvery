@@ -40,13 +40,16 @@ class AddressSearch extends React.Component {
     } else {
       this.setState({
         location: this.props.location.state.location,
-        lan: this.props.location.state.lat,
-        lon: this.props.location.state.lon,
+        // lat: this.props.location.state.lat,
+        // lon: this.props.location.state.lon,
       });
       const url = "http://127.0.0.1:8000/api/getFeed/";
       const data = {
         location: this.state.location,
+        // lat: this.props.location.state.lat,
+        // lon: this.props.location.state.lon,
       };
+      console.log(data);
       this.fetchData(url, data);
     }
   }

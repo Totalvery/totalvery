@@ -29,9 +29,14 @@ def stores_feed(request):
     if request.method == 'POST':
         # sample: form에 user가 location입력 가
         location = request.POST.get('location', False)
-        UbereatsCrawler().get_feed(location)
-        GrubhubCrawler().get_feed(location)
-        total_feed = DoordashCrawler().get_feed(location)
+        lat = request.POST.get('lat')
+        lon = request.POST.get('lon')
+
+        assert location != False, f"location should not be {location}"
+
+        UbereatsCrawler().get_feed(lat, lon)
+        GrubhubCrawler().get_feed(lat, lon)
+        total_feed = DoordashCrawler().get_feed(lat, lon)
         return Response(total_feed, status=status.HTTP_201_CREATED)
 
     else:
