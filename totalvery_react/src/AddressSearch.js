@@ -35,20 +35,32 @@ class AddressSearch extends React.Component {
       });
   }
   componentDidMount(props) {
-    if (this.props.location.state === undefined) {
-      return;
-    } else {
-      this.setState({
-        lat: this.props.location.state.lat,
-        lon: this.props.location.state.lon,
-      });
-      const url = "http://127.0.0.1:8000/api/getFeed/";
-      const data = {
-        lat: this.props.location.state.lat,
-        lon: this.props.location.state.lon,
-      };
-      this.fetchData(url, data);
-    }
+    this.setState({
+      lat: parseFloat(this.props.match.params.lat),
+      lng: parseFloat(this.props.match.params.lng),
+      location: this.props.location.state.location,
+    });
+    const url = "http://127.0.0.1:8000/api/getFeed/";
+    const data = {
+      lat: parseFloat(this.props.match.params.lat),
+      lon: parseFloat(this.props.match.params.lng),
+    };
+    this.fetchData(url, data);
+  }
+
+  componentWillReceiveProps(newProps) {
+    this.setState({ isLoaded: false });
+    this.setState({
+      lat: parseFloat(newProps.match.params.lat),
+      lng: parseFloat(newProps.match.params.lng),
+      location: newProps.location.state.location,
+    });
+    const url = "http://127.0.0.1:8000/api/getFeed/";
+    const data = {
+      lat: parseFloat(newProps.match.params.lat),
+      lon: parseFloat(newProps.match.params.lng),
+    };
+    this.fetchData(url, data);
   }
 
   render() {
@@ -69,7 +81,7 @@ class AddressSearch extends React.Component {
             <GoogleApi />
           </view>
           <text style={{ position: "relative", top: 200, right: 300 }}>
-            Restsaurants near you: {this.state.location}
+            Restaurants near you: {this.state.location}
           </text>
 
           <div

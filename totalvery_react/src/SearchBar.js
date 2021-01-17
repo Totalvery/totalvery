@@ -120,14 +120,15 @@ class SearchBar extends Component {
   render() {
     const redirectToReferrer = this.state.redirectToReferrer;
     if (redirectToReferrer) {
+      this.setState({
+        redirectToReferrer: false,
+      });
       return (
         <Redirect
           to={{
-            pathname: "/search",
+            pathname: `/search/${this.state.mapPosition.lat}/${this.state.mapPosition.lng}`,
             state: {
               location: this.state.address,
-              lat: this.state.mapPosition.lat,
-              lon: this.state.mapPosition.lng,
             },
           }}
         />

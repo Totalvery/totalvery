@@ -136,6 +136,9 @@ class UbereatsCrawler:
                 'https://www.ubereats.com/api/getFeedV1/', headers=headers, data=data)
 
             feed_json = response.json()['data']
+
+            assert feed_json['storesMap'] != None, f"feed_json:\n{feed_json}"
+
             stores = feed_json['storesMap']
             meta = feed_json['meta']
             dict_stores.update(stores)
