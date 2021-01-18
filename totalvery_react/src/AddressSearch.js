@@ -1,5 +1,6 @@
 import React from "react";
 import GoogleApi from "./GoogleApi";
+import GoogleMap from "./GoogleMap";
 
 class AddressSearch extends React.Component {
   constructor(props) {
@@ -80,17 +81,18 @@ class AddressSearch extends React.Component {
           >
             <GoogleApi />
           </view>
-          <text style={{ position: "relative", top: 200, right: 300 }}>
+          <GoogleMap />
+          <text style={{ position: "absolute", top: 750, left: 100, fontSize: '20px' }}>
             Restaurants near you: {this.state.location}
           </text>
-
+            
           <div
             style={{
-              position: "relative",
-              top: 300,
-              right: 300,
+              position: "absolute",
+              top: 800,
               justifyContent: "center",
               alignItems: "center",
+              fontSize: '20px'
             }}
           >
             <ul>
