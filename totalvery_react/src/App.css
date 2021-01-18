@@ -6,6 +6,7 @@
 
 .topbar {
   display: flex;
+  position: fixed;
   height: 50px;
   background: rgb(61, 109, 175);
   font-size: 30px; 
@@ -60,5 +61,5 @@
 .googlemap{
   display: center;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 170px;
 }

@@ -1,5 +1,8 @@
+requests
+BeautifulSoup4
 django
 djangorestframework
 gunicorn
 whitenoise
 ipdb
+django-cors-headers
