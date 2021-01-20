@@ -148,6 +148,15 @@ class UbereatsCrawler:
             else:
                 break
 
+        dictionary = {
+                "location":{
+                    "lat":lat,
+                    "long":lon,
+                },
+                "data": {
+
+                }
+        }
         feed_list = []
         for key in dict_stores.keys():
             if(dict_stores[key]['isOpen'] == True):
@@ -190,9 +199,10 @@ class UbereatsCrawler:
                     }
                 }
                 feed_list.append(a_dict)
+        dictionary['data']=feed_list
 
         with open('total_feed.json', mode='w') as f:
-            f.write(json.dumps(feed_list, indent=2))
+            f.write(json.dumps(dictionary, indent=2))
 
 
 class DoordashCrawler:
@@ -264,11 +274,10 @@ class DoordashCrawler:
         stores_data = searchStore['data']['storeSearch']['stores']
 
         f = open('total_feed.json',)
-        total = json.load(f)
-        if type(total) is dict:
-            total = [total]
+        dictionary = json.load(f)
+        if type(dictionary) is dict:
+            total= dictionary['data']
 
-        feed_list = []
         for i in range(len(stores_data)):
             store_data = searchStore['data']['storeSearch']['stores'][i]
             if(store_data['status']['asapAvailable'] == True):
@@ -314,11 +323,11 @@ class DoordashCrawler:
                         }
                     }
                     total.append(a_dict)
-
+        dictionary.update({'data': total}  ) 
         with open('total_feed.json', mode='w') as f:
-            f.write(json.dumps(total, indent=2))
+            f.write(json.dumps(dictionary, indent=2))
 
-        return total
+        return json.dumps(dictionary)
 
     def estimate_service_fee(self, cart_size):  # TODO:
         fee = 0
@@ -431,9 +440,9 @@ class GrubhubCrawler:
 
         # Get information for feed
         f = open('total_feed.json',)
-        ubereats = json.load(f)
-        if type(ubereats) is dict:
-            ubereats = [ubereats]
+        dictionary = json.load(f)
+        if type(dictionary) is dict:
+            ubereats = dictionary['data']
 
         for i in range(len(stores)):
             if(stores[i]['open'] == True):
@@ -478,6 +487,7 @@ class GrubhubCrawler:
                         }
                     }
                     ubereats.append(a_dict)
+        dictionary.update({'data': ubereats} ) 
         with open('total_feed.json', mode='w') as f:
-            f.write(json.dumps(ubereats, indent=2))
-        return json.dumps(ubereats)
+            f.write(json.dumps(dictionary, indent=2))
+        return json.dumps(dictionary)

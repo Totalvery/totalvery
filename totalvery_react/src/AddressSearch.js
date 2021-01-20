@@ -14,7 +14,7 @@ class AddressSearch extends React.Component {
       lat: 0,
       lng: 0,
       isLoaded: false,
-      items: [],
+      items: {},
     };
     this.fetchData = this.fetchData.bind(this);
   }
@@ -66,6 +66,7 @@ class AddressSearch extends React.Component {
 
   render() {
     var { isLoaded, items } = this.state;
+    
     if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
@@ -95,11 +96,7 @@ class AddressSearch extends React.Component {
               fontSize: '20px'
             }}
           >
-            <ul>
-              {items.map((item, index) => (
-                <li key={index}>{item.name}</li>
-              ))}
-            </ul>
+            {items}
           </div>
         </div>
       );
