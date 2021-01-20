@@ -15,6 +15,10 @@ import json
 from subprocess import check_output
 import time
 
+import pymongo
+from pymongo import MongoClient
+from bson import json_util
+
 from totalvery_api.delivery_services.crawler import UbereatsCrawler, DoordashCrawler, GrubhubCrawler
 
 
@@ -34,6 +38,24 @@ def stores_feed(request):
         UbereatsCrawler().get_feed(lat, lon)
         GrubhubCrawler().get_feed(lat, lon)
         total_feed = DoordashCrawler().get_feed(lat, lon)
+
+        #save the json file to the database
+        cluster = MongoClient("mongodb+srv://totalvery:1111@cluster0.qpazd.mongodb.net/totalvery?retryWrites=true&w=majority")
+        db = cluster["totalvery"]
+        collection = db["totalvery"] #mini database 
+        
+        with open('total_feed.json') as file: 
+             file_data = json.load(file) 
+      
+        # Inserting the loaded data in the Collection 
+        # if JSON contains data more than one entry 
+        # insert_many is used else inser_one is used 
+        if isinstance(file_data, list): 
+            collection.insert_many(file_data)   
+        else: 
+            collection.insert_one(file_data) 
+        cluster.close()
+
         return Response(total_feed, status=status.HTTP_201_CREATED)
 
     else:

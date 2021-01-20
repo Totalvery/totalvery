@@ -6,3 +6,6 @@ gunicorn
 whitenoise
 ipdb
 django-cors-headers
+pymongo
+pymongo[srv]
+bson

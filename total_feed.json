@@ -1,14 +1,66 @@
 [
   {
-    "name": "Applebee's  (11274 S. Fortuna Road)",
+    "name": "McDonald's\u00ae (800 Market St)",
     "data": {
-      "image": "https://d1ralsognjng37.cloudfront.net/9d1eac0a-8463-4b34-aacd-a917326d2130.jpeg",
+      "image": "https://d1ralsognjng37.cloudfront.net/b53bbb9c-278f-4535-a1c1-8aaa9df1e91c.jpeg",
+      "rating": 4.5,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "d72c3294-9c4f-4d04-a3d9-fc33ed3e4b03",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Jack in the Box (4425 Telegraph Ave)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/fab37904-a60b-4223-807b-863a04f4a038.jpeg",
+      "rating": 3.8,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "d001644e-0b34-4e8b-8bdb-3a356f1498d5",
+            "delivery_fee": "$1.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Taco Bell (2255 Telegraph Avenue)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/90b58466-2aae-448e-87e0-216e8d3b3c50.jpeg",
       "rating": 4.2,
       "platform": [
         {
           "ubereats": {
             "support": true,
-            "id": "36078df0-4f4f-4731-b2aa-0631b11cbfd3",
+            "id": "ea3b4e48-5b05-431f-93c0-fecc2e6702bc",
             "delivery_fee": "$3.49 Delivery Fee"
           },
           "doordash": {
@@ -26,41 +78,15 @@
     }
   },
   {
-    "name": "Panda Express (3275 S. Avenue 8e)",
+    "name": "Denny's (1776 Powell Street)",
     "data": {
-      "image": "https://d1ralsognjng37.cloudfront.net/6e3269e2-2182-479b-946f-0a1bc6bcec33.jpeg",
-      "rating": 4.7,
-      "platform": [
-        {
-          "ubereats": {
-            "support": true,
-            "id": "0fa890bd-5463-44a1-942a-5ecd8df33a1a",
-            "delivery_fee": "$3.49 Delivery Fee"
-          },
-          "doordash": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "grubhub": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "Denny's (11255 E. South Frontage Rd)",
-    "data": {
-      "image": "https://d1ralsognjng37.cloudfront.net/a0c684ec-40db-4dfb-b9b5-4e4e2ec1c438.jpeg",
+      "image": "https://d1ralsognjng37.cloudfront.net/b0017738-ac42-447f-87e5-41e1d3af79b2.jpeg",
       "rating": 4.2,
       "platform": [
         {
           "ubereats": {
             "support": true,
-            "id": "3f69e1d1-6047-410d-a6f4-91ddd71588c6",
+            "id": "98615ed8-f1b7-4d84-82bd-8c3b3a6618a3",
             "delivery_fee": "$0.49 Delivery Fee"
           },
           "doordash": {
@@ -78,16 +104,16 @@
     }
   },
   {
-    "name": "Yogis Grill",
+    "name": "Papa John's Pizza (Oakland)",
     "data": {
-      "image": "https://res.cloudinary.com/grubhub/image/upload/v1497033117/cluo7ca9ostz7eetww1i.png",
-      "rating": "4",
+      "image": "https://d1ralsognjng37.cloudfront.net/30dc56da-4ba1-4b84-a7c6-3dbbe321871c.jpeg",
+      "rating": 4.5,
       "platform": [
         {
           "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
+            "support": true,
+            "id": "791807bf-b750-478b-bce3-7d1f8a6295af",
+            "delivery_fee": "$1.49 Delivery Fee"
           },
           "doordash": {
             "support": false,
@@ -96,8 +122,1568 @@
           },
           "grubhub": {
             "support": true,
-            "id": "1164153",
-            "delivery_fee": 49
+            "id": "1425657",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ole Ole Burrito Express ( Telegraph)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/15963da4-07c7-47b0-a501-1af07c7a6914",
+      "rating": 4.5,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "e324ea0f-2700-44a3-bef1-3517760f1bdb",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Pizza Amigos",
+    "data": {
+      "image": "https://duyt4h9nfnj50.cloudfront.net/resized/1540869014086-w550-16.jpg",
+      "rating": 4.5,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "8abf64d3-58b4-4172-a8ac-fa74ce15f14b",
+            "delivery_fee": "$1.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": true,
+            "id": "420239",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1004741",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nation's Giant Hamburgers (Oakland)",
+    "data": {
+      "image": "https://duyt4h9nfnj50.cloudfront.net/resized/1540241061981-w550-7d.jpg",
+      "rating": 4.3,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "725bf3dc-1f3a-42c1-b182-fd3ca7d9c54f",
+            "delivery_fee": "$3.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Koryo Sushi",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/c60fd3a1-eb23-49e6-af7b-bbec4049f1ab.jpeg",
+      "rating": 4.6,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "7d785d6f-77b8-4b17-af58-ea9462c5302e",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": true,
+            "id": "69606",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Krispy Krunchy Chicken",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/5b883f2e-061b-4f86-a0a0-3e42f0a0c0be.jpeg",
+      "rating": 4.2,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "ace2d47b-eb75-4d03-93c9-87abbd3ed217",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": true,
+            "id": "185544",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Slice House by Tony Gemignani (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/8dccb66c-be9d-47c6-89c8-9776dc7f0ca7.jpeg",
+      "rating": 4,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "6aa86a6b-40b3-4c98-b088-d953bf9a1c1c",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2313464",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Savemore Liquor",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/b50bb7ff-4e4d-4e01-8325-e3672e79de3a.jpeg",
+      "rating": 4.8,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "0dec6479-46f2-47ce-b310-b0ad4d7b0afc",
+            "delivery_fee": "$3.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "AZIT",
+    "data": {
+      "image": "https://duyt4h9nfnj50.cloudfront.net/resized/1519070734100-w550-2d.jpg",
+      "rating": 4.6,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "e0ea4e93-8821-4fd3-b8e8-992b28f953e2",
+            "delivery_fee": "$1.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Mac 'n Cue by International Smoke (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/69ec3306-f6a1-4af9-aead-30af6b6fbfa2.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "7895e1bc-e02d-4384-89ee-86dd8676212e",
+            "delivery_fee": "$3.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Burger Den (1776 Powell Street)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/eaf71ce5-97ea-420a-b8d5-91d4a6190649.jpeg",
+      "rating": 4.4,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "6b55e848-a5aa-4112-8e01-930946c07cec",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Midnight Menu (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/de85d76d-105b-4570-80e1-3bdc061a28da.jpeg",
+      "rating": 4.8,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "c9e5154e-a163-4207-ab60-79c38045affc",
+            "delivery_fee": "$4.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2371920",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "China Live Signatures (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/e1933987-bcfe-4cff-9ac9-aaaabbbf4483.jpeg",
+      "rating": 4.8,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "cdc34ee6-ea88-4203-be4c-b51d5e454083",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2258366",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Eat@Thai",
+    "data": {
+      "image": "https://duyt4h9nfnj50.cloudfront.net/resized/76a0d4fbda91d84194d52137c3fa2fb2-w550-8f.jpg",
+      "rating": 4.4,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "dae7fb3f-5989-4d3e-bb30-dbee4a1f018b",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bestselling Snacks and Drinks (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/08a71474-97ff-4d9b-8ef0-0a3a5ba13183.jpeg",
+      "rating": 4.9,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "cdb2ae34-ca18-458d-bd16-199b756be18a",
+            "delivery_fee": "$1.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2391226",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Urban Remedy (Berkeley University Ave)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/4e0971c4-6548-4a3f-992d-e654e8bbba0f.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "dde18488-87f9-4f1f-a63a-fd613167dd59",
+            "delivery_fee": "$1.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Fountain Cafe",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/fa5f19b1-78d3-42b3-8ce5-ba96e61b3ca9.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "7a2e1a57-68d1-4299-8633-446250ff3150",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Ice Cream Parlor (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/9a1d27ab-1571-44ea-9f0b-06fa40b27e25.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "d28a8ad0-0ff6-4381-88ba-5d6ac109dadb",
+            "delivery_fee": "$4.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2291581",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Oasis Food Market",
+    "data": {
+      "image": "https://duyt4h9nfnj50.cloudfront.net/resized/5a72ee987ecf783db51cc9078038d110-w550-49.jpg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "a0c84cfd-a5d4-4ab7-943b-48fcf19d6da7",
+            "delivery_fee": "$1.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Mission Street Burritos by Papalote (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/d0d84d67-dd9f-49b3-8e66-5df9fb11b8a4.jpeg",
+      "rating": 4.3,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "fa5e9066-b099-4905-9d7d-2252c856719e",
+            "delivery_fee": "$4.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2334545",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Antojeria Mexicana El Chilar",
+    "data": {
+      "image": "https://duyt4h9nfnj50.cloudfront.net/resized/1517894890751-w550-c9.jpg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "5202d131-f0fa-488b-9929-084d60041600",
+            "delivery_fee": "$4.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bar Bites and More (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/de70b209-b8aa-4b0c-b716-1adbeb0391b8.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "c0e8460d-6bae-40af-840c-6cc0bffd30e4",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2455602",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "STATE MARKET LIQUOR",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/c40346f1-335e-4940-8d3b-f3de6e09a1ea.jpeg",
+      "rating": 4.6,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "3b9a34ab-8779-49f7-a4a5-f33d8f559203",
+            "delivery_fee": "$1.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Local Veggie Eats (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/49e2f49d-0cc3-47ca-bfd5-69884e9cd34f.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "9a7df8c7-5688-4ab4-938e-4ec03b00a0ab",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2456809",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Us Liquors",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/47eaa393-5aae-400b-845e-05ad557ea566.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "5fb1e371-5248-4885-bd2b-d3a808fcd7bc",
+            "delivery_fee": "$1.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Lunchbox  (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/39919cd2-f6d5-4795-aace-a42af2b11f41.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "53bdd0c0-0f1e-43a1-8b1d-72b90cfeebaf",
+            "delivery_fee": "$3.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Roti & Pizza",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/9f54e63e-4756-42c6-bff6-20909887f011.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "fa22d993-1054-4ad5-bf2b-09b81b502140",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2234965",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chevron Extramile (5500 Telegraph Ave)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/658149aa-3b23-47c5-9def-7af9533d8a71.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "f971c81d-bdb7-4d63-8081-88102b262e88",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Original Deep Dish Pizza Co.",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/40b31b82-1144-40c8-be44-3bca37e9a0f9.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "149b3ba1-46ff-4fa6-bebe-7f16a07376d5",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2276106",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Asian Food Collective (Berkeley )",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/81c3e4a5-7721-42c7-92e5-3f7a107f76c6.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "23d3ee06-162d-4929-b766-89ff3ab0ffe6",
+            "delivery_fee": "$3.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Froman's Chicago Deep Dish Pizza",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/443f6b84-5089-4f37-8da0-7a5dc60d733b.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "0bcd2e47-94f5-452e-8434-a4b4c9b650c2",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": true,
+            "id": "1080947",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cozy Comfort Meals  (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/bf0a757b-1cf8-4ac3-ae0d-fa018f7a0818.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "f66ca9c2-8d66-467a-a1b3-26f1ee620083",
+            "delivery_fee": "$3.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cauli Crust Pizza Co.",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/b18d1a48-e5b1-43bd-81f2-a512919f08db.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "9967304e-a67c-41cf-a99c-7ba6950ed5da",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": true,
+            "id": "874383",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1963962",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sunny Day Creamery (Oakland)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/db2efa06-8ad0-49fc-8d77-1e80fa135c6c",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "a2ec3724-29ed-459f-aec2-191de1e48491",
+            "delivery_fee": "$1.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Jac\u2019s barbecue",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/076bceae-c6c0-4b89-9b93-840a62b0e711.jpeg",
+      "rating": 1.9,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "e4298a0c-c818-408d-9bba-7e1d4cbbb0d9",
+            "delivery_fee": "$10 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "OMG Pizza (Oakland)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/b44c5259-cc93-4f5c-9773-ad310a88d099.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "b5f48654-2121-424a-8e43-fc859028bd70",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Suchan Laplant",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/96e6bbcb-e04a-47b4-8651-c583606cb80c.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "c9b01e98-8666-47db-b0c1-9882419c668e",
+            "delivery_fee": "$10 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Brooklyn's Finest Pizza",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/8ab6bf4f-4002-48e0-98d5-c7483026f5fb.jpeg",
+      "rating": 4.4,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "73b50d07-c488-4773-b3fd-a2f814bbe96a",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": true,
+            "id": "850212",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2226502",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Mrfivepercentmore",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/07b5908c-d163-40ed-bb7e-e71227109fed.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "8b9962c0-9623-4ffe-bfed-0848c8630a33",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Pizzeria Bravo (Oakland)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/bca12838-b97f-4a93-a1ac-4498537bbd78.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "11e42d04-0a21-496c-98ef-11d7a7f844ff",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Snack Shack (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/5b41cef3-16c0-4824-89cd-c06dca6a02e0.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "bc9b4019-7f4d-4afb-9ebb-692a16d83b70",
+            "delivery_fee": "$3.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2343371",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Fast Favorites (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/1e40035c-b668-4f46-b10b-091601f78825.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "e8198b81-c39d-4c75-8020-9defe53ee0df",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2473463",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Quick Stop 52 ()",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/e0288f5b-46b9-4889-803a-5c2d976d3478.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "04a11705-27f2-49e8-b3dd-5b389fda436a",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Pizza By Any Means Necessary (Oakland)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/c4c53b34-b222-4b9a-be4f-58b4aac5d88c.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "f36b3867-f09a-436b-9fab-23f1450bb0cc",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cauliflower Pizza Kitchen",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/9a77d09b-437b-4044-b050-6697d60cf851.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "60e3c1e0-6c08-4e80-83b5-497f08fd907a",
+            "delivery_fee": "$1.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": true,
+            "id": "858493",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Pizzaoki (Oakland)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/7b2b58c5-f9dd-4e5e-afeb-e9c8573a049e",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "69596ba6-fe42-4e2c-a276-f8405caa1e6b",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sinatra's Pizza",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/bdd190ea-dc6e-432f-9456-65344deac1e7.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "8c613f5b-851e-406b-b84a-0f360f4aeffc",
+            "delivery_fee": "$2.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": true,
+            "id": "1032578",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2231218",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Drink Shop (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/cd073c3e-c87d-42f2-96ed-f9688cc1d724.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "7c13730a-b6cb-4cb5-bc32-9087358484a8",
+            "delivery_fee": "$3.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2333886",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Soho's New York Pizza",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/0825e39a-e91c-4964-960b-68be810ef994.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "cf3f5bfe-ab3f-40b9-a053-6f832e543831",
+            "delivery_fee": "$3.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": true,
+            "id": "850331",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Smitten Ice Cream (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/66b53cec-0c44-46d1-8849-69b68f9fb838.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "db73a1b8-61b1-4263-ada7-b59e3f513597",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2415724",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cauliflower & Pizza",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/3aad2772-3fa1-4ce4-b1a1-a5eae1ed7b62.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "60d96e63-35d2-4254-97b4-21fe9a3b8151",
+            "delivery_fee": "$1.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": true,
+            "id": "1022449",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2224276",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Glaze Teriyaki Grill (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/b637c892-89e2-471f-97d1-1303292a1811.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "8d379298-2514-4a7e-9a98-a8400eef635c",
+            "delivery_fee": "$3.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2179675",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Gabriella's New York City Pizza (Oakland)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/73ee7566-3821-4bc8-80f1-1ce4c6e3ff23.jpeg",
+      "rating": 4.6,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "05664d2b-3d7d-4a98-955b-e0f9a340eb08",
+            "delivery_fee": "$0 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Stacey's Skinny Tacos",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/05a69038-d0e5-4007-9b1d-3c57b88b2c52.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "fd65c637-1258-480e-806a-c07b1f124b6f",
+            "delivery_fee": "$10 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2398422",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "GAI Chicken Rice Favorites (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/29f0bba3-a081-44e8-b1a5-418835989c57.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "2811e3c7-b848-484c-8af1-d9163e345167",
+            "delivery_fee": "$3.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2391055",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lorenzo's of New York Pizza (Oakland)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/92d6cf78-b510-44f4-bb00-d0998da44b9e",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "2922d6a6-f658-4e36-be7b-92e53aeceae0",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sterling's Breakfast",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/a1e7e357-d06e-4df7-856f-652be542c83b.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "1ca73d1a-89fd-4dc7-bb1e-21a98d51835d",
+            "delivery_fee": "$10 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2397862",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Thick N' Tasty Pizza",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/8c662923-8716-4bc7-a1ca-88344cb8230d",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "b2bc5dd1-af1d-4c38-98cc-fc2fc45f4021",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": true,
+            "id": "487420",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1089611",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chubby Pie (Oakland)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/98aeaef9-f128-49cb-bdb4-08c0bb636c73",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "ebb23864-dab8-4cc6-967a-33144e534b39",
+            "delivery_fee": "$0.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bestselling Ice Cream and Desserts (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/3a996bc6-d7fe-4f34-9f67-b12cfbe05257.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "71ff3716-9164-425c-a8b7-68424136adf6",
+            "delivery_fee": "$5.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2414372",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Humphry Slocombe Ice Cream (Berkeley)",
+    "data": {
+      "image": "https://d1ralsognjng37.cloudfront.net/29989f6a-5f00-4f24-82d9-bd0099f8db5e.jpeg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": true,
+            "id": "4961b1a3-b8cc-49dc-9abf-7364f518fa1f",
+            "delivery_fee": "$4.49 Delivery Fee"
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2221854",
+            "delivery_fee": ""
           }
         }
       ]
@@ -107,7 +1693,7 @@
     "name": "Taco Bell",
     "data": {
       "image": "https://res.cloudinary.com/grubhub/image/upload/v1507761709/pqssgagabmtgqjwodrqq.png",
-      "rating": "4",
+      "rating": "3",
       "platform": [
         {
           "ubereats": {
@@ -117,12 +1703,12 @@
           },
           "doordash": {
             "support": true,
-            "id": "1195681",
+            "id": "1199850",
             "delivery_fee": ""
           },
           "grubhub": {
             "support": true,
-            "id": "977337",
+            "id": "927171",
             "delivery_fee": 399
           }
         }
@@ -130,9 +1716,9 @@
     }
   },
   {
-    "name": "Mr Fish Fish & Chips",
+    "name": "Ole Ole Burrito Express",
     "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1605202661/gtjdbgonozxcgpfw9fzc.jpg",
+      "image": "https://media-cdn.grubhub.com/image/upload/v1555448949/efslfkf1ooiojtdxkdgz.webp",
       "rating": "4",
       "platform": [
         {
@@ -142,13 +1728,65 @@
             "delivery_fee": ""
           },
           "doordash": {
-            "support": false,
-            "id": "",
+            "support": true,
+            "id": "251127",
             "delivery_fee": ""
           },
           "grubhub": {
             "support": true,
-            "id": "1641776",
+            "id": "1169381",
+            "delivery_fee": 449
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chevron ExtraMile",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1599855484/le6vm4mxmkckjpxaceak.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1095970",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2397007",
+            "delivery_fee": 449
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Pizza By Any Means Necessary",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1601659271/x2ixb0cctzls3jvqmdnu.jpg",
+      "rating": "0",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1211931",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2379001",
             "delivery_fee": 599
           }
         }
@@ -156,9 +1794,9 @@
     }
   },
   {
-    "name": "Papa John's Pizza",
+    "name": "Pizzeria Bravo",
     "data": {
-      "image": "https://res.cloudinary.com/grubhub/image/upload/v1464988153/w1zbogiy6kw8enaqtk0h.png",
+      "image": "https://media-cdn.grubhub.com/image/upload/v1602865156/hrjveyverxgydco0yltw.jpg",
       "rating": "3",
       "platform": [
         {
@@ -169,12 +1807,12 @@
           },
           "doordash": {
             "support": true,
-            "id": "553950",
+            "id": "1212160",
             "delivery_fee": ""
           },
           "grubhub": {
             "support": true,
-            "id": "2412733",
+            "id": "2381716",
             "delivery_fee": 599
           }
         }
@@ -182,35 +1820,9 @@
     }
   },
   {
-    "name": "Jersey Mike's",
+    "name": "OMG Pizza",
     "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1595971540/qtdlqzbqzzjzohketg1x.png",
-      "rating": "4",
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "grubhub": {
-            "support": true,
-            "id": "1532512",
-            "delivery_fee": 49
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "Neighborhood Wings",
-    "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1601061256/tr7hxvtivitusp0ha50k.png",
+      "image": "https://media-cdn.grubhub.com/image/upload/v1602798507/rgohbb8lwsvrexjtydbe.jpg",
       "rating": "3",
       "platform": [
         {
@@ -220,91 +1832,13 @@
             "delivery_fee": ""
           },
           "doordash": {
-            "support": false,
-            "id": "",
+            "support": true,
+            "id": "1212313",
             "delivery_fee": ""
           },
           "grubhub": {
             "support": true,
-            "id": "2179376",
-            "delivery_fee": 49
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "KFC",
-    "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1595270589/jtaljmqt7kjim6vt5hiq.png",
-      "rating": "4",
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": true,
-            "id": "1127748",
-            "delivery_fee": ""
-          },
-          "grubhub": {
-            "support": true,
-            "id": "1257286",
-            "delivery_fee": 399
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "Applebee's",
-    "data": {
-      "image": "https://res.cloudinary.com/grubhub/image/upload/v1462383024/lmrpln7frsqs7ydzutgu.jpg",
-      "rating": "4",
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "grubhub": {
-            "support": true,
-            "id": "2091574",
-            "delivery_fee": 49
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "Los Manjares De Pepe II",
-    "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1581616744/c8x9y6dpaljo82mzb2zn.png",
-      "rating": "3",
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "grubhub": {
-            "support": true,
-            "id": "1639442",
+            "id": "2382189",
             "delivery_fee": 599
           }
         }
@@ -315,6 +1849,32 @@
     "name": "Denny's",
     "data": {
       "image": "https://res.cloudinary.com/grubhub/image/upload/v1489010275/aqeom6oiawn14dq84jxp.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "639749",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1224776",
+            "delivery_fee": 449
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Azit",
+    "data": {
+      "image": "https://res.cloudinary.com/grubhub/image/upload/v1455296363/wsnbcohlflpwidfzz5pm.jpg",
       "rating": "4",
       "platform": [
         {
@@ -325,48 +1885,22 @@
           },
           "doordash": {
             "support": true,
-            "id": "529942",
+            "id": "35626",
             "delivery_fee": ""
           },
           "grubhub": {
             "support": true,
-            "id": "1938923",
-            "delivery_fee": 49
+            "id": "322316",
+            "delivery_fee": 449
           }
         }
       ]
     }
   },
   {
-    "name": "Dunkin'",
+    "name": "Cybelle's Pizza",
     "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1549901292/vxulyrkferpe6nwlggee.png",
-      "rating": "3",
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "grubhub": {
-            "support": true,
-            "id": "2134756",
-            "delivery_fee": 49
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "SUBWAY\u00ae",
-    "data": {
-      "image": "https://res.cloudinary.com/grubhub/image/upload/v1502991819/aqrepgbnapm7fcqeslqi.png",
+      "image": "https://res.cloudinary.com/grubhub/image/upload/v1461165160/yifg5owowubbqzj187oo.png",
       "rating": "4",
       "platform": [
         {
@@ -382,43 +1916,17 @@
           },
           "grubhub": {
             "support": true,
-            "id": "1400710",
-            "delivery_fee": 49
+            "id": "1085211",
+            "delivery_fee": 300
           }
         }
       ]
     }
   },
   {
-    "name": "McDonald's",
+    "name": "Jack in the Box",
     "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1594672185/me1amknom0rq6opwhzrv.jpg",
-      "rating": "3",
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": true,
-            "id": "694878",
-            "delivery_fee": ""
-          },
-          "grubhub": {
-            "support": true,
-            "id": "2095144",
-            "delivery_fee": 599
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "Panda Express",
-    "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1594135709/lsx2d66qmidixfkmaqzj.png",
+      "image": "https://media-cdn.grubhub.com/image/upload/v1548720016/i6tfcqsggso4dqylfpdd.png",
       "rating": "4",
       "platform": [
         {
@@ -429,22 +1937,22 @@
           },
           "doordash": {
             "support": true,
-            "id": "670441",
+            "id": "52882",
             "delivery_fee": ""
           },
           "grubhub": {
             "support": true,
-            "id": "1958486",
-            "delivery_fee": 49
+            "id": "770045",
+            "delivery_fee": 449
           }
         }
       ]
     }
   },
   {
-    "name": "Wendy's",
+    "name": "Brooklyn Calzones",
     "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1574870004/un8zbyvnajrk67741xfy.png",
+      "image": "https://media-cdn.grubhub.com/image/upload/v1594312939/lwxsrbbfxhqgswuvaizw.jpg",
       "rating": "3",
       "platform": [
         {
@@ -455,22 +1963,22 @@
           },
           "doordash": {
             "support": true,
-            "id": "1303208",
+            "id": "1201297",
             "delivery_fee": ""
           },
           "grubhub": {
             "support": true,
-            "id": "2469120",
-            "delivery_fee": 49
+            "id": "2339417",
+            "delivery_fee": 449
           }
         }
       ]
     }
   },
   {
-    "name": "Daybreakers Cafe",
+    "name": "Seniore's Pizza",
     "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1590661036/qrigo7w4ptbj0oru4lqt.jpg",
+      "image": "https://media-cdn.grubhub.com/image/upload/v1602151661/ym7wzsuixg5jw9gdlixk.png",
       "rating": "3",
       "platform": [
         {
@@ -486,7 +1994,33 @@
           },
           "grubhub": {
             "support": true,
-            "id": "1690182",
+            "id": "518572",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Eat @ Thai",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1574785748/lwwkvhkbwumvfsvowlkw.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "180794",
             "delivery_fee": 599
           }
         }
@@ -494,9 +2028,191 @@
     }
   },
   {
-    "name": "Chicken On The Run",
+    "name": "Savemore Liquors",
     "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1581756393/bfp1hxiiurbp4t0qndtr.jpg",
+      "image": "https://media-cdn.grubhub.com/image/upload/v1595870964/gqlq9p2ls59q833qcfbx.jpg",
+      "rating": "4",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2293405",
+            "delivery_fee": 899
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "F*cking Good Pizza",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1586986383/dzwqk4kipelvqowsmfc9.jpg",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1203427",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2339209",
+            "delivery_fee": 449
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nation's Giant Hamburgers 21",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1548798964/kqsz0bylcu1zmw3jntxz.png",
+      "rating": "4",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1119052",
+            "delivery_fee": 999
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Banana Blossom Thai",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1602710232/mnrww3osqj8pp96ong4k.png",
+      "rating": "4",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2298158",
+            "delivery_fee": 899
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Las Caba\u00f1as Mexican Grill & Taqueria",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1588121943/m6ekvveo6h9kqpzojtym.jpg",
+      "rating": "4",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2082524",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Salads Here",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1598392095/ju597dhgzb5servlc3sm.jpg",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1205530",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2339136",
+            "delivery_fee": 449
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "QuikStop",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1583450737/ftk8lvuy3sbbrlmei9ka.png",
+      "rating": "4",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1975760",
+            "delivery_fee": 599
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bunz",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1595260073/twmqvin3cq1icb6m8oy8.jpg",
       "rating": "3",
       "platform": [
         {
@@ -512,7 +2228,33 @@
           },
           "grubhub": {
             "support": true,
-            "id": "2013192",
+            "id": "2285670",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hometown Donuts",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1597915857/y4g63qx6fhgsj3q9qsuu.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2320355",
             "delivery_fee": 599
           }
         }
@@ -520,9 +2262,9 @@
     }
   },
   {
-    "name": "Tiki Hut Frozen Yogurt of Yuma",
+    "name": "The Lunchbox (Berkeley)",
     "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1590714860/setvhk8rvdit8uat3pkr.png",
+      "image": "https://media-cdn.grubhub.com/image/upload/v1603220353/qffrf33ek1rz0azvbghu.jpg",
       "rating": "0",
       "platform": [
         {
@@ -538,17 +2280,43 @@
           },
           "grubhub": {
             "support": true,
-            "id": "1693236",
-            "delivery_fee": 599
+            "id": "2407437",
+            "delivery_fee": 749
           }
         }
       ]
     }
   },
   {
-    "name": "Foothills Eatery Wine & Spirits",
+    "name": "Kitava (Berkeley)",
     "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1583006029/af1xgykmtam1p7yyi3gm.png",
+      "image": "https://media-cdn.grubhub.com/image/upload/v1607622479/biw9tes3dpy4lxeyfmwe.jpg",
+      "rating": "0",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2472892",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Pasta House",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1594929953/egpw5slmxounfgvf1lvy.png",
       "rating": "3",
       "platform": [
         {
@@ -564,17 +2332,17 @@
           },
           "grubhub": {
             "support": true,
-            "id": "1896336",
-            "delivery_fee": 599
+            "id": "2276023",
+            "delivery_fee": 749
           }
         }
       ]
     }
   },
   {
-    "name": "A Touch of Thai",
+    "name": "King Pin Donuts Shop",
     "data": {
-      "image": "https://media-cdn.grubhub.com/image/upload/v1608373481/ooi4r0iqt23gpj0zvnd6.png",
+      "image": "https://media-cdn.grubhub.com/image/upload/v1574761665/sopupzoksxgtqphfvhtm.png",
       "rating": "3",
       "platform": [
         {
@@ -590,18 +2358,44 @@
           },
           "grubhub": {
             "support": true,
-            "id": "2386631",
-            "delivery_fee": 599
+            "id": "1492910",
+            "delivery_fee": 749
           }
         }
       ]
     }
   },
   {
-    "name": "The Wicked Taco",
+    "name": "Artichoke Basille's Pizza",
     "data": {
-      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/bbb60d48-3161-4ed9-a20c-05b808f05e09-retina-large.jpg",
-      "rating": 0,
+      "image": "https://media-cdn.grubhub.com/image/upload/v1596130478/i5ul6nny37nomm7bvx4j.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2296830",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sunny Day Creamery",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1594837747/zmk4lldn4ihdybwgxdyi.png",
+      "rating": "3",
       "platform": [
         {
           "ubereats": {
@@ -611,7 +2405,995 @@
           },
           "doordash": {
             "support": true,
-            "id": "1268046",
+            "id": "457617",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1045208",
+            "delivery_fee": 599
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Calibur Express (Berkeley)",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1598396619/pbvy2kvs7hrk4wko34xj.jpg",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2329673",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Carl's Jr",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1602560460/kk39m1fvucthvhbjze5c.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1701029",
+            "delivery_fee": 449
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Chicken Collection (Berkeley)",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1607956943/crrbb4dfzaegz5r2sdnu.png",
+      "rating": "0",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2486033",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Thin Pan Vegetarian And Vegan",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1608578656/finkhopz5trvnn4cwksi.jpg",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2473311",
+            "delivery_fee": 899
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Poki Time (Berkeley)",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1574368297/pzxjd7y14xd4nibkfuhz.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1751644",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Flavia",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1588353646/gwrmfplqrwvu2tiqkcsm.jpg",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2122095",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "dosa by DOSA (Berkeley)",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1570684878/klhfgamngibg8i6nvpd5.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1934699",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Urban Remedy (Berkeley)",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1596740474/iiaxut7bkos1jjmy38el.jpg",
+      "rating": "0",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2302703",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Gabriella's New York City Pizza",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1594840450/h2cwtlgwlgru4tk1xpgd.png",
+      "rating": "4",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "459932",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1049809",
+            "delivery_fee": 599
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Seniore's Pub",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1594929610/qhyp1xjqcpqc8lf9jgdg.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2276012",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Van Leeuwen Ice Cream (Berkeley)",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1605819642/juiahbsfssuafvaayw7p.png",
+      "rating": "0",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2453234",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chubby Pie",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1529880548/bqlmqoymafcfni4jckxp.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "459926",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1050069",
+            "delivery_fee": 499
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Two Star Market",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1591636621/vbugyaw84htykxcy4zen.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2209443",
+            "delivery_fee": 899
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Vulcan Thai Cafe",
+    "data": {
+      "image": "https://res.cloudinary.com/grubhub/image/upload/v1452481879/jc8mo4izlftdcgdo64wh.jpg",
+      "rating": "4",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "319980",
+            "delivery_fee": 999
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Anton SV P\u00e2tisserie",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1601419153/f8ruc84zociyxaipelqj.jpg",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2378061",
+            "delivery_fee": 899
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Park Mediterranean Grill (Berkeley)",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1582676773/q5adeialfftr8x7yxcuc.jpg",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1750299",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lorenzo's of New York Pizza",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1529096835/pxqmkvcc5zhbgsrsgnvs.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "457602",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1045201",
+            "delivery_fee": 599
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Froman's Chicago Deep Dish Pizza #11",
+    "data": {
+      "image": "https://res.cloudinary.com/grubhub/image/upload/v1462383024/lmrpln7frsqs7ydzutgu.jpg",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2276108",
+            "delivery_fee": 599
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "SAJJ GO Mediterranean (Berkeley)",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1607343030/n7veoaiveacqiwibsl22.png",
+      "rating": "0",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2472784",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Local Food Hall (Berkeley)",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1585693112/pf9wf7k7jgvjmdjc5pgb.jpg",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1946833",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Pizzaoki",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1594937238/nez2orsjqkojemlsudvj.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "457492",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1045235",
+            "delivery_fee": 599
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Rob's Tacos",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1602492528/tqlldr0cytaudt2fqqzr.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2397863",
+            "delivery_fee": 2000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Thai Street Food To Go",
+    "data": {
+      "image": "https://res.cloudinary.com/grubhub/image/upload/v1462383024/lmrpln7frsqs7ydzutgu.jpg",
+      "rating": "0",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2473399",
+            "delivery_fee": 899
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Soho's -  Lake Park",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1567715820/suprdcgosu58t9yjk2fo.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1745189",
+            "delivery_fee": 599
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Easy Breezy Lunches (Berkeley)",
+    "data": {
+      "image": "https://res.cloudinary.com/grubhub/image/upload/v1462383024/lmrpln7frsqs7ydzutgu.jpg",
+      "rating": "0",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2493768",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Homeroom (Berkeley)",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1585269041/sygx4vgfcpsevck84h0i.jpg",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2044377",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cauliflower Pizza Kitchen - Lake Park Ave",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1594846146/bvsw2qgkdhsbkuyp7puv.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1943556",
+            "delivery_fee": 599
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Asian Food Collective (Berkeley)",
+    "data": {
+      "image": "https://res.cloudinary.com/grubhub/image/upload/v1462383024/lmrpln7frsqs7ydzutgu.jpg",
+      "rating": "0",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2485536",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cozy Comfort Meals (Berkeley)",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1607620730/jabg2d4hrhnkzgwreayi.png",
+      "rating": "0",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2485264",
+            "delivery_fee": 749
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "AP Sushi",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1602665579/ibsvojqiyavixdnnvzao.png",
+      "rating": "0",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2398421",
+            "delivery_fee": 2000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "DELI On the GO",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1593074582/fwg1vawi4ft5m0vg2gph.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "1426681",
+            "delivery_fee": 999
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Max's Liquors",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1594634003/drgxhxu6gwiumknd9uwd.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2258558",
+            "delivery_fee": 899
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "5% Burger's",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1602519905/snvbutuuxgmgncb1e6lo.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2397092",
+            "delivery_fee": 2000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Suchan",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1602519509/o0tiocwkshn98nf9j20p.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2397091",
+            "delivery_fee": 2000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Indian Tribe",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1602520144/vjsygpnyop48wexi8syj.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2398062",
+            "delivery_fee": 2000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Taylor's Made Kitchen",
+    "data": {
+      "image": "https://media-cdn.grubhub.com/image/upload/v1602594538/jqsn9bncgq0k755nhzvq.png",
+      "rating": "3",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2398156",
+            "delivery_fee": 2000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Oasis Kitchen",
+    "data": {
+      "image": "https://res.cloudinary.com/grubhub/image/upload/v1468335279/waqf7dbvrzi6ko95cp9d.png",
+      "rating": "4",
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "grubhub": {
+            "support": true,
+            "id": "2372047",
+            "delivery_fee": 599
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "McDonald's",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://cdn.doordash.com/media/store/header/5579.jpg",
+      "rating": 4.5,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "653640",
             "delivery_fee": 0
           },
           "grubhub": {
@@ -624,7 +3406,605 @@
     }
   },
   {
-    "name": "Subway",
+    "name": "Papa John's Pizza",
+    "data": {
+      "image": "",
+      "rating": 4.7,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "725939",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nation's Giant Hamburgers",
+    "data": {
+      "image": "",
+      "rating": 4.5,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "32321",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Eat At Thai",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/34154b09-a181-4004-8585-4b21825bf66a-retina-large.jpg",
+      "rating": 4.8,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "35331",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Burger Den",
+    "data": {
+      "image": "",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1338633",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Homeroom",
+    "data": {
+      "image": "",
+      "rating": 4.9,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "978884",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Quik Stop",
+    "data": {
+      "image": "",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "976665",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cozy Comfort Meals",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/63015f29-5495-4f3e-bf46-10f38173eaa3-retina-large.jpg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1388914",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Mac 'n Cue by International Smoke",
+    "data": {
+      "image": "",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1372094",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Asian Food Collective",
+    "data": {
+      "image": "",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1382000",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bar Bites and More",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/5a04a1f2-b10f-49ea-b0e5-77d834b6a5d0-retina-large.jpg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1318838",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Chicken Collection",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/63629a7e-29c0-4c8a-8e37-f0102aac57c4-retina-large.jpg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1381628",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "China Live Signatures",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/ad8d1dbd-d45b-4116-9ffa-4cbfa162eb12-retina-large.jpg",
+      "rating": 4,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1079226",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Izza",
+    "data": {
+      "image": "https://cdn.doordash.com/media/store/carousel/yakitori.jpg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1266269",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "GAI Chicken Rice Favorites",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/7567c3a9-cb51-4c32-82c4-211913a39b30-retina-large.jpg",
+      "rating": 5,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1224309",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Slice House by Tony Gemignani",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/99ce6a10-f0ef-40e8-99b0-96ef52a78af2-retina-large.jpg",
+      "rating": 4,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1135186",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Lunchbox",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/c9e65168-9dfa-4c9e-a463-0cfebc63e07e-retina-large.jpg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1242125",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Glaze Teriyaki Grill",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/ca641da8-5a2f-4d79-b6f3-8e91a0e4fc46-retina-large.jpg",
+      "rating": 5,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1049554",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "dosa by DOSA",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/cec88a17-050f-49d4-a195-c7d7606d0440-retina-large.jpg",
+      "rating": 4.9,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "818073",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Smitten Ice Cream",
+    "data": {
+      "image": "",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1226139",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Ice Cream Parlor",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/c6792fa2-ddf8-43c7-837c-df672b0b3e68-retina-large.jpg",
+      "rating": 5,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1087632",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Local Food Hall",
+    "data": {
+      "image": "",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1029767",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Mission Street Burritos by Papalote",
+    "data": {
+      "image": "",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1182281",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Poki Time",
+    "data": {
+      "image": "",
+      "rating": 4.8,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "803326",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Original Deep Dish Pizza",
     "data": {
       "image": "",
       "rating": 5,
@@ -637,7 +4017,7 @@
           },
           "doordash": {
             "support": true,
-            "id": "1026411",
+            "id": "1079082",
             "delivery_fee": 0
           },
           "grubhub": {
@@ -650,111 +4030,7 @@
     }
   },
   {
-    "name": "Yogis Teriyaki and Grill",
-    "data": {
-      "image": "",
-      "rating": 4.8,
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": true,
-            "id": "797786",
-            "delivery_fee": 0
-          },
-          "grubhub": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "Jersey Mike's Subs",
-    "data": {
-      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/a287a979-bf37-4835-8983-f5fabf930cf1-retina-large.jpg",
-      "rating": 4.8,
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": true,
-            "id": "605684",
-            "delivery_fee": 0
-          },
-          "grubhub": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "Walgreens",
-    "data": {
-      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/dd4a8c7a-c81d-433f-8f63-539ccab42773-retina-large-jpeg",
-      "rating": 0,
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": true,
-            "id": "1111530",
-            "delivery_fee": 0
-          },
-          "grubhub": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "Del Taco",
-    "data": {
-      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://cdn.doordash.com/media/photos/53ad0f41-630f-4554-b8f6-d47fcc6bb0e8-retina-large.png",
-      "rating": 4.8,
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": true,
-            "id": "887544",
-            "delivery_fee": 0
-          },
-          "grubhub": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "Wheezy's Grill and Sportsbar",
+    "name": "Calibur Express",
     "data": {
       "image": "",
       "rating": 0,
@@ -767,7 +4043,7 @@
           },
           "doordash": {
             "support": true,
-            "id": "1245755",
+            "id": "1182259",
             "delivery_fee": 0
           },
           "grubhub": {
@@ -780,10 +4056,10 @@
     }
   },
   {
-    "name": "Burger King",
+    "name": "Humphry Slocombe Ice Cream",
     "data": {
       "image": "",
-      "rating": 4.6,
+      "rating": 5,
       "platform": [
         {
           "ubereats": {
@@ -793,7 +4069,7 @@
           },
           "doordash": {
             "support": true,
-            "id": "952438",
+            "id": "1034705",
             "delivery_fee": 0
           },
           "grubhub": {
@@ -806,9 +4082,9 @@
     }
   },
   {
-    "name": "Little Caesars Pizza",
+    "name": "Bestselling Snacks and Drinks",
     "data": {
-      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/37f6acd2-c7f1-4593-9c51-82a991931dad-retina-large-jpeg",
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/a3737a45-8f56-4f3b-a1c3-5dce6cfec3a9-retina-large.jpg",
       "rating": 0,
       "platform": [
         {
@@ -819,7 +4095,7 @@
           },
           "doordash": {
             "support": true,
-            "id": "1150364",
+            "id": "1290960",
             "delivery_fee": 0
           },
           "grubhub": {
@@ -832,61 +4108,9 @@
     }
   },
   {
-    "name": "Applebee's Grill + Bar",
+    "name": "The Snack Shack",
     "data": {
-      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/88b73620-7f9f-4ad4-8b12-7dec4c3a4e4d-retina-large-jpeg",
-      "rating": 4.7,
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": true,
-            "id": "537784",
-            "delivery_fee": 0
-          },
-          "grubhub": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "Jack in the Box",
-    "data": {
-      "image": "",
-      "rating": 4.6,
-      "platform": [
-        {
-          "ubereats": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          },
-          "doordash": {
-            "support": true,
-            "id": "486791",
-            "delivery_fee": 0
-          },
-          "grubhub": {
-            "support": false,
-            "id": "",
-            "delivery_fee": ""
-          }
-        }
-      ]
-    }
-  },
-  {
-    "name": "CVS",
-    "data": {
-      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://cdn.doordash.com/media/photos/1da2f52c-1196-4883-b1f4-b3db39abdee7-retina-large.png",
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/4582217e-0e7d-46ac-a775-e4338f65e7f8-retina-large.jpg",
       "rating": 0,
       "platform": [
         {
@@ -897,7 +4121,7 @@
           },
           "doordash": {
             "support": true,
-            "id": "1237921",
+            "id": "1148366",
             "delivery_fee": 0
           },
           "grubhub": {
@@ -910,7 +4134,7 @@
     }
   },
   {
-    "name": "Green Java Smoothie & Coffee Shop",
+    "name": "SAJJ GO Mediterranean",
     "data": {
       "image": "",
       "rating": 0,
@@ -923,7 +4147,7 @@
           },
           "doordash": {
             "support": true,
-            "id": "1384549",
+            "id": "1333830",
             "delivery_fee": 0
           },
           "grubhub": {
@@ -936,7 +4160,7 @@
     }
   },
   {
-    "name": "Azars gyro station & deep fried haven",
+    "name": "Urban Remedy",
     "data": {
       "image": "",
       "rating": 0,
@@ -949,7 +4173,7 @@
           },
           "doordash": {
             "support": true,
-            "id": "1443833",
+            "id": "1104727",
             "delivery_fee": 0
           },
           "grubhub": {
@@ -962,7 +4186,7 @@
     }
   },
   {
-    "name": "Rolls and Bowls",
+    "name": "Sushi Cutie",
     "data": {
       "image": "",
       "rating": 0,
@@ -975,7 +4199,7 @@
           },
           "doordash": {
             "support": true,
-            "id": "1349367",
+            "id": "1303441",
             "delivery_fee": 0
           },
           "grubhub": {
@@ -988,7 +4212,33 @@
     }
   },
   {
-    "name": "Dairy Queen",
+    "name": "Van Leeuwen Ice Cream",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/b17c307f-83ef-4d71-9df4-71c51db6fa1d-retina-large.jpg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1317889",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Wham! Bam! Burrito!",
     "data": {
       "image": "",
       "rating": 0,
@@ -1001,7 +4251,33 @@
           },
           "doordash": {
             "support": true,
-            "id": "1385518",
+            "id": "1303454",
+            "delivery_fee": 0
+          },
+          "grubhub": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "The Drink Shop",
+    "data": {
+      "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/ef86772f-d32a-4c91-a262-f5a75b24deff-retina-large.jpg",
+      "rating": 0,
+      "platform": [
+        {
+          "ubereats": {
+            "support": false,
+            "id": "",
+            "delivery_fee": ""
+          },
+          "doordash": {
+            "support": true,
+            "id": "1148471",
             "delivery_fee": 0
           },
           "grubhub": {
