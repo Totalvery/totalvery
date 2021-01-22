@@ -9,3 +9,4 @@ django-cors-headers
 pymongo
 pymongo[srv]
 bson
+django-heroku
