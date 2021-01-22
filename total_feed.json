@@ -83,32 +83,6 @@
       }
     },
     {
-      "name": "Pizza Amigos",
-      "data": {
-        "image": "https://duyt4h9nfnj50.cloudfront.net/resized/1540869014086-w550-16.jpg",
-        "rating": 4.5,
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "8abf64d3-58b4-4172-a8ac-fa74ce15f14b",
-              "delivery_fee": "$1.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
       "name": "The Burger Den (1776 Powell Street)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/eaf71ce5-97ea-420a-b8d5-91d4a6190649.jpeg",
@@ -187,32 +161,6 @@
       }
     },
     {
-      "name": "Organic Meals To Go",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/2ada841e-c2ee-493d-ae2d-46005d5a4a95.jpeg",
-        "rating": 0,
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "3bc8787b-35a5-4816-b683-68be0432e930",
-              "delivery_fee": "$7 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
       "name": "Denny's",
       "data": {
         "image": "",
@@ -227,32 +175,6 @@
             "doordash": {
               "support": true,
               "id": "639749",
-              "delivery_fee": 0
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "The Burger Den",
-      "data": {
-        "image": "",
-        "rating": 0,
-        "platform": [
-          {
-            "ubereats": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "doordash": {
-              "support": true,
-              "id": "1338633",
               "delivery_fee": 0
             },
             "grubhub": {
