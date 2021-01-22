@@ -9,6 +9,7 @@ services:
       CHOKIDAR_USEPOLLING: "true"
     volumes:
       - .:/app
+    # command: python manage.py runserver
     command: python manage.py runserver 0.0.0.0:8000
     ports:
       - 8000:8000
@@ -30,10 +31,3 @@ services:
 
 volumes:
   node-modules:
-  
-  
-
-
-  
-    
-

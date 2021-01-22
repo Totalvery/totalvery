@@ -41,7 +41,8 @@ class AddressSearch extends React.Component {
       lng: parseFloat(this.props.match.params.lng),
       location: this.props.location.state.location,
     });
-    const url = "http://127.0.0.1:8000/api/getFeed/";
+    // const url = "http://127.0.0.1:8000/api/getFeed/";
+    const url = "https://totalvery.herokuapp.com/api/getFeed/";
     const data = {
       lat: parseFloat(this.props.match.params.lat),
       lon: parseFloat(this.props.match.params.lng),
@@ -56,7 +57,8 @@ class AddressSearch extends React.Component {
       lng: parseFloat(newProps.match.params.lng),
       location: newProps.location.state.location,
     });
-    const url = "http://127.0.0.1:8000/api/getFeed/";
+    // const url = "http://127.0.0.1:8000/api/getFeed/";
+    const url = "https://totalvery.herokuapp.com/api/getFeed/";
     const data = {
       lat: parseFloat(newProps.match.params.lat),
       lon: parseFloat(newProps.match.params.lng),
@@ -66,11 +68,11 @@ class AddressSearch extends React.Component {
 
   render() {
     var { isLoaded, items } = this.state;
-    
+
     if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
-      const list =items.data.map(d => <li>{d.name}</li>);
+      const list = JSON.parse(items).data.map((d) => <li>{d.name}</li>);
       return (
         <div className="addresssearch">
           <view
@@ -84,21 +86,27 @@ class AddressSearch extends React.Component {
             <GoogleApi />
           </view>
           <GoogleMap />
-          <text style={{ position: "absolute", top: 750, left: 100, fontSize: '20px' }}>
+          <text
+            style={{
+              position: "absolute",
+              top: 750,
+              left: 100,
+              fontSize: "20px",
+            }}
+          >
             Restaurants near you: {this.state.location}
           </text>
-            
+
           <div
             style={{
               position: "absolute",
               top: 800,
               justifyContent: "center",
               alignItems: "center",
-              fontSize: '20px'
+              fontSize: "20px",
             }}
           >
-          {items}
-            
+            {items}
           </div>
         </div>
       );
