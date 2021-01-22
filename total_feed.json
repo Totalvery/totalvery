@@ -11809,6 +11809,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Sanshimai",
       "data": {
         "image": "",
@@ -11862,6 +11863,9 @@
     },
     {
       "name": "TG Prince LLC",
+=======
+      "name": "The Burger Den (1776 Powell Street)",
+>>>>>>> 84fdd8af4405e1dfa4d223fe8a73ab3a159cd6be
       "data": {
         "image": "",
         "rating": 0,
@@ -12043,6 +12047,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Oy-Vey N.Y. Delicatessen",
       "data": {
         "image": "",
@@ -12096,6 +12101,9 @@
     },
     {
       "name": "Mama Carey's kitchen & Catering",
+=======
+      "name": "Denny's",
+>>>>>>> 84fdd8af4405e1dfa4d223fe8a73ab3a159cd6be
       "data": {
         "image": "",
         "rating": 4.2,
@@ -12121,6 +12129,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Kiss Of Smoke Bbq",
       "data": {
         "image": "",
@@ -12148,6 +12157,9 @@
     },
     {
       "name": "Local Pizza & Wings",
+=======
+      "name": "Chevron ExtraMile",
+>>>>>>> 84fdd8af4405e1dfa4d223fe8a73ab3a159cd6be
       "data": {
         "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/08387486-d776-4496-8689-07eaf2532613-retina-large-jpeg",
         "rating": 0,

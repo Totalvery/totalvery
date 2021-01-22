@@ -14,7 +14,7 @@ class AddressSearch extends React.Component {
       lat: 0,
       lng: 0,
       isLoaded: false,
-      items: {},
+      items: null,
     };
     this.fetchData = this.fetchData.bind(this);
   }
@@ -70,6 +70,7 @@ class AddressSearch extends React.Component {
     if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
+      const list =items.data.map(d => <li>{d.name}</li>);
       return (
         <div className="addresssearch">
           <view
@@ -96,7 +97,8 @@ class AddressSearch extends React.Component {
               fontSize: '20px'
             }}
           >
-            {items}
+          {items}
+            
           </div>
         </div>
       );
