@@ -25,7 +25,6 @@ class UbereatsCrawler:
         '''
         @params customer_location (list): [lat, lon]
         '''
-
         if customer_location:
             self.customer_location = customer_location
         elif self.customer_location == []:
@@ -42,17 +41,23 @@ class UbereatsCrawler:
                     data = '{"cartItems":[{"shoppingCartItemUuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","uuid":"' + uuid + '","storeUuid":"'+restaurant_id+'","sectionUuid":"' + sectionUuid + '","subsectionUuid":"00000000-0000-0000-0000-000000000000","quantity":1,"customizations":{},"createdTimestamp":0}],"location":{"latitude":' + \
                         str(self.customer_location[0])+',"longitude":'+str(
                             self.customer_location[1])+'},"deliveryType":"ASAP","interactionType":"door_to_door"}'
+
                     response = session.post(
                         'https://www.ubereats.com/api/getOrderEstimateV1', data=data)
                     if response.json()['status'] == 'success':
                         break
                     else:
                         print(response.json()['data']['message'])
+                        if response.json()['data']['message'] == 'Order Location is too far from store':
+
+                            self.customer_location = [store_json['data']['location']
+                                                      ['latitude'], store_json['data']['location']['longitude']]
             break
 
         while True:
             try:
                 dic = defaultdict()
+                dic['etaRange'] = response.json()['data']['etaRange']
                 charges = response.json()['data']['charges']
                 for each in charges:
                     if each['label'] == 'Small Order Fee':
@@ -79,9 +84,14 @@ class UbereatsCrawler:
                         dic['service_fee'] = service_fee
                         dic['min_service_fee'] = min_service_fee
 
+                    elif each['label'] == 'CA Driver Benefits':
+                        ca_driver_benefits_fee = each['rawValue']
+                        dic['ca_driver_benefits_fee'] = ca_driver_benefits_fee
+
                 return dic
 
             except:
+
                 print("Order Location is too far from store")
                 self.customer_location = [store_json['data']['location']
                                           ['latitude'], store_json['data']['location']['longitude']]
@@ -107,7 +117,7 @@ class UbereatsCrawler:
                 'https://www.ubereats.com/api/getStoreV1', data=data)
             store_json = response.json()
 
-            if store_json['data']['isOpen']:
+            if store_json['data']['supportedDiningModes'][0]['isAvailable']:
                 fee_dic = self.estimate_service_fee(
                     s, restaurantId, store_json, customer_location)
             else:
@@ -149,13 +159,13 @@ class UbereatsCrawler:
                 break
 
         dictionary = {
-                "location":{
-                    "lat":lat,
-                    "long":lon,
-                },
-                "data": {
+            "location": {
+                "lat": lat,
+                "long": lon,
+            },
+            "data": {
 
-                }
+            }
         }
         feed_list = []
         for key in dict_stores.keys():
@@ -199,7 +209,7 @@ class UbereatsCrawler:
                     }
                 }
                 feed_list.append(a_dict)
-        dictionary['data']=feed_list
+        dictionary['data'] = feed_list
 
         with open('total_feed.json', mode='w') as f:
             f.write(json.dumps(dictionary, indent=2))
@@ -276,7 +286,7 @@ class DoordashCrawler:
         f = open('total_feed.json',)
         dictionary = json.load(f)
         if type(dictionary) is dict:
-            total= dictionary['data']
+            total = dictionary['data']
 
         for i in range(len(stores_data)):
             store_data = searchStore['data']['storeSearch']['stores'][i]
@@ -323,7 +333,7 @@ class DoordashCrawler:
                         }
                     }
                     total.append(a_dict)
-        dictionary.update({'data': total}  ) 
+        dictionary.update({'data': total})
         with open('total_feed.json', mode='w') as f:
             f.write(json.dumps(dictionary, indent=2))
 
@@ -487,7 +497,7 @@ class GrubhubCrawler:
                         }
                     }
                     ubereats.append(a_dict)
-        dictionary.update({'data': ubereats} ) 
+        dictionary.update({'data': ubereats})
         with open('total_feed.json', mode='w') as f:
             f.write(json.dumps(dictionary, indent=2))
         return json.dumps(dictionary)

@@ -4,6 +4,7 @@ import AddressSearch from "./AddressSearch";
 import ShowResult from "./ShowResult";
 import GoogleApi from "./GoogleApi";
 import RequestsTest from "./RequestsTest";
+import ImgTest from "./ImgTest";
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -18,6 +19,7 @@ function App() {
             <Route path="/result" component={ShowResult} />
             <Route path="/googleApi" component={GoogleApi} />
             <Route path="/requestsTest" component={RequestsTest} />
+            <Route path="/imgTest" component={ImgTest} />
           </Switch>
         </div>
       </BrowserRouter>

@@ -1,0 +1,23 @@
+import React, { Suspense } from "react";
+import { useImage } from "react-image";
+
+function MyImageComponent() {
+  const { src } = useImage({
+    srcList:
+      "https://d1ralsognjng37.cloudfront.net/ed18cacc-3a5a-49ba-9b23-65c738e6feb5.jpeg",
+  });
+
+  return (
+    <div class="header-img" style={{ height: "500px", overflow: "hidden" }}>
+      <img src={src} style={{ width: "100%", margin: "-20% 0 0 0" }} />
+    </div>
+  );
+}
+
+export default function MyComponent() {
+  return (
+    <Suspense fallback={<div>Loading... </div>}>
+      <MyImageComponent />
+    </Suspense>
+  );
+}

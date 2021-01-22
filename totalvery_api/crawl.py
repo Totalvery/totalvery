@@ -1,5 +1,5 @@
 from collections import defaultdict
-from .serializers import StoreDetailSerializer, CustomerSerializer
+from .serializers import StoreDetailSerializer
 
 from rest_framework import status
 from rest_framework.response import Response
@@ -37,17 +37,20 @@ def stores_feed(request):
 
         UbereatsCrawler().get_feed(lat, lon)
         GrubhubCrawler().get_feed(lat, lon)
-        total_feed=DoordashCrawler().get_feed(lat, lon)
+        total_feed = DoordashCrawler().get_feed(lat, lon)
 
-        #save the json file to the database
-        cluster = MongoClient("mongodb+srv://totalvery:1111@cluster0.qpazd.mongodb.net/totalvery?retryWrites=true&w=majority")
+        # save the json file to the database
+        cluster = MongoClient(
+            "mongodb+srv://totalvery:1111@cluster0.qpazd.mongodb.net/totalvery?retryWrites=true&w=majority")
         db = cluster["totalvery"]
-        db.users.remove({}) #removing the existing data(test용)
-        collection = db["totalvery"] #mini database 
-        
-        with open('total_feed.json') as file: 
-             file_data = json.load(file) 
-      
+        db.users.remove({})  # removing the existing data(test용)
+        collection = db["totalvery"]  # mini database
+
+        with open('total_feed.json') as file:
+            file_data = json.load(file)
+            file_data = json.load(file)
+            file_data = json.load(file)
+
         collection.insert_one(file_data)
         cluster.close()
 
@@ -61,7 +64,6 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
     '''
     gathering all types of the fare only if the store is open. Otherwise, provides the static information about the store
     '''
-
     dic = defaultdict()
     dic['ids'] = ID_dict
     dic['openHours'] = defaultdict()
@@ -86,24 +88,23 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
         dic['heroImageUrl'] = store_info['data']['heroImageUrls'][-2]['url']
         dic['title'] = store_info['data']['title']
         dic['location'] = store_info['data']['location']
-        dic['isOpen'] = store_info['data']['isOpen']
+        dic['isOpen'] = store_info['data']['supportedDiningModes'][0]['isAvailable']
         dic['priceRange'] = store_info['data']['categories'][0]  # "$$"
         uuid = store_info['data']['sections'][0]['uuid']
         dic['menu']['ubereats'] = store_info['data']['sectionEntitiesMap'][uuid]
 
         # "11:00 AM – 9:00 PM"
         dic['openHours']['ubereats'] = store_info['data']['sections'][0]['subtitle']
-        if dic['isOpen']:
-            # "20–30 Min"
-            dic['etaRange']['ubereats'] = store_info['data']['etaRange']['text']
-            # "$0.49 Delivery Fee"
-            dic['fee']['deliveryFee']['ubereats'] = store_info['data']['fareBadge']['text']
-        else:
-            dic['etaRange']['ubereats'] = None
-            dic['fee']['deliveryFee']['ubereats'] = None
+
         dic['rating']['ubereats'] = store_info['data']['rating']
 
         if fee_dic:  # only if the store is open
+            dic['etaRange']['ubereats'] = fee_dic['etaRange']
+            # ex) {'min': 20, 'max': 30}
+
+            dic['fee']['deliveryFee']['ubereats'] = fee_dic['delivery_fee']
+            # ex) 3.99
+
             if cart_size < fee_dic['min_small_order']:
                 dic['fee']['smallOrderFee']['ubereats'] = fee_dic['small_order_fee']
             else:
@@ -113,6 +114,10 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             if service_fee < fee_dic['min_service_fee']:
                 service_fee = fee_dic['min_service_fee']
             dic['fee']['serviceFee']['ubereats'] = service_fee
+
+            if 'ca_driver_benefits_fee' in fee_dic.keys():
+                dic['ubereats_ca_driver_benefits_fee'] = fee_dic['ca_driver_benefits_fee']
+                # ex) 2
         else:
             dic['fee']['smallOrderFee']['ubereats'] = 0
             dic['fee']['serviceFee']['ubereats'] = 0
@@ -243,3 +248,10 @@ def store_detail(request):
             return Response(compressed_store_json, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+# diction = create_store_json({
+#     'ubereatsID': "345b3c6f-8d4b-4990-94f5-d091e337ecec",
+#     'doordashID': "855640",
+#     'grubhubID': "2026708",
+# }, {'latitude': "37.7581925", 'longitude': "-122.4121704"}, True, True, True)
