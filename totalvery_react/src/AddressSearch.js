@@ -41,8 +41,8 @@ class AddressSearch extends React.Component {
       lng: parseFloat(this.props.match.params.lng),
       location: this.props.location.state.location,
     });
-    // const url = "http://127.0.0.1:8000/api/getFeed/";
-    const url = "https://totalvery.herokuapp.com/api/getFeed/";
+    const url = "http://127.0.0.1:8000/api/getFeed/";
+    //const url = "https://totalvery.herokuapp.com/api/getFeed/";
     const data = {
       lat: parseFloat(this.props.match.params.lat),
       lon: parseFloat(this.props.match.params.lng),
@@ -57,8 +57,8 @@ class AddressSearch extends React.Component {
       lng: parseFloat(newProps.match.params.lng),
       location: newProps.location.state.location,
     });
-    // const url = "http://127.0.0.1:8000/api/getFeed/";
-    const url = "https://totalvery.herokuapp.com/api/getFeed/";
+    const url = "http://127.0.0.1:8000/api/getFeed/";
+    //const url = "https://totalvery.herokuapp.com/api/getFeed/";
     const data = {
       lat: parseFloat(newProps.match.params.lat),
       lon: parseFloat(newProps.match.params.lng),
