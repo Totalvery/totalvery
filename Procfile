@@ -1,2 +1,1 @@
-release: python manage.py migrate
-web: gunicorn totalvery.wsgi --log-file -
+web: gunicorn --pythonpath server totalvery.wsgi --log-file -
