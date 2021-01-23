@@ -18,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build": "webpack --config react/webpack.config.js",
+    "postinstall": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,5 +40,9 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://totalvery.herokuapp.com/api/getFeed/"
+  "engines": {
+    "node": "10.13.0"
+  },
+
+  "proxy": "http://127.0.0.1:8000/"
 }
