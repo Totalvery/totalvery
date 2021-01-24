@@ -149,10 +149,8 @@ class UbereatsCrawler:
                 break
 
         dictionary = {
-                "location":{
-                    "lat":lat,
-                    "long":lon,
-                },
+                "latitude":lat,
+                "longitude":lon,
                 "data": {
 
                 }

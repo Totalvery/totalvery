@@ -44,6 +44,7 @@ class AddressSearch extends React.Component {
     const url = "http://127.0.0.1:8000/api/getFeed/";
     //const url = "https://totalvery.herokuapp.com/api/getFeed/";
     const data = {
+      location: this.props.location.state.location,
       lat: parseFloat(this.props.match.params.lat),
       lon: parseFloat(this.props.match.params.lng),
     };
@@ -60,6 +61,7 @@ class AddressSearch extends React.Component {
     const url = "http://127.0.0.1:8000/api/getFeed/";
     //const url = "https://totalvery.herokuapp.com/api/getFeed/";
     const data = {
+      location: newProps.location.state.location,
       lat: parseFloat(newProps.match.params.lat),
       lon: parseFloat(newProps.match.params.lng),
     };
