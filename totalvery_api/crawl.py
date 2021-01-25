@@ -66,6 +66,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
     '''
     dic = defaultdict()
     dic['ids'] = ID_dict
+    dic['representative'] = None
     dic['openHours'] = defaultdict()
     dic['etaRange'] = defaultdict()
     dic['rating'] = defaultdict()
@@ -80,6 +81,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
     rating_dic = {"ratingValue": None, "reviewCount": None}
 
     if Ubereats:
+        dic['representative'] = 'ubereats'
         uc = UbereatsCrawler()
         store_info, fee_dic = uc.get_store(
             ID_dict["ubereatsID"], [customer_location["latitude"], customer_location["longitude"]])
@@ -88,10 +90,11 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
         dic['heroImageUrl'] = store_info['data']['heroImageUrls'][-2]['url']
         dic['title'] = store_info['data']['title']
         dic['location'] = store_info['data']['location']
-        dic['isOpen'] = store_info['data']['supportedDiningModes'][0]['isAvailable']
+        dic['isOpen'] = store_info['data']['isOpen']
         dic['priceRange'] = store_info['data']['categories'][0]  # "$$"
         uuid = store_info['data']['sections'][0]['uuid']
-        dic['menu']['ubereats'] = store_info['data']['sectionEntitiesMap'][uuid]
+        dic['menu']['ubereats'] = {'sectionEntitiesMap': store_info['data']['sectionEntitiesMap'][uuid],
+                                   'sections': store_info['data']['sections'], 'subsectionsMap': store_info['data']['subsectionsMap']}
 
         # "11:00 AM – 9:00 PM"
         dic['openHours']['ubereats'] = store_info['data']['sections'][0]['subtitle']
@@ -128,6 +131,8 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             'data']['storepageFeed']
 
         if Ubereats == False:
+            dic['representative'] = 'doordash'
+            # TODO: fix if null
             dic['heroImageUrl'] = store_info['storeHeader']['businessHeaderImgUrl']
             dic['title'] = store_info['storeHeader']['name']
             location_dic["address"] = store_info['storeHeader']['address']['displayAddress']
@@ -167,6 +172,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
         store_info = gc.get_store(ID_dict["grubhubID"])
 
         if Ubereats == False and Doordash == False:
+            dic['representative'] = 'grubhub'
             headerbackground = store_info['restaurant']['additional_media_images']['HEADER_BACKGROUND']
             dic['heroImageUrl'] = headerbackground['base_url'] + \
                 headerbackground['public_id']
@@ -176,9 +182,9 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             location_dic["region"] = store_info['restaurant']['address']['region']
             location_dic["postalCode"] = store_info['restaurant']['address']['zip']
             location_dic["country"] = store_info['restaurant']['address']['country']
-            location_dic["latitude"] = int(
+            location_dic["latitude"] = float(
                 store_info['restaurant']['latitude'])
-            location_dic["longitude"] = int(
+            location_dic["longitude"] = float(
                 store_info['restaurant']['longitude'])
             dic['location'] = location_dic
             dic['isOpen'] = store_info['restaurant_availability']['open_delivery']

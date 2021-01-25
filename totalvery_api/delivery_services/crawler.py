@@ -117,7 +117,7 @@ class UbereatsCrawler:
                 'https://www.ubereats.com/api/getStoreV1', data=data)
             store_json = response.json()
 
-            if store_json['data']['supportedDiningModes'][0]['isAvailable']:
+            if store_json['data']['isOpen']:
                 fee_dic = self.estimate_service_fee(
                     s, restaurantId, store_json, customer_location)
             else:
