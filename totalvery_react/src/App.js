@@ -7,6 +7,7 @@ import GoogleApi from "./GoogleApi";
 import RequestsTest from "./RequestsTest";
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

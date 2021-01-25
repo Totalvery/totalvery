@@ -87,14 +87,15 @@ class AddressSearch extends React.Component {
           >
             <GoogleApi />
           </view>
-          {/* <GoogleMap /> */}
-          <GoogleMap location={this.state.location} lat={this.state.lat} lng={this.state.lng}/>
+          <GoogleMap lat={this.state.lat} lng={this.state.lng}/>
           <text
             style={{
               position: "absolute",
               top: 750,
               left: 100,
               fontSize: "20px",
+              fontWeight: "bold",
+              fontFamily: "Exo",
             }}
           >
             Restaurants near you: {this.state.location}
@@ -107,6 +108,7 @@ class AddressSearch extends React.Component {
               justifyContent: "center",
               alignItems: "center",
               fontSize: "20px",
+              fontFamily: "Maplestory",
             }}
           >
             {items}

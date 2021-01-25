@@ -1,21 +1,32 @@
 import React from "react";
-import Navbar from "react-bootstrap"
+import { Nav, Navbar } from "react-bootstrap";
+import marker_icon from "./images/marker_white.png";
+import menu_icon_24 from "./images/menu_icon_24.png";
+import menu_icon_48 from "./images/menu_icon_48.png";
 
 function TopBar() {
     return(
-        <div className="topbar" style={{color:"white"}}>
-            <view>
-                 {/* hyperlink this to Totalvery main page */}
-                <text style={{fontWeight:"bold"}}>Totalvery</text>
+        <div>
+            <Navbar fixed="top" expand="lg" className="topbar">
+                <img
+                    src={marker_icon}
+                    width="20px"
+                    height="30px"
+                    alt="Location Marker"
+                />
 
-                
-            </view>
-            <view style={{flex:.11}}>
-                {/* hyperlink this to Totalvery login page */}
-                {/* change this to user icon once logged in */}
-                {/* <text>Login/Signup</text> */}
-            </view>
+                <Navbar.Brand className="totalvery_title" href="/" style={{color:"white", textAlign:"center", fontFamily:'Philosopher'}}>TOTALVERY</Navbar.Brand>
+                {/* <Navbar.Toggle aria-controls="bar_menu" /> */}
+                {/* <Navbar.Collapse id="bar_menu">
+                    <Nav className="mr-auto">
+                        <Nav.Link href="/" style={{color:"white"}}>Home</Nav.Link>
+                        <Nav.Link href="/login" style={{color:"white"}}>Login</Nav.Link>
+                        <Nav.Link href="/cart" style={{color:"white"}}>Cart</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse> */}
+            </Navbar>
         </div>
+        
     )
 }
 

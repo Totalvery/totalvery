@@ -4,15 +4,18 @@
   background: white;
 }
 
+/* This is css for topbar */
+/* .justify-content-center {
+ background-color: black;
+ text-align: center;
+} */
+
 .topbar {
-  display: flex;
-  position: fixed;
-  /* justify-content: center; */
-  align-items: center;
-  height: 50px;
-  width: 2000px;
-  background: black;
-  font-size: 30px; 
+  background-color: black;
+}
+
+.totalvery_title {
+  width: 150%;
 }
 
 .mainhome {
@@ -64,5 +67,5 @@
 .googlemap{
   display: center;
   justify-content: center;
-  margin-top: 170px;
+  margin-top: 180px;
 }
