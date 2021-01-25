@@ -115,19 +115,12 @@ class UbereatsCrawler:
 
             return store_json, fee_dic
 
-    def get_feed(self, location):
+    def get_feed(self, lat, lon):
         headers = {"x-csrf-token": "x"}
-        dataForm = {'query': location}
         s = requests.Session()
-        response = s.post(
-            "https://www.ubereats.com/api/getLocationAutocompleteV1", data=dataForm, headers=headers)
-        location_json = response.json()['data'][0]
-
-        response = s.post(
-            'https://www.ubereats.com/api/getLocationDetailsV1', headers=headers, data=location_json)
         self.customer_location = (
-            response.json()['data']['latitude'], response.json()['data']['longitude'])
-        location_json = response.json()['data']
+            lat, lon)
+        location_json = {"latitude": lat, "longitude": lon}
         location_str = json.dumps(location_json)
         location_cookie = 'uev2.loc=' + location_str
         headers.update({'cookie': location_cookie, 'content-type': 'application/json',
@@ -138,10 +131,14 @@ class UbereatsCrawler:
         while True:
             data = '{"pageInfo":{"offset":' + \
                 str(offset)+',"pageSize":80}}'
+
             response = s.post(
-                'https://www.ubereats.com/api/getFeedV1', headers=headers, data=data)
+                'https://www.ubereats.com/api/getFeedV1/', headers=headers, data=data)
 
             feed_json = response.json()['data']
+
+            assert feed_json['storesMap'] != None, f"feed_json:\n{feed_json}"
+
             stores = feed_json['storesMap']
             meta = feed_json['meta']
             dict_stores.update(stores)
@@ -151,52 +148,59 @@ class UbereatsCrawler:
             else:
                 break
 
+        dictionary = {
+                "latitude":lat,
+                "longitude":lon,
+                "data": {
+
+                }
+        }
         feed_list = []
         for key in dict_stores.keys():
             if(dict_stores[key]['isOpen'] == True):
                 restaurantId = key
-                store_name =dict_stores[key]['title']
+                store_name = dict_stores[key]['title']
                 store_img = dict_stores[key]['heroImageUrl']
-                if(dict_stores[key]['feedback']!= None):
+                if(dict_stores[key]['feedback'] != None):
                     store_rating = dict_stores[key]['feedback']['rating']
                 else:
                     store_rating = 0
-                
-                if(dict_stores[key]['meta']['deliveryFee']!= None):
+
+                if(dict_stores[key]['meta']['deliveryFee'] != None):
                     delivery_fee = dict_stores[key]['meta']['deliveryFee']['text']
                 else:
                     delivery_fee = 'None'
 
                 a_dict = {
-                    'name':store_name,
-                    'data':{
-                        'image':store_img,
-                        'rating':store_rating,
-                        'platform':[{
-                        
-                            'ubereats':{
-                                'support':True,
-                                'id':restaurantId,
-                                'delivery_fee':delivery_fee,
+                    'name': store_name,
+                    'data': {
+                        'image': store_img,
+                        'rating': store_rating,
+                        'platform': [{
+
+                            'ubereats': {
+                                'support': True,
+                                'id': restaurantId,
+                                'delivery_fee': delivery_fee,
                             },
-                            'doordash':{
-                                'support':False,
-                                'id':'',
-                                'delivery_fee':'',
+                            'doordash': {
+                                'support': False,
+                                'id': '',
+                                'delivery_fee': '',
                             },
-                            'grubhub':{
-                                'support':False,
-                                'id':'',
-                                'delivery_fee':'',
+                            'grubhub': {
+                                'support': False,
+                                'id': '',
+                                'delivery_fee': '',
                             },
                         }]
                     }
                 }
                 feed_list.append(a_dict)
-        
+        dictionary['data']=feed_list
+
         with open('total_feed.json', mode='w') as f:
-            f.write(json.dumps(feed_list, indent=2))
-        
+            f.write(json.dumps(dictionary, indent=2))
 
 
 class DoordashCrawler:
@@ -242,35 +246,15 @@ class DoordashCrawler:
                 "Doordash food delivery is not available in your country")
         return store_json
 
-    def get_feed(self, location):
+    def get_feed(self, lat, lon):
         LIMIT = 200  # max num of searchStores
         assert LIMIT <= 200, "the maximum of limit is 200"
-        headers = {"x-csrf-token": "x"}
-        dataForm = {'query': location}
-
-        s = requests.Session()
-        response = s.post(
-            "https://www.ubereats.com/api/getLocationAutocompleteV1", data=dataForm, headers=headers)
-        # TODO: 지금은 임의로 0으로 해놨지만 나중엔 client가 선택할 수 있게
-        location_json = response.json()['data'][0]
-        response = s.post(
-            'https://www.ubereats.com/api/getLocationDetailsV1', headers=headers, data=location_json)
-        location_json = response.json()['data']
-
-        googlePlaceId = location_json['reference']
-        city = location_json['addressComponents']['city']
-        state = location_json['addressComponents']['firstLevelSubdivisionCode']
-        printableAddress = location_json['address']['eaterFormattedAddress']
-        latitude = location_json['latitude']
-        longitude = location_json['longitude']
-        zipcode = location_json['addressComponents']['postalCode']
-        shortname = location_json['address']['title']
 
         headers = {
             'content-type': 'application/json',
         }
 
-        data = '{"operationName":"addConsumerAddress","variables":{"googlePlaceId":"'+googlePlaceId+'","city":"'+city+'","state":"'+state+'","zipCode":"'+zipcode+'","street":"","shortname":"","printableAddress":"'+printableAddress+'","lat":'+str(latitude)+',"lng":'+str(longitude)+',"subpremise":"","driverInstructions":"","dropoffOptionId":"2","consumerPhoenixExperiments":{"usesCartService":true}},"query":"mutation addConsumerAddress($lat: Float\\u0021, $lng: Float\\u0021, $city: String\\u0021, $state: String\\u0021, $zipCode: String\\u0021, $printableAddress: String\\u0021, $shortname: String\\u0021, $googlePlaceId: String\\u0021, $subpremise: String, $driverInstructions: String, $dropoffOptionId: String, $manualLat: Float, $manualLng: Float, $consumerPhoenixExperiments: ConsumerPhoenixExperiments) { addConsumerAddress(lat: $lat, lng: $lng, city: $city, state: $state, zipCode: $zipCode, printableAddress: $printableAddress, shortname: $shortname, googlePlaceId: $googlePlaceId, subpremise: $subpremise, driverInstructions: $driverInstructions, dropoffOptionId: $dropoffOptionId, manualLat: $manualLat, manualLng: $manualLng, consumerPhoenixExperiments: $consumerPhoenixExperiments) { ...ConsumerFragment __typename }}fragment ConsumerFragment on Consumer { id timezone firstName lastName email phoneNumber receiveTextNotifications defaultCountry isGuest scheduledDeliveryTime socialAccounts accountCredits dropoffOptions { id displayString isDefault isEnabled placeholderText __typename } phoneNumberComponents { formattedNationalNumber nationalNumber formattedInternationalNumber countryCode internationalNumber countryShortname __typename } referrerAmount { unitAmount __typename } defaultAddress { ...DefaultAddressFragment __typename } availableAddresses { id street city subpremise state zipCode lat lng manualLat manualLng shortname printableAddress driverInstructions dropoffPreferences { allPreferences { optionId isDefault instructions __typename } __typename } __typename } defaultAddressDistrict { ...DefaultAddressDistrictFragment __typename } orderCart { ...ConsumerOrderCartFragment __typename } activeSubscription { ...SubscriptionFragment __typename } allSubscriptionPlans { ...ConsumerSubscriptionPlanFragment __typename } __typename}fragment DefaultAddressFragment on DefaultAddress { id street city subpremise state zipCode lat lng manualLat manualLng timezone shortname printableAddress driverInstructions dropoffPreferences { allPreferences { optionId isDefault instructions __typename } __typename } __typename}fragment DefaultAddressDistrictFragment on DefaultAddressDistrict { id name shortname isOpenForAsapDelivery deliveryTimes __typename}fragment ConsumerOrderCartFragment on OrderCart { id hasError isConsumerPickup offersDelivery offersPickup subtotal topOffEnabled urlCode groupCart groupCartPollInterval shortenedUrl maxIndividualCost locked serviceRateMessage isOutsideDeliveryRegion currencyCode menu { id hoursToOrderInAdvance name minOrderSize isBusinessEnabled isCatering __typename } creator { id firstName lastName __typename } deliveries { id quotedDeliveryTime __typename } submittedAt restaurant { id maxOrderSize coverImgUrl slug address { printableAddress street lat lng __typename } business { name __typename } __typename } storeDisclaimers { id disclaimerDetailsLink disclaimerLinkSubstring disclaimerText displayTreatment __typename } orders { ...ConsumerOrdersFragment __typename } topOffItem { orderId item { description price updatedAt id name __typename } topOff { topOffSubtotal topOffTotal taxes orderSubtotal serviceFee minChargeFee serviceFeeMessage __typename } __typename } teamAccount { id name __typename } __typename}fragment ConsumerOrdersFragment on Order { id consumer { firstName lastName id __typename } orderItems { id options { id name __typename } specialInstructions substitutionPreference quantity singlePrice priceOfTotalQuantity item { id name price minAgeRequirement category { title __typename } extras { id title description __typename } __typename } __typename } paymentCard { id stripeId __typename } paymentLineItems { subtotal taxAmount subtotalTaxAmount feesTaxAmount serviceFee __typename } __typename}fragment SubscriptionFragment on Subscription { subscriptionStatus id subscriptionPlan { isPartnerPlan allowAllStores id numEligibleStores __typename } __typename}fragment ConsumerSubscriptionPlanFragment on ConsumerSubscriptionPlan { allowAllStores id numEligibleStores isCorporatePlan __typename}"}'
+        data = '{"operationName":"addConsumerAddress","variables":{"googlePlaceId":"","city":"","state":"","zipCode":"","street":"","shortname":"","printableAddress":"","lat":'+str(lat)+',"lng":'+str(lon)+',"subpremise":"","driverInstructions":"","dropoffOptionId":"2","consumerPhoenixExperiments":{"usesCartService":true}},"query":"mutation addConsumerAddress($lat: Float\\u0021, $lng: Float\\u0021, $city: String\\u0021, $state: String\\u0021, $zipCode: String\\u0021, $printableAddress: String\\u0021, $shortname: String\\u0021, $googlePlaceId: String\\u0021, $subpremise: String, $driverInstructions: String, $dropoffOptionId: String, $manualLat: Float, $manualLng: Float, $consumerPhoenixExperiments: ConsumerPhoenixExperiments) { addConsumerAddress(lat: $lat, lng: $lng, city: $city, state: $state, zipCode: $zipCode, printableAddress: $printableAddress, shortname: $shortname, googlePlaceId: $googlePlaceId, subpremise: $subpremise, driverInstructions: $driverInstructions, dropoffOptionId: $dropoffOptionId, manualLat: $manualLat, manualLng: $manualLng, consumerPhoenixExperiments: $consumerPhoenixExperiments) { ...ConsumerFragment __typename }}fragment ConsumerFragment on Consumer { id timezone firstName lastName email phoneNumber receiveTextNotifications defaultCountry isGuest scheduledDeliveryTime socialAccounts accountCredits dropoffOptions { id displayString isDefault isEnabled placeholderText __typename } phoneNumberComponents { formattedNationalNumber nationalNumber formattedInternationalNumber countryCode internationalNumber countryShortname __typename } referrerAmount { unitAmount __typename } defaultAddress { ...DefaultAddressFragment __typename } availableAddresses { id street city subpremise state zipCode lat lng manualLat manualLng shortname printableAddress driverInstructions dropoffPreferences { allPreferences { optionId isDefault instructions __typename } __typename } __typename } defaultAddressDistrict { ...DefaultAddressDistrictFragment __typename } orderCart { ...ConsumerOrderCartFragment __typename } activeSubscription { ...SubscriptionFragment __typename } allSubscriptionPlans { ...ConsumerSubscriptionPlanFragment __typename } __typename}fragment DefaultAddressFragment on DefaultAddress { id street city subpremise state zipCode lat lng manualLat manualLng timezone shortname printableAddress driverInstructions dropoffPreferences { allPreferences { optionId isDefault instructions __typename } __typename } __typename}fragment DefaultAddressDistrictFragment on DefaultAddressDistrict { id name shortname isOpenForAsapDelivery deliveryTimes __typename}fragment ConsumerOrderCartFragment on OrderCart { id hasError isConsumerPickup offersDelivery offersPickup subtotal topOffEnabled urlCode groupCart groupCartPollInterval shortenedUrl maxIndividualCost locked serviceRateMessage isOutsideDeliveryRegion currencyCode menu { id hoursToOrderInAdvance name minOrderSize isBusinessEnabled isCatering __typename } creator { id firstName lastName __typename } deliveries { id quotedDeliveryTime __typename } submittedAt restaurant { id maxOrderSize coverImgUrl slug address { printableAddress street lat lng __typename } business { name __typename } __typename } storeDisclaimers { id disclaimerDetailsLink disclaimerLinkSubstring disclaimerText displayTreatment __typename } orders { ...ConsumerOrdersFragment __typename } topOffItem { orderId item { description price updatedAt id name __typename } topOff { topOffSubtotal topOffTotal taxes orderSubtotal serviceFee minChargeFee serviceFeeMessage __typename } __typename } teamAccount { id name __typename } __typename}fragment ConsumerOrdersFragment on Order { id consumer { firstName lastName id __typename } orderItems { id options { id name __typename } specialInstructions substitutionPreference quantity singlePrice priceOfTotalQuantity item { id name price minAgeRequirement category { title __typename } extras { id title description __typename } __typename } __typename } paymentCard { id stripeId __typename } paymentLineItems { subtotal taxAmount subtotalTaxAmount feesTaxAmount serviceFee __typename } __typename}fragment SubscriptionFragment on Subscription { subscriptionStatus id subscriptionPlan { isPartnerPlan allowAllStores id numEligibleStores __typename } __typename}fragment ConsumerSubscriptionPlanFragment on ConsumerSubscriptionPlan { allowAllStores id numEligibleStores isCorporatePlan __typename}"}'
         data2 = "{\"operationName\":\"storeSearch\",\"variables\":{\"searchLat\":null,\"searchLng\":null,\"offset\":0,\"limit\":" + \
             str(LIMIT) + ",\"searchQuery\":null,\"filterQuery\":null,\"categoryQueryId\":null},\"query\":\"query storeSearch($offset: Int!, $limit: Int!, $order: [String!], $searchQuery: String, $filterQuery: String, $categoryQueryId: ID, $searchLat: Float, $searchLng: Float) {    storeSearch(offset: $offset, limit: $limit, order: $order, searchQuery: $searchQuery, filterQuery: $filterQuery, categoryQueryId: $categoryQueryId, searchLat: $searchLat, searchLng: $searchLng) {    showListAsPickup    numStores    stores {      id      name      description      averageRating      numRatings      numRatingsDisplayString    priceRange      featuredCategoryDescription      deliveryFee      extraSosDeliveryFee      displayDeliveryFee      headerImgUrl      url      isConsumerSubscriptionEligible      distanceFromConsumer      distanceFromConsumerInMeters      distanceFromConsumerString      menus {        popularItems {          imgUrl          __typename        }        __typename      }      merchantPromotions {        id        categoryNewStoreCustomersOnly        deliveryFee        minimumSubtotal        __typename      }      status {        unavailableReason        asapAvailable        scheduledAvailable        asapMinutesRange        asapPickupMinutesRange        __typename      }      location {        lat        lng        __typename      }      badge {        backgroundColor        text        __typename      }      __typename    }    storeItems {      id      name      price      imageUrl      store {        name        url        id        __typename      }      __typename    }    __typename  }}\"}"
 
@@ -287,62 +271,61 @@ class DoordashCrawler:
         feed_list = []
         stores_data = searchStore['data']['storeSearch']['stores']
 
-        f = open('total_feed.json',) 
-        total = json.load(f) 
-        if type(total) is dict:
-            total = [total]
+        f = open('total_feed.json',)
+        dictionary = json.load(f)
+        if type(dictionary) is dict:
+            total= dictionary['data']
 
-        feed_list = []
         for i in range(len(stores_data)):
             store_data = searchStore['data']['storeSearch']['stores'][i]
-            if(store_data['status']['asapAvailable']==True):
+            if(store_data['status']['asapAvailable'] == True):
                 restaurantId = store_data['id']
                 store_name = store_data['name']
-                matchingElements = [d for d in total if d.get('name') == store_name]; 
-                if (len(matchingElements)): 
-                    doordash=matchingElements[0]['data']['platform'][0]['doordash']
-                    doordash['support']=True
-                    doordash['id']=restaurantId
+                matchingElements = [
+                    d for d in total if d.get('name') == store_name]
+                if (len(matchingElements)):
+                    doordash = matchingElements[0]['data']['platform'][0]['doordash']
+                    doordash['support'] = True
+                    doordash['id'] = restaurantId
                     # grubhub['deliveryFee'] : depending on whether delivery fee is necessary to the field,
-                    # we can get it or not 
+                    # we can get it or not
                     continue
                 else:
                     store_img = store_data['headerImgUrl']
                     store_rating = store_data['averageRating']
                     delivery_fee = store_data['deliveryFee']
                     a_dict = {
-                        'name':store_name,
-                        'data':{
-                            'image':store_img,
-                            'rating':store_rating,
-                            'platform':[{
-                                'ubereats':{
-                                    'support':False,
-                                    'id':'',
-                                    'delivery_fee':'',
+                        'name': store_name,
+                        'data': {
+                            'image': store_img,
+                            'rating': store_rating,
+                            'platform': [{
+                                'ubereats': {
+                                    'support': False,
+                                    'id': '',
+                                    'delivery_fee': '',
                                 },
-                                'doordash':{
-                                    'support':True,
-                                    'id':restaurantId,
-                                    'delivery_fee':delivery_fee,
-                                        
+                                'doordash': {
+                                    'support': True,
+                                    'id': restaurantId,
+                                    'delivery_fee': delivery_fee,
+
                                 },
-                                'grubhub':{
-                                'support':False,
-                                    'id':'',
-                                    'delivery_fee':'',
-                                        
+                                'grubhub': {
+                                    'support': False,
+                                    'id': '',
+                                    'delivery_fee': '',
+
                                 },
                             }]
                         }
                     }
                     total.append(a_dict)
-               
-        
+        dictionary.update({'data': total}  ) 
         with open('total_feed.json', mode='w') as f:
-          f.write(json.dumps(total, indent=2))
+            f.write(json.dumps(dictionary, indent=2))
 
-        return total
+        return json.dumps(dictionary)
 
     def estimate_service_fee(self, cart_size):  # TODO:
         fee = 0
@@ -403,24 +386,8 @@ class GrubhubCrawler:
         store_json = response.json()
         return store_json
 
-    def get_feed(self, location):
+    def get_feed(self, lat, lon):
         self.create_headers()
-        params = (
-            ('queryText', location),
-        )
-
-        response = self.s.get(
-            'https://api-gtm.grubhub.com/geocode/autocomplete', params=params)
-        params = (
-            ('address', response.json()[0]),
-        )
-        response = self.s.get(
-            'https://api-gtm.grubhub.com/geocode', params=params)
-        locality = response.json()[0]['location_address']['locality']
-        administrative_area = response.json(
-        )[0]['location_address']['administrative_area']
-        lat = response.json()[0]['latitude']
-        lon = response.json()[0]['longitude']
 
         # Crawling the first page
         stores = []
@@ -469,54 +436,56 @@ class GrubhubCrawler:
                 'https://api-gtm.grubhub.com/restaurants/search', params=params)
             stores = stores + response.json()['search_result']['results']
 
-        #Get information for feed 
-        f = open('total_feed.json',) 
-        ubereats = json.load(f) 
-        if type(ubereats) is dict:
-            ubereats = [ubereats]
+        # Get information for feed
+        f = open('total_feed.json',)
+        dictionary = json.load(f)
+        if type(dictionary) is dict:
+            ubereats = dictionary['data']
 
         for i in range(len(stores)):
-            if(stores[i]['open']==True):
+            if(stores[i]['open'] == True):
                 restaurantId = stores[i]['restaurant_id']
                 store_name = stores[i]['name']
-                matchingElements = [d for d in ubereats if d.get('name') == store_name]; 
-                if (len(matchingElements)): 
-                    grubhub=matchingElements[0]['data']['platform'][0]['grubhub']
-                    grubhub['support']=True
-                    grubhub['id']=restaurantId
+                matchingElements = [
+                    d for d in ubereats if d.get('name') == store_name]
+                if (len(matchingElements)):
+                    grubhub = matchingElements[0]['data']['platform'][0]['grubhub']
+                    grubhub['support'] = True
+                    grubhub['id'] = restaurantId
                 # grubhub['deliveryFee'] : depending on whether delivery fee is necessary to the field,
-                # we can get it or not 
+                # we can get it or not
                     continue
                 else:
                     store_img = stores[i]['logo']
                     store_rating = stores[i]['ratings']['rating_value']
                     delivery_fee = stores[i]['delivery_fee']['price']
                     a_dict = {
-                        'name':store_name,
-                        'data':{
-                            'image':store_img,
-                            'rating':store_rating,
-                            'platform':[{
-                                'ubereats':{
-                                    'support':False,
-                                    'id':'',
-                                    'delivery_fee':'',
+                        'name': store_name,
+                        'data': {
+                            'image': store_img,
+                            'rating': store_rating,
+                            'platform': [{
+                                'ubereats': {
+                                    'support': False,
+                                    'id': '',
+                                    'delivery_fee': '',
                                 },
-                                'doordash':{
-                                    'support':False,
-                                    'id':'',
-                                    'delivery_fee':'',
+                                'doordash': {
+                                    'support': False,
+                                    'id': '',
+                                    'delivery_fee': '',
                                 },
-                                'grubhub':{
-                                    'support':True,
-                                    'id':restaurantId,
-                                    'delivery_fee':delivery_fee,
-                                            
-                                            },
-                                    }]
+                                'grubhub': {
+                                    'support': True,
+                                    'id': restaurantId,
+                                    'delivery_fee': delivery_fee,
+
+                                },
+                            }]
                         }
                     }
-                    ubereats.append(a_dict)  
+                    ubereats.append(a_dict)
+        dictionary.update({'data': ubereats} ) 
         with open('total_feed.json', mode='w') as f:
-            f.write(json.dumps(ubereats, indent=2))
-        return json.dumps(ubereats)
+            f.write(json.dumps(dictionary, indent=2))
+        return json.dumps(dictionary)

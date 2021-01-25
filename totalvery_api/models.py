@@ -25,4 +25,6 @@ class Restaurant (models.Model):  # 테스트용으로 만들어 본 임시 모�
         return self.name
 
 class Customer (models.Model):
-    location = models.CharField(max_length=100)
+    location = models.CharField(max_length=100,default=" ")
+    lat = models.FloatField(null=True, blank=True, default=None) 
+    lon = models.FloatField(null=True, blank=True, default=None)

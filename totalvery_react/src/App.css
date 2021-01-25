@@ -4,11 +4,20 @@
   background: white;
 }
 
+/* This is css for topbar */
+/* .justify-content-center {
+ background-color: black;
+ text-align: center;
+} */
+
 .topbar {
-  display: flex;
-  height: 50px;
-  background: rgb(61, 109, 175);
-  font-size: 30px; 
+  background-color: black;
+}
+
+.totalvery_title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .mainhome {
@@ -60,5 +69,9 @@
 .googlemap{
   display: center;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 180px;
+}
+
+.allRestaurants{
+  display: center;
 }

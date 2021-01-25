@@ -17,3 +17,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Abril Fatface";
+  src: local("Abril Fatface"), url("./fonts/AbrilFatface-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Exo";
+  src: local("Exo"), url("./fonts/Exo-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "DM Serif Display";
+  src: local("DM Serif Display"), url("./fonts/DMSerifDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "Maplestory";
+  src: local("Maplestory"), url("./fonts/Maplestory Light.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "Philosopher";
+  src: local("Philosopher"), url("./fonts/Philosopher-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: "Press Start 2P";
+  src: local("Press Start 2P"), url("./fonts/PressStart2P-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* @font-face{
+  font-family: "";
+  src: local(), url("./fonts/") format("truetype");
+  font-weight: normal;
+} */

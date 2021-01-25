@@ -1,8 +1,12 @@
 requests
 BeautifulSoup4
-django
 djangorestframework
-gunicorn
-whitenoise
+django>=2.1.2
+gunicorn==19.7.1
+whitenoise==3.3.1
 ipdb
 django-cors-headers
+pymongo
+pymongo[srv]
+bson
+django_heroku

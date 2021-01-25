@@ -15,6 +15,11 @@ import json
 from subprocess import check_output
 import time
 
+import pymongo
+from pymongo import MongoClient
+from bson import json_util
+import json
+from bson import ObjectId
 from totalvery_api.delivery_services.crawler import UbereatsCrawler, DoordashCrawler, GrubhubCrawler
 
 
@@ -23,14 +28,55 @@ DEFAULT_MIN_SUBTOTAL = 8
 DEFAULT_SERVICE_FEE_PERCENT = 0.1  # 10%
 
 
+class JSONEncoder(json.JSONEncoder):
+    def default(self, o):
+        if isinstance(o, ObjectId):
+            return str(o)
+        return json.JSONEncoder.default(self, o)
+
+
 @csrf_exempt
 @api_view(['POST'])
 def stores_feed(request):
     if request.method == 'POST':
-        location = request.POST.get('location',False) #sample: form에 user가 location입력 가
-        UbereatsCrawler().get_feed(location)
-        GrubhubCrawler().get_feed(location)
-        total_feed = DoordashCrawler().get_feed(location)
+
+        location = request.data['location']
+        lat = request.data['lat']
+        lon = request.data['lon']
+        #check if it exists in the database
+        cluster = MongoClient("mongodb+srv://totalvery:1111@cluster0.qpazd.mongodb.net/totalvery?retryWrites=true&w=majority")
+        db = cluster["totalvery"]
+        db.users.remove({}) #removing the existing data(test용)
+        collection = db["totalvery"] #mini database 
+        query = {
+          'latitude':lat,
+          'longitude':lon
+        }
+
+        data_list = collection.find(query)
+        if(data_list.count()>0): #exists
+            cursor= collection.find_one(query)
+            # Converting cursor to the list  of dictionaries 
+            total_feed = json_util.loads(json_util.dumps(cursor,default="str"))
+            total_feed = JSONEncoder().encode(total_feed)
+        else: #does not exist
+            UbereatsCrawler().get_feed(lat, lon)
+            GrubhubCrawler().get_feed(lat, lon)
+            total_feed=DoordashCrawler().get_feed(lat, lon)
+
+            #save the json file to the database
+            with open('total_feed.json') as file: 
+                file_data = json.load(file) 
+      
+            collection.insert_one(file_data)
+            
+            #create a model
+            serializer = CustomerSerializer(data=request.data)
+            if serializer.is_valid():
+                serializer.save()
+
+        cluster.close()
+
         return Response(total_feed, status=status.HTTP_201_CREATED)
 
     else:

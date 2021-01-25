@@ -1,4 +1,4 @@
-#!/Users/sooyoungmoon/git/totalvery/env/bin/python3.8
+#!/Users/sooyoungmoon/git/totalvery/
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
