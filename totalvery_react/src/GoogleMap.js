@@ -1,45 +1,36 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 
-// const marker = ({ text }) => (
-//     <div style={{
-//       color: 'white', 
-//       background: 'grey',
-//       padding: '15px 10px',
-//       display: 'inline-flex',
-//       textAlign: 'center',
-//       alignItems: 'center',
-//       justifyContent: 'center',
-//       borderRadius: '100%',
-//       transform: 'translate(-50%, -50%)'
-//     }}>
-//       {text}
-//     </div>
-//   );
+const AnyReactComponent = ({ text }) => (
+    <div style={{
+      color: 'white', 
+      background: 'red',
+      padding: '15px 10px',
+      display: 'inline-flex',
+      textAlign: 'center',
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderRadius: '100%',
+      transform: 'translate(-50%, -50%)'
+    }}>
+      {text}
+    </div>
+  );
 
 class GoogleMap extends Component {
-  static defaultProps = {
-    center: {
-      lat: 40.756795,
-      lng: -73.954298
-    },
-    zoom: 13
-  };
-
   render() {
     return (
-      // Important! Always set the container height explicitly
       <div className='googlemap' style={{ height: '550px', width: '900px'}}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyAqrOgdghd-jiq0awWFsg1snmSgpY3aS2c' }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
+          defaultCenter={{lat: this.props.lat, lng: this.props.lng}}
+          defaultZoom={15}
         >
-          {/* <marker
-            lat={59.955413}
-            lng={30.337844}
-            text="My Marker"
-          /> */}
+          <AnyReactComponent
+            lat={this.props.lat}
+            lng={this.props.lng}
+            text={"Your Location"}
+          />
         </GoogleMapReact>
       </div>
     );

@@ -7,8 +7,11 @@
 .topbar {
   display: flex;
   position: fixed;
+  /* justify-content: center; */
+  align-items: center;
   height: 50px;
-  background: rgb(61, 109, 175);
+  width: 2000px;
+  background: black;
   font-size: 30px; 
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import MainHome from "./MainHome";
+import TopBar from "./TopBar";
 import AddressSearch from "./AddressSearch";
 import ShowResult from "./ShowResult";
 import GoogleApi from "./GoogleApi";
@@ -12,6 +13,7 @@ function App() {
     <div className="app">
       <BrowserRouter>
         <div>
+          <TopBar />
           <Switch>
             <Route path="/" component={MainHome} exact />
             <Route path="/search/:lat/:lng" component={AddressSearch} />

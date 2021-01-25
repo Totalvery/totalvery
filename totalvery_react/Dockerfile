@@ -5,6 +5,7 @@ COPY package.json /app/totalvery_react
 
 RUN npm i react react-dom react-router-dom react-google-autocomplete
 RUN npm install --save google-map-react
+RUN npm install react-bootsrap bootsrap
 
 EXPOSE 3000
 CMD ["npm", "start"]

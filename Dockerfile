@@ -1,10 +1,10 @@
 # pull official base image
-FROM python:3.8
+FROM python:latest
 
 # set work directory
 WORKDIR /app
 
-RUN pip install requests BeautifulSoup4 django djangorestframework gunicorn whitenoise ipdb django-cors-headers 
+RUN pip install requests BeautifulSoup4 django djangorestframework gunicorn whitenoise ipdb django-cors-headers pymongo pymongo[srv] django_heroku
 
 # RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends apt-utils
 # RUN apt-get install npm -y
@@ -12,6 +12,7 @@ RUN pip install requests BeautifulSoup4 django djangorestframework gunicorn whit
 
 # CMD ["npm", "start"]
 
+CMD python3 manage.py runserver 0.0.0.0:$PORT
 
 # copy project
 COPY . /app
