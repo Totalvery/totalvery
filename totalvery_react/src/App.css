@@ -29,6 +29,10 @@
   color: white;
 }
 
+.no-header-img {
+padding-top: 45px;
+}
+
 .doordash {
   height: 100px;
   width: 100px;

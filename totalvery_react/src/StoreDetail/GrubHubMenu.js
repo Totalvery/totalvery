@@ -8,8 +8,8 @@ function CategoryElement({ items, fallback }) {
     // return items.map((item) => {
     return (
       <div>
-        <Element name={items.title} className="category-title">
-          {items.title} <br></br>
+        <Element name={items.name} className="category-title">
+          {items.name} <br></br>
         </Element>
       </div>
     );
@@ -17,14 +17,19 @@ function CategoryElement({ items, fallback }) {
   }
 }
 
-function MenuElement({ items, sectionEntitiesMap, fallback }) {
+function MenuElement({ items, fallback }) {
   if (!items || items.length === 0) {
     return fallback;
   } else {
     return items.map((item) => {
+      const imageUrl =
+        item.media_image.base_url +
+        item.media_image.public_id +
+        "." +
+        item.media_image.format;
       var display = "inline-block";
       try {
-        if (!sectionEntitiesMap[item].imageUrl) {
+        if (!imageUrl) {
           display = "none";
           console.log(display);
         }
@@ -33,18 +38,16 @@ function MenuElement({ items, sectionEntitiesMap, fallback }) {
       return (
         <Element id={item} className="menu-item">
           <div className="menu-description">
-            <b>
-              {item.title} {sectionEntitiesMap[item].title}
-            </b>
+            <b>{item.name}</b>
             <br></br>
-            {sectionEntitiesMap[item].description}
+            {item.description}
             <br></br>
-            <b>${parseFloat(sectionEntitiesMap[item].price) / 100}</b>
+            <b>${parseFloat(item.price.amount) / 100}</b>
           </div>
           <div className="menu-img-wrapper">
             <img
               id="menu-img"
-              src={sectionEntitiesMap[item].imageUrl}
+              src={imageUrl}
               style={{ width: "150px", height: "130px", display: `${display}` }}
             />
           </div>
@@ -54,19 +57,15 @@ function MenuElement({ items, sectionEntitiesMap, fallback }) {
   }
 }
 
-class Menu extends React.Component {
+class GrubHubMenu extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      subNav: [],
       sectionEntitiesMap: [],
     };
   }
   componentDidMount() {
-    if (this.props.subNav) {
-      this.setState({ subNav: this.props.subNav });
-    }
     if (this.props.sectionEntitiesMap) {
       this.setState({ sectionEntitiesMap: this.props.sectionEntitiesMap });
     }
@@ -75,10 +74,12 @@ class Menu extends React.Component {
   render() {
     return (
       <div className="menu-block">
-        <CategoryElement items={this.props.subNav} fallback={"Loading..."} />
+        <CategoryElement
+          items={this.props.sectionEntitiesMap}
+          fallback={"Loading..."}
+        />
         <MenuElement
-          items={this.props.subNav.items}
-          sectionEntitiesMap={this.props.sectionEntitiesMap}
+          items={this.props.sectionEntitiesMap.menu_item_list}
           fallback={"Loading..."}
         />
       </div>
@@ -86,4 +87,4 @@ class Menu extends React.Component {
   }
 }
 
-export default Menu;
+export default GrubHubMenu;
