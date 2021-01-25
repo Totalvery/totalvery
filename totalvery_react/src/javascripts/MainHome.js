@@ -1,9 +1,9 @@
 import React from "react";
-import GoogleApi from './GoogleApi'
-import logo from "./images/main_home.png";
-import doordash from "./images/Doordash.png";
-import grubhub from "./images/Grubhub.jpg";
-import ubereats from "./images/UberEats.png";
+import GoogleApi from '../GoogleApi'
+import logo from "../images/main_home.png";
+import doordash from "../images/Doordash.png";
+import grubhub from "../images/Grubhub.jpg";
+import ubereats from "../images/UberEats.png";
 
 function MainHome() {
     return(

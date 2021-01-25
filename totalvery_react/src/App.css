@@ -15,7 +15,9 @@
 }
 
 .totalvery_title {
-  width: 150%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .mainhome {

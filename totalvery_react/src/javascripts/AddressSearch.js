@@ -1,5 +1,5 @@
 import React from "react";
-import GoogleApi from "./GoogleApi";
+import GoogleApi from "../GoogleApi";
 import GoogleMap from "./GoogleMap";
 
 class AddressSearch extends React.Component {

@@ -1,10 +1,10 @@
 import React from "react";
-import MainHome from "./MainHome";
-import TopBar from "./TopBar";
-import AddressSearch from "./AddressSearch";
-import ShowResult from "./ShowResult";
+import MainHome from "./javascripts/MainHome";
+import TopBar from "./javascripts/TopBar";
+import AddressSearch from "./javascripts/AddressSearch";
+import ShowResult from "./javascripts/ShowResult";
 import GoogleApi from "./GoogleApi";
-import RequestsTest from "./RequestsTest";
+import RequestsTest from "./javascripts/RequestsTest";
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';

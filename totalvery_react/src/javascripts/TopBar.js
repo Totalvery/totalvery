@@ -1,8 +1,8 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import marker_icon from "./images/marker_white.png";
-import menu_icon_24 from "./images/menu_icon_24.png";
-import menu_icon_48 from "./images/menu_icon_48.png";
+import marker_icon from "../images/marker_white.png";
+import menu_icon_24 from "../images/menu_icon_24.png";
+import menu_icon_48 from "../images/menu_icon_48.png";
 
 function TopBar() {
     return(
@@ -15,9 +15,9 @@ function TopBar() {
                     alt="Location Marker"
                 />
 
-                <Navbar.Brand className="totalvery_title" href="/" style={{color:"white", textAlign:"center", fontFamily:'Philosopher'}}>TOTALVERY</Navbar.Brand>
-                {/* <Navbar.Toggle aria-controls="bar_menu" /> */}
-                {/* <Navbar.Collapse id="bar_menu">
+                <Navbar.Brand className="totalvery_title" href="/" style={{color:"white", textAlign:"center", fontFamily:'Philosopher',  fontSize: "30px"}}>TOTALVERY</Navbar.Brand>
+                {/* <Navbar.Toggle aria-controls="bar_menu" />
+                <Navbar.Collapse id="bar_menu">
                     <Nav className="mr-auto">
                         <Nav.Link href="/" style={{color:"white"}}>Home</Nav.Link>
                         <Nav.Link href="/login" style={{color:"white"}}>Login</Nav.Link>
