@@ -1,6 +1,7 @@
 import React from "react";
 import GoogleApi from "../GoogleApi";
 import GoogleMap from "./GoogleMap";
+import AllRestaurants from "./AllRestaurants";
 
 class AddressSearch extends React.Component {
   constructor(props) {
@@ -74,7 +75,22 @@ class AddressSearch extends React.Component {
     if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
-      const list = JSON.parse(items).data.map((d) => <li>{d.name}</li>);
+      const list = JSON.parse(items).data.map(d =>
+        <div>
+          <a>
+            <p>{d.data.rating}</p>
+            {/* <p>{d.data.image}</p> */}
+            <img src={d.data.image}/>
+            <p>{d.name}</p>
+            
+            
+          </a>
+        </div>)
+
+
+      const name_list = JSON.parse(items).data.map((d) => <li>{d.name}</li>);
+      const rate_list = JSON.parse(items).data.map((d) => <li>{d.data.rating}</li>);
+      const img_list = JSON.parse(items).data.map((d) => <li>{d.data.image}</li>);
       return (
         <div className="addresssearch">
           <view
@@ -92,7 +108,6 @@ class AddressSearch extends React.Component {
             style={{
               position: "absolute",
               top: 750,
-              left: 100,
               fontSize: "20px",
               fontWeight: "bold",
               fontFamily: "Exo",
@@ -104,14 +119,15 @@ class AddressSearch extends React.Component {
           <div
             style={{
               position: "absolute",
-              top: 800,
+              top: 830,
               justifyContent: "center",
               alignItems: "center",
               fontSize: "20px",
-              fontFamily: "Maplestory",
             }}
           >
-            {items}
+            <AllRestaurants items={items} list={list} names={name_list} images={img_list} rates={rate_list}/>
+            {/* {list} */}
+            {/* {items} */}
           </div>
         </div>
       );

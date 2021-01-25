@@ -4,7 +4,7 @@ import GoogleMapReact from 'google-map-react';
 const AnyReactComponent = ({ text }) => (
     <div style={{
       color: 'white', 
-      background: 'red',
+      background: 'black',
       padding: '15px 10px',
       display: 'inline-flex',
       textAlign: 'center',
