@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import StoreDetail, Restaurant,Customer
+from .models import StoreDetail, Restaurant, Customer
 
 
 class NestedMetaSerializer(serializers.Serializer):
@@ -7,9 +7,12 @@ class NestedMetaSerializer(serializers.Serializer):
     doordash = serializers.BooleanField()
     grubhub = serializers.BooleanField()
 
+
 class NestedLocationSerializer(serializers.Serializer):
+    location = serializers.CharField()
     latitude = serializers.FloatField()
     longitude = serializers.FloatField()
+
 
 class NestedIDSerializer(serializers.Serializer):
     ubereatsID = serializers.CharField()
@@ -32,7 +35,8 @@ class RestaurantSerializer(serializers.ModelSerializer):
         model = Restaurant
         fields = '__all__'
 
+
 class CustomerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Customer
-        fields= '__all__'
+        fields = '__all__'

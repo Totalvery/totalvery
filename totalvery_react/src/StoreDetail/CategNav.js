@@ -39,7 +39,6 @@ class CategNav extends React.Component {
   }
 
   render() {
-    console.log("this.state.subNav: " + this.state.subNav);
     return (
       <div>
         <nav>

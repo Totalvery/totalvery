@@ -21,6 +21,23 @@ class UbereatsCrawler:
     def create_headers(self):
         pass
 
+    def set_location_cookie(self, keyword):
+        self.headers = {"x-csrf-token": "x"}
+        dataForm = {'query': keyword}
+        response = self.s.post(
+            "https://www.ubereats.com/api/getLocationAutocompleteV1", data=dataForm, headers=self.headers)
+        location_json = response.json()['data'][0]
+
+        response = self.s.post(
+            'https://www.ubereats.com/api/getLocationDetailsV1', headers=self.headers, data=location_json)
+        location_json = response.json()['data']
+
+        location_str = json.dumps(location_json)
+        location_cookie = 'uev2.loc=' + location_str
+        self.headers.update({'cookie': location_cookie, 'content-type': 'application/json',
+                             'accept': '*/*'})
+    pass
+
     def estimate_service_fee(self, session, restaurant_id, store_json, customer_location=None):
         '''
         @params customer_location (list): [lat, lon]
@@ -69,6 +86,11 @@ class UbereatsCrawler:
                         dic['small_order_fee'] = small_order_fee
                         dic['min_small_order'] = min_small_order
 
+                    elif each['label'] == 'Promotion':
+                        promotion = each['rawValue']  # 0.99
+
+                        dic['promotion'] = promotion
+
                     elif each['label'] == 'Delivery Fee':
                         delivery_fee = each['rawValue']  # 0.99
 
@@ -103,7 +125,8 @@ class UbereatsCrawler:
                     response = session.post(
                         'https://www.ubereats.com/api/getOrderEstimateV1/', data=data)
 
-    def get_store(self, restaurantId, customer_location=None):
+    def get_store(self, restaurantId, keyword, customer_location=None):
+        self.set_location_cookie(keyword)
         headers = {
             'x-csrf-token': 'x',
             'content-type': 'application/json',
@@ -112,7 +135,7 @@ class UbereatsCrawler:
         data = '{"storeUuid":"'+restaurantId+'"}'
 
         with requests.Session() as s:
-            s.headers.update(headers)
+            s.headers.update(self.headers)
             response = s.post(
                 'https://www.ubereats.com/api/getStoreV1', data=data)
             store_json = response.json()
@@ -501,3 +524,8 @@ class GrubhubCrawler:
         with open('total_feed.json', mode='w') as f:
             f.write(json.dumps(dictionary, indent=2))
         return json.dumps(dictionary)
+
+
+# dc = UbereatsCrawler()
+# ipdb.set_trace()
+# store_info = dc.get_store("3bc8787b-35a5-4816-b683-68be0432e930", "3134 Del Monte Ave, El Cerrito")

@@ -2,6 +2,8 @@ import React from "react";
 import TopBar from "./TopBar";
 import ImgTest from "./ImgTest";
 
+import FeeInfo from "./StoreDetail/FeeInfo";
+
 import UberEats from "./StoreDetail/UberEats";
 import DoorDash from "./StoreDetail/DoorDash";
 import GrubHub from "./StoreDetail/GrubHub";
@@ -13,28 +15,38 @@ class RequestsTest extends React.Component {
     super(props);
 
     this.state = {
+      meta: [],
       representative: null,
       heroImageUrl: null,
       title: null,
       address: null,
       priceRange: null,
+      promotion: [],
+      fee: [],
       json_data: [],
-      isOpen: null,
+      isOpen: [],
       subNav: [],
       sectionEntitiesMap: [],
+      feeText: null,
+      etaRange: null,
+      rating: null,
     };
   }
 
   componentDidMount() {
     // this is an example for the request body
     const payload = {
-      meta: { ubereats: "false", doordash: "true", grubhub: "true" },
+      meta: { ubereats: "true", doordash: "true", grubhub: "true" },
       ids: {
-        ubereatsID: "345b3c6f-8d4b-4990-94f5-d091e337ecec",
-        doordashID: "855640",
-        grubhubID: "2026708",
+        ubereatsID: "3bc8787b-35a5-4816-b683-68be0432e930",
+        doordashID: "582935",
+        grubhubID: "375913",
       },
-      customer_location: { latitude: "37.7581925", longitude: "-122.4121704" },
+      customer_location: {
+        location: "3134 Del Monte Ave, El Cerrito",
+        latitude: "37.89033",
+        longitude: "-122.29354",
+      },
     };
 
     // Simple POST request with a JSON body using fetch
@@ -47,13 +59,18 @@ class RequestsTest extends React.Component {
       .then((response) => response.json())
       .then((data) =>
         this.setState({
+          meta: data.meta,
           representative: data.representative,
           heroImageUrl: data.heroImageUrl,
           title: data.title,
-          address: data.location.address,
+          address: data.location.streetAddress,
           priceRange: data.priceRange,
           isOpen: data.isOpen,
           json_data: data,
+          promotion: data.promotion,
+          fee: data.fee,
+          etaRange: data.etaRange,
+          rating: data.rating,
         })
       );
   }
@@ -66,20 +83,154 @@ class RequestsTest extends React.Component {
       header = <ImgTest heroImageUrl={this.state.heroImageUrl} />;
     }
     console.log(this.state.json_data);
-    var fees = "";
-    if (this.state.isOpen === false) {
-      fees = "Closed";
-    } else if (this.state.isOpen === true) {
-      fees = "Opened";
+
+    console.log("this.state.isOpen: " + this.state.isOpen);
+
+    var arr = [];
+
+    for (const each in this.state.isOpen) {
+      console.log(each);
+      console.log(this.state.isOpen[each]);
+      if (this.state.isOpen[each]) {
+        arr.push(each);
+      }
     }
+    console.log("arrrr:" + arr);
 
-    // console.log(this.state.subNav);
+    // var fees = "";
+    // for (const each in this.state.isOpen) {
+    //   console.log("each: " + this.state.isOpen.each);
+    //   if (this.state.isOpen[each]) {
+    //     fees = <FeeInfo fee={this.state.json_data.fee} isOpen={arr} />;
+    //     break;
+    //   } else {
+    //     console.log("else");
+    //   }
+    //   fees = "Closed";
+    // }
 
-    // const menu = this.state.subNav.map((each) => <Menu subNav={each} />);
-    // console.log("menu: " + menu);
-    // menu.forEach((item, i) => {
-    //   console.log(item);
-    // });
+    let ubereats_fee = "";
+    let doordash_fee = "";
+    let grubhub_fee = "";
+
+    let total_ubereats_fee = "";
+    let ubereats_eta = "";
+    let total_doordash_fee = "";
+    let doordash_eta = "";
+    let total_grubhub_fee = "";
+    let grubhub_eta = "";
+
+    if (!this.state.isOpen.ubereats) {
+      ubereats_fee = "Unavailable";
+    } else {
+      let total = 0;
+      try {
+        ubereats_fee +=
+          "$" + this.state.fee.smallOrderFee.ubereats + " Small Order Fee ∙ ";
+        total += this.state.fee.smallOrderFee.ubereats;
+      } catch {
+        ubereats_fee += "$0 Small Order Fee ∙ ";
+      }
+      try {
+        ubereats_fee +=
+          "$" + this.state.fee.deliveryFee.ubereats + " Delivery Fee ∙ ";
+        total += this.state.fee.deliveryFee.ubereats;
+      } catch {
+        ubereats_fee += "$0 Delivery Fee ∙ ";
+      }
+      try {
+        ubereats_fee +=
+          "$" +
+          this.state.fee.serviceFee.ubereats.toFixed(2) +
+          " Service Fee ∙ ";
+        total += this.state.fee.serviceFee.ubereats;
+      } catch {
+        ubereats_fee += "$0 Service Fee ∙ ";
+      }
+      total_ubereats_fee = "$" + total.toFixed(2) + " Total Estimated Fees";
+      try {
+        ubereats_eta =
+          " ∙ " +
+          this.state.etaRange.ubereats.min +
+          "-" +
+          this.state.etaRange.ubereats.max +
+          " Min ∙ " +
+          this.state.rating.ubereats.ratingValue;
+      } catch {
+        ubereats_eta =
+          " ∙ " +
+          this.state.etaRange.ubereats.min +
+          "-" +
+          this.state.etaRange.ubereats.max +
+          " Min ∙ Newly Added";
+      }
+    }
+    if (!this.state.isOpen.doordash) {
+      doordash_fee = "Unavailable";
+    } else {
+      let total = 0;
+      try {
+        doordash_fee +=
+          "$" + this.state.fee.smallOrderFee.doordash + " Small Order Fee ∙ ";
+        total += this.state.fee.smallOrderFee.doordash;
+      } catch {
+        doordash_fee += "$0 Delivery Fee ∙ ";
+      }
+      try {
+        doordash_fee +=
+          "$" + this.state.fee.deliveryFee.doordash + " Delivery Fee ∙ ";
+        total += this.state.fee.deliveryFee.doordash;
+      } catch {
+        doordash_fee += "$0 Delivery Fee ∙ ";
+      }
+      try {
+        doordash_fee +=
+          "$" + this.state.fee.serviceFee.doordash + " Service Fee ∙ ";
+        total += this.state.fee.serviceFee.doordash;
+      } catch {
+        doordash_fee += "$0 Service Fee ∙ ";
+      }
+      total_doordash_fee = "$" + total.toFixed(2) + " Total Estimated Fees";
+      doordash_eta =
+        " ∙ " +
+        this.state.etaRange.doordash +
+        " Min ∙ " +
+        this.state.rating.doordash.ratingValue;
+    }
+    if (!this.state.isOpen.grubhub) {
+      grubhub_fee = "Unavailable";
+    } else {
+      let total = 0;
+      try {
+        grubhub_fee +=
+          "$" + this.state.fee.smallOrderFee.grubhub + " Small Order Fee ∙ ";
+        total += this.state.fee.smallOrderFee.grubhub;
+      } catch {
+        grubhub_fee += "$0 Small Order Fee ∙ ";
+      }
+      try {
+        grubhub_fee +=
+          "$" + this.state.fee.deliveryFee.grubhub + " Delivery Fee ∙ ";
+        total += this.state.fee.deliveryFee.grubhub;
+      } catch {
+        grubhub_fee += "$0 Delivery Fee ∙ ";
+      }
+      try {
+        grubhub_fee +=
+          "$" +
+          this.state.fee.serviceFee.grubhub.toFixed(2) +
+          " Service Fee ∙ ";
+        total += this.state.fee.serviceFee.grubhub;
+      } catch {
+        grubhub_fee += "$0 Service Fee ∙ ";
+      }
+      total_grubhub_fee = "$" + total.toFixed(2) + " Total Estimated Fees";
+      grubhub_eta =
+        " ∙ " +
+        this.state.etaRange.grubhub +
+        " Min ∙ " +
+        this.state.rating.grubhub.ratingValue;
+    }
 
     var menuApp = null;
     if (this.state.representative === "ubereats") {
@@ -99,7 +250,38 @@ class RequestsTest extends React.Component {
           <div className="priceRange">{this.state.priceRange}</div>
           <div className="address">{this.state.address}</div>
         </div>
-        <div className="fees-wrapper">{fees}</div>
+        <div className="fees-wrapper">
+          <div className="ubereats-fee-wrapper">
+            UberEats ☛ {ubereats_fee}{" "}
+            <span id="total-fee">{total_ubereats_fee}</span>
+            {ubereats_eta}
+            <div className="order-box">
+              <a href="https://www.ubereats.com/san-francisco/food-delivery/organic-meals-to-go/3bc8787b-35a5-4816-b683-68be0432e930">
+                Order in UberEats
+              </a>
+            </div>
+          </div>
+          <div className="doordash-fee-wrapper">
+            DoorDash ☛ {doordash_fee}
+            <span id="total-fee">{total_doordash_fee}</span>
+            {doordash_eta}
+            <div className="order-box">
+              <a href="https://www.doordash.com/store/organic-meals-to-go-l-l-c--albany-582935/en-US">
+                Order in DoorDash
+              </a>
+            </div>
+          </div>
+          <div className="grubhub-fee-wrapper">
+            GrubHub ☛ {grubhub_fee}
+            <span id="total-fee">{total_grubhub_fee}</span>
+            {grubhub_eta}
+            <div className="order-box">
+              <a href="https://www.grubhub.com/restaurant/organic-meals-to-go-902-masonic-ave-albany/375913">
+                Order in GrubHub
+              </a>
+            </div>
+          </div>
+        </div>
         {menuApp}
       </div>
     );

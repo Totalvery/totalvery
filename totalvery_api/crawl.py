@@ -1,3 +1,4 @@
+import ipdb
 from collections import defaultdict
 from .serializers import StoreDetailSerializer
 
@@ -65,11 +66,15 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
     gathering all types of the fare only if the store is open. Otherwise, provides the static information about the store
     '''
     dic = defaultdict()
+    dic['meta'] = {'ubereats': Ubereats, 'grubhub': Grubhub, 'doordash': Doordash
+                   }
     dic['ids'] = ID_dict
     dic['representative'] = None
+    dic['isOpen'] = defaultdict()
     dic['openHours'] = defaultdict()
     dic['etaRange'] = defaultdict()
     dic['rating'] = defaultdict()
+    dic['promotion'] = defaultdict()
     dic['fee'] = defaultdict()
     dic['fee']['smallOrderFee'] = defaultdict()
     dic['fee']['deliveryFee'] = defaultdict()
@@ -84,13 +89,13 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
         dic['representative'] = 'ubereats'
         uc = UbereatsCrawler()
         store_info, fee_dic = uc.get_store(
-            ID_dict["ubereatsID"], [customer_location["latitude"], customer_location["longitude"]])
+            ID_dict["ubereatsID"], customer_location['location'], [customer_location["latitude"], customer_location["longitude"]])
 
         # width = 1080
         dic['heroImageUrl'] = store_info['data']['heroImageUrls'][-2]['url']
         dic['title'] = store_info['data']['title']
         dic['location'] = store_info['data']['location']
-        dic['isOpen'] = store_info['data']['isOpen']
+        dic['isOpen']['ubereats'] = store_info['data']['isOpen']
         dic['priceRange'] = store_info['data']['categories'][0]  # "$$"
         uuid = store_info['data']['sections'][0]['uuid']
         dic['menu']['ubereats'] = {'sectionEntitiesMap': store_info['data']['sectionEntitiesMap'][uuid],
@@ -108,70 +113,37 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             dic['fee']['deliveryFee']['ubereats'] = fee_dic['delivery_fee']
             # ex) 3.99
 
-            if cart_size < fee_dic['min_small_order']:
-                dic['fee']['smallOrderFee']['ubereats'] = fee_dic['small_order_fee']
+            if 'min_small_order' in fee_dic.keys():
+                if cart_size < fee_dic['min_small_order']:
+                    dic['fee']['smallOrderFee']['ubereats'] = fee_dic['small_order_fee']
+                else:
+                    dic['fee']['smallOrderFee']['ubereats'] = 0
             else:
                 dic['fee']['smallOrderFee']['ubereats'] = 0
-
-            service_fee = cart_size * fee_dic['service_fee']
-            if service_fee < fee_dic['min_service_fee']:
-                service_fee = fee_dic['min_service_fee']
+            try:
+                service_fee = cart_size * fee_dic['service_fee']
+                if service_fee < fee_dic['min_service_fee']:
+                    service_fee = fee_dic['min_service_fee']
+            except:
+                service_fee = 0
             dic['fee']['serviceFee']['ubereats'] = service_fee
 
             if 'ca_driver_benefits_fee' in fee_dic.keys():
                 dic['ubereats_ca_driver_benefits_fee'] = fee_dic['ca_driver_benefits_fee']
                 # ex) 2
+
+            if 'promotion' in fee_dic.keys():
+                dic['promotion']['ubereats'] = fee_dic['promotion']
+                # ex) -2.49
         else:
             dic['fee']['smallOrderFee']['ubereats'] = 0
             dic['fee']['serviceFee']['ubereats'] = 0
-
-    if Doordash:
-        dc = DoordashCrawler()
-        store_info = dc.get_store(ID_dict["doordashID"])[
-            'data']['storepageFeed']
-
-        if Ubereats == False:
-            dic['representative'] = 'doordash'
-            # TODO: fix if null
-            dic['heroImageUrl'] = store_info['storeHeader']['businessHeaderImgUrl']
-            dic['title'] = store_info['storeHeader']['name']
-            location_dic["address"] = store_info['storeHeader']['address']['displayAddress']
-            location_dic["streetAddress"] = store_info['storeHeader']['address']['street']
-            location_dic["city"] = store_info['storeHeader']['address']['city']
-            dic['location'] = location_dic
-            dic['isOpen'] = store_info['storeHeader']['status']['delivery']['isAvailable']
-            dic['menu']['doordash'] = store_info['itemLists']
-
-        # "11:00 AM - 8:30 PM"
-        dic['openHours']['doordash'] = store_info['menuBook']['displayOpenHours']
-        dic['priceRange'] = store_info['storeHeader']['priceRange'] * "$"
-        if dic['isOpen']:
-            # "19 - 29"
-            dic['etaRange']['doordash'] = store_info['storeHeader']['status']['delivery']['minutes']
-            # "$0.00 delivery fee"
-            dic['fee']['deliveryFee']['doordash'] = store_info['storeHeader']['deliveryFeeLayout']['displayDeliveryFee']
-        else:
-            dic['etaRange']['doordash'] = None
-            dic['fee']['deliveryFee']['doordash'] = None
-        doordash_rating_dic = rating_dic.copy()
-        doordash_rating_dic["ratingValue"] = store_info['storeHeader']['ratings']['averageRating']
-        doordash_rating_dic["reviewCount"] = store_info['storeHeader']['ratings']['numRatingsDisplayString'].split(' ')[
-            0]  # "2,900+"
-        dic['rating']['doordash'] = doordash_rating_dic
-
-        if cart_size < DEFAULT_MIN_SUBTOTAL:
-            dic['fee']['smallOrderFee']['doordash'] = DEFAULT_SMALL_ORDER_FEE
-        else:
-            dic['fee']['smallOrderFee']['doordash'] = 0
-
-        dic['fee']['serviceFee']['doordash'] = cart_size * \
-            DEFAULT_SERVICE_FEE_PERCENT
 
     if Grubhub:
         gc = GrubhubCrawler()
         store_info = gc.get_store(ID_dict["grubhubID"])
 
-        if Ubereats == False and Doordash == False:
+        if Ubereats == False or dic['isOpen']['ubereats'] == False:
             dic['representative'] = 'grubhub'
             headerbackground = store_info['restaurant']['additional_media_images']['HEADER_BACKGROUND']
             dic['heroImageUrl'] = headerbackground['base_url'] + \
@@ -187,8 +159,9 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             location_dic["longitude"] = float(
                 store_info['restaurant']['longitude'])
             dic['location'] = location_dic
-            dic['isOpen'] = store_info['restaurant_availability']['open_delivery']
             dic['menu']['grubhub'] = store_info['restaurant']['menu_category_list']
+
+        dic['isOpen']['grubhub'] = store_info['restaurant_availability']['open_delivery']
 
         # {
         #     "day_of_week": 1,
@@ -205,7 +178,11 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
         # TODO: ignore timezone
         dic['openHours']['grubhub'] = store_info['restaurant_availability']['available_hours']
 
-        dic['priceRange'] = int(store_info['restaurant']['price_rating']) * "$"
+        try:
+            dic['priceRange'] = int(
+                store_info['restaurant']['price_rating']) * "$"
+        except:
+            dic['priceRange'] = ""
         if dic['isOpen']:
             # "30 - 40"
             dic['etaRange']['grubhub'] = str(store_info['restaurant_availability']['delivery_estimate_range_v2']['minimum']) + " - " + str(
@@ -238,6 +215,50 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
                 store_info['restaurant_availability']['service_fee']['delivery_fee']['percent_value'])/100 * cart_size
         except:
             dic['fee']['serviceFee']['grubhub'] = 0
+
+    if Doordash:
+        dc = DoordashCrawler()
+        store_info = dc.get_store(ID_dict["doordashID"])[
+            'data']['storepageFeed']
+
+        if Ubereats == False and Grubhub == False:
+            dic['representative'] = 'doordash'
+            # TODO: fix if null
+            dic['heroImageUrl'] = store_info['storeHeader']['businessHeaderImgUrl']
+            dic['title'] = store_info['storeHeader']['name']
+            location_dic["address"] = store_info['storeHeader']['address']['displayAddress']
+            location_dic["streetAddress"] = store_info['storeHeader']['address']['street']
+            location_dic["city"] = store_info['storeHeader']['address']['city']
+            dic['location'] = location_dic
+            dic['menu']['doordash'] = store_info['itemLists']
+
+        dic['isOpen']['doordash'] = store_info['storeHeader']['status']['delivery']['isAvailable']
+
+        # "11:00 AM - 8:30 PM"
+        dic['openHours']['doordash'] = store_info['menuBook']['displayOpenHours']
+        dic['priceRange'] = store_info['storeHeader']['priceRange'] * "$"
+        if dic['isOpen']:
+            # "19 - 29"
+            dic['etaRange']['doordash'] = store_info['storeHeader']['status']['delivery']['minutes']
+            # "$0.00 delivery fee"
+            dic['fee']['deliveryFee']['doordash'] = float(
+                store_info['storeHeader']['deliveryFeeLayout']['displayDeliveryFee'].strip('$').strip(' delivery fee'))
+        else:
+            dic['etaRange']['doordash'] = None
+            dic['fee']['deliveryFee']['doordash'] = None
+        doordash_rating_dic = rating_dic.copy()
+        doordash_rating_dic["ratingValue"] = store_info['storeHeader']['ratings']['averageRating']
+        doordash_rating_dic["reviewCount"] = store_info['storeHeader']['ratings']['numRatingsDisplayString'].split(' ')[
+            0]  # "2,900+"
+        dic['rating']['doordash'] = doordash_rating_dic
+
+        if cart_size < DEFAULT_MIN_SUBTOTAL:
+            dic['fee']['smallOrderFee']['doordash'] = DEFAULT_SMALL_ORDER_FEE
+        else:
+            dic['fee']['smallOrderFee']['doordash'] = 0
+
+        dic['fee']['serviceFee']['doordash'] = cart_size * \
+            DEFAULT_SERVICE_FEE_PERCENT
 
     return dic
 

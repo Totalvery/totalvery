@@ -22,17 +22,15 @@ function MenuElement({ items, fallback }) {
     return fallback;
   } else {
     return items.map((item) => {
-      const imageUrl =
-        item.media_image.base_url +
-        item.media_image.public_id +
-        "." +
-        item.media_image.format;
-      var display = "inline-block";
+      var imageUrl = null;
+      var display = "none";
       try {
-        if (!imageUrl) {
-          display = "none";
-          console.log(display);
-        }
+        imageUrl =
+          item.media_image.base_url +
+          item.media_image.public_id +
+          "." +
+          item.media_image.format;
+        display = "inline-block";
       } catch (error) {}
 
       return (
@@ -48,7 +46,12 @@ function MenuElement({ items, fallback }) {
             <img
               id="menu-img"
               src={imageUrl}
-              style={{ width: "150px", height: "130px", display: `${display}` }}
+              style={{
+                width: "200px",
+                height: "200px",
+                overflow: "hidden",
+                display: `${display}`,
+              }}
             />
           </div>
         </Element>

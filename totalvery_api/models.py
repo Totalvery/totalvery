@@ -12,6 +12,7 @@ class StoreDetail (models.Model):
     grubhubID = models.CharField(max_length=100, blank=True, null=True)
 
     # customer location
+    location = models.CharField(max_length=100, blank=True, null=True)
     latitude = models.FloatField() 
     longitude = models.FloatField()
 

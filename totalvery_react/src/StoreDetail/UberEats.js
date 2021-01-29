@@ -30,13 +30,10 @@ class UberEats extends React.Component {
       sectionEntitiesMap: this.props.json_data.menu.ubereats.sectionEntitiesMap,
     });
 
-    console.log("this.state.json_data: " + this.state.json_data);
-
     var categs = this.props.json_data.menu.ubereats.subsectionsMap;
 
     var arr = [];
     if (categs) {
-      console.log("enter");
       Object.keys(categs).forEach(function (key) {
         arr.push({
           title: categs[key]["title"],
@@ -58,13 +55,7 @@ class UberEats extends React.Component {
       fees = "Opened";
     }
 
-    console.log(this.state.subNav);
-
     const menu = this.state.subNav.map((each) => <Menu subNav={each} />);
-    console.log("menu: " + menu);
-    menu.forEach((item, i) => {
-      console.log(item);
-    });
 
     return (
       <div>

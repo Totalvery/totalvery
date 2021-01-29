@@ -12,7 +12,7 @@ function MyImageComponent(props) {
   // });
 
   return (
-    <div class="header-img" style={{ height: "500px", overflow: "hidden" }}>
+    <div className="header-img" style={{ height: "220px", overflow: "hidden" }}>
       <img
         src={props.heroImageUrl}
         style={{ width: "100%", margin: "-20% 0 0 0" }}

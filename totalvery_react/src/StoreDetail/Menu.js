@@ -26,7 +26,6 @@ function MenuElement({ items, sectionEntitiesMap, fallback }) {
       try {
         if (!sectionEntitiesMap[item].imageUrl) {
           display = "none";
-          console.log(display);
         }
       } catch (error) {}
 
@@ -45,7 +44,12 @@ function MenuElement({ items, sectionEntitiesMap, fallback }) {
             <img
               id="menu-img"
               src={sectionEntitiesMap[item].imageUrl}
-              style={{ width: "150px", height: "130px", display: `${display}` }}
+              style={{
+                width: "200px",
+                height: "200px",
+                overflow: "hidden",
+                display: `${display}`,
+              }}
             />
           </div>
         </Element>
