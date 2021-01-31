@@ -9,4 +9,4 @@ django-cors-headers
 pymongo
 pymongo[srv]
 bson
-django_heroku
+django-heroku==0.3.1
