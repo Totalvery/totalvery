@@ -1,7 +1,7 @@
 {
-    "root": "build/",
+    "root": "src/",
     "clean_urls": false,
     "routes": {
-      "/**": "App.js"
+      "/**": "index.html"
     }
   }
