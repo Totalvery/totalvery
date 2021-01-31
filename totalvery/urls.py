@@ -15,13 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include,re_path
+from django.views.generic import TemplateView
 
 from .views import ping
-from .views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ping/', ping, name="ping"),
     path('api/', include('totalvery_api.urls')),
-    re_path(r'^.*$', index , name='index'),
+    re_path(r'^.*', TemplateView.as_view(template_name='index.html')),
 ]

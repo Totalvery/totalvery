@@ -74,7 +74,7 @@ FRONTEND_DIR = os.path.abspath(
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS":[os.path.join(FRONTEND_DIR,'src')],
+        "DIRS":[os.path.join(BASE_DIR,'totalvery_react')]
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
