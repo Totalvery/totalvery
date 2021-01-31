@@ -20,6 +20,7 @@ from .views import ping
 
 
 urlpatterns = [
+    path('',index,name='index')
     path('admin/', admin.site.urls),
     path('ping/', ping, name="ping"),
     path('api/', include('totalvery_api.urls'))
