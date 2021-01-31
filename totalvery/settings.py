@@ -74,7 +74,7 @@ FRONTEND_DIR = os.path.abspath(
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS":[os.path.join(BASE_DIR,'totalvery_react')],
+        "DIRS":[os.path.join(FRONTEND_DIR,'build')]
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -142,7 +142,7 @@ STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(FRONTEND_DIR, "staticfiles")
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'totalvery_react/'),
+    os.path.join(FRONTEND_DIR, 'build/static'),
 ]
 
 WHITENOISE_ROOT = os.path.join(FRONTEND_DIR, 'build', 'root')
