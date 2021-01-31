@@ -9,4 +9,5 @@ django-cors-headers
 pymongo
 pymongo[srv]
 bson
+psycopg2-binary
 dj-database-url
