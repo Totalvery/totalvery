@@ -68,11 +68,13 @@ CORS_ORIGIN_ALLOW_ALL = True
 # )
 
 ROOT_URLCONF = "totalvery.urls"
-
+FRONTEND_DIR = os.path.abspath(
+    os.path.join(BASE_DIR,'totalvery_api')
+)
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS":[os.path.join(BASE_DIR, 'build')],
+        "DIRS":[os.path.join(FRONTEND_DIR,'src')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -137,8 +139,10 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 
-STATIC_ROOT = os.path.join(BASE_DIR, "totalvery_react/src/staticfiles")
+STATIC_ROOT = os.path.join(FRONTEND_DIR, "staticfiles")
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'totalvery_react/src/'),
+    os.path.join(BASE_DIR, 'totalvery_react/'),
 ]
+
+WHITENOISE_ROOT = os.path.join(FRONTEND_DIR, 'build', 'root')
