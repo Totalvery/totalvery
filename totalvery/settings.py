@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     'rest_framework',
     "totalvery_api",
+    "totalvery_react",
     'corsheaders',
 ]
 
@@ -74,7 +75,7 @@ FRONTEND_DIR = os.path.abspath(
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS":[os.path.join(FRONTEND_DIR,'build')],
+        "DIRS":[os.path.join(BASE_DIR,'totalvery_react')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -142,7 +143,7 @@ STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(FRONTEND_DIR, "staticfiles")
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 STATICFILES_DIRS = [
-    os.path.join(FRONTEND_DIR, 'build/static'),
+    os.path.join(BASE_DIR,'totalvery_react','build','static'),
 ]
 
 WHITENOISE_ROOT = os.path.join(FRONTEND_DIR, 'build', 'root')
