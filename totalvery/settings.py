@@ -69,7 +69,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = "totalvery.urls"
 FRONTEND_DIR = os.path.abspath(
-    os.path.join(BASE_DIR,'totalvery_api')
+    os.path.join(BASE_DIR,'totalvery_react')
 )
 TEMPLATES = [
     {
