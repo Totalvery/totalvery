@@ -23,7 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('ping/', ping, name="ping"),
     path('api/', include('totalvery_api.urls')),
-    path('', include('totalvery_react.urls')),
-    re_path(r'^(?:.*)/?$', include('totalvery_react.urls')),
-   
+    re_path(r'^.*$', index , name='index'),
 ]
