@@ -9,4 +9,4 @@ django-cors-headers
 pymongo
 pymongo[srv]
 bson
-django-heroku==0.3.1
+dj-database-url
