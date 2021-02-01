@@ -4,10 +4,12 @@ import logo from "../images/main_home.png";
 import doordash from "../images/Doordash.png";
 import grubhub from "../images/Grubhub.jpg";
 import ubereats from "../images/UberEats.png";
+import TopBar from "./TopBar";
 
 function MainHome() {
     return(
         <div className="mainhome">
+            {/* <div><TopBar /></div> */}
             <view style={{position: 'absolute', justifyContent:"center", alignItems:"center"}}>
                 <img src = {logo} alt="Logo"/>
             </view>

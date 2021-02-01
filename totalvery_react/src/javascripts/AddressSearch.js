@@ -2,6 +2,8 @@ import React from "react";
 import GoogleApi from "../GoogleApi";
 import GoogleMap from "./GoogleMap";
 import AllRestaurants from "./AllRestaurants";
+import {Spinner} from "react-bootstrap";
+import TopBar from "./TopBar";
 
 class AddressSearch extends React.Component {
   constructor(props) {
@@ -73,26 +75,16 @@ class AddressSearch extends React.Component {
     var { isLoaded, items } = this.state;
 
     if (!isLoaded) {
-      return <div>Loading...</div>;
+      return (
+      <div>
+        <Spinner animation="border" style = {{ position: "fixed", top: "50%", left: "50%" }}></Spinner>
+        <h2 style = {{ position: "fixed", top: "55%", left: "48%", fontFamily:'Philosopher' }}>Loading...</h2>
+      </div>);
     } else {
-      const list = JSON.parse(items).data.map(d =>
-        <div>
-          <a>
-            <p>{d.data.rating}</p>
-            {/* <p>{d.data.image}</p> */}
-            <img src={d.data.image}/>
-            <p>{d.name}</p>
-            
-            
-          </a>
-        </div>)
-
-
-      const name_list = JSON.parse(items).data.map((d) => <li>{d.name}</li>);
-      const rate_list = JSON.parse(items).data.map((d) => <li>{d.data.rating}</li>);
-      const img_list = JSON.parse(items).data.map((d) => <li>{d.data.image}</li>);
+      // const list = JSON.parse(items).data.map((d) => <li>{d.name}</li>);
       return (
         <div className="addresssearch">
+          <div><TopBar location={this.state.location}/></div>
           <view
             style={{
               position: "absolute",
@@ -125,9 +117,7 @@ class AddressSearch extends React.Component {
               fontSize: "20px",
             }}
           >
-            <AllRestaurants items={items} list={list} names={name_list} images={img_list} rates={rate_list}/>
-            {/* {list} */}
-            {/* {items} */}
+            <AllRestaurants items={items}/>
           </div>
         </div>
       );
