@@ -1,14 +1,7 @@
 .app {
   min-height: 120vh;
-  min-width: 134vh;
   background: white;
 }
-
-/* This is css for topbar */
-/* .justify-content-center {
- background-color: black;
- text-align: center;
-} */
 
 .topbar {
   background-color: black;
@@ -20,9 +13,15 @@
   transform: translateX(-50%);
 }
 
+.topbar_location {
+  position: absolute;
+  left: 50px;
+}
+
 .mainhome {
   display: flex;
   justify-content: center;
+  min-width: 103vh;
 }
 
 .textfield {
