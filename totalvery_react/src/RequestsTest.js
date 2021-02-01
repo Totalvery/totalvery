@@ -36,9 +36,9 @@ class RequestsTest extends React.Component {
   componentDidMount() {
     // this is an example for the request body
     const payload = {
-      meta: { ubereats: "true", doordash: "true", grubhub: "true" },
+      meta: { ubereats: "true", doordash: "false", grubhub: "false" },
       ids: {
-        ubereatsID: "3bc8787b-35a5-4816-b683-68be0432e930",
+        ubereatsID: "d076f100-8710-4e70-9571-e2432fcf1d0d",
         doordashID: "582935",
         grubhubID: "375913",
       },
@@ -78,7 +78,7 @@ class RequestsTest extends React.Component {
   render() {
     let header = null;
     if (this.state.heroImageUrl === "") {
-      header = <div className="no-header-img"></div>;
+      header = <div className="no-header-img"> </div>;
     } else {
       header = <ImgTest heroImageUrl={this.state.heroImageUrl} />;
     }
@@ -122,6 +122,11 @@ class RequestsTest extends React.Component {
 
     if (!this.state.isOpen.ubereats) {
       ubereats_fee = "Unavailable";
+      try {
+        let orderWrappers = null;
+        orderWrappers = document.getElementsByClassName("order-wrapper");
+        orderWrappers[0].style.visibility = "hidden";
+      } catch (error) {}
     } else {
       let total = 0;
       try {
@@ -147,6 +152,15 @@ class RequestsTest extends React.Component {
       } catch {
         ubereats_fee += "$0 Service Fee ∙ ";
       }
+      try {
+        ubereats_fee +=
+          "$" +
+          this.state.json_data.ubereats_ca_driver_benefits_fee.toFixed(2) +
+          " CA Driver Benefits Fee ∙ ";
+        total += this.state.fee.serviceFee.ubereats;
+      } catch {
+        ubereats_fee += "$0 Service Fee ∙ ";
+      }
       total_ubereats_fee = "$" + total.toFixed(2) + " Total Estimated Fees";
       try {
         ubereats_eta =
@@ -167,6 +181,11 @@ class RequestsTest extends React.Component {
     }
     if (!this.state.isOpen.doordash) {
       doordash_fee = "Unavailable";
+      try {
+        let orderWrappers = null;
+        orderWrappers = document.getElementsByClassName("order-wrapper");
+        orderWrappers[1].style.visibility = "hidden";
+      } catch (error) {}
     } else {
       let total = 0;
       try {
@@ -199,6 +218,11 @@ class RequestsTest extends React.Component {
     }
     if (!this.state.isOpen.grubhub) {
       grubhub_fee = "Unavailable";
+      try {
+        let orderWrappers = null;
+        orderWrappers = document.getElementsByClassName("order-wrapper");
+        orderWrappers[2].style.visibility = "hidden";
+      } catch (error) {}
     } else {
       let total = 0;
       try {
@@ -243,46 +267,46 @@ class RequestsTest extends React.Component {
 
     return (
       <div>
-        <TopBar />
-        {header}
+        <TopBar /> {header}{" "}
         <div className="store-detail">
-          <h1 className="store-title">{this.state.title}</h1>
-          <div className="priceRange">{this.state.priceRange}</div>
-          <div className="address">{this.state.address}</div>
-        </div>
-        <div className="fees-wrapper">
-          <div className="ubereats-fee-wrapper">
-            UberEats ☛ {ubereats_fee}{" "}
-            <span id="total-fee">{total_ubereats_fee}</span>
-            {ubereats_eta}
-            <div className="order-box">
-              <a href="https://www.ubereats.com/san-francisco/food-delivery/organic-meals-to-go/3bc8787b-35a5-4816-b683-68be0432e930">
-                Order in UberEats
-              </a>
+          <h1 className="store-title"> {this.state.title} </h1>{" "}
+          <div className="priceRange"> {this.state.priceRange} </div>{" "}
+          <div className="address"> {this.state.address} </div>{" "}
+        </div>{" "}
+        <div className="fees-order-container">
+          <div className="fees-wrapper">
+            <div className="ubereats-fee-wrapper">
+              UberEats☛ {ubereats_fee}{" "}
+              <span id="total-fee"> {total_ubereats_fee} </span> {ubereats_eta}
+            </div>{" "}
+            <div className="doordash-fee-wrapper">
+              DoorDash☛ {doordash_fee}{" "}
+              <span id="total-fee"> {total_doordash_fee} </span> {doordash_eta}
+            </div>{" "}
+            <div className="grubhub-fee-wrapper">
+              GrubHub☛ {grubhub_fee}{" "}
+              <span id="total-fee"> {total_grubhub_fee} </span> {grubhub_eta}{" "}
             </div>
           </div>
-          <div className="doordash-fee-wrapper">
-            DoorDash ☛ {doordash_fee}
-            <span id="total-fee">{total_doordash_fee}</span>
-            {doordash_eta}
-            <div className="order-box">
+          <div className="order-box">
+            <div className="order-wrapper">
+              <a href="https://www.ubereats.com/san-francisco/food-delivery/organic-meals-to-go/3bc8787b-35a5-4816-b683-68be0432e930">
+                Order in UberEats{" "}
+              </a>
+            </div>
+            <div className="order-wrapper">
               <a href="https://www.doordash.com/store/organic-meals-to-go-l-l-c--albany-582935/en-US">
                 Order in DoorDash
               </a>
             </div>
-          </div>
-          <div className="grubhub-fee-wrapper">
-            GrubHub ☛ {grubhub_fee}
-            <span id="total-fee">{total_grubhub_fee}</span>
-            {grubhub_eta}
-            <div className="order-box">
+            <div className="order-wrapper">
               <a href="https://www.grubhub.com/restaurant/organic-meals-to-go-902-masonic-ave-albany/375913">
                 Order in GrubHub
               </a>
             </div>
           </div>
         </div>
-        {menuApp}
+        {menuApp}{" "}
       </div>
     );
   }

@@ -39,7 +39,7 @@ function MenuElement({ items, fallback }) {
             <b>{item.name}</b>
             <br></br>
             {item.description}
-            <br></br>
+            <br></br><br></br>
             <b>${parseFloat(item.price.amount) / 100}</b>
           </div>
           <div className="menu-img-wrapper">

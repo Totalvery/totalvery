@@ -37,7 +37,7 @@ function MenuElement({ items, sectionEntitiesMap, fallback }) {
             </b>
             <br></br>
             {sectionEntitiesMap[item].description}
-            <br></br>
+            <br></br><br></br>
             <b>${parseFloat(sectionEntitiesMap[item].price) / 100}</b>
           </div>
           <div className="menu-img-wrapper">

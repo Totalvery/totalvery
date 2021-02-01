@@ -100,7 +100,7 @@ class UbereatsCrawler:
                         service_fee_txt = each['bottomSheet']['body'][0]['children'][0]['text']
                         service_fee_txt = re.findall(
                             r'\d*\.\d+|\d+', service_fee_txt)
-                        service_fee = float(service_fee_txt[0])
+                        service_fee = float(service_fee_txt[0])/100
                         min_service_fee = float(service_fee_txt[1])
 
                         dic['service_fee'] = service_fee

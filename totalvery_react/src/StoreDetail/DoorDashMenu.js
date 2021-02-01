@@ -38,6 +38,7 @@ function MenuElement({ items, fallback }) {
             <br></br>
             {item.description}
             <br></br>
+            <br></br>
             <b>{item.displayPrice}</b>
           </div>
           <div className="menu-img-wrapper">
