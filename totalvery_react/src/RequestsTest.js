@@ -276,15 +276,15 @@ class RequestsTest extends React.Component {
         <div className="fees-order-container">
           <div className="fees-wrapper">
             <div className="ubereats-fee-wrapper">
-              UberEats☛ {ubereats_fee}{" "}
+              UberEats ☛ {ubereats_fee}{" "}
               <span id="total-fee"> {total_ubereats_fee} </span> {ubereats_eta}
             </div>{" "}
             <div className="doordash-fee-wrapper">
-              DoorDash☛ {doordash_fee}{" "}
+              DoorDash ☛ {doordash_fee}{" "}
               <span id="total-fee"> {total_doordash_fee} </span> {doordash_eta}
             </div>{" "}
             <div className="grubhub-fee-wrapper">
-              GrubHub☛ {grubhub_fee}{" "}
+              GrubHub ☛ {grubhub_fee}{" "}
               <span id="total-fee"> {total_grubhub_fee} </span> {grubhub_eta}{" "}
             </div>
           </div>
