@@ -47,7 +47,7 @@ def stores_feed(request):
         #check if it exists in the database
         cluster = MongoClient("mongodb+srv://totalvery:1111@cluster0.qpazd.mongodb.net/totalvery?retryWrites=true&w=majority")
         db = cluster["totalvery"]
-        db.users.remove({}) #removing the existing data(test용)
+        #db.users.remove({}) #removing the existing data(test용)
         collection = db["totalvery"] #mini database 
         query = {
           'latitude':lat,
