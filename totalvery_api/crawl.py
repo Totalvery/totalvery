@@ -48,8 +48,8 @@ def stores_feed(request):
         cluster = MongoClient(
             "mongodb+srv://totalvery:1111@cluster0.qpazd.mongodb.net/totalvery?retryWrites=true&w=majority")
         db = cluster["totalvery"]
-        #db.users.remove({}) #removing the existing data(test용)
-        collection = db["totalvery"] #mini database 
+        # db.users.remove({}) #removing the existing data(test용)
+        collection = db["totalvery"]  # mini database
         query = {
             'latitude': lat,
             'longitude': lon
@@ -141,8 +141,11 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             dic['etaRange']['ubereats'] = fee_dic['etaRange']
             # ex) {'min': 20, 'max': 30}
 
-            dic['fee']['deliveryFee']['ubereats'] = fee_dic['delivery_fee']
-            # ex) 3.99
+            try:
+                dic['fee']['deliveryFee']['ubereats'] = fee_dic['delivery_fee']
+                # ex) 3.99
+            except:
+                dic['fee']['deliveryFee']['ubereats'] = 0
 
             if 'min_small_order' in fee_dic.keys():
                 if cart_size < fee_dic['min_small_order']:
