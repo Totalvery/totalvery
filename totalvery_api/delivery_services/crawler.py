@@ -458,7 +458,10 @@ class GrubhubCrawler:
                 else:
                     store_img = stores[i]['logo']
                     store_rating = stores[i]['ratings']['rating_value']
-                    delivery_fee = stores[i]['delivery_fee']['price']
+                    if (stores[i]['delivery']==True):
+                        delivery_fee = stores[i]['delivery_fee']['price']
+                    else:
+                        delivery_fee = -1 # when delivery is not available 
                     a_dict = {
                         'name': store_name,
                         'data': {
