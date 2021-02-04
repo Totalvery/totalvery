@@ -129,6 +129,8 @@ class SearchBar extends Component {
             pathname: `/search/${this.state.mapPosition.lat}/${this.state.mapPosition.lng}`,
             state: {
               location: this.state.address,
+              lat:this.state.mapPosition.lat,
+              lon:this.state.mapPosition.lon,
             },
           }}
         />
