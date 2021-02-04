@@ -23,33 +23,19 @@ class UbereatsCrawler:
 
     def set_location_cookie(self, keyword):
         self.headers = {"x-csrf-token": "x"}
-        dataForm = {'query': keyword}
-        response = self.s.post(
-            "https://www.ubereats.com/api/getLocationAutocompleteV1", data=dataForm, headers=self.headers)
-        location_json = response.json()['data'][0]
-
-        response = self.s.post(
-            'https://www.ubereats.com/api/getLocationDetailsV1', headers=self.headers, data=location_json)
-        location_json = response.json()['data']
-
+        location_json = json.loads(keyword)
         location_str = json.dumps(location_json)
+
         location_cookie = 'uev2.loc=' + location_str
         self.headers.update({'cookie': location_cookie, 'content-type': 'application/json',
                              'accept': '*/*'})
-    pass
 
-    def estimate_service_fee(self, session, restaurant_id, store_json, customer_location=None):
-        '''
-        @params customer_location (list): [lat, lon]
-        '''
-        if customer_location:
-            self.customer_location = customer_location
-        elif self.customer_location == []:
-            self.customer_location = [store_json['data']['location']
-                                      ['latitude'], store_json['data']['location']['longitude']]
+    def add_cart(self, session, store_json, restaurant_id):
+        
 
         sectionEntitiesMap = store_json['data']['sectionEntitiesMap']
         for k, v in sectionEntitiesMap.items():
+
             for sub_k, sub_v in sectionEntitiesMap[k].items():
                 if not sub_v['hasCustomizations']:
                     uuid = sub_k
@@ -62,15 +48,29 @@ class UbereatsCrawler:
                     response = session.post(
                         'https://www.ubereats.com/api/getOrderEstimateV1', data=data)
                     if response.json()['status'] == 'success':
-                        break
+                        return response
                     else:
                         print(response.json()['data']['message'])
                         if response.json()['data']['message'] == 'Order Location is too far from store':
 
                             self.customer_location = [store_json['data']['location']
                                                       ['latitude'], store_json['data']['location']['longitude']]
-            break
 
+        assert uuid != "", "No items available to add"
+        return None
+
+    def estimate_service_fee(self, session, restaurant_id, store_json, customer_location=None):
+        '''
+        @params customer_location (list): [lat, lon]
+        '''
+        if customer_location:
+            self.customer_location = customer_location
+        elif self.customer_location == []:
+            self.customer_location = [store_json['data']['location']
+                                      ['latitude'], store_json['data']['location']['longitude']]
+                            
+        response = self.add_cart(session, store_json, restaurant_id)
+    
         while True:
             try:
                 dic = defaultdict()
@@ -114,16 +114,16 @@ class UbereatsCrawler:
 
             except:
 
-                print("Order Location is too far from store")
-                self.customer_location = [store_json['data']['location']
-                                          ['latitude'], store_json['data']['location']['longitude']]
-                if uuid and sectionUuid:
-                    data = '{"cartItems":[{"shoppingCartItemUuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","uuid":"' + uuid + '","storeUuid":"'+restaurant_id+'","sectionUuid":"' + sectionUuid + '","subsectionUuid":"00000000-0000-0000-0000-000000000000","quantity":1,"customizations":{},"createdTimestamp":0}],"location":{"latitude":' + \
-                        str(self.customer_location[0])+',"longitude":'+str(
-                            self.customer_location[1])+'},"deliveryType":"ASAP","interactionType":"door_to_door"}'
+                print(response.json()['data']['message'])
+                # self.customer_location = [store_json['data']['location']
+                #                           ['latitude'], store_json['data']['location']['longitude']]
+                # if uuid and sectionUuid:
+                #     data = '{"cartItems":[{"shoppingCartItemUuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","uuid":"' + uuid + '","storeUuid":"'+restaurant_id+'","sectionUuid":"' + sectionUuid + '","subsectionUuid":"00000000-0000-0000-0000-000000000000","quantity":1,"customizations":{},"createdTimestamp":0}],"location":{"latitude":' + \
+                #         str(self.customer_location[0])+',"longitude":'+str(
+                #             self.customer_location[1])+'},"deliveryType":"ASAP","interactionType":"door_to_door"}'
 
-                    response = session.post(
-                        'https://www.ubereats.com/api/getOrderEstimateV1/', data=data)
+                #     response = session.post(
+                #         'https://www.ubereats.com/api/getOrderEstimateV1/', data=data)
 
     def get_store(self, restaurantId, keyword, customer_location=None):
         self.set_location_cookie(keyword)
@@ -182,9 +182,9 @@ class UbereatsCrawler:
                 break
 
         dictionary = {
-                "latitude":lat,
-                "longitude":lon,
-                "data": {
+            "latitude": lat,
+            "longitude": lon,
+            "data": {
 
             }
         }
@@ -269,7 +269,8 @@ class DoordashCrawler:
                 'content-type': "application/json"
             }
 
-        self.payload = "{\"operationName\":\"storepageFeed\",\"variables\":{\"fulfillmentType\":\"Delivery\",\"storeId\": \"" + str(restaurantId) + "\",\"isMerchantPreview\":false,\"isStorePageFeedMigration\":true,\"includeDifferentialPricingEnabled\":true},\"query\":\"query storepageFeed($storeId: ID\\u0021, $menuId: ID, $isMerchantPreview: Boolean, $fulfillmentType: FulfillmentType, $includeDifferentialPricingEnabled: Boolean\\u0021) {  storepageFeed(isStorePageFeedMigration: true, storeId: $storeId, menuId: $menuId, isMerchantPreview: $isMerchantPreview, fulfillmentType: $fulfillmentType) {    storeHeader {      id      name      description      priceRange      offersDelivery      offersPickup      offersGroupOrder      isConvenience      isDashpassPartner      address {        city        street        displayAddress        cityLink        __typename      }      business {        id        name        link        ... @include(if: $includeDifferentialPricingEnabled) {          differentialPricingEnabled          __typename        }        __typename      }      businessTags {        name        link        __typename      }      deliveryFeeLayout {        title        subtitle        isSurging        displayDeliveryFee        __typename      }      deliveryFeeTooltip {        title        description        __typename      }      coverImgUrl      coverSquareImgUrl      businessHeaderImgUrl      ratings {        numRatings        numRatingsDisplayString        averageRating        isNewlyAdded        __typename      }      distanceFromConsumer {        value        label        __typename      }      enableSwitchToPickup      asapStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      asapPickupStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      status {        delivery {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isTooFarFromConsumer          isStoreInactive          __typename        }        pickup {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isStoreInactive          __typename        }        __typename      }      __typename    }    banners {      pickup {        id        title        text        __typename      }      catering {        id        text        __typename      }      demandGen {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      demandTest {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      __typename    }    carousels {      id      type      name      description      items {        id        name        description        displayPrice        imgUrl        calloutDisplayString        nextCursor        orderItemId        reorderCartId        reorderUuid        unitAmount        currency        __typename      }      __typename    }    menuBook {      id      name      displayOpenHours      menuCategories {        id        name        numItems        next {          anchor          cursor          __typename        }        __typename      }      menuList {        id        name        displayOpenHours        __typename      }      __typename    }    itemLists {      id      name      description      items {        id        name        description        displayPrice        imageUrl        calloutDisplayString        __typename      }      __typename    }    disclaimersList {      id      text      __typename    }    __typename  }}\"}"
+        self.payload = '{"operationName":"storepageFeed","variables":{"fulfillmentType":"Delivery","storeId":"' + str(restaurantId) + '","isMerchantPreview":false,"includeDifferentialPricingEnabled":true},"query":"query storepageFeed($storeId: ID\u0021, $menuId: ID, $isMerchantPreview: Boolean, $fulfillmentType: FulfillmentType, $includeDifferentialPricingEnabled: Boolean\u0021) {  storepageFeed(storeId: $storeId, menuId: $menuId, isMerchantPreview: $isMerchantPreview, fulfillmentType: $fulfillmentType) {    storeHeader {      id      name      description      priceRange      offersDelivery      offersPickup      offersGroupOrder      isConvenience      isDashpassPartner      address {        city        street        displayAddress        cityLink        __typename      }      business {        id        name        link        ... @include(if: $includeDifferentialPricingEnabled) {          differentialPricingEnabled          __typename        }        __typename      }      businessTags {        name        link        __typename      }      deliveryFeeLayout {        title        subtitle        isSurging        displayDeliveryFee        __typename      }      deliveryFeeTooltip {        title        description        __typename      }      coverImgUrl      coverSquareImgUrl      businessHeaderImgUrl      ratings {        numRatings        numRatingsDisplayString        averageRating        isNewlyAdded        __typename      }      distanceFromConsumer {        value        label        __typename      }      enableSwitchToPickup      asapStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      asapPickupStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      status {        delivery {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isTooFarFromConsumer          isStoreInactive          __typename        }        pickup {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isStoreInactive          __typename        }        __typename      }      __typename    }    banners {      pickup {        id        title        text        __typename      }      catering {        id        text        __typename      }      demandGen {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      demandTest {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      __typename    }    carousels {      id      type      name      description      items {        id        name        description        displayPrice        imgUrl        dynamicLabelDisplayString        calloutDisplayString        nextCursor        orderItemId        reorderCartId        reorderUuid        unitAmount        currency        __typename      }      __typename    }    menuBook {      id      name      displayOpenHours      menuCategories {        id        name        numItems        next {          anchor          cursor          __typename        }        __typename      }      menuList {        id        name        displayOpenHours        __typename      }      __typename    }    itemLists {      id      name      description      items {        id        name        description        displayPrice        imageUrl        dynamicLabelDisplayString        calloutDisplayString        __typename      }      __typename    }    disclaimersList {      id      text      __typename    }    __typename  }}"}'
+        # self.payload = "{\"operationName\":\"storepageFeed\",\"variables\":{\"fulfillmentType\":\"Delivery\",\"storeId\": \"" + str(restaurantId) + "\",\"isMerchantPreview\":false,\"isStorePageFeedMigration\":true,\"includeDifferentialPricingEnabled\":true},\"query\":\"query storepageFeed($storeId: ID\\u0021, $menuId: ID, $isMerchantPreview: Boolean, $fulfillmentType: FulfillmentType, $includeDifferentialPricingEnabled: Boolean\\u0021) {  storepageFeed(isStorePageFeedMigration: true, storeId: $storeId, menuId: $menuId, isMerchantPreview: $isMerchantPreview, fulfillmentType: $fulfillmentType) {    storeHeader {      id      name      description      priceRange      offersDelivery      offersPickup      offersGroupOrder      isConvenience      isDashpassPartner      address {        city        street        displayAddress        cityLink        __typename      }      business {        id        name        link        ... @include(if: $includeDifferentialPricingEnabled) {          differentialPricingEnabled          __typename        }        __typename      }      businessTags {        name        link        __typename      }      deliveryFeeLayout {        title        subtitle        isSurging        displayDeliveryFee        __typename      }      deliveryFeeTooltip {        title        description        __typename      }      coverImgUrl      coverSquareImgUrl      businessHeaderImgUrl      ratings {        numRatings        numRatingsDisplayString        averageRating        isNewlyAdded        __typename      }      distanceFromConsumer {        value        label        __typename      }      enableSwitchToPickup      asapStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      asapPickupStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      status {        delivery {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isTooFarFromConsumer          isStoreInactive          __typename        }        pickup {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isStoreInactive          __typename        }        __typename      }      __typename    }    banners {      pickup {        id        title        text        __typename      }      catering {        id        text        __typename      }      demandGen {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      demandTest {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      __typename    }    carousels {      id      type      name      description      items {        id        name        description        displayPrice        imgUrl        calloutDisplayString        nextCursor        orderItemId        reorderCartId        reorderUuid        unitAmount        currency        __typename      }      __typename    }    menuBook {      id      name      displayOpenHours      menuCategories {        id        name        numItems        next {          anchor          cursor          __typename        }        __typename      }      menuList {        id        name        displayOpenHours        __typename      }      __typename    }    itemLists {      id      name      description      items {        id        name        description        displayPrice        imageUrl        calloutDisplayString        __typename      }      __typename    }    disclaimersList {      id      text      __typename    }    __typename  }}\"}"
         response = requests.request(
             "POST", url, data=self.payload, headers=headers)
         try:
@@ -491,10 +492,10 @@ class GrubhubCrawler:
                 else:
                     store_img = stores[i]['logo']
                     store_rating = stores[i]['ratings']['rating_value']
-                    if (stores[i]['delivery']==True):
+                    if (stores[i]['delivery'] == True):
                         delivery_fee = stores[i]['delivery_fee']['price']
                     else:
-                        delivery_fee = -1 # when delivery is not available 
+                        delivery_fee = -1  # when delivery is not available
                     a_dict = {
                         'name': store_name,
                         'data': {
@@ -529,4 +530,9 @@ class GrubhubCrawler:
 
 # dc = UbereatsCrawler()
 # ipdb.set_trace()
-# store_info = dc.get_store("3bc8787b-35a5-4816-b683-68be0432e930", "3134 Del Monte Ave, El Cerrito")
+# keyword = {"address":{"address1":"2268 Bryant St","address2":"San Francisco, CA","aptOrSuite":"","eaterFormattedAddress":"2268 Bryant St, San Francisco, CA 94110, USA","subtitle":"San Francisco, CA","title":"2268 Bryant St","uuid":""},"latitude":37.7582462,"longitude":-122.4096447,"reference":"ChIJt5Ipqzd-j4ARuuhBTqe2MjY","referenceType":"google_places","type":"google_places","source":"manual_auto_complete","addressComponents":{"countryCode":"US","firstLevelSubdivisionCode":"CA","city":"SF","postalCode":"94110"},"originType":"user_autocomplete"}
+# keyword = json.dumps(keyword)
+# store_info = dc.get_store("f5662d57-747a-428d-b974-d2faaa5bc7ba", keyword)
+
+# dc = DoordashCrawler()
+# dc.get_store('171033')

@@ -73,6 +73,7 @@ class AddressSearch extends React.Component {
 
   render() {
     var { isLoaded, items } = this.state;
+    console.log(items);
 
     if (!isLoaded) {
       return (
@@ -81,7 +82,6 @@ class AddressSearch extends React.Component {
         <h2 style = {{ position: "fixed", top: "55%", left: "48%", fontFamily:'Philosopher' }}>Loading...</h2>
       </div>);
     } else {
-      // const list = JSON.parse(items).data.map((d) => <li>{d.name}</li>);
       return (
         <div className="addresssearch">
           <div><TopBar location={this.state.location}/></div>

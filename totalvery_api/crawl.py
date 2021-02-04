@@ -44,34 +44,36 @@ def stores_feed(request):
         location = request.data['location']
         lat = request.data['lat']
         lon = request.data['lon']
-        #check if it exists in the database
-        cluster = MongoClient("mongodb+srv://totalvery:1111@cluster0.qpazd.mongodb.net/totalvery?retryWrites=true&w=majority")
+        # check if it exists in the database
+        cluster = MongoClient(
+            "mongodb+srv://totalvery:1111@cluster0.qpazd.mongodb.net/totalvery?retryWrites=true&w=majority")
         db = cluster["totalvery"]
-        db.users.remove({}) #removing the existing data(test용)
-        collection = db["totalvery"] #mini database 
+        db.users.remove({})  # removing the existing data(test용)
+        collection = db["totalvery"]  # mini database
         query = {
-          'latitude':lat,
-          'longitude':lon
+            'latitude': lat,
+            'longitude': lon
         }
 
         data_list = collection.find(query)
-        if(data_list.count()>0): #exists
-            cursor= collection.find_one(query)
-            # Converting cursor to the list  of dictionaries 
-            total_feed = json_util.loads(json_util.dumps(cursor,default="str"))
+        if(data_list.count() > 0):  # exists
+            cursor = collection.find_one(query)
+            # Converting cursor to the list  of dictionaries
+            total_feed = json_util.loads(
+                json_util.dumps(cursor, default="str"))
             total_feed = JSONEncoder().encode(total_feed)
-        else: #does not exist
+        else:  # does not exist
             UbereatsCrawler().get_feed(lat, lon)
             GrubhubCrawler().get_feed(lat, lon)
-            total_feed=DoordashCrawler().get_feed(lat, lon)
+            total_feed = DoordashCrawler().get_feed(lat, lon)
 
-            #save the json file to the database
-            with open('total_feed.json') as file: 
-                file_data = json.load(file) 
-      
+            # save the json file to the database
+            with open('total_feed.json') as file:
+                file_data = json.load(file)
+
             collection.insert_one(file_data)
-            
-            #create a model
+
+            # create a model
             serializer = CustomerSerializer(data=request.data)
             if serializer.is_valid():
                 serializer.save()
@@ -115,11 +117,17 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             ID_dict["ubereatsID"], customer_location['location'], [customer_location["latitude"], customer_location["longitude"]])
 
         # width = 1080
-        dic['heroImageUrl'] = store_info['data']['heroImageUrls'][-2]['url']
+        try:
+            dic['heroImageUrl'] = store_info['data']['heroImageUrls'][-2]['url']
+        except:
+            dic['heroImageUrl'] = store_info['data']['heroImageUrls'][-1]['url']
         dic['title'] = store_info['data']['title']
         dic['location'] = store_info['data']['location']
         dic['isOpen']['ubereats'] = store_info['data']['isOpen']
-        dic['priceRange'] = store_info['data']['categories'][0]  # "$$"
+        if store_info['data']['categories'][0].startswith('$'):
+            dic['priceRange'] = store_info['data']['categories'][0]  # "$$"
+        else:
+            dic['priceRange'] = ""
         uuid = store_info['data']['sections'][0]['uuid']
         dic['menu']['ubereats'] = {'sectionEntitiesMap': store_info['data']['sectionEntitiesMap'][uuid],
                                    'sections': store_info['data']['sections'], 'subsectionsMap': store_info['data']['subsectionsMap']}
@@ -217,10 +225,14 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             dic['etaRange']['grubhub'] = None
             dic['fee']['deliveryFee']['grubhub'] = None
         grubhub_rating_dic = rating_dic.copy()
-        # (str) "4"
-        grubhub_rating_dic["ratingValue"] = store_info['restaurant']['rating']['rating_value']
-        # "2391"
-        grubhub_rating_dic["reviewCount"] = store_info['restaurant']['rating']['rating_count']
+        try:
+            # (str) "4"
+            grubhub_rating_dic["ratingValue"] = store_info['restaurant']['rating']['rating_value']
+            # "2391"
+            grubhub_rating_dic["reviewCount"] = store_info['restaurant']['rating']['rating_count']
+        except:
+            grubhub_rating_dic["ratingValue"] = '0'
+            grubhub_rating_dic["reviewCount"] = '0'
         dic['rating']['grubhub'] = grubhub_rating_dic
 
         try:
@@ -241,6 +253,8 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
 
     if Doordash:
         dc = DoordashCrawler()
+        assert 'data' in dc.get_store(ID_dict["doordashID"]).keys(
+        ), f'{ID_dict["doordashID"]} ERROR: {dc.get_store(ID_dict["doordashID"])}'
         store_info = dc.get_store(ID_dict["doordashID"])[
             'data']['storepageFeed']
 
