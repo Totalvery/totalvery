@@ -22,6 +22,7 @@ function MenuElement({ items, sectionEntitiesMap, fallback }) {
     return fallback;
   } else {
     return items.map((item) => {
+      console.log("item: " + item);
       var display = "inline-block";
       try {
         if (!sectionEntitiesMap[item].imageUrl) {
@@ -32,12 +33,11 @@ function MenuElement({ items, sectionEntitiesMap, fallback }) {
       return (
         <Element id={item} className="menu-item">
           <div className="menu-description">
-            <b>
-              {item.title} {sectionEntitiesMap[item].title}
-            </b>
+            <b>{sectionEntitiesMap[item].title}</b>
             <br></br>
             {sectionEntitiesMap[item].description}
-            <br></br><br></br>
+            <br></br>
+            <br></br>
             <b>${parseFloat(sectionEntitiesMap[item].price) / 100}</b>
           </div>
           <div className="menu-img-wrapper">

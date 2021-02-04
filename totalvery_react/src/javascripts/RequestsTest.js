@@ -2,24 +2,29 @@ import React from "react";
 import TopBar from "./TopBar";
 import ImgTest from "./ImgTest";
 
-import FeeInfo from "./StoreDetail/FeeInfo";
-
 import UberEats from "./StoreDetail/UberEats";
 import DoorDash from "./StoreDetail/DoorDash";
 import GrubHub from "./StoreDetail/GrubHub";
 
 import "../App.css";
 
+import { instanceOf } from "prop-types";
+import { withCookies, Cookies } from "react-cookie";
+
 class RequestsTest extends React.Component {
+  static propTypes = {
+    cookies: instanceOf(Cookies).isRequired,
+  };
+
   constructor(props) {
     super(props);
-
+    const { cookies } = props;
     this.state = {
       meta: [],
       representative: null,
       heroImageUrl: null,
       title: null,
-      address: null,
+      location: null,
       priceRange: null,
       promotion: [],
       fee: [],
@@ -30,31 +35,41 @@ class RequestsTest extends React.Component {
       feeText: null,
       etaRange: null,
       rating: null,
+      locCookie: cookies.get("tv.loc") || "",
+      city: "",
     };
   }
 
-  componentDidMount() {
-    // this is an example for the request body
+  componentDidMount(props) {
+    console.log("requestsTest params: ");
+    console.log(this.props.location.state.platform);
+    let platform = this.props.location.state.platform[0];
+
     const payload = {
-      meta: { ubereats: "true", doordash: "false", grubhub: "false" },
+      meta: {
+        ubereats: platform.ubereats.support.toString(),
+        doordash: platform.doordash.support.toString(),
+        grubhub: platform.grubhub.support.toString(),
+      },
       ids: {
-        ubereatsID: "d076f100-8710-4e70-9571-e2432fcf1d0d",
-        doordashID: "582935",
-        grubhubID: "375913",
+        ubereatsID: platform.ubereats.id || "0",
+        doordashID: platform.doordash.id || "0",
+        grubhubID: platform.grubhub.id || "0",
       },
       customer_location: {
-        location: "3134 Del Monte Ave, El Cerrito",
-        latitude: "37.89033",
-        longitude: "-122.29354",
+        location: JSON.stringify(this.state.locCookie),
+        latitude: this.state.locCookie.latitude.toString(),
+        longitude: this.state.locCookie.longitude.toString(),
       },
     };
 
-    // Simple POST request with a JSON body using fetch
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
     };
+
+    console.log("requestOptions:" + requestOptions.body);
     fetch("http://127.0.0.1:8000/api/getStoreDetails/", requestOptions)
       .then((response) => response.json())
       .then((data) =>
@@ -63,7 +78,6 @@ class RequestsTest extends React.Component {
           representative: data.representative,
           heroImageUrl: data.heroImageUrl,
           title: data.title,
-          address: data.location.streetAddress,
           priceRange: data.priceRange,
           isOpen: data.isOpen,
           json_data: data,
@@ -71,8 +85,15 @@ class RequestsTest extends React.Component {
           fee: data.fee,
           etaRange: data.etaRange,
           rating: data.rating,
+          location: data.location.streetAddress,
+          city: data.location.city.replace(/\s+/g, "-").toLowerCase(),
         })
       );
+  }
+
+  componentWillReceiveProps(newProps) {
+    console.log("componentWillReceiveProps");
+    console.log(newProps);
   }
 
   render() {
@@ -82,9 +103,6 @@ class RequestsTest extends React.Component {
     } else {
       header = <ImgTest heroImageUrl={this.state.heroImageUrl} />;
     }
-    console.log(this.state.json_data);
-
-    console.log("this.state.isOpen: " + this.state.isOpen);
 
     var arr = [];
 
@@ -95,19 +113,6 @@ class RequestsTest extends React.Component {
         arr.push(each);
       }
     }
-    console.log("arrrr:" + arr);
-
-    // var fees = "";
-    // for (const each in this.state.isOpen) {
-    //   console.log("each: " + this.state.isOpen.each);
-    //   if (this.state.isOpen[each]) {
-    //     fees = <FeeInfo fee={this.state.json_data.fee} isOpen={arr} />;
-    //     break;
-    //   } else {
-    //     console.log("else");
-    //   }
-    //   fees = "Closed";
-    // }
 
     let ubereats_fee = "";
     let doordash_fee = "";
@@ -157,7 +162,7 @@ class RequestsTest extends React.Component {
           "$" +
           this.state.json_data.ubereats_ca_driver_benefits_fee.toFixed(2) +
           " CA Driver Benefits Fee ∙ ";
-        total += this.state.fee.serviceFee.ubereats;
+        total += this.state.json_data.ubereats_ca_driver_benefits_fee;
       } catch {
         ubereats_fee += "$0 Service Fee ∙ ";
       }
@@ -179,6 +184,7 @@ class RequestsTest extends React.Component {
           " Min ∙ Newly Added";
       }
     }
+
     if (!this.state.isOpen.doordash) {
       doordash_fee = "Unavailable";
       try {
@@ -265,44 +271,56 @@ class RequestsTest extends React.Component {
       menuApp = <GrubHub json_data={this.state.json_data} />;
     }
 
+    var ubereats_url =
+      "https://www.ubereats.com/" +
+      this.state.city +
+      "/food-delivery/" +
+      this.state.title +
+      "/" +
+      this.props.location.state.platform[0].ubereats.id;
+
+    var doordash_url =
+      "https://www.doordash.com/store/" +
+      this.props.location.state.platform[0].doordash.id +
+      "/en-US";
+
+    var grubhub_url =
+      "https://www.grubhub.com/restaurant/" +
+      this.props.location.state.platform[0].grubhub.id;
+
     return (
       <div>
-        <TopBar /> {header}{" "}
+        <TopBar location={this.state.locCookie.address.eaterFormattedAddress} />{" "}
+        {header}{" "}
         <div className="store-detail">
           <h1 className="store-title"> {this.state.title} </h1>{" "}
           <div className="priceRange"> {this.state.priceRange} </div>{" "}
-          <div className="address"> {this.state.address} </div>{" "}
-        </div>{" "}
+          <div className="address">{this.state.location}</div>{" "}
+        </div>
         <div className="fees-order-container">
           <div className="fees-wrapper">
             <div className="ubereats-fee-wrapper">
-              UberEats ☛ {ubereats_fee}{" "}
+              UberEats ☛ {ubereats_fee}
               <span id="total-fee"> {total_ubereats_fee} </span> {ubereats_eta}
-            </div>{" "}
+            </div>
             <div className="doordash-fee-wrapper">
-              DoorDash ☛ {doordash_fee}{" "}
+              DoorDash ☛ {doordash_fee}
               <span id="total-fee"> {total_doordash_fee} </span> {doordash_eta}
-            </div>{" "}
+            </div>
             <div className="grubhub-fee-wrapper">
-              GrubHub ☛ {grubhub_fee}{" "}
-              <span id="total-fee"> {total_grubhub_fee} </span> {grubhub_eta}{" "}
+              GrubHub ☛ {grubhub_fee}
+              <span id="total-fee"> {total_grubhub_fee} </span> {grubhub_eta}
             </div>
           </div>
           <div className="order-box">
             <div className="order-wrapper">
-              <a href="https://www.ubereats.com/san-francisco/food-delivery/organic-meals-to-go/3bc8787b-35a5-4816-b683-68be0432e930">
-                Order in UberEats{" "}
-              </a>
+              <a href={ubereats_url}>Order in UberEats </a>
             </div>
             <div className="order-wrapper">
-              <a href="https://www.doordash.com/store/organic-meals-to-go-l-l-c--albany-582935/en-US">
-                Order in DoorDash
-              </a>
+              <a href={doordash_url}>Order in DoorDash</a>
             </div>
             <div className="order-wrapper">
-              <a href="https://www.grubhub.com/restaurant/organic-meals-to-go-902-masonic-ave-albany/375913">
-                Order in GrubHub
-              </a>
+              <a href={grubhub_url}>Order in GrubHub</a>
             </div>
           </div>
         </div>
@@ -311,5 +329,4 @@ class RequestsTest extends React.Component {
     );
   }
 }
-
-export default RequestsTest;
+export default withCookies(RequestsTest);

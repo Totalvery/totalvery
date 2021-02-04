@@ -28,22 +28,38 @@ function MenuElement({ items, sectionEntitiesMap, fallback }) {
           display = "none";
         }
       } catch (error) {}
+      let title = "",
+        description = "",
+        price = "",
+        imgUrl = "";
+      var elemDisplay = "inline-flex";
+      try {
+        title = sectionEntitiesMap[item].title;
+        description = sectionEntitiesMap[item].description;
+        price = "$" + parseFloat(sectionEntitiesMap[item].price) / 100;
+        imgUrl = sectionEntitiesMap[item].imageUrl;
+      } catch (error) {
+        elemDisplay = "none";
+      }
 
       return (
-        <Element id={item} className="menu-item">
+        <Element
+          id={item}
+          className="menu-item"
+          style={{ display: `${elemDisplay}` }}
+        >
           <div className="menu-description">
-            <b>
-              {item.title} {sectionEntitiesMap[item].title}
-            </b>
+            <b>{title}</b>
             <br></br>
-            {sectionEntitiesMap[item].description}
-            <br></br><br></br>
-            <b>${parseFloat(sectionEntitiesMap[item].price) / 100}</b>
+            {description}
+            <br></br>
+            <br></br>
+            <b>{price}</b>
           </div>
           <div className="menu-img-wrapper">
             <img
               id="menu-img"
-              src={sectionEntitiesMap[item].imageUrl}
+              src={imgUrl}
               style={{
                 width: "200px",
                 height: "200px",

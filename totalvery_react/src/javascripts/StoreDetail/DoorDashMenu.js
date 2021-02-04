@@ -27,7 +27,6 @@ function MenuElement({ items, fallback }) {
       try {
         if (!imageUrl) {
           display = "none";
-          console.log(display);
         }
       } catch (error) {}
 
