@@ -8,7 +8,7 @@ import UberEats from "./StoreDetail/UberEats";
 import DoorDash from "./StoreDetail/DoorDash";
 import GrubHub from "./StoreDetail/GrubHub";
 
-import "./App.css";
+import "../App.css";
 
 class RequestsTest extends React.Component {
   constructor(props) {
