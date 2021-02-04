@@ -5,6 +5,7 @@ import AddressSearch from "./javascripts/AddressSearch";
 import ShowResult from "./javascripts/ShowResult";
 import GoogleApi from "./GoogleApi";
 import RequestsTest from "./javascripts/RequestsTest";
+import ImgTest from "./javascripts/ImgTest";
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,6 +22,7 @@ function App() {
             <Route path="/result" component={ShowResult} />
             <Route path="/googleApi" component={GoogleApi} />
             <Route path="/requestsTest" component={RequestsTest} />
+            <Route path="/imgTest" component={ImgTest} />
           </Switch>
         </div>
       </BrowserRouter>
