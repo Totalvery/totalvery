@@ -1,5 +1,5 @@
 import React from "react";
-import GoogleApi from '../GoogleApi'
+import GoogleApi from './GoogleApi'
 import logo from "../images/main_home.png";
 import doordash from "../images/Doordash.png";
 import grubhub from "../images/Grubhub.jpg";

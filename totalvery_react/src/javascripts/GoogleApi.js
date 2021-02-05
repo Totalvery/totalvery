@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SearchBar from './javascripts/SearchBar';
+import SearchBar from './SearchBar';
 
 
 class GoogleApi extends Component  {

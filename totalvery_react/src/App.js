@@ -3,7 +3,7 @@ import MainHome from "./javascripts/MainHome";
 import TopBar from "./javascripts/TopBar";
 import AddressSearch from "./javascripts/AddressSearch";
 import ShowResult from "./javascripts/ShowResult";
-import GoogleApi from "./GoogleApi";
+import GoogleApi from "./javascripts/GoogleApi";
 import RequestsTest from "./javascripts/RequestsTest";
 import ImgTest from "./javascripts/ImgTest";
 import "./App.css";

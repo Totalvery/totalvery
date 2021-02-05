@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import GoogleMapReact from "google-map-react";
-import { bootstrapURLKeys } from "../client-config";
+import { bootstrapURLKeys } from "./client-config";
 
 const AnyReactComponent = ({ text }) => (
   <div

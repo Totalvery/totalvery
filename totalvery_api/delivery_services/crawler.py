@@ -277,7 +277,7 @@ class DoordashCrawler:
             store_json = response.json()
         except:
             raise Exception(
-                "Doordash food delivery is not available in your country")
+                f"Doordash food delivery is not available in your country. Your response is '{response.text}'")
         return store_json
 
     def get_feed(self, lat, lon):
