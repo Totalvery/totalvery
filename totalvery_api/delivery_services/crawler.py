@@ -169,9 +169,10 @@ class UbereatsCrawler:
                 'https://www.ubereats.com/api/getFeedV1/', headers=headers, data=data)
 
             feed_json = response.json()['data']
-
-            assert feed_json['storesMap'] != None, f"feed_json:\n{feed_json}"
-
+      
+            #assert feed_json['storesMap'] != None, f"feed_json:\n{feed_json}"
+            if "message" in feed_json: #no stores available message
+                break
             stores = feed_json['storesMap']
             meta = feed_json['meta']
             dict_stores.update(stores)
@@ -189,48 +190,51 @@ class UbereatsCrawler:
             }
         }
         feed_list = []
-        for key in dict_stores.keys():
-            if(dict_stores[key]['isOpen'] == True):
-                restaurantId = key
-                store_name = dict_stores[key]['title']
-                store_img = dict_stores[key]['heroImageUrl']
-                if(dict_stores[key]['feedback'] != None):
-                    store_rating = dict_stores[key]['feedback']['rating']
-                else:
-                    store_rating = 0
+        if "storesMap" in feed_json: #if stores are available
+            for key in dict_stores.keys():
+                if(dict_stores[key]['isOpen'] == True):
+                    restaurantId = key
+                    store_name = dict_stores[key]['title']
+                    store_img = dict_stores[key]['heroImageUrl']
+                    # if(store_img ==""):
+                    #     store_img = "../no-image.png"
+                    if(dict_stores[key]['feedback'] != None):
+                        store_rating = dict_stores[key]['feedback']['rating']
+                    else:
+                        store_rating = 0
 
-                if(dict_stores[key]['meta']['deliveryFee'] != None):
-                    delivery_fee = dict_stores[key]['meta']['deliveryFee']['text']
-                else:
-                    delivery_fee = 'None'
+                    if(dict_stores[key]['meta']['deliveryFee'] != None):
+                        delivery_fee = dict_stores[key]['meta']['deliveryFee']['text']
+                    else:
+                        delivery_fee = 'None'
 
-                a_dict = {
-                    'name': store_name,
-                    'data': {
-                        'image': store_img,
-                        'rating': store_rating,
-                        'platform': [{
+                    a_dict = {
+                        'name': store_name,
+                        'data': {
+                            'image': store_img,
+                            'rating': store_rating,
+                            'platform': [{
 
-                            'ubereats': {
-                                'support': True,
-                                'id': restaurantId,
-                                'delivery_fee': delivery_fee,
-                            },
-                            'doordash': {
-                                'support': False,
-                                'id': '',
-                                'delivery_fee': '',
-                            },
-                            'grubhub': {
-                                'support': False,
-                                'id': '',
-                                'delivery_fee': '',
-                            },
-                        }]
+                                'ubereats': {
+                                    'support': True,
+                                    'id': restaurantId,
+                                    'delivery_fee': delivery_fee,
+                                },
+                                'doordash': {
+                                    'support': False,
+                                    'id': '',
+                                    'delivery_fee': '',
+                                },
+                                'grubhub': {
+                                    'support': False,
+                                    'id': '',
+                                    'delivery_fee': '',
+                                },
+                            }]
+                        }
                     }
-                }
-                feed_list.append(a_dict)
-        dictionary['data'] = feed_list
+                    feed_list.append(a_dict)
+            dictionary['data'] = feed_list
 
         with open('total_feed.json', mode='w') as f:
             f.write(json.dumps(dictionary, indent=2))
