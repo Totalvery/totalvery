@@ -28,13 +28,11 @@ class AllRestaurants extends React.Component {
     return (
       <div className="allRestaurants">
         <GridList cellHeight={300} spacing={14} cols={3}>
+        
           {JSON.parse(this.props.items).data.map((d) => (
             <GridListTile key={d.name}>
-              <img src={d.data.image} />
-              {/* <img src={no_image}/> */}
-              {/* <ImageNull imageLink={d.data.image}/> */}
-              
-
+              {/* <img src={d.data.image} /> */}
+              <ImageNull imageLink={d.data.image} /> 
               <Link
                 to={{
                   pathname: "/requestsTest/",

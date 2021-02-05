@@ -87,14 +87,14 @@ class AddressSearch extends React.Component {
   render() {
     var { isLoaded, items } = this.state;
     console.log(items);
-
+    
     if (!isLoaded) {
       return (
       <div>
         <Spinner animation="border" style = {{ position: "fixed", top: "50%", left: "50%" }}></Spinner>
         <h2 style = {{ position: "fixed", top: "55%", left: "46.5%", fontFamily:'Philosopher' }}>Loading...</h2>
       </div>);
-    } else {
+    }  else {
       return (
         <div className="addresssearch">
           <div>
@@ -134,7 +134,8 @@ class AddressSearch extends React.Component {
               fontSize: "20px",
             }}
           >
-            <AllRestaurants items={items} />
+          {JSON.parse(items).data.length ?   <AllRestaurants items={items}/>: <p>Sorry, there are no restaurants available at the moment. </p>}
+          
           </div>
         </div>
       );
