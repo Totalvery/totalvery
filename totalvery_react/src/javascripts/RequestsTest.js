@@ -289,7 +289,7 @@ class RequestsTest extends React.Component {
       this.props.location.state.platform[0].grubhub.id;
 
     return (
-      <div>
+      <div className="requestTest">
         <TopBar location={this.state.locCookie.address.eaterFormattedAddress} />{" "}
         {header}{" "}
         <div className="store-detail">

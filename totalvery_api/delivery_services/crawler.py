@@ -127,11 +127,6 @@ class UbereatsCrawler:
 
     def get_store(self, restaurantId, keyword, customer_location=None):
         self.set_location_cookie(keyword)
-        headers = {
-            'x-csrf-token': 'x',
-            'content-type': 'application/json',
-            'accept': '*/*'
-        }
         data = '{"storeUuid":"'+restaurantId+'"}'
 
         with requests.Session() as s:
@@ -281,7 +276,7 @@ class DoordashCrawler:
             store_json = response.json()
         except:
             raise Exception(
-                "Doordash food delivery is not available in your country")
+                f"Doordash food delivery is not available in your country. Your response is '{response.text}'")
         return store_json
 
     def get_feed(self, lat, lon):
