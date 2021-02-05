@@ -9,6 +9,8 @@ import time
 
 from collections import defaultdict
 
+import cloudscraper
+
 
 class UbereatsCrawler:
 
@@ -143,12 +145,13 @@ class UbereatsCrawler:
 
             return store_json, fee_dic
 
-    def get_feed(self, lat, lon):
+    def get_feed(self, cookie_str, lat, lon):
         headers = {"x-csrf-token": "x"}
         s = requests.Session()
-        self.customer_location = (
-            lat, lon)
-        location_json = {"latitude": lat, "longitude": lon}
+        # self.customer_location = (
+        #     lat, lon)
+        # location_json = {"latitude": lat, "longitude": lon}
+        location_json = json.loads(cookie_str)
         location_str = json.dumps(location_json)
         location_cookie = 'uev2.loc=' + location_str
         headers.update({'cookie': location_cookie, 'content-type': 'application/json',
@@ -164,9 +167,10 @@ class UbereatsCrawler:
                 'https://www.ubereats.com/api/getFeedV1/', headers=headers, data=data)
 
             feed_json = response.json()['data']
-
-            assert feed_json['storesMap'] != None, f"feed_json:\n{feed_json}"
-
+      
+            #assert feed_json['storesMap'] != None, f"feed_json:\n{feed_json}"
+            if "message" in feed_json: #no stores available message
+                break
             stores = feed_json['storesMap']
             meta = feed_json['meta']
             dict_stores.update(stores)
@@ -184,48 +188,51 @@ class UbereatsCrawler:
             }
         }
         feed_list = []
-        for key in dict_stores.keys():
-            if(dict_stores[key]['isOpen'] == True):
-                restaurantId = key
-                store_name = dict_stores[key]['title']
-                store_img = dict_stores[key]['heroImageUrl']
-                if(dict_stores[key]['feedback'] != None):
-                    store_rating = dict_stores[key]['feedback']['rating']
-                else:
-                    store_rating = 0
+        if "storesMap" in feed_json: #if stores are available
+            for key in dict_stores.keys():
+                if(dict_stores[key]['isOpen'] == True):
+                    restaurantId = key
+                    store_name = dict_stores[key]['title']
+                    store_img = dict_stores[key]['heroImageUrl']
+                    # if(store_img ==""):
+                    #     store_img = "../no-image.png"
+                    if(dict_stores[key]['feedback'] != None):
+                        store_rating = dict_stores[key]['feedback']['rating']
+                    else:
+                        store_rating = 0
 
-                if(dict_stores[key]['meta']['deliveryFee'] != None):
-                    delivery_fee = dict_stores[key]['meta']['deliveryFee']['text']
-                else:
-                    delivery_fee = 'None'
+                    if(dict_stores[key]['meta']['deliveryFee'] != None):
+                        delivery_fee = dict_stores[key]['meta']['deliveryFee']['text']
+                    else:
+                        delivery_fee = 'None'
 
-                a_dict = {
-                    'name': store_name,
-                    'data': {
-                        'image': store_img,
-                        'rating': store_rating,
-                        'platform': [{
+                    a_dict = {
+                        'name': store_name,
+                        'data': {
+                            'image': store_img,
+                            'rating': store_rating,
+                            'platform': [{
 
-                            'ubereats': {
-                                'support': True,
-                                'id': restaurantId,
-                                'delivery_fee': delivery_fee,
-                            },
-                            'doordash': {
-                                'support': False,
-                                'id': '',
-                                'delivery_fee': '',
-                            },
-                            'grubhub': {
-                                'support': False,
-                                'id': '',
-                                'delivery_fee': '',
-                            },
-                        }]
+                                'ubereats': {
+                                    'support': True,
+                                    'id': restaurantId,
+                                    'delivery_fee': delivery_fee,
+                                },
+                                'doordash': {
+                                    'support': False,
+                                    'id': '',
+                                    'delivery_fee': '',
+                                },
+                                'grubhub': {
+                                    'support': False,
+                                    'id': '',
+                                    'delivery_fee': '',
+                                },
+                            }]
+                        }
                     }
-                }
-                feed_list.append(a_dict)
-        dictionary['data'] = feed_list
+                    feed_list.append(a_dict)
+            dictionary['data'] = feed_list
 
         with open('total_feed.json', mode='w') as f:
             f.write(json.dumps(dictionary, indent=2))
@@ -266,7 +273,10 @@ class DoordashCrawler:
 
         self.payload = '{"operationName":"storepageFeed","variables":{"fulfillmentType":"Delivery","storeId":"' + str(restaurantId) + '","isMerchantPreview":false,"includeDifferentialPricingEnabled":true},"query":"query storepageFeed($storeId: ID\u0021, $menuId: ID, $isMerchantPreview: Boolean, $fulfillmentType: FulfillmentType, $includeDifferentialPricingEnabled: Boolean\u0021) {  storepageFeed(storeId: $storeId, menuId: $menuId, isMerchantPreview: $isMerchantPreview, fulfillmentType: $fulfillmentType) {    storeHeader {      id      name      description      priceRange      offersDelivery      offersPickup      offersGroupOrder      isConvenience      isDashpassPartner      address {        city        street        displayAddress        cityLink        __typename      }      business {        id        name        link        ... @include(if: $includeDifferentialPricingEnabled) {          differentialPricingEnabled          __typename        }        __typename      }      businessTags {        name        link        __typename      }      deliveryFeeLayout {        title        subtitle        isSurging        displayDeliveryFee        __typename      }      deliveryFeeTooltip {        title        description        __typename      }      coverImgUrl      coverSquareImgUrl      businessHeaderImgUrl      ratings {        numRatings        numRatingsDisplayString        averageRating        isNewlyAdded        __typename      }      distanceFromConsumer {        value        label        __typename      }      enableSwitchToPickup      asapStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      asapPickupStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      status {        delivery {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isTooFarFromConsumer          isStoreInactive          __typename        }        pickup {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isStoreInactive          __typename        }        __typename      }      __typename    }    banners {      pickup {        id        title        text        __typename      }      catering {        id        text        __typename      }      demandGen {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      demandTest {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      __typename    }    carousels {      id      type      name      description      items {        id        name        description        displayPrice        imgUrl        dynamicLabelDisplayString        calloutDisplayString        nextCursor        orderItemId        reorderCartId        reorderUuid        unitAmount        currency        __typename      }      __typename    }    menuBook {      id      name      displayOpenHours      menuCategories {        id        name        numItems        next {          anchor          cursor          __typename        }        __typename      }      menuList {        id        name        displayOpenHours        __typename      }      __typename    }    itemLists {      id      name      description      items {        id        name        description        displayPrice        imageUrl        dynamicLabelDisplayString        calloutDisplayString        __typename      }      __typename    }    disclaimersList {      id      text      __typename    }    __typename  }}"}'
         # self.payload = "{\"operationName\":\"storepageFeed\",\"variables\":{\"fulfillmentType\":\"Delivery\",\"storeId\": \"" + str(restaurantId) + "\",\"isMerchantPreview\":false,\"isStorePageFeedMigration\":true,\"includeDifferentialPricingEnabled\":true},\"query\":\"query storepageFeed($storeId: ID\\u0021, $menuId: ID, $isMerchantPreview: Boolean, $fulfillmentType: FulfillmentType, $includeDifferentialPricingEnabled: Boolean\\u0021) {  storepageFeed(isStorePageFeedMigration: true, storeId: $storeId, menuId: $menuId, isMerchantPreview: $isMerchantPreview, fulfillmentType: $fulfillmentType) {    storeHeader {      id      name      description      priceRange      offersDelivery      offersPickup      offersGroupOrder      isConvenience      isDashpassPartner      address {        city        street        displayAddress        cityLink        __typename      }      business {        id        name        link        ... @include(if: $includeDifferentialPricingEnabled) {          differentialPricingEnabled          __typename        }        __typename      }      businessTags {        name        link        __typename      }      deliveryFeeLayout {        title        subtitle        isSurging        displayDeliveryFee        __typename      }      deliveryFeeTooltip {        title        description        __typename      }      coverImgUrl      coverSquareImgUrl      businessHeaderImgUrl      ratings {        numRatings        numRatingsDisplayString        averageRating        isNewlyAdded        __typename      }      distanceFromConsumer {        value        label        __typename      }      enableSwitchToPickup      asapStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      asapPickupStatus {        unavailableStatus        displayUnavailableStatus        unavailableReason        displayUnavailableReason {          title          subtitle          __typename        }        isAvailable        unavailableReasonKeysList        __typename      }      status {        delivery {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isTooFarFromConsumer          isStoreInactive          __typename        }        pickup {          isAvailable          minutes          displayUnavailableStatus          unavailableReason          isStoreInactive          __typename        }        __typename      }      __typename    }    banners {      pickup {        id        title        text        __typename      }      catering {        id        text        __typename      }      demandGen {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      demandTest {        id        title        text        modals {          type          modalKey          modalInfo {            title            description            buttonsList {              text              action              __typename            }            __typename          }          __typename        }        __typename      }      __typename    }    carousels {      id      type      name      description      items {        id        name        description        displayPrice        imgUrl        calloutDisplayString        nextCursor        orderItemId        reorderCartId        reorderUuid        unitAmount        currency        __typename      }      __typename    }    menuBook {      id      name      displayOpenHours      menuCategories {        id        name        numItems        next {          anchor          cursor          __typename        }        __typename      }      menuList {        id        name        displayOpenHours        __typename      }      __typename    }    itemLists {      id      name      description      items {        id        name        description        displayPrice        imageUrl        calloutDisplayString        __typename      }      __typename    }    disclaimersList {      id      text      __typename    }    __typename  }}\"}"
-        response = requests.request(
+
+        scraper = cloudscraper.CloudScraper()
+
+        response = scraper.request(
             "POST", url, data=self.payload, headers=headers)
         try:
             store_json = response.json()

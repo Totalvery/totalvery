@@ -63,7 +63,7 @@ def stores_feed(request):
                 json_util.dumps(cursor, default="str"))
             total_feed = JSONEncoder().encode(total_feed)
         else:  # does not exist
-            UbereatsCrawler().get_feed(lat, lon)
+            UbereatsCrawler().get_feed(location, lat, lon)
             GrubhubCrawler().get_feed(lat, lon)
             total_feed = DoordashCrawler().get_feed(lat, lon)
 

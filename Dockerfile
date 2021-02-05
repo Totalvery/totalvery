@@ -4,7 +4,7 @@ FROM python:latest
 # set work directory
 WORKDIR /app
 
-RUN pip install requests BeautifulSoup4 django djangorestframework gunicorn whitenoise ipdb django-cors-headers pymongo pymongo[srv] django_heroku
+RUN pip install requests BeautifulSoup4 django djangorestframework gunicorn whitenoise ipdb django-cors-headers pymongo pymongo[srv] django_heroku cloudscraper
 
 # RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends apt-utils
 # RUN apt-get install npm -y

@@ -2,12 +2,20 @@ import React from "react";
 import GoogleApi from "./GoogleApi";
 import GoogleMap from "./GoogleMap";
 import AllRestaurants from "./AllRestaurants";
-import {Spinner} from "react-bootstrap";
+import { Spinner } from "react-bootstrap";
 import TopBar from "./TopBar";
 
+import { instanceOf } from "prop-types";
+import { withCookies, Cookies } from "react-cookie";
+
 class AddressSearch extends React.Component {
+  static propTypes = {
+    cookies: instanceOf(Cookies).isRequired,
+  };
+
   constructor(props) {
     super(props);
+    const { cookies } = props;
     this.state = {
       location: "",
       address: "",
@@ -18,6 +26,7 @@ class AddressSearch extends React.Component {
       lng: 0,
       isLoaded: false,
       items: null,
+      locCookie: cookies.get("tv.loc") || "",
     };
     this.fetchData = this.fetchData.bind(this);
   }
@@ -39,15 +48,17 @@ class AddressSearch extends React.Component {
       });
   }
   componentDidMount(props) {
+    const { cookies } = this.props;
     this.setState({
       lat: parseFloat(this.props.match.params.lat),
       lng: parseFloat(this.props.match.params.lng),
       location: this.props.location.state.location,
+      locCookie: cookies.get("tv.loc") || "",
     });
     const url = "http://127.0.0.1:8000/api/getFeed/";
     //const url = "https://totalvery.herokuapp.com/api/getFeed/";
     const data = {
-      location: this.props.location.state.location,
+      location: JSON.stringify(this.state.locCookie),
       lat: parseFloat(this.props.match.params.lat),
       lon: parseFloat(this.props.match.params.lng),
     };
@@ -55,16 +66,18 @@ class AddressSearch extends React.Component {
   }
 
   componentWillReceiveProps(newProps) {
+    const { cookies } = newProps;
     this.setState({ isLoaded: false });
     this.setState({
       lat: parseFloat(newProps.match.params.lat),
       lng: parseFloat(newProps.match.params.lng),
       location: newProps.location.state.location,
+      locCookie: cookies.get("tv.loc") || "",
     });
     const url = "http://127.0.0.1:8000/api/getFeed/";
     //const url = "https://totalvery.herokuapp.com/api/getFeed/";
     const data = {
-      location: newProps.location.state.location,
+      location: JSON.stringify(this.state.locCookie),
       lat: parseFloat(newProps.match.params.lat),
       lon: parseFloat(newProps.match.params.lng),
     };
@@ -74,17 +87,21 @@ class AddressSearch extends React.Component {
   render() {
     var { isLoaded, items } = this.state;
     console.log(items);
-
+    
     if (!isLoaded) {
       return (
       <div>
         <Spinner animation="border" style = {{ position: "fixed", top: "50%", left: "50%" }}></Spinner>
         <h2 style = {{ position: "fixed", top: "55%", left: "46.5%", fontFamily:'Philosopher' }}>Loading...</h2>
       </div>);
-    } else {
+    }  else {
       return (
         <div className="addresssearch">
-          <div><TopBar location={this.state.location}/></div>
+          <div>
+            <TopBar
+              location={this.state.locCookie.address.eaterFormattedAddress}
+            />
+          </div>
           <view
             style={{
               position: "absolute",
@@ -95,7 +112,7 @@ class AddressSearch extends React.Component {
           >
             <GoogleApi />
           </view>
-          <GoogleMap lat={this.state.lat} lng={this.state.lng}/>
+          <GoogleMap lat={this.state.lat} lng={this.state.lng} />
           <text
             style={{
               position: "absolute",
@@ -117,7 +134,8 @@ class AddressSearch extends React.Component {
               fontSize: "20px",
             }}
           >
-            <AllRestaurants items={items}/>
+          {JSON.parse(items).data.length ?   <AllRestaurants items={items}/>: <p>Sorry, there are no restaurants available at the moment. </p>}
+          
           </div>
         </div>
       );
@@ -125,4 +143,4 @@ class AddressSearch extends React.Component {
   }
 }
 
-export default AddressSearch;
+export default withCookies(AddressSearch);
