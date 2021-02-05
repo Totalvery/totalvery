@@ -7,9 +7,9 @@ class AllRestaurants extends React.Component {
   render() {
     function ImageNull(props) {
       const imageLink = props.imageLink;
-      if (imageLink === "") {
-        return <img src={no_image} />;
-      }
+      // if (imageLink === "") {
+      //   return <img src={no_image} />;
+      // }
       return <img src={imageLink} />;
     }
 
@@ -22,17 +22,15 @@ class AllRestaurants extends React.Component {
     }
     console.log("allRestaurants props: " + this.props);
 
-
     // const lis = JSON.parse(this.props.items).data.map((d) => <li>{d.name, d.data.image}</li>);
 
     return (
       <div className="allRestaurants">
         <GridList cellHeight={300} spacing={14} cols={3}>
-        
           {JSON.parse(this.props.items).data.map((d) => (
             <GridListTile key={d.name}>
-              {/* <img src={d.data.image} /> */}
-              <ImageNull imageLink={d.data.image} /> 
+              <img src={d.data.image ? d.data.image : no_image} />
+              {/* <ImageNull imageLink={d.data.image} />  */}
               <Link
                 to={{
                   pathname: "/requestsTest/",
@@ -51,11 +49,7 @@ class AllRestaurants extends React.Component {
           ))}
         </GridList>
         {/* {this.props.items} */}
-        <div>
-            {/* {lis} */}
-        </div>
-        
-
+        <div>{/* {lis} */}</div>
       </div>
     );
   }
