@@ -4,6 +4,7 @@ import GoogleMap from "./GoogleMap";
 import AllRestaurants from "./AllRestaurants";
 import {Spinner} from "react-bootstrap";
 import TopBar from "./TopBar";
+import no_image from "../images/no-image.png";
 
 class AddressSearch extends React.Component {
   constructor(props) {
@@ -79,7 +80,7 @@ class AddressSearch extends React.Component {
       return (
       <div>
         <Spinner animation="border" style = {{ position: "fixed", top: "50%", left: "50%" }}></Spinner>
-        <h2 style = {{ position: "fixed", top: "55%", left: "48%", fontFamily:'Philosopher' }}>Loading...</h2>
+        <h2 style = {{ position: "fixed", top: "55%", left: "46.5%", fontFamily:'Philosopher' }}>Loading...</h2>
       </div>);
     } else {
       return (

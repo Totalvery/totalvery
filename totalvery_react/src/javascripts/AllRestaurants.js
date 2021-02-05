@@ -11,16 +11,20 @@ class AllRestaurants extends React.Component {
         return <img src={no_image} />;
       }
       return <img src={imageLink} />;
+      
     }
 
     function RatingNull(props) {
       const ratingNum = props.ratingNum;
       if (ratingNum === 0) {
-        return "Rating: None";
+        return "Newly Added";
       }
       return "Rating: " + ratingNum;
     }
     console.log("allRestaurants props: " + this.props);
+
+
+    // const lis = JSON.parse(this.props.items).data.map((d) => <li>{d.name, d.data.image}</li>);
 
     return (
       <div className="allRestaurants">
@@ -28,7 +32,10 @@ class AllRestaurants extends React.Component {
           {JSON.parse(this.props.items).data.map((d) => (
             <GridListTile key={d.name}>
               <img src={d.data.image} />
-              {/* <ImageNull imageLink={d.data.image} /> */}
+              {/* <img src={no_image}/> */}
+              {/* <ImageNull imageLink={d.data.image}/> */}
+              
+
               <Link
                 to={{
                   pathname: "/requestsTest/",
@@ -47,6 +54,11 @@ class AllRestaurants extends React.Component {
           ))}
         </GridList>
         {/* {this.props.items} */}
+        <div>
+            {/* {lis} */}
+        </div>
+        
+
       </div>
     );
   }

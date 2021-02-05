@@ -2,7 +2,6 @@ import React from "react";
 import MainHome from "./javascripts/MainHome";
 import TopBar from "./javascripts/TopBar";
 import AddressSearch from "./javascripts/AddressSearch";
-import ShowResult from "./javascripts/ShowResult";
 import GoogleApi from "./GoogleApi";
 import RequestsTest from "./javascripts/RequestsTest";
 import ImgTest from "./javascripts/ImgTest";
@@ -19,7 +18,6 @@ function App() {
           <Switch>
             <Route path="/" component={MainHome} exact />
             <Route path="/search/:lat/:lng" component={AddressSearch} />
-            <Route path="/result" component={ShowResult} />
             <Route path="/googleApi" component={GoogleApi} />
             <Route path="/requestsTest" component={RequestsTest} />
             <Route path="/imgTest" component={ImgTest} />
