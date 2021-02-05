@@ -127,11 +127,6 @@ class UbereatsCrawler:
 
     def get_store(self, restaurantId, keyword, customer_location=None):
         self.set_location_cookie(keyword)
-        headers = {
-            'x-csrf-token': 'x',
-            'content-type': 'application/json',
-            'accept': '*/*'
-        }
         data = '{"storeUuid":"'+restaurantId+'"}'
 
         with requests.Session() as s:
