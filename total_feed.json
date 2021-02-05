@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "latitude": 40.7127753,
   "longitude": -74.0059728,
   "data": [
@@ -5256,6 +5257,13 @@
     },
     {
       "name": "Salads Here",
+=======
+  "latitude": 32.1675525,
+  "longitude": -110.8592578,
+  "data": [
+    {
+      "name": "Riliberto's Fresh Mexican Food",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
       "data": {
         "image": "",
         "rating": 0,
@@ -5267,6 +5275,7 @@
               "delivery_fee": ""
             },
             "doordash": {
+<<<<<<< HEAD
               "support": true,
               "id": "1205535",
               "delivery_fee": 0
@@ -5295,6 +5304,10 @@
             "doordash": {
               "support": true,
               "id": "1451913",
+=======
+              "support": true,
+              "id": "207676",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5307,9 +5320,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Harmony Wraps",
       "data": {
         "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/17fab08c-fa13-494d-8c51-7eb75b403aea-retina-large.jpg",
+=======
+      "name": "Filiberto's",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/232d074c-ef08-4592-8787-1260ec613ea8-retina-large-jpeg",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
         "rating": 0,
         "platform": [
           {
@@ -5320,7 +5339,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "1162777",
+=======
+              "id": "660258",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5333,35 +5356,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Deli Belli",
       "data": {
         "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/c36d8549-f466-4ade-9c47-ac8198ffdf56-retina-large.jpg",
-        "rating": 0,
-        "platform": [
-          {
-            "ubereats": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "doordash": {
-              "support": true,
-              "id": "1203788",
-              "delivery_fee": 0
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Burger Goddess",
+=======
+      "name": "7-Eleven",
       "data": {
-        "image": "",
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://cdn.doordash.com/media/photos/dcbfd25f-ab40-4994-b4bc-050dc75cab24-retina-large.jpg",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
         "rating": 0,
         "platform": [
           {
@@ -5372,7 +5375,11 @@
             },
             "doordash": {
               "support": true,
-              "id": "1291831",
+<<<<<<< HEAD
+              "id": "1203788",
+=======
+              "id": "862669",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5385,9 +5392,49 @@
       }
     },
     {
+<<<<<<< HEAD
+      "name": "Burger Goddess",
+=======
+      "name": "The Burrito Snob",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/ac8db092-9bb8-4619-a608-740c88756eea-retina-large.jpg",
+        "rating": 0,
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+<<<<<<< HEAD
+              "id": "1291831",
+=======
+              "id": "1236963",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
+              "delivery_fee": 0
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+<<<<<<< HEAD
       "name": "Woah! Breakfast Quesarito!",
       "data": {
         "image": "",
+=======
+      "name": "Jay's Breakfast Bar",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/57ee7170-1d7a-4391-ab48-914138f3f6e3-retina-large.jpg",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
         "rating": 0,
         "platform": [
           {
@@ -5398,7 +5445,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "1229941",
+=======
+              "id": "1335945",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5411,9 +5462,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Jennifers Cafe",
       "data": {
         "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/a14e3603-558e-40bf-b2dd-03e651a19c74-retina-large-jpeg",
+=======
+      "name": "Mary's Breakfast Burritos",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/e29c7cba-b76b-46ff-864b-7a325fd6002b-retina-large.jpg",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
         "rating": 0,
         "platform": [
           {
@@ -5424,7 +5481,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "1218010",
+=======
+              "id": "1340576",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5437,9 +5498,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Burgers & Things",
       "data": {
         "image": "",
+=======
+      "name": "Taco Taco Burrito Burrito",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/5aaec9a4-8f31-4222-a15b-8d004b1c898d-retina-large.jpg",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
         "rating": 0,
         "platform": [
           {
@@ -5450,7 +5517,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "1476093",
+=======
+              "id": "901667",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5463,7 +5534,11 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Hudson Deli & Grocery",
+=======
+      "name": "Thank U, Mex (Mexican Cantina)",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
       "data": {
         "image": "",
         "rating": 0,
@@ -5476,6 +5551,7 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "688251",
               "delivery_fee": 0
             },
@@ -5607,6 +5683,9 @@
             "doordash": {
               "support": true,
               "id": "1047921",
+=======
+              "id": "1108123",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5619,9 +5698,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Pak Punjab Deli",
       "data": {
         "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/78d9ccf7-9541-4b83-a095-134ee4dd898a-retina-large-jpeg",
+=======
+      "name": "Subway",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/db13291c-1ff1-4b8c-93c3-476358b72370-retina-large-jpeg",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
         "rating": 0,
         "platform": [
           {
@@ -5632,7 +5717,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "1046163",
+=======
+              "id": "189548",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5645,9 +5734,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "FANCY NY GRILL AND DELI",
       "data": {
         "image": "",
+=======
+      "name": "McDonald's",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://cdn.doordash.com/media/store/header/5579.jpg",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
         "rating": 0,
         "platform": [
           {
@@ -5658,7 +5753,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "1182070",
+=======
+              "id": "658980",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5671,7 +5770,11 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Breakfast Be Loved",
+=======
+      "name": "Denny's",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
       "data": {
         "image": "",
         "rating": 0,
@@ -5684,7 +5787,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "1475596",
+=======
+              "id": "790657",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5697,9 +5804,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "American Dream Gourmet Deli",
       "data": {
         "image": "",
+=======
+      "name": "Walgreens",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/85be5f8b-6864-49b3-9d8b-2b2e75128279-retina-large-jpeg",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
         "rating": 0,
         "platform": [
           {
@@ -5710,7 +5823,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "1249608",
+=======
+              "id": "1115701",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5723,9 +5840,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Tribeca Finest Marketplace",
       "data": {
         "image": "",
+=======
+      "name": "Viva Burrito",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/3a225eb7-e2a0-4951-a904-924e8047f6b4-retina-large-jpeg",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
         "rating": 0,
         "platform": [
           {
@@ -5736,7 +5859,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "1468900",
+=======
+              "id": "167214",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5749,7 +5876,11 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "East Village Finest Deli",
+=======
+      "name": "Jack in the Box",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
       "data": {
         "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/ab276aed-639f-45e7-a739-5b217ffcfe69-retina-large.jpg",
         "rating": 0,
@@ -5762,7 +5893,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "545429",
+=======
+              "id": "1103711",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5775,6 +5910,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Subway",
       "data": {
         "image": "",
@@ -5804,6 +5940,11 @@
       "name": "Nur grocery two",
       "data": {
         "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/5590446d-369a-40d4-8c72-257a16c672fa-retina-large-jpeg",
+=======
+      "name": "IHOP",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/105542ca-e876-48f1-9243-a1bef7ee37f6-retina-large.jpg",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
         "rating": 0,
         "platform": [
           {
@@ -5814,7 +5955,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "863612",
+=======
+              "id": "189585",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {
@@ -5827,9 +5972,13 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "IHOP",
+=======
+      "name": "Taco Bell",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
       "data": {
-        "image": "",
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://cdn.doordash.com/media/photos/f620809c-b748-4a6a-b8f8-e56e368d80cb-retina-large.jpg",
         "rating": 0,
         "platform": [
           {
@@ -5840,7 +5989,11 @@
             },
             "doordash": {
               "support": true,
+<<<<<<< HEAD
               "id": "353001",
+=======
+              "id": "1196343",
+>>>>>>> d2fdc58b7e569ed5430d3ceaeee7c229ebffd550
               "delivery_fee": 0
             },
             "grubhub": {

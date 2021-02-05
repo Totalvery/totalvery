@@ -1,10 +1,9 @@
 import React from "react";
-import GoogleApi from "../GoogleApi";
+import GoogleApi from "./GoogleApi";
 import GoogleMap from "./GoogleMap";
 import AllRestaurants from "./AllRestaurants";
 import {Spinner} from "react-bootstrap";
 import TopBar from "./TopBar";
-import no_image from "../images/no-image.png";
 
 class AddressSearch extends React.Component {
   constructor(props) {

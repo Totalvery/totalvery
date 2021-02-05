@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { withGoogleMap, withScriptjs } from "react-google-maps";
 import Autocomplete from "react-google-autocomplete";
 import { Redirect } from "react-router";
-import { GoogleMapsAPI } from "../client-config";
+import { GoogleMapsAPI } from "./client-config";
 import { instanceOf } from "prop-types";
 import { withCookies, Cookies } from "react-cookie";
 

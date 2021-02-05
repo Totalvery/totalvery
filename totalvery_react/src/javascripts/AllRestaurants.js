@@ -11,7 +11,6 @@ class AllRestaurants extends React.Component {
         return <img src={no_image} />;
       }
       return <img src={imageLink} />;
-      
     }
 
     function RatingNull(props) {
