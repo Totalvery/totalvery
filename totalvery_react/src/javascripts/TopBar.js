@@ -25,6 +25,8 @@ class TopBar extends React.Component {
                             <Nav.Link href="/cart" style={{color:"white"}}>Cart</Nav.Link>
                         </Nav>
                     </Navbar.Collapse> */}
+
+                    <Navbar.Brand className="topbar_login" href="/login" style={{color:"white", textAlign:"right", fontSize:"16px"}}>Login/SignUp</Navbar.Brand>
                 </Navbar>
             </div>
         )

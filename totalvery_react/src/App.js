@@ -9,6 +9,7 @@ import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AccountConnect from "./javascripts/AccountConnect";
+import Login from "./javascripts/Login";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/googleApi" component={GoogleApi} />
             <Route path="/requestsTest" component={RequestsTest} />
             <Route path="/imgTest" component={ImgTest} />
+            <Route path="/login" component={Login} />
             <Route path="/accountConnect" component={AccountConnect} />
           </Switch>
         </div>
