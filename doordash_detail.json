@@ -1,0 +1,883 @@
+{
+  "data": {
+    "storepageFeed": {
+      "storeHeader": {
+        "id": "691958",
+        "name": "Wings n Things",
+        "description": "Chicken Wings, Pickup, Takeout",
+        "priceRange": 2,
+        "offersDelivery": true,
+        "offersPickup": true,
+        "offersGroupOrder": true,
+        "isConvenience": false,
+        "isDashpassPartner": true,
+        "address": {
+          "city": "Avon Park",
+          "street": "201 U.S. 27",
+          "displayAddress": "201 US-27, Avon Park, FL 33825, USA",
+          "cityLink": "/food-delivery/avon-park-fl-restaurants/",
+          "__typename": "StoreHeaderAddress"
+        },
+        "business": {
+          "id": "322327",
+          "name": "Wings n Things",
+          "link": "/business/wings-n-things-322327/",
+          "differentialPricingEnabled": false,
+          "__typename": "Business"
+        },
+        "businessTags": [
+          {
+            "name": "Chicken Wings",
+            "link": "/chicken-wings-near-me/",
+            "__typename": "BusinessTag"
+          },
+          {
+            "name": "Pickup",
+            "link": "/pickup-near-me/",
+            "__typename": "BusinessTag"
+          },
+          {
+            "name": "Takeout",
+            "link": "/takeout-near-me/",
+            "__typename": "BusinessTag"
+          }
+        ],
+        "deliveryFeeLayout": {
+          "title": "$0.00",
+          "subtitle": "delivery fee",
+          "isSurging": false,
+          "displayDeliveryFee": "$0.00 delivery fee",
+          "__typename": "DeliveryFeeLayout"
+        },
+        "deliveryFeeTooltip": {
+          "title": "",
+          "description": "",
+          "__typename": "ModalContent"
+        },
+        "coverImgUrl": "https://cdn.doordash.com/media/restaurant%2Fcover%2Fwings_n_things_Sebring_City.png",
+        "coverSquareImgUrl": "",
+        "businessHeaderImgUrl": "https://cdn.doordash.com/media/store%2Fheader%2F609349fe-6644-43df-aab7-a3255b8b9629.253",
+        "ratings": {
+          "numRatings": 249,
+          "numRatingsDisplayString": "249 ratings",
+          "averageRating": 4.2,
+          "isNewlyAdded": false,
+          "__typename": "StoreRatings"
+        },
+        "distanceFromConsumer": {
+          "value": 5704.1,
+          "label": "mi",
+          "__typename": "DistanceFromConsumer"
+        },
+        "enableSwitchToPickup": false,
+        "asapStatus": {
+          "unavailableStatus": "NULL",
+          "displayUnavailableStatus": "",
+          "unavailableReason": "",
+          "displayUnavailableReason": {
+            "title": "",
+            "subtitle": "",
+            "__typename": "UnavailableReason"
+          },
+          "isAvailable": true,
+          "unavailableReasonKeysList": [],
+          "__typename": "AsapStatus"
+        },
+        "asapPickupStatus": {
+          "unavailableStatus": "NULL",
+          "displayUnavailableStatus": "",
+          "unavailableReason": "",
+          "displayUnavailableReason": {
+            "title": "",
+            "subtitle": "",
+            "__typename": "UnavailableReason"
+          },
+          "isAvailable": true,
+          "unavailableReasonKeysList": [],
+          "__typename": "AsapStatus"
+        },
+        "status": {
+          "delivery": {
+            "isAvailable": true,
+            "minutes": "13 - 23",
+            "displayUnavailableStatus": "",
+            "unavailableReason": "",
+            "isTooFarFromConsumer": false,
+            "isStoreInactive": false,
+            "__typename": "OperatingStatus"
+          },
+          "pickup": {
+            "isAvailable": true,
+            "minutes": "8 - 18",
+            "displayUnavailableStatus": "",
+            "unavailableReason": "",
+            "isStoreInactive": false,
+            "__typename": "OperatingStatus"
+          },
+          "__typename": "DeliveryPickupStatus"
+        },
+        "__typename": "StoreHeader"
+      },
+      "banners": {
+        "pickup": {
+          "id": "pickup-callout",
+          "title": "This is a Pickup order",
+          "text": "You'll need to go to Wings n Things to pick up this order: 201 U.S. 27",
+          "__typename": "StoreBannerContent"
+        },
+        "catering": null,
+        "demandGen": null,
+        "demandTest": null,
+        "__typename": "StoreBanners"
+      },
+      "carousels": [],
+      "menuBook": {
+        "id": "1786876",
+        "name": "Full Menu",
+        "displayOpenHours": "11:00 AM - 8:30 PM",
+        "menuCategories": [
+          {
+            "id": "-1",
+            "name": "Popular Items",
+            "numItems": 10,
+            "next": {
+              "anchor": "popular-items",
+              "cursor": "",
+              "__typename": "MenuBookCategoryNext"
+            },
+            "__typename": "MenuBookCategory"
+          },
+          {
+            "id": "21346068",
+            "name": "Appetizers",
+            "numItems": 11,
+            "next": {
+              "anchor": "category-21346068",
+              "cursor": "",
+              "__typename": "MenuBookCategoryNext"
+            },
+            "__typename": "MenuBookCategory"
+          },
+          {
+            "id": "21346067",
+            "name": "Wings",
+            "numItems": 1,
+            "next": {
+              "anchor": "category-21346067",
+              "cursor": "",
+              "__typename": "MenuBookCategoryNext"
+            },
+            "__typename": "MenuBookCategory"
+          },
+          {
+            "id": "21346066",
+            "name": "Combos",
+            "numItems": 10,
+            "next": {
+              "anchor": "category-21346066",
+              "cursor": "",
+              "__typename": "MenuBookCategoryNext"
+            },
+            "__typename": "MenuBookCategory"
+          },
+          {
+            "id": "21346073",
+            "name": "Kids Meals",
+            "numItems": 3,
+            "next": {
+              "anchor": "category-21346073",
+              "cursor": "",
+              "__typename": "MenuBookCategoryNext"
+            },
+            "__typename": "MenuBookCategory"
+          },
+          {
+            "id": "21346070",
+            "name": "Sides",
+            "numItems": 7,
+            "next": {
+              "anchor": "category-21346070",
+              "cursor": "",
+              "__typename": "MenuBookCategoryNext"
+            },
+            "__typename": "MenuBookCategory"
+          },
+          {
+            "id": "21346072",
+            "name": "Desserts",
+            "numItems": 3,
+            "next": {
+              "anchor": "category-21346072",
+              "cursor": "",
+              "__typename": "MenuBookCategoryNext"
+            },
+            "__typename": "MenuBookCategory"
+          },
+          {
+            "id": "21346071",
+            "name": "Drinks",
+            "numItems": 6,
+            "next": {
+              "anchor": "category-21346071",
+              "cursor": "",
+              "__typename": "MenuBookCategoryNext"
+            },
+            "__typename": "MenuBookCategory"
+          },
+          {
+            "id": "21346186",
+            "name": "Ribs",
+            "numItems": 3,
+            "next": {
+              "anchor": "category-21346186",
+              "cursor": "",
+              "__typename": "MenuBookCategoryNext"
+            },
+            "__typename": "MenuBookCategory"
+          }
+        ],
+        "menuList": [
+          {
+            "id": "1786876",
+            "name": "All Day",
+            "displayOpenHours": "11:00 AM - 8:30 PM",
+            "__typename": "MenuBookMenu"
+          }
+        ],
+        "__typename": "MenuBook"
+      },
+      "itemLists": [
+        {
+          "id": "popular-items",
+          "name": "Popular Items",
+          "description": "The most commonly ordered items and dishes from this store",
+          "items": [
+            {
+              "id": "212159914",
+              "name": "Chicken Wings Combo",
+              "description": "",
+              "displayPrice": "$10.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159922",
+              "name": "Wings",
+              "description": "",
+              "displayPrice": "$6.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159916",
+              "name": "Cheese Burger Combo",
+              "description": "",
+              "displayPrice": "$6.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159917",
+              "name": "Texas Bacon Rodeo Burger Combo",
+              "description": "",
+              "displayPrice": "$7.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159924",
+              "name": "Texas Fries",
+              "description": "Made with nacho cheese, jalapenos, bacon, shredder cheese, and onions.",
+              "displayPrice": "$3.75",
+              "imageUrl": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/72c14e5e-fccb-4992-b72a-aebc6efb8175-retina-large.jpg",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161211",
+              "name": "Rib Combo",
+              "description": "",
+              "displayPrice": "$10.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159928",
+              "name": "Mozzarella Sticks",
+              "description": "",
+              "displayPrice": "$3.50",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161212",
+              "name": "Chicken Gizzards",
+              "description": "",
+              "displayPrice": "$4.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159923",
+              "name": "Chili Cheese Fries",
+              "description": "Made with chili, nacho cheese and shredder cheese.",
+              "displayPrice": "$3.75",
+              "imageUrl": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/eb7000ae-f4fc-4318-b40f-dcb002c87082-retina-large.jpg",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159912",
+              "name": "Texas Bacon Cheeseburger Combo",
+              "description": "",
+              "displayPrice": "$7.50",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            }
+          ],
+          "__typename": "MenuPageItemList"
+        },
+        {
+          "id": "category-21346068",
+          "name": "Appetizers",
+          "description": "",
+          "items": [
+            {
+              "id": "212159924",
+              "name": "Texas Fries",
+              "description": "Made with nacho cheese, jalapenos, bacon, shredder cheese, and onions.",
+              "displayPrice": "$3.75",
+              "imageUrl": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/72c14e5e-fccb-4992-b72a-aebc6efb8175-retina-large.jpg",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159923",
+              "name": "Chili Cheese Fries",
+              "description": "Made with chili, nacho cheese and shredder cheese.",
+              "displayPrice": "$3.75",
+              "imageUrl": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/eb7000ae-f4fc-4318-b40f-dcb002c87082-retina-large.jpg",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159928",
+              "name": "Mozzarella Sticks",
+              "description": "",
+              "displayPrice": "$3.50",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159925",
+              "name": "Onion Rings",
+              "description": "",
+              "displayPrice": "$2.75",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159926",
+              "name": "Cheese Fries",
+              "description": "",
+              "displayPrice": "$3.50",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159927",
+              "name": "Corn Fitters",
+              "description": "",
+              "displayPrice": "$2.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161212",
+              "name": "Chicken Gizzards",
+              "description": "",
+              "displayPrice": "$4.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161214",
+              "name": "Fried Okra",
+              "description": "",
+              "displayPrice": "$2.75",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161213",
+              "name": "Cheese Nachos",
+              "description": "",
+              "displayPrice": "$3.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161215",
+              "name": "Chili Cheese Nachos",
+              "description": "",
+              "displayPrice": "$3.50",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161216",
+              "name": "Loaded Nachos",
+              "description": "",
+              "displayPrice": "$4.50",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            }
+          ],
+          "__typename": "MenuPageItemList"
+        },
+        {
+          "id": "category-21346067",
+          "name": "Wings",
+          "description": "",
+          "items": [
+            {
+              "id": "212159922",
+              "name": "Wings",
+              "description": "",
+              "displayPrice": "$6.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            }
+          ],
+          "__typename": "MenuPageItemList"
+        },
+        {
+          "id": "category-21346066",
+          "name": "Combos",
+          "description": "All combos come include two sides of choice, and a can drink.",
+          "items": [
+            {
+              "id": "212159914",
+              "name": "Chicken Wings Combo",
+              "description": "",
+              "displayPrice": "$10.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159915",
+              "name": "4 Chicken Fritters Combo",
+              "description": "",
+              "displayPrice": "$10.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159916",
+              "name": "Cheese Burger Combo",
+              "description": "",
+              "displayPrice": "$6.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159920",
+              "name": "Hamburger Combo",
+              "description": "",
+              "displayPrice": "$6.50",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159912",
+              "name": "Texas Bacon Cheeseburger Combo",
+              "description": "",
+              "displayPrice": "$7.50",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159917",
+              "name": "Texas Bacon Rodeo Burger Combo",
+              "description": "",
+              "displayPrice": "$7.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159913",
+              "name": "Hot Dog Combo",
+              "description": "",
+              "displayPrice": "$5.75",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159918",
+              "name": "2 Hotdog Combo",
+              "description": "",
+              "displayPrice": "$7.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159919",
+              "name": "Chilidog Combo",
+              "description": "",
+              "displayPrice": "$6.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161211",
+              "name": "Rib Combo",
+              "description": "",
+              "displayPrice": "$10.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            }
+          ],
+          "__typename": "MenuPageItemList"
+        },
+        {
+          "id": "category-21346073",
+          "name": "Kids Meals",
+          "description": "Sides choices: fries or yellow rice.",
+          "items": [
+            {
+              "id": "212159946",
+              "name": "4 Boneless Wings Combos",
+              "description": "",
+              "displayPrice": "$6.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159947",
+              "name": "Hamburger Combo with Fries",
+              "description": "",
+              "displayPrice": "$5.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159945",
+              "name": "Hotdog Combo",
+              "description": "",
+              "displayPrice": "$5.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            }
+          ],
+          "__typename": "MenuPageItemList"
+        },
+        {
+          "id": "category-21346070",
+          "name": "Sides",
+          "description": "",
+          "items": [
+            {
+              "id": "212159933",
+              "name": "Baked Mac and Cheese",
+              "description": "Home made. Milk,cheese,eggs,sharp cheddar, and more baked in goodness, and to perfection.",
+              "displayPrice": "$2.75",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159932",
+              "name": "Dirty Rice",
+              "description": "Home made, of a family recipe, with ground beef, chicken gizzards, and spices.",
+              "displayPrice": "$2.75",
+              "imageUrl": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/3436f7f5-3eb3-4165-999f-f1d9d5693f22-retina-large.jpg",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159934",
+              "name": "Baked Beans",
+              "description": "",
+              "displayPrice": "$1.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159935",
+              "name": "Yellow Rice",
+              "description": "Hispanic style made only with spices",
+              "displayPrice": "$1.99",
+              "imageUrl": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/photos/09abb6b9-59e9-4e6b-84b1-ce65dd7418f2-retina-large.jpg",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159931",
+              "name": "French Fries",
+              "description": "",
+              "displayPrice": "$2.50",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161156",
+              "name": "Collard Greens",
+              "description": "",
+              "displayPrice": "$2.75",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161157",
+              "name": "Coleslaw",
+              "description": "",
+              "displayPrice": "$1.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            }
+          ],
+          "__typename": "MenuPageItemList"
+        },
+        {
+          "id": "category-21346072",
+          "name": "Desserts",
+          "description": "",
+          "items": [
+            {
+              "id": "212159942",
+              "name": "Banana Pudding",
+              "description": "",
+              "displayPrice": "$2.75",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159943",
+              "name": "Cup Cakes",
+              "description": "",
+              "displayPrice": "$0.75",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159944",
+              "name": "Funnel Cake",
+              "description": "",
+              "displayPrice": "$3.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            }
+          ],
+          "__typename": "MenuPageItemList"
+        },
+        {
+          "id": "category-21346071",
+          "name": "Drinks",
+          "description": "",
+          "items": [
+            {
+              "id": "212159941",
+              "name": "Can Sodas",
+              "description": "",
+              "displayPrice": "$1.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159940",
+              "name": "Bottle Sodas",
+              "description": "",
+              "displayPrice": "$2.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159939",
+              "name": "Water Bottle",
+              "description": "",
+              "displayPrice": "$1.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159937",
+              "name": "Sweet Tea",
+              "description": "",
+              "displayPrice": "$1.99",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159938",
+              "name": "Lemonade",
+              "description": "",
+              "displayPrice": "$2.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212159936",
+              "name": "Strawberry Lemonade",
+              "description": "",
+              "displayPrice": "$2.50",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            }
+          ],
+          "__typename": "MenuPageItemList"
+        },
+        {
+          "id": "category-21346186",
+          "name": "Ribs",
+          "description": "",
+          "items": [
+            {
+              "id": "212161218",
+              "name": "Full Slab",
+              "description": "",
+              "displayPrice": "$20.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161217",
+              "name": "Half Slab",
+              "description": "",
+              "displayPrice": "$12.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            },
+            {
+              "id": "212161219",
+              "name": "Rib Sandwich",
+              "description": "",
+              "displayPrice": "$6.00",
+              "imageUrl": "",
+              "dynamicLabelDisplayString": "",
+              "calloutDisplayString": null,
+              "__typename": "MenuPageItem"
+            }
+          ],
+          "__typename": "MenuPageItemList"
+        }
+      ],
+      "disclaimersList": [
+        {
+          "id": "265",
+          "text": "Prices on this menu are set directly by the Merchant[.](https://doordash.com)",
+          "__typename": "StoreMenuDisclaimer"
+        }
+      ],
+      "__typename": "StorePageFeedResult"
+    }
+  },
+  "extensions": {
+    "requestInfo": {
+      "version": 1,
+      "requestId": "0e74643021b6032122cbb8d901edbd30",
+      "correlationId": "0e74643021b6032122cbb8d901edbd30"
+    },
+    "upstreamServiceInfo": {
+      "version": 1
+    }
+  }
+}

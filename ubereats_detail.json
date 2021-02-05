@@ -1,0 +1,1687 @@
+{
+  "status": "success",
+  "data": {
+    "singleUseItemsInfo": {
+      "title": "Request utensils, straws, etc."
+    },
+    "sectionEntitiesMap": {
+      "452aca10-7ab2-4145-a461-801a7f36ddb5": {
+        "ab33f54e-4225-4083-b381-501aa8c0bd22": {
+          "description": "Beef-lamb gyro, chicken kebab, and meatball kebabs topped with grilled green peppers, onions, and tomatoes.",
+          "imageUrl": "",
+          "price": 1125,
+          "title": "Bosphorus Combination",
+          "uuid": "ab33f54e-4225-4083-b381-501aa8c0bd22",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "48c1d6ac-5685-48d3-8775-b35570f868b6": {
+          "description": "",
+          "imageUrl": "",
+          "price": 115,
+          "title": "Pita Bread",
+          "uuid": "48c1d6ac-5685-48d3-8775-b35570f868b6",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "80d44eb8-3e4d-477b-b77e-75a76e42ef70": {
+          "description": "",
+          "imageUrl": "",
+          "price": 195,
+          "title": "Orange Tea",
+          "uuid": "80d44eb8-3e4d-477b-b77e-75a76e42ef70",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "18d3b0ef-4ea9-4a6c-85c6-30f8ebe91a95": {
+          "description": "",
+          "imageUrl": "",
+          "price": 125,
+          "title": "Canned Soda",
+          "uuid": "18d3b0ef-4ea9-4a6c-85c6-30f8ebe91a95",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "955ad976-4d4f-4546-b44e-4708c6f8ed97": {
+          "description": "",
+          "imageUrl": "",
+          "price": 225,
+          "title": "Meatballs",
+          "uuid": "955ad976-4d4f-4546-b44e-4708c6f8ed97",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "cd449cab-b578-47f8-9201-1f5685756d8a": {
+          "description": "Diced marinated beef tenderloin topped with grilled green peppers, onions, and tomatoes.",
+          "imageUrl": "",
+          "price": 1035,
+          "title": "Beef Kebab",
+          "uuid": "cd449cab-b578-47f8-9201-1f5685756d8a",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "feec80b0-660e-49e5-8280-ffea4ff4a1e3": {
+          "description": "Stuffed grape leaves, falafel, and hummus. Served with olives, feta cheese, tomatoes, lettuce, lemon, and pepperoncini.",
+          "imageUrl": "",
+          "price": 585,
+          "title": "Bosphorus Platter",
+          "uuid": "feec80b0-660e-49e5-8280-ffea4ff4a1e3",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "351cbf44-69f0-46b2-9947-71671bbe4014": {
+          "description": "Chicken or beef-lamb gyro slices, chopped Romaine lettuce, tomatoes, Kalamata olives, feta cheese, raw onions, lemon wedge, and pepperoncini. Served with balsamic basil dressing.",
+          "imageUrl": "",
+          "price": 765,
+          "title": "Gyro Salad",
+          "uuid": "351cbf44-69f0-46b2-9947-71671bbe4014",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "56f09f06-5c16-4343-899a-95d23aefc238": {
+          "description": "",
+          "imageUrl": "",
+          "price": 275,
+          "title": "Rice",
+          "uuid": "56f09f06-5c16-4343-899a-95d23aefc238",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "f5d05a13-c9fa-43c3-9ad5-c616717c9d5b": {
+          "description": "A blend of ground chickpeas mixed with tahini, olive oil, and spices. Served as a cold dip with olives, feta cheese, tomatoes, cucumber, pepperoncini, and our balsamic basil dressing.",
+          "imageUrl": "",
+          "price": 645,
+          "title": "Hummus Platter",
+          "uuid": "f5d05a13-c9fa-43c3-9ad5-c616717c9d5b",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "f4d7f73a-d1d9-4064-be92-b5cba08cf22b": {
+          "description": "Sauteed pita bread topped with layers of yogurt, special hot tomato sauce, and chicken or beef-lamb gyro.",
+          "imageUrl": "",
+          "price": 1115,
+          "title": "Iskender Kebab",
+          "uuid": "f4d7f73a-d1d9-4064-be92-b5cba08cf22b",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "1a5caaa2-d5ee-4bb5-864b-1e3e3db7c0b2": {
+          "description": "A blend of ground chickpeas mixed with tahini, olive oil, and spices. Served as a cold dip with olives, feta cheese, and tomatoes.",
+          "imageUrl": "",
+          "price": 475,
+          "title": "Hummus Plate",
+          "uuid": "1a5caaa2-d5ee-4bb5-864b-1e3e3db7c0b2",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "28ac7a23-a152-46c6-8e6f-2d7215f90236": {
+          "description": "Chicken gyro, beef kebab, 2 meatball kebabs topped with grilled green peppers, onions, and tomatoes.",
+          "imageUrl": "",
+          "price": 1135,
+          "title": "Galata Combination",
+          "uuid": "28ac7a23-a152-46c6-8e6f-2d7215f90236",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "390c82d9-3d7d-4971-aaaf-b3f1a8b7ece2": {
+          "description": "2 fried eggplant, 2 falafel, one stuffed grape leaf, and sauteed spinach with onions.",
+          "imageUrl": "",
+          "price": 985,
+          "title": "Bosphorus Veggie Combination",
+          "uuid": "390c82d9-3d7d-4971-aaaf-b3f1a8b7ece2",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "f75b7a16-2147-4244-bf87-f224fcf246ca": {
+          "description": "Homemade fresh ground beef patties seasoned with house spices topped with grilled green peppers, onions, and tomatoes.",
+          "imageUrl": "",
+          "price": 1085,
+          "title": "Meatball Kebab",
+          "uuid": "f75b7a16-2147-4244-bf87-f224fcf246ca",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "dbc2a1f5-f523-47ad-9150-89f92740c919": {
+          "description": "Chopped Romaine lettuce, tomatoes, cucumbers, Kalamata olives, feta cheese, onions, lemon wedge, and pepperoncini. Served with balsamic basil dressing.",
+          "imageUrl": "",
+          "price": 685,
+          "title": "Turkish Salad",
+          "uuid": "dbc2a1f5-f523-47ad-9150-89f92740c919",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "bbb1105a-85bc-41ea-adae-f20ee869f634": {
+          "description": "Puffed pastry filled with spinach and feta cheese.",
+          "imageUrl": "",
+          "price": 485,
+          "title": "Spinach Pie",
+          "uuid": "bbb1105a-85bc-41ea-adae-f20ee869f634",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "fd6aa363-5f2b-4845-a12e-c9843373076d": {
+          "description": "Red lentils pureed with dried crushed mint, paprika, and black pepper.",
+          "imageUrl": "",
+          "price": 395,
+          "title": "Lentil Soup",
+          "uuid": "fd6aa363-5f2b-4845-a12e-c9843373076d",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "3eeda9b9-91f2-44e2-9ddb-f71bcdae99f5": {
+          "description": "",
+          "imageUrl": "",
+          "price": 375,
+          "title": "Gyro",
+          "uuid": "3eeda9b9-91f2-44e2-9ddb-f71bcdae99f5",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "3ded9bdb-8c30-4f0a-9783-f34be95fdda8": {
+          "description": "Ground garbanzo and fava beans blended with spices formed into 5 patties and deep fried.",
+          "imageUrl": "",
+          "price": 915,
+          "title": "Falafel Plate",
+          "uuid": "3ded9bdb-8c30-4f0a-9783-f34be95fdda8",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "88b1a286-ddaa-4046-a29f-dd0aa6d3f541": {
+          "description": "Choice of chicken, beef-lamb or mixed gyro slices.",
+          "imageUrl": "",
+          "price": 1025,
+          "title": "Gyro Plate",
+          "uuid": "88b1a286-ddaa-4046-a29f-dd0aa6d3f541",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "07226a15-b9f7-48a6-890e-554444a9bcd6": {
+          "description": "5 oz fresh ground beef patty seasoned and topped with Romaine lettuce, tomatoes, onions, and pickles.",
+          "imageUrl": "",
+          "price": 765,
+          "title": "Burger (Hamburger)",
+          "uuid": "07226a15-b9f7-48a6-890e-554444a9bcd6",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "06dc8771-4b65-4054-a9e0-60fbc594905c": {
+          "description": "Chicken and beef-lamb gyro, chicken and beef kebab, 2 meatball kebabs topped with grilled green peppers, onions, and tomatoes.",
+          "imageUrl": "",
+          "price": 2265,
+          "title": "Sultan Platter",
+          "uuid": "06dc8771-4b65-4054-a9e0-60fbc594905c",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "7a76b342-05b7-432e-8bfb-ecc66c226be1": {
+          "description": "Ground garbanzo and fava beans blended with spices formed into 3 patties and deep fried.",
+          "imageUrl": "",
+          "price": 515,
+          "title": "Falafel",
+          "uuid": "7a76b342-05b7-432e-8bfb-ecc66c226be1",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "c7eb3022-0138-4a88-be7c-7bcbe052ccbe": {
+          "description": "Fillo dough filled with walnuts and syrup.",
+          "imageUrl": "",
+          "price": 375,
+          "title": "Baklava",
+          "uuid": "c7eb3022-0138-4a88-be7c-7bcbe052ccbe",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "d266327e-8c93-459e-9a6a-e46570f7e079": {
+          "description": "Choice of chicken, beef-lamb, or mixed gyro slices, Romaine lettuce, tomatoes, and onions.",
+          "imageUrl": "",
+          "price": 775,
+          "title": "Gyro Sandwich",
+          "uuid": "d266327e-8c93-459e-9a6a-e46570f7e079",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "77c1474e-cc8f-458c-983c-f4517f1b5df1": {
+          "description": "",
+          "imageUrl": "",
+          "price": 165,
+          "title": "Lemonade",
+          "uuid": "77c1474e-cc8f-458c-983c-f4517f1b5df1",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "2c89ceec-84bc-4cd8-ad66-408f38e081b1": {
+          "description": "7 grape leaves stuffed with seasoned rice. Served with olives, feta cheese, tomatoes, and lettuce.",
+          "imageUrl": "",
+          "price": 915,
+          "title": "Stuffed Grape Leaves Plate",
+          "uuid": "2c89ceec-84bc-4cd8-ad66-408f38e081b1",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "ddd57126-7472-4e21-859e-fa1d8e36c34b": {
+          "description": "",
+          "imageUrl": "",
+          "price": 285,
+          "title": "Fries",
+          "uuid": "ddd57126-7472-4e21-859e-fa1d8e36c34b",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "ae71298c-6509-4b34-a4df-bfaf053fb78f": {
+          "description": "",
+          "imageUrl": "",
+          "price": 195,
+          "title": "Turkish Black Tea",
+          "uuid": "ae71298c-6509-4b34-a4df-bfaf053fb78f",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "289e348a-31c7-42d1-b43e-e5fb44d53656": {
+          "description": "2 falafel patties, chopped Romaine lettuce, tomatoes, Kalamata olives, feta cheese, onions, lemon wedge, and pepperoncini. Served with balsamic basil dressing.",
+          "imageUrl": "",
+          "price": 725,
+          "title": "Falafel Salad",
+          "uuid": "289e348a-31c7-42d1-b43e-e5fb44d53656",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "beb64f3e-3f87-48d2-88a1-d5e5a9e056d3": {
+          "description": "",
+          "imageUrl": "",
+          "price": 165,
+          "title": "Stuffed Grape Leaves",
+          "uuid": "beb64f3e-3f87-48d2-88a1-d5e5a9e056d3",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "6744fdac-3e5b-47ff-bfc7-11e143f7de20": {
+          "description": "Fried eggplant, falafel patties, stuffed grape leaves, romaine lettuce, tomatoes, and onions.",
+          "imageUrl": "",
+          "price": 695,
+          "title": "Veggie Sandwich",
+          "uuid": "6744fdac-3e5b-47ff-bfc7-11e143f7de20",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "1160921a-eafe-490b-a10a-9d0bdb5e4038": {
+          "description": "",
+          "imageUrl": "",
+          "price": 195,
+          "title": "Falafel",
+          "uuid": "1160921a-eafe-490b-a10a-9d0bdb5e4038",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "417e1a7e-37bc-4d47-b59a-9d9c73a9c0c6": {
+          "description": "Fried eggplant slices topped with yogurt and warm tomato sauce.",
+          "imageUrl": "",
+          "price": 510,
+          "title": "Fried Eggplant",
+          "uuid": "417e1a7e-37bc-4d47-b59a-9d9c73a9c0c6",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "70b6878a-1ad2-4752-89f1-3a90c324d5e5": {
+          "description": "3 falafel patties lettuce, tomatoes, and onions.",
+          "imageUrl": "",
+          "price": 735,
+          "title": "Falafel Sandwich",
+          "uuid": "70b6878a-1ad2-4752-89f1-3a90c324d5e5",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "dd0a1b14-6371-41b6-8d69-3237be1e673f": {
+          "description": "4 grape leaves stuffed with seasoned rice. Served with olives, feta cheese, tomatoes, and lettuce.",
+          "imageUrl": "",
+          "price": 485,
+          "title": "Stuffed Grape Leaves",
+          "uuid": "dd0a1b14-6371-41b6-8d69-3237be1e673f",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "593b47ac-7c89-47b1-b37f-2d443200faa8": {
+          "description": "Sauteed spinach and onions topped with egg.",
+          "imageUrl": "",
+          "price": 885,
+          "title": "Spinach and Egg",
+          "uuid": "593b47ac-7c89-47b1-b37f-2d443200faa8",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "a225b960-84e3-42e6-bfe9-16ecd519128c": {
+          "description": "Fresh ground beef patties seasoned with house spices, Romaine lettuce, tomatoes, and onions.",
+          "imageUrl": "",
+          "price": 785,
+          "title": "Bosphorus Meatball Sandwich",
+          "uuid": "a225b960-84e3-42e6-bfe9-16ecd519128c",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "669fd570-1739-44d0-910c-624d87d7e371": {
+          "description": "Diced marinated chicken breast topped with grilled green peppers, onions, and tomatoes.",
+          "imageUrl": "",
+          "price": 1025,
+          "title": "Chicken Kebab",
+          "uuid": "669fd570-1739-44d0-910c-624d87d7e371",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        }
+      }
+    },
+    "sections": [
+      {
+        "subsectionUuids": [
+          "7e12b8f3-8e21-53e9-b358-0aad72a5ffa3",
+          "1e85bbac-866f-4086-8743-b285beccafd3",
+          "a348c257-7844-4050-afe9-c58f06e04f5d",
+          "76d04f72-2246-4846-afa5-5b8f92b772a5",
+          "91a80cd0-27ed-4daa-a5d0-08facb5814a6",
+          "cbaba06c-f2b1-4462-99c1-fe52b3f3f5f1",
+          "52151172-e5bf-44f7-9329-8d54c8755eba",
+          "adec3ef4-bd84-456f-a64e-7c03c657e830",
+          "ec013afa-f23e-475c-a066-1d41d552a45d"
+        ],
+        "title": "Menu",
+        "subtitle": "12:30 PM \u2013 7:30 PM",
+        "uuid": "452aca10-7ab2-4145-a461-801a7f36ddb5",
+        "isTop": true,
+        "isOnSale": true
+      }
+    ],
+    "subsectionsMap": {
+      "a348c257-7844-4050-afe9-c58f06e04f5d": {
+        "itemUuids": [
+          "fd6aa363-5f2b-4845-a12e-c9843373076d",
+          "dbc2a1f5-f523-47ad-9150-89f92740c919",
+          "289e348a-31c7-42d1-b43e-e5fb44d53656",
+          "351cbf44-69f0-46b2-9947-71671bbe4014"
+        ],
+        "subtitle": null,
+        "title": "Soup and Salads",
+        "uuid": "a348c257-7844-4050-afe9-c58f06e04f5d",
+        "displayType": null
+      },
+      "adec3ef4-bd84-456f-a64e-7c03c657e830": {
+        "itemUuids": [
+          "18d3b0ef-4ea9-4a6c-85c6-30f8ebe91a95",
+          "77c1474e-cc8f-458c-983c-f4517f1b5df1",
+          "ae71298c-6509-4b34-a4df-bfaf053fb78f",
+          "80d44eb8-3e4d-477b-b77e-75a76e42ef70"
+        ],
+        "subtitle": null,
+        "title": "Bevarages",
+        "uuid": "adec3ef4-bd84-456f-a64e-7c03c657e830",
+        "displayType": null
+      },
+      "76d04f72-2246-4846-afa5-5b8f92b772a5": {
+        "itemUuids": [
+          "6744fdac-3e5b-47ff-bfc7-11e143f7de20",
+          "70b6878a-1ad2-4752-89f1-3a90c324d5e5",
+          "d266327e-8c93-459e-9a6a-e46570f7e079",
+          "a225b960-84e3-42e6-bfe9-16ecd519128c",
+          "07226a15-b9f7-48a6-890e-554444a9bcd6"
+        ],
+        "subtitle": null,
+        "title": "Sandwiches and Burgers",
+        "uuid": "76d04f72-2246-4846-afa5-5b8f92b772a5",
+        "displayType": null
+      },
+      "91a80cd0-27ed-4daa-a5d0-08facb5814a6": {
+        "itemUuids": [
+          "3ded9bdb-8c30-4f0a-9783-f34be95fdda8",
+          "593b47ac-7c89-47b1-b37f-2d443200faa8",
+          "390c82d9-3d7d-4971-aaaf-b3f1a8b7ece2",
+          "2c89ceec-84bc-4cd8-ad66-408f38e081b1"
+        ],
+        "subtitle": null,
+        "title": "Vegetarian Entrees",
+        "uuid": "91a80cd0-27ed-4daa-a5d0-08facb5814a6",
+        "displayType": null
+      },
+      "cbaba06c-f2b1-4462-99c1-fe52b3f3f5f1": {
+        "itemUuids": [
+          "f4d7f73a-d1d9-4064-be92-b5cba08cf22b",
+          "88b1a286-ddaa-4046-a29f-dd0aa6d3f541",
+          "669fd570-1739-44d0-910c-624d87d7e371",
+          "cd449cab-b578-47f8-9201-1f5685756d8a",
+          "f75b7a16-2147-4244-bf87-f224fcf246ca",
+          "ab33f54e-4225-4083-b381-501aa8c0bd22",
+          "28ac7a23-a152-46c6-8e6f-2d7215f90236",
+          "06dc8771-4b65-4054-a9e0-60fbc594905c"
+        ],
+        "subtitle": null,
+        "title": "Entrees",
+        "uuid": "cbaba06c-f2b1-4462-99c1-fe52b3f3f5f1",
+        "displayType": null
+      },
+      "ec013afa-f23e-475c-a066-1d41d552a45d": {
+        "itemUuids": [
+          "c7eb3022-0138-4a88-be7c-7bcbe052ccbe"
+        ],
+        "subtitle": null,
+        "title": "Dessert",
+        "uuid": "ec013afa-f23e-475c-a066-1d41d552a45d",
+        "displayType": null
+      },
+      "7e12b8f3-8e21-53e9-b358-0aad72a5ffa3": {
+        "itemUuids": [
+          "ab33f54e-4225-4083-b381-501aa8c0bd22",
+          "f4d7f73a-d1d9-4064-be92-b5cba08cf22b",
+          "d266327e-8c93-459e-9a6a-e46570f7e079",
+          "669fd570-1739-44d0-910c-624d87d7e371",
+          "c7eb3022-0138-4a88-be7c-7bcbe052ccbe"
+        ],
+        "subtitle": null,
+        "title": "Picked For You",
+        "uuid": "7e12b8f3-8e21-53e9-b358-0aad72a5ffa3",
+        "displayType": null
+      },
+      "1e85bbac-866f-4086-8743-b285beccafd3": {
+        "itemUuids": [
+          "417e1a7e-37bc-4d47-b59a-9d9c73a9c0c6",
+          "dd0a1b14-6371-41b6-8d69-3237be1e673f",
+          "7a76b342-05b7-432e-8bfb-ecc66c226be1",
+          "bbb1105a-85bc-41ea-adae-f20ee869f634",
+          "1a5caaa2-d5ee-4bb5-864b-1e3e3db7c0b2",
+          "f5d05a13-c9fa-43c3-9ad5-c616717c9d5b",
+          "feec80b0-660e-49e5-8280-ffea4ff4a1e3"
+        ],
+        "subtitle": null,
+        "title": "Appetizers",
+        "uuid": "1e85bbac-866f-4086-8743-b285beccafd3",
+        "displayType": null
+      },
+      "52151172-e5bf-44f7-9329-8d54c8755eba": {
+        "itemUuids": [
+          "56f09f06-5c16-4343-899a-95d23aefc238",
+          "ddd57126-7472-4e21-859e-fa1d8e36c34b",
+          "48c1d6ac-5685-48d3-8775-b35570f868b6",
+          "1160921a-eafe-490b-a10a-9d0bdb5e4038",
+          "beb64f3e-3f87-48d2-88a1-d5e5a9e056d3",
+          "955ad976-4d4f-4546-b44e-4708c6f8ed97",
+          "3eeda9b9-91f2-44e2-9ddb-f71bcdae99f5"
+        ],
+        "subtitle": null,
+        "title": "Sides",
+        "uuid": "52151172-e5bf-44f7-9329-8d54c8755eba",
+        "displayType": null
+      }
+    },
+    "title": "Bosphorus",
+    "sanitizedTitle": "Bosphorus",
+    "uuid": "b54d5f52-7ffa-4373-83c0-e2c6dd632848",
+    "cityId": 24,
+    "categories": [
+      "$$",
+      "Mediterranean",
+      "Greek",
+      "Vegetarian",
+      "Healthy"
+    ],
+    "categoryLinks": [
+      {
+        "text": "Mediterranean",
+        "link": "/category/englewood-co/mediterranean"
+      },
+      {
+        "text": "Greek",
+        "link": "/category/englewood-co/greek"
+      },
+      {
+        "text": "Vegetarian",
+        "link": "/category/englewood-co/vegetarian"
+      },
+      {
+        "text": "Healthy",
+        "link": "/category/englewood-co/healthy"
+      }
+    ],
+    "cuisineList": [
+      "Mediterranean",
+      "Greek",
+      "Vegetarian",
+      "Healthy"
+    ],
+    "priceBucket": "$$",
+    "etaRange": null,
+    "disclaimerBadge": {
+      "text": "<span>Allergens: These items may include unlisted ingredients and/or be prepared on equipment that processes allergens. Take precautions if you have an allergy.</span>"
+    },
+    "distanceBadge": null,
+    "fareBadge": null,
+    "eatsPassExclusionBadge": null,
+    "fareInfo": {
+      "serviceFeeCents": null
+    },
+    "promotion": null,
+    "shouldIndex": true,
+    "heroImageUrls": [
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/bb4c7142-0ba4-41df-98dd-ad34c140c8c4.jpeg",
+        "width": 240
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/fa04e818-de24-4285-b2f3-91c0f8e9e262.jpeg",
+        "width": 550
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/747c779d-722e-47ae-b6c2-4ad960cd65bc.jpeg",
+        "width": 640
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/4df54f38-b23f-44b1-9d0c-d0dafeab583a.jpeg",
+        "width": 750
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/d7debd7b-f51a-47fc-bbc7-ca3dda8a9f5e.jpeg",
+        "width": 1080
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/224bd946-334d-48db-a85a-d349fef28c3d.jpeg",
+        "width": 2880
+      }
+    ],
+    "isOpen": false,
+    "currencyCode": "USD",
+    "closedMessage": "Too far to deliver",
+    "location": {
+      "address": "3493 S Downing St, Englewood, CO 80113",
+      "streetAddress": "3493 S Downing St",
+      "city": "Englewood",
+      "country": "US",
+      "postalCode": "80113",
+      "region": "CO",
+      "latitude": 39.65355,
+      "longitude": -104.97375
+    },
+    "isDeliveryBandwagon": false,
+    "isDeliveryOverTheTop": true,
+    "isDeliveryThirdParty": false,
+    "hours": [
+      {
+        "dayRange": "Sunday",
+        "sectionHours": [
+          {
+            "startTime": 750,
+            "endTime": 1170,
+            "sectionTitle": ""
+          }
+        ]
+      },
+      {
+        "dayRange": "Monday",
+        "sectionHours": []
+      },
+      {
+        "dayRange": "Tuesday - Saturday",
+        "sectionHours": [
+          {
+            "startTime": 750,
+            "endTime": 1170,
+            "sectionTitle": ""
+          }
+        ]
+      }
+    ],
+    "disableOrderInstruction": true,
+    "disableCheckoutInstruction": true,
+    "nuggets": [],
+    "isWithinDeliveryRange": true,
+    "slug": "bosphorus",
+    "citySlug": "denver",
+    "phoneNumber": "+13039421267",
+    "metaJson": "{\"@context\":\"http:\\u002F\\u002Fschema.org\",\"@type\":\"Restaurant\",\"@id\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Fdenver\\u002Ffood-delivery\\u002Fbosphorus\\u002FtU1fUn_6Q3ODwOLG3WMoSA\",\"name\":\"Bosphorus\",\"servesCuisine\":[\"Mediterranean\",\"Greek\",\"Vegetarian\",\"Healthy\"],\"priceRange\":\"$$\",\"image\":[\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fbb4c7142-0ba4-41df-98dd-ad34c140c8c4.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Ffa04e818-de24-4285-b2f3-91c0f8e9e262.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F747c779d-722e-47ae-b6c2-4ad960cd65bc.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F4df54f38-b23f-44b1-9d0c-d0dafeab583a.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fd7debd7b-f51a-47fc-bbc7-ca3dda8a9f5e.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F224bd946-334d-48db-a85a-d349fef28c3d.jpeg\"],\"potentialAction\":{\"@type\":\"OrderAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Fdenver\\u002Ffood-delivery\\u002Fbosphorus\\u002FtU1fUn_6Q3ODwOLG3WMoSA?utm_campaign=order-action&amp;utm_medium=organic\",\"inLanguage\":\"English\",\"actionPlatform\":[\"http:\\u002F\\u002Fschema.org\\u002FDesktopWebPlatform\",\"http:\\u002F\\u002Fschema.org\\u002FMobileWebPlatform\"]},\"deliveryMethod\":[\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModeOwnFleet\"]},\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Englewood\",\"addressRegion\":\"CO\",\"postalCode\":\"80113\",\"addressCountry\":\"US\",\"streetAddress\":\"3493 S Downing St\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":39.65355,\"longitude\":-104.97375},\"telephone\":\"+13039421267\",\"aggregateRating\":{},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Sunday\",\"opens\":\"12:30\",\"closes\":\"19:30\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"opens\":\"12:30\",\"closes\":\"19:30\"}]}",
+    "promoTrackings": [],
+    "suggestedPromotion": {
+      "text": "",
+      "promotionUuid": ""
+    },
+    "supportedDiningModes": [
+      {
+        "mode": "DELIVERY",
+        "title": "Delivery",
+        "isSelected": true,
+        "isAvailable": true
+      }
+    ],
+    "isPreview": false,
+    "pinnedInfo": null,
+    "rating": null,
+    "menuUUID": "b54d5f52-7ffa-4373-83c0-e2c6dd632848",
+    "hasMultipleMenus": false,
+    "isChain": false,
+    "specialInstructionHintText": "Add a note (extra sauce, no onions, etc.)",
+    "fulfillmentIssueOptions": {
+      "title": "What if it\u2019s unavailable?",
+      "resolutionActions": [
+        {
+          "title": "Contact me",
+          "subtitle": "You'll need to be ready to answer a call.",
+          "checkoutDescription": "Contact me if unavailable",
+          "action": {
+            "type": "CONTACT_EATER",
+            "itemSubstitutes": null
+          },
+          "isDefault": null
+        },
+        {
+          "title": "Remove it",
+          "subtitle": "You\u2019ll still get the rest of your order.",
+          "checkoutDescription": "Remove if unavailable",
+          "action": {
+            "type": "REMOVE_ITEM",
+            "itemSubstitutes": null
+          },
+          "isDefault": null
+        },
+        {
+          "title": "Cancel my order",
+          "subtitle": "You won\u2019t be charged.",
+          "checkoutDescription": "Cancel order if unavailable",
+          "action": {
+            "type": "CANCEL_ORDER",
+            "itemSubstitutes": null
+          },
+          "isDefault": null
+        }
+      ],
+      "buttonTitle": null,
+      "fulfillmentIssueDisplayType": null
+    },
+    "shouldRenderAllItems": true,
+    "optoutRestaurantExperiments": {
+      "optoutMenuExperiments": null
+    },
+    "adaptedDeliveryHoursInfos": {
+      "dates": [
+        "2021-02-05",
+        "2021-02-06",
+        "2021-02-07",
+        "2021-02-09",
+        "2021-02-10",
+        "2021-02-11"
+      ],
+      "timeRanges": {
+        "2021-02-05": [
+          {
+            "startTime": 870,
+            "endTime": 900
+          },
+          {
+            "startTime": 885,
+            "endTime": 915
+          },
+          {
+            "startTime": 900,
+            "endTime": 930
+          },
+          {
+            "startTime": 915,
+            "endTime": 945
+          },
+          {
+            "startTime": 930,
+            "endTime": 960
+          },
+          {
+            "startTime": 945,
+            "endTime": 975
+          },
+          {
+            "startTime": 960,
+            "endTime": 990
+          },
+          {
+            "startTime": 975,
+            "endTime": 1005
+          },
+          {
+            "startTime": 990,
+            "endTime": 1020
+          },
+          {
+            "startTime": 1005,
+            "endTime": 1035
+          },
+          {
+            "startTime": 1020,
+            "endTime": 1050
+          },
+          {
+            "startTime": 1035,
+            "endTime": 1065
+          },
+          {
+            "startTime": 1050,
+            "endTime": 1080
+          },
+          {
+            "startTime": 1065,
+            "endTime": 1095
+          },
+          {
+            "startTime": 1080,
+            "endTime": 1110
+          },
+          {
+            "startTime": 1095,
+            "endTime": 1125
+          },
+          {
+            "startTime": 1110,
+            "endTime": 1140
+          },
+          {
+            "startTime": 1125,
+            "endTime": 1155
+          },
+          {
+            "startTime": 1140,
+            "endTime": 1170
+          },
+          {
+            "startTime": 1155,
+            "endTime": 1185
+          }
+        ],
+        "2021-02-06": [
+          {
+            "startTime": 810,
+            "endTime": 840
+          },
+          {
+            "startTime": 825,
+            "endTime": 855
+          },
+          {
+            "startTime": 840,
+            "endTime": 870
+          },
+          {
+            "startTime": 855,
+            "endTime": 885
+          },
+          {
+            "startTime": 870,
+            "endTime": 900
+          },
+          {
+            "startTime": 885,
+            "endTime": 915
+          },
+          {
+            "startTime": 900,
+            "endTime": 930
+          },
+          {
+            "startTime": 915,
+            "endTime": 945
+          },
+          {
+            "startTime": 930,
+            "endTime": 960
+          },
+          {
+            "startTime": 945,
+            "endTime": 975
+          },
+          {
+            "startTime": 960,
+            "endTime": 990
+          },
+          {
+            "startTime": 975,
+            "endTime": 1005
+          },
+          {
+            "startTime": 990,
+            "endTime": 1020
+          },
+          {
+            "startTime": 1005,
+            "endTime": 1035
+          },
+          {
+            "startTime": 1020,
+            "endTime": 1050
+          },
+          {
+            "startTime": 1035,
+            "endTime": 1065
+          },
+          {
+            "startTime": 1050,
+            "endTime": 1080
+          },
+          {
+            "startTime": 1065,
+            "endTime": 1095
+          },
+          {
+            "startTime": 1080,
+            "endTime": 1110
+          },
+          {
+            "startTime": 1095,
+            "endTime": 1125
+          },
+          {
+            "startTime": 1110,
+            "endTime": 1140
+          },
+          {
+            "startTime": 1125,
+            "endTime": 1155
+          },
+          {
+            "startTime": 1140,
+            "endTime": 1170
+          },
+          {
+            "startTime": 1155,
+            "endTime": 1185
+          }
+        ],
+        "2021-02-07": [
+          {
+            "startTime": 810,
+            "endTime": 840
+          },
+          {
+            "startTime": 825,
+            "endTime": 855
+          },
+          {
+            "startTime": 840,
+            "endTime": 870
+          },
+          {
+            "startTime": 855,
+            "endTime": 885
+          },
+          {
+            "startTime": 870,
+            "endTime": 900
+          },
+          {
+            "startTime": 885,
+            "endTime": 915
+          },
+          {
+            "startTime": 900,
+            "endTime": 930
+          },
+          {
+            "startTime": 915,
+            "endTime": 945
+          },
+          {
+            "startTime": 930,
+            "endTime": 960
+          },
+          {
+            "startTime": 945,
+            "endTime": 975
+          },
+          {
+            "startTime": 960,
+            "endTime": 990
+          },
+          {
+            "startTime": 975,
+            "endTime": 1005
+          },
+          {
+            "startTime": 990,
+            "endTime": 1020
+          },
+          {
+            "startTime": 1005,
+            "endTime": 1035
+          },
+          {
+            "startTime": 1020,
+            "endTime": 1050
+          },
+          {
+            "startTime": 1035,
+            "endTime": 1065
+          },
+          {
+            "startTime": 1050,
+            "endTime": 1080
+          },
+          {
+            "startTime": 1065,
+            "endTime": 1095
+          },
+          {
+            "startTime": 1080,
+            "endTime": 1110
+          },
+          {
+            "startTime": 1095,
+            "endTime": 1125
+          },
+          {
+            "startTime": 1110,
+            "endTime": 1140
+          },
+          {
+            "startTime": 1125,
+            "endTime": 1155
+          },
+          {
+            "startTime": 1140,
+            "endTime": 1170
+          },
+          {
+            "startTime": 1155,
+            "endTime": 1185
+          }
+        ],
+        "2021-02-09": [
+          {
+            "startTime": 810,
+            "endTime": 840
+          },
+          {
+            "startTime": 825,
+            "endTime": 855
+          },
+          {
+            "startTime": 840,
+            "endTime": 870
+          },
+          {
+            "startTime": 855,
+            "endTime": 885
+          },
+          {
+            "startTime": 870,
+            "endTime": 900
+          },
+          {
+            "startTime": 885,
+            "endTime": 915
+          },
+          {
+            "startTime": 900,
+            "endTime": 930
+          },
+          {
+            "startTime": 915,
+            "endTime": 945
+          },
+          {
+            "startTime": 930,
+            "endTime": 960
+          },
+          {
+            "startTime": 945,
+            "endTime": 975
+          },
+          {
+            "startTime": 960,
+            "endTime": 990
+          },
+          {
+            "startTime": 975,
+            "endTime": 1005
+          },
+          {
+            "startTime": 990,
+            "endTime": 1020
+          },
+          {
+            "startTime": 1005,
+            "endTime": 1035
+          },
+          {
+            "startTime": 1020,
+            "endTime": 1050
+          },
+          {
+            "startTime": 1035,
+            "endTime": 1065
+          },
+          {
+            "startTime": 1050,
+            "endTime": 1080
+          },
+          {
+            "startTime": 1065,
+            "endTime": 1095
+          },
+          {
+            "startTime": 1080,
+            "endTime": 1110
+          },
+          {
+            "startTime": 1095,
+            "endTime": 1125
+          },
+          {
+            "startTime": 1110,
+            "endTime": 1140
+          },
+          {
+            "startTime": 1125,
+            "endTime": 1155
+          },
+          {
+            "startTime": 1140,
+            "endTime": 1170
+          },
+          {
+            "startTime": 1155,
+            "endTime": 1185
+          }
+        ],
+        "2021-02-10": [
+          {
+            "startTime": 810,
+            "endTime": 840
+          },
+          {
+            "startTime": 825,
+            "endTime": 855
+          },
+          {
+            "startTime": 840,
+            "endTime": 870
+          },
+          {
+            "startTime": 855,
+            "endTime": 885
+          },
+          {
+            "startTime": 870,
+            "endTime": 900
+          },
+          {
+            "startTime": 885,
+            "endTime": 915
+          },
+          {
+            "startTime": 900,
+            "endTime": 930
+          },
+          {
+            "startTime": 915,
+            "endTime": 945
+          },
+          {
+            "startTime": 930,
+            "endTime": 960
+          },
+          {
+            "startTime": 945,
+            "endTime": 975
+          },
+          {
+            "startTime": 960,
+            "endTime": 990
+          },
+          {
+            "startTime": 975,
+            "endTime": 1005
+          },
+          {
+            "startTime": 990,
+            "endTime": 1020
+          },
+          {
+            "startTime": 1005,
+            "endTime": 1035
+          },
+          {
+            "startTime": 1020,
+            "endTime": 1050
+          },
+          {
+            "startTime": 1035,
+            "endTime": 1065
+          },
+          {
+            "startTime": 1050,
+            "endTime": 1080
+          },
+          {
+            "startTime": 1065,
+            "endTime": 1095
+          },
+          {
+            "startTime": 1080,
+            "endTime": 1110
+          },
+          {
+            "startTime": 1095,
+            "endTime": 1125
+          },
+          {
+            "startTime": 1110,
+            "endTime": 1140
+          },
+          {
+            "startTime": 1125,
+            "endTime": 1155
+          },
+          {
+            "startTime": 1140,
+            "endTime": 1170
+          },
+          {
+            "startTime": 1155,
+            "endTime": 1185
+          }
+        ],
+        "2021-02-11": [
+          {
+            "startTime": 810,
+            "endTime": 840
+          },
+          {
+            "startTime": 825,
+            "endTime": 855
+          },
+          {
+            "startTime": 840,
+            "endTime": 870
+          },
+          {
+            "startTime": 855,
+            "endTime": 885
+          },
+          {
+            "startTime": 870,
+            "endTime": 900
+          },
+          {
+            "startTime": 885,
+            "endTime": 915
+          },
+          {
+            "startTime": 900,
+            "endTime": 930
+          },
+          {
+            "startTime": 915,
+            "endTime": 945
+          },
+          {
+            "startTime": 930,
+            "endTime": 960
+          },
+          {
+            "startTime": 945,
+            "endTime": 975
+          },
+          {
+            "startTime": 960,
+            "endTime": 990
+          },
+          {
+            "startTime": 975,
+            "endTime": 1005
+          },
+          {
+            "startTime": 990,
+            "endTime": 1020
+          },
+          {
+            "startTime": 1005,
+            "endTime": 1035
+          },
+          {
+            "startTime": 1020,
+            "endTime": 1050
+          },
+          {
+            "startTime": 1035,
+            "endTime": 1065
+          },
+          {
+            "startTime": 1050,
+            "endTime": 1080
+          },
+          {
+            "startTime": 1065,
+            "endTime": 1095
+          },
+          {
+            "startTime": 1080,
+            "endTime": 1110
+          },
+          {
+            "startTime": 1095,
+            "endTime": 1125
+          },
+          {
+            "startTime": 1110,
+            "endTime": 1140
+          },
+          {
+            "startTime": 1125,
+            "endTime": 1155
+          },
+          {
+            "startTime": 1140,
+            "endTime": 1170
+          },
+          {
+            "startTime": 1155,
+            "endTime": 1185
+          }
+        ]
+      },
+      "scheduledTimesAvailable": true
+    },
+    "eaterConsent": null,
+    "seoMeta": {
+      "title": "Bosphorus Delivery | Denver | Uber Eats",
+      "description": "Use your Uber account to order delivery from Bosphorus in Denver. Browse the menu, view popular items, and track your order.",
+      "content": ""
+    }
+  }
+}

@@ -126,8 +126,12 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
         dic['isOpen']['ubereats'] = store_info['data']['isOpen']
         if store_info['data']['categories'][0].startswith('$'):
             dic['priceRange'] = store_info['data']['categories'][0]  # "$$"
+            dic['categories'] = " ・ ".join(
+                store_info['data']['categories'][1:])
         else:
             dic['priceRange'] = ""
+            dic['categories'] = " ・ ".join(
+                store_info['data']['categories'][0:])
         uuid = store_info['data']['sections'][0]['uuid']
         dic['menu']['ubereats'] = {'sectionEntitiesMap': store_info['data']['sectionEntitiesMap'][uuid],
                                    'sections': store_info['data']['sections'], 'subsectionsMap': store_info['data']['subsectionsMap']}
@@ -194,6 +198,8 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
                 store_info['restaurant']['longitude'])
             dic['location'] = location_dic
             dic['menu']['grubhub'] = store_info['restaurant']['menu_category_list']
+            dic['categories'] = " ・ ".join(
+                store_info['restaurant']['cuisines'])
 
         dic['isOpen']['grubhub'] = store_info['restaurant_availability']['open_delivery']
 
@@ -271,6 +277,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             location_dic["city"] = store_info['storeHeader']['address']['city']
             dic['location'] = location_dic
             dic['menu']['doordash'] = store_info['itemLists']
+            dic['categories'] = store_info['storeHeader']['description'].replace(', ', ' ・ ')
 
         dic['isOpen']['doordash'] = store_info['storeHeader']['status']['delivery']['isAvailable']
 

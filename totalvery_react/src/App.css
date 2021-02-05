@@ -241,6 +241,7 @@
 
 #menu-img {
   height: 200px;
+  min-width: 300px;
 }
 
 .menu-description {

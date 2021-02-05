@@ -26,6 +26,7 @@ class RequestsTest extends React.Component {
       title: null,
       location: null,
       priceRange: null,
+      categories: "",
       promotion: [],
       fee: [],
       json_data: [],
@@ -79,6 +80,7 @@ class RequestsTest extends React.Component {
           heroImageUrl: data.heroImageUrl,
           title: data.title,
           priceRange: data.priceRange,
+          categories: data.categories,
           isOpen: data.isOpen,
           json_data: data,
           promotion: data.promotion,
@@ -294,7 +296,7 @@ class RequestsTest extends React.Component {
         {header}{" "}
         <div className="store-detail">
           <h1 className="store-title"> {this.state.title} </h1>{" "}
-          <div className="priceRange"> {this.state.priceRange} </div>{" "}
+          <div className="priceRange"> {this.state.priceRange} ・ {this.state.categories}</div>
           <div className="address">{this.state.location}</div>{" "}
         </div>
         <div className="fees-order-container">

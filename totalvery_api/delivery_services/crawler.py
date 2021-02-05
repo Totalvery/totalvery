@@ -142,8 +142,8 @@ class UbereatsCrawler:
             else:
                 fee_dic = None
 
-            # with open('ubereats_detail.json', mode='w') as f:
-            #     f.write(json.dumps(store_json, indent=2))
+            with open('ubereats_detail.json', mode='w') as f:
+                f.write(json.dumps(store_json, indent=2))
 
             return store_json, fee_dic
 
@@ -284,6 +284,9 @@ class DoordashCrawler:
         except:
             raise Exception(
                 f"Doordash food delivery is not available in your country. Your response is '{response.text}'")
+
+        with open('doordash_detail.json', mode='w') as f:
+            f.write(json.dumps(store_json, indent=2))
 
         return store_json
 
@@ -426,8 +429,8 @@ class GrubhubCrawler:
             f'https://api-gtm.grubhub.com/restaurants/{restaurantId}', params=params)
         store_json = response.json()
 
-        # with open('grubhub_detail.json', mode='w') as f:
-        #     f.write(json.dumps(store_json, indent=2))
+        with open('grubhub_detail.json', mode='w') as f:
+            f.write(json.dumps(store_json, indent=2))
         return store_json
 
     def get_feed(self, lat, lon):
