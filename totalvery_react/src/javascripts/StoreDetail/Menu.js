@@ -61,9 +61,6 @@ function MenuElement({ items, sectionEntitiesMap, fallback }) {
               id="menu-img"
               src={imgUrl}
               style={{
-                width: "200px",
-                height: "200px",
-                overflow: "hidden",
                 display: `${display}`,
               }}
             />

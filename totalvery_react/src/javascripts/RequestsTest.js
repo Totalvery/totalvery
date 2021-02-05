@@ -210,7 +210,7 @@ class RequestsTest extends React.Component {
       }
       try {
         doordash_fee +=
-          "$" + this.state.fee.serviceFee.doordash + " Service Fee ∙ ";
+          "$" + this.state.fee.serviceFee.doordash.toFixed(2) + " Service Fee ∙ ";
         total += this.state.fee.serviceFee.doordash;
       } catch {
         doordash_fee += "$0 Service Fee ∙ ";

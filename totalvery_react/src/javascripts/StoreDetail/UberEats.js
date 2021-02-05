@@ -1,7 +1,4 @@
 import React from "react";
-import TopBar from "../TopBar";
-import ImgTest from "../ImgTest";
-import CategNav from "./CategNav";
 import Menu from "./Menu";
 
 import "../../App.css";
@@ -31,41 +28,56 @@ class UberEats extends React.Component {
     });
 
     var categs = this.props.json_data.menu.ubereats.subsectionsMap;
+    var sections = this.props.json_data.menu.ubereats.sections;
+    var onSaleMenu;
+    let multipleMenu = false;
+    if (sections.length > 1) {
+      sections.forEach(function (d) {
+        if (d.isOnSale === true) {
+          onSaleMenu = d.subsectionUuids;
+          multipleMenu = true;
+          console.log("d");
+          console.log(d);
+        }
+      });
+    }
 
     var arr = [];
+    var tmpArr = [];
+
     if (categs) {
       Object.keys(categs).forEach(function (key) {
-        arr.push({
-          title: categs[key]["title"],
-          id: key,
-          items: categs[key]["itemUuids"],
-        });
+        if (multipleMenu === true) {
+          if (onSaleMenu.includes(key)) {
+            console.log("key in onSaleMenu");
+            tmpArr = categs[key]["itemUuids"];
+            arr.push({
+              title: categs[key]["title"],
+              id: key,
+              items: tmpArr,
+            });
+          }
+        } else {
+          tmpArr = categs[key]["itemUuids"];
+          arr.push({
+            title: categs[key]["title"],
+            id: key,
+            items: tmpArr,
+          });
+        }
       });
+      console.log("ubereats arr:");
+      console.log(arr);
     }
 
     this.setState({ subNav: arr });
   }
 
   render() {
-    console.log(this.state.json_data);
-    var fees = "";
-    if (this.state.isOpen === false) {
-      fees = "Closed";
-    } else if (this.state.isOpen === true) {
-      fees = "Opened";
-    }
-
-    const menu = this.state.subNav.map((each) => <Menu subNav={each} />);
-
     return (
       <div>
         <div className="menu-wrapper">
           <div className="menu-hour"></div>
-          {/* <div className="menu-top">
-            {this.state.subNav.map((each) => (
-              <CategNav subNav={each} />
-            ))}
-          </div> */}
           <div className="menu">
             {this.state.subNav.map((each) => (
               <Menu

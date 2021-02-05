@@ -125,6 +125,9 @@
 
 .order-box {
   display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  width: 185px;
 }
 
 .fees-order-container {
@@ -147,6 +150,10 @@
   padding: 5px;
 }
 
+.order-wrapper {
+  padding: 4px 0 4px 0;
+}
+
 .order-wrapper a {
   text-decoration: none;
   color: white;
@@ -154,17 +161,16 @@
   width: 100%;
   text-align: center;
   font-weight: 600;
-  padding: 0;
-  margin: 10px;
   transition: 0.3s;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  display: block;
   background-color: #e55;
   border-radius: 1em;
+  border-style: solid;
+  border-width: thin;
 }
 
 .order-wrapper a:hover {
@@ -174,7 +180,6 @@
   border-width: thin;
   text-decoration: none;
   color: #e55;
-  transition: 0.3s;
 }
 
 .menu-wrapper {
@@ -227,11 +232,15 @@
   line-height: 1.3;
   vertical-align: bottom;
 }
-
-#menu-img {
-  display: inline-block;
+.menu-img-wrapper {
+  width: 300px;
+  overflow: hidden;
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
+}
+
+#menu-img {
+  height: 200px;
 }
 
 .menu-description {
@@ -252,4 +261,8 @@ a:hover {
 
 .requestTest {
   min-width: 177vh;
+}
+
+#dummy {
+  display: none;
 }

@@ -45,9 +45,6 @@ function MenuElement({ items, fallback }) {
               id="menu-img"
               src={imageUrl}
               style={{
-                width: "200px",
-                height: "200px",
-                overflow: "hidden",
                 display: `${display}`,
               }}
             />

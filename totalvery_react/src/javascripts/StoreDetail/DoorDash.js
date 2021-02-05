@@ -1,7 +1,4 @@
 import React from "react";
-import TopBar from "../TopBar";
-import ImgTest from "../ImgTest";
-import CategNav from "./CategNav";
 import DoorDashMenu from "./DoorDashMenu";
 
 import "../../App.css";

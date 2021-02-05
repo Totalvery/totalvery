@@ -1,7 +1,4 @@
 import React from "react";
-import TopBar from "../TopBar";
-import ImgTest from "../ImgTest";
-import CategNav from "./CategNav";
 import GrubHubMenu from "./GrubHubMenu";
 
 import "../../App.css";

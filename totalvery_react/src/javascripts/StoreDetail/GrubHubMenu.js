@@ -1,23 +1,7 @@
-import React, { useState, Suspense } from "react";
-import { Element, Link } from "react-scroll";
+import React from "react";
+import { Element } from "react-scroll";
 
-function CategoryElement({ items, fallback }) {
-  if (!items || items.length === 0) {
-    return fallback;
-  } else {
-    // return items.map((item) => {
-    return (
-      <div>
-        <Element name={items.name} className="category-title">
-          {items.name} <br></br>
-        </Element>
-      </div>
-    );
-    // });
-  }
-}
-
-function MenuElement({ items, fallback }) {
+function AvailableElement({ items, fallback }) {
   if (!items || items.length === 0) {
     return fallback;
   } else {
@@ -39,17 +23,15 @@ function MenuElement({ items, fallback }) {
             <b>{item.name}</b>
             <br></br>
             {item.description}
-            <br></br><br></br>
-            <b>${parseFloat(item.price.amount) / 100}</b>
+            <br></br>
+            <br></br>
+            <b>${parseFloat(item.minimum_price_variation.amount) / 100}</b>
           </div>
           <div className="menu-img-wrapper">
             <img
               id="menu-img"
               src={imageUrl}
               style={{
-                width: "200px",
-                height: "200px",
-                overflow: "hidden",
                 display: `${display}`,
               }}
             />
@@ -57,6 +39,37 @@ function MenuElement({ items, fallback }) {
         </Element>
       );
     });
+  }
+}
+
+function CategoryElement({ items, fallback }) {
+  if (!items || items.length === 0) {
+    return fallback;
+  } else {
+    var elems = [];
+    items.menu_item_list.map((item) => {
+      if (item.available === true) {
+        elems.push(item);
+      }
+    });
+    if (elems.length > 0) {
+      return (
+        <div className="menu-block">
+          <div>
+            <Element name={items.name} className="category-title">
+              {items.name} <br></br>
+            </Element>
+          </div>
+          <AvailableElement
+            items={elems}
+            fallback="Loading..."
+          ></AvailableElement>
+        </div>
+      );
+    } else {
+      console.log("elems.length 0 이다");
+      return <div id="dummy">No Menu Available</div>;
+    }
   }
 }
 
@@ -76,13 +89,9 @@ class GrubHubMenu extends React.Component {
 
   render() {
     return (
-      <div className="menu-block">
+      <div>
         <CategoryElement
           items={this.props.sectionEntitiesMap}
-          fallback={"Loading..."}
-        />
-        <MenuElement
-          items={this.props.sectionEntitiesMap.menu_item_list}
           fallback={"Loading..."}
         />
       </div>
