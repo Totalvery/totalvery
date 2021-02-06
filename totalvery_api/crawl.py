@@ -130,6 +130,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
         dic['title'] = store_info['data']['title']
         dic['location'] = store_info['data']['location']
         dic['isOpen']['ubereats'] = store_info['data']['isOpen']
+        dic['offer']['ubereats'] = store_info['data']['promoTrackings']
         if store_info['data']['categories'][0].startswith('$'):
             dic['priceRange'] = store_info['data']['categories'][0]  # "$$"
             dic['categories'] = " ・ ".join(
