@@ -27,7 +27,7 @@ function GrubhubOffers({ items, fallback }) {
   }
 }
 
-class RequestsTest extends React.Component {
+class StoreDetail extends React.Component {
   static propTypes = {
     cookies: instanceOf(Cookies).isRequired,
   };
@@ -55,25 +55,22 @@ class RequestsTest extends React.Component {
       etaRange: null,
       rating: null,
       locCookie: cookies.get("tv.loc") || "",
+      storeCookie: cookies.get("tv.store") || "",
       city: "",
     };
   }
 
   componentDidMount(props) {
-    console.log("requestsTest params: ");
-    console.log(this.props.location.state.platform);
-    let platform = this.props.location.state.platform[0];
-
     const payload = {
       meta: {
-        ubereats: platform.ubereats.support.toString(),
-        doordash: platform.doordash.support.toString(),
-        grubhub: platform.grubhub.support.toString(),
+        ubereats: this.state.storeCookie[0].ubereats.support.toString(),
+        doordash: this.state.storeCookie[0].doordash.support.toString(),
+        grubhub: this.state.storeCookie[0].grubhub.support.toString(),
       },
       ids: {
-        ubereatsID: platform.ubereats.id || "0",
-        doordashID: platform.doordash.id || "0",
-        grubhubID: platform.grubhub.id || "0",
+        ubereatsID: this.state.storeCookie[0].ubereats.id || "0",
+        doordashID: this.state.storeCookie[0].doordash.id || "0",
+        grubhubID: this.state.storeCookie[0].grubhub.id || "0",
       },
       customer_location: {
         location: JSON.stringify(this.state.locCookie),
@@ -316,16 +313,16 @@ class RequestsTest extends React.Component {
       "/food-delivery/" +
       this.state.title +
       "/" +
-      this.props.location.state.platform[0].ubereats.id;
+      this.state.storeCookie[0].ubereats.id;
 
     var doordash_url =
       "https://www.doordash.com/store/" +
-      this.props.location.state.platform[0].doordash.id +
+      this.state.storeCookie[0].doordash.id +
       "/en-US";
 
     var grubhub_url =
       "https://www.grubhub.com/restaurant/" +
-      this.props.location.state.platform[0].grubhub.id;
+      this.state.storeCookie[0].grubhub.id;
 
     return (
       <div className="requestTest">
@@ -366,13 +363,10 @@ class RequestsTest extends React.Component {
             </div>
           </div>
         </div>
-        <GrubhubOffers
-          items={this.state.offer.grubhub}
-          fallback={""}
-        />
+        <GrubhubOffers items={this.state.offer.grubhub} fallback={""} />
         {menuApp}
       </div>
     );
   }
 }
-export default withCookies(RequestsTest);
+export default withCookies(StoreDetail);

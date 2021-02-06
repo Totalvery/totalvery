@@ -3,8 +3,15 @@ import { Link } from "react-router-dom";
 import { GridList, GridListTile, GridListTileBar } from "@material-ui/core";
 import no_image from "../images/no-image.png";
 
+import { instanceOf } from "prop-types";
+import { withCookies, Cookies } from "react-cookie";
+
 class AllRestaurants extends React.Component {
+  static propTypes = {
+    cookies: instanceOf(Cookies).isRequired,
+  };
   render() {
+    const { cookies } = this.props;
     function RatingNull(props) {
       const ratingNum = props.ratingNum;
       if (ratingNum === 0) {
@@ -22,10 +29,13 @@ class AllRestaurants extends React.Component {
               <img src={d.data.image ? d.data.image : no_image} />
               <Link
                 to={{
-                  pathname: "/requestsTest/",
-                  state: {
-                    platform: d.data.platform,
-                  },
+                  pathname: "/store/",
+                }}
+                target="_blank"
+                onClick={() => {
+                  cookies.set("tv.store", JSON.stringify(d.data.platform), {
+                    path: "/",
+                  });
                 }}
               >
                 <GridListTileBar
@@ -42,4 +52,4 @@ class AllRestaurants extends React.Component {
   }
 }
 
-export default AllRestaurants;
+export default withCookies(AllRestaurants);
