@@ -11,7 +11,23 @@ import "../App.css";
 import { instanceOf } from "prop-types";
 import { withCookies, Cookies } from "react-cookie";
 
-class RequestsTest extends React.Component {
+function GrubhubOffers({ items, fallback }) {
+  if (!items || items.length === 0) {
+    return fallback;
+  } else {
+    return items.map((item) => {
+      return (
+        <div id="offer-block">
+          <h3>Grubhub</h3>
+          <div>{item.title}</div>
+          <div>{item.description}</div>
+        </div>
+      );
+    });
+  }
+}
+
+class StoreDetail extends React.Component {
   static propTypes = {
     cookies: instanceOf(Cookies).isRequired,
   };
@@ -20,6 +36,7 @@ class RequestsTest extends React.Component {
     super(props);
     const { cookies } = props;
     this.state = {
+      isLoaded: false,
       meta: [],
       representative: null,
       heroImageUrl: null,
@@ -31,31 +48,29 @@ class RequestsTest extends React.Component {
       fee: [],
       json_data: [],
       isOpen: [],
+      offer: [],
       subNav: [],
       sectionEntitiesMap: [],
       feeText: null,
       etaRange: null,
       rating: null,
       locCookie: cookies.get("tv.loc") || "",
+      storeCookie: cookies.get("tv.store") || "",
       city: "",
     };
   }
 
   componentDidMount(props) {
-    console.log("requestsTest params: ");
-    console.log(this.props.location.state.platform);
-    let platform = this.props.location.state.platform[0];
-
     const payload = {
       meta: {
-        ubereats: platform.ubereats.support.toString(),
-        doordash: platform.doordash.support.toString(),
-        grubhub: platform.grubhub.support.toString(),
+        ubereats: this.state.storeCookie[0].ubereats.support.toString(),
+        doordash: this.state.storeCookie[0].doordash.support.toString(),
+        grubhub: this.state.storeCookie[0].grubhub.support.toString(),
       },
       ids: {
-        ubereatsID: platform.ubereats.id || "0",
-        doordashID: platform.doordash.id || "0",
-        grubhubID: platform.grubhub.id || "0",
+        ubereatsID: this.state.storeCookie[0].ubereats.id || "0",
+        doordashID: this.state.storeCookie[0].doordash.id || "0",
+        grubhubID: this.state.storeCookie[0].grubhub.id || "0",
       },
       customer_location: {
         location: JSON.stringify(this.state.locCookie),
@@ -75,6 +90,7 @@ class RequestsTest extends React.Component {
       .then((response) => response.json())
       .then((data) =>
         this.setState({
+          isLoaded: true,
           meta: data.meta,
           representative: data.representative,
           heroImageUrl: data.heroImageUrl,
@@ -82,6 +98,7 @@ class RequestsTest extends React.Component {
           priceRange: data.priceRange,
           categories: data.categories,
           isOpen: data.isOpen,
+          offer: data.offer,
           json_data: data,
           promotion: data.promotion,
           fee: data.fee,
@@ -93,12 +110,19 @@ class RequestsTest extends React.Component {
       );
   }
 
-  componentWillReceiveProps(newProps) {
-    console.log("componentWillReceiveProps");
-    console.log(newProps);
-  }
-
   render() {
+    let ubereats_fee = "";
+    let doordash_fee = "";
+    let grubhub_fee = "";
+
+    let total_ubereats_fee = "";
+    let ubereats_eta = "";
+    let total_doordash_fee = "";
+    let doordash_eta = "";
+    let total_grubhub_fee = "";
+    let grubhub_eta = "";
+    var { isLoaded } = this.state;
+
     let header = null;
     if (this.state.heroImageUrl === "") {
       header = <div className="no-header-img"> </div>;
@@ -116,19 +140,11 @@ class RequestsTest extends React.Component {
       }
     }
 
-    let ubereats_fee = "";
-    let doordash_fee = "";
-    let grubhub_fee = "";
-
-    let total_ubereats_fee = "";
-    let ubereats_eta = "";
-    let total_doordash_fee = "";
-    let doordash_eta = "";
-    let total_grubhub_fee = "";
-    let grubhub_eta = "";
-
     if (!this.state.isOpen.ubereats) {
       ubereats_fee = "Unavailable";
+      if (!isLoaded) {
+        ubereats_fee = "Loading...";
+      }
       try {
         let orderWrappers = null;
         orderWrappers = document.getElementsByClassName("order-wrapper");
@@ -189,6 +205,9 @@ class RequestsTest extends React.Component {
 
     if (!this.state.isOpen.doordash) {
       doordash_fee = "Unavailable";
+      if (!isLoaded) {
+        doordash_fee = "Loading...";
+      }
       try {
         let orderWrappers = null;
         orderWrappers = document.getElementsByClassName("order-wrapper");
@@ -212,7 +231,9 @@ class RequestsTest extends React.Component {
       }
       try {
         doordash_fee +=
-          "$" + this.state.fee.serviceFee.doordash.toFixed(2) + " Service Fee ∙ ";
+          "$" +
+          this.state.fee.serviceFee.doordash.toFixed(2) +
+          " Service Fee ∙ ";
         total += this.state.fee.serviceFee.doordash;
       } catch {
         doordash_fee += "$0 Service Fee ∙ ";
@@ -226,6 +247,9 @@ class RequestsTest extends React.Component {
     }
     if (!this.state.isOpen.grubhub) {
       grubhub_fee = "Unavailable";
+      if (!isLoaded) {
+        grubhub_fee = "Loading...";
+      }
       try {
         let orderWrappers = null;
         orderWrappers = document.getElementsByClassName("order-wrapper");
@@ -264,6 +288,16 @@ class RequestsTest extends React.Component {
         this.state.rating.grubhub.ratingValue;
     }
 
+    var offerBox = null;
+    if (this.state.offer.length > 0) {
+      // if (Object.keys(this.state.keys).includes("grubhub")) {
+      console.log("grubhub offer 있음");
+      // this.state.offer["grubhub"].forEach((each) => {
+      //   offerBox = <Offer title={each.title} />;
+      // });
+      // // }
+    }
+
     var menuApp = null;
     if (this.state.representative === "ubereats") {
       menuApp = <UberEats json_data={this.state.json_data} />;
@@ -279,16 +313,16 @@ class RequestsTest extends React.Component {
       "/food-delivery/" +
       this.state.title +
       "/" +
-      this.props.location.state.platform[0].ubereats.id;
+      this.state.storeCookie[0].ubereats.id;
 
     var doordash_url =
       "https://www.doordash.com/store/" +
-      this.props.location.state.platform[0].doordash.id +
+      this.state.storeCookie[0].doordash.id +
       "/en-US";
 
     var grubhub_url =
       "https://www.grubhub.com/restaurant/" +
-      this.props.location.state.platform[0].grubhub.id;
+      this.state.storeCookie[0].grubhub.id;
 
     return (
       <div className="requestTest">
@@ -296,7 +330,10 @@ class RequestsTest extends React.Component {
         {header}{" "}
         <div className="store-detail">
           <h1 className="store-title"> {this.state.title} </h1>{" "}
-          <div className="priceRange"> {this.state.priceRange} ・ {this.state.categories}</div>
+          <div className="priceRange">
+            {" "}
+            {this.state.priceRange} ・ {this.state.categories}
+          </div>
           <div className="address">{this.state.location}</div>{" "}
         </div>
         <div className="fees-order-container">
@@ -326,9 +363,10 @@ class RequestsTest extends React.Component {
             </div>
           </div>
         </div>
-        {menuApp}{" "}
+        <GrubhubOffers items={this.state.offer.grubhub} fallback={""} />
+        {menuApp}
       </div>
     );
   }
 }
-export default withCookies(RequestsTest);
+export default withCookies(StoreDetail);
