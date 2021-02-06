@@ -48,7 +48,7 @@ def stores_feed(request):
         cluster = MongoClient(
             "mongodb+srv://totalvery:1111@cluster0.qpazd.mongodb.net/totalvery?retryWrites=true&w=majority")
         db = cluster["totalvery"]
-        # db.users.remove({}) #removing the existing data(test용)
+        db.users.remove({}) #removing the existing data - > for test sake
         collection = db["totalvery"]  # mini database
         query = {
             'latitude': lat,
@@ -63,7 +63,7 @@ def stores_feed(request):
                 json_util.dumps(cursor, default="str"))
             total_feed = JSONEncoder().encode(total_feed)
         else:  # does not exist
-            UbereatsCrawler().get_feed(location, lat, lon)
+            UbereatsCrawler().get_feed(lat, lon)
             GrubhubCrawler().get_feed(lat, lon)
             total_feed = DoordashCrawler().get_feed(lat, lon)
 
