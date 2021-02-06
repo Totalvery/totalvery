@@ -96,6 +96,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
     dic['ids'] = ID_dict
     dic['representative'] = None
     dic['isOpen'] = defaultdict()
+    dic['offer'] = defaultdict()
     dic['openHours'] = defaultdict()
     dic['etaRange'] = defaultdict()
     dic['rating'] = defaultdict()
@@ -179,7 +180,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
 
     if Grubhub:
         gc = GrubhubCrawler()
-        store_info = gc.get_store(ID_dict["grubhubID"])
+        store_info, offer_info = gc.get_store(ID_dict["grubhubID"])
 
         if Ubereats == False or dic['isOpen']['ubereats'] == False:
             dic['representative'] = 'grubhub'
@@ -202,6 +203,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
                 store_info['restaurant']['cuisines'])
 
         dic['isOpen']['grubhub'] = store_info['restaurant_availability']['open_delivery']
+        dic['offer']['grubhub'] = offer_info['available_offers']
 
         # {
         #     "day_of_week": 1,

@@ -10,4 +10,6 @@ pymongo
 pymongo[srv]
 bson
 django_heroku
+lxml
+pyopenssl
 cloudscraper
