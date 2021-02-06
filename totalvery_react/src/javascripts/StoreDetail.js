@@ -11,6 +11,28 @@ import "../App.css";
 import { instanceOf } from "prop-types";
 import { withCookies, Cookies } from "react-cookie";
 
+// import ubereats_logo from "../images/ubereats_logo.png";
+// import grubhub_logo from "../images/grubhub_logo.png";
+// import doordash_logo from "../images/doordash_logo.png";
+
+function UbereatsOffers({ items, fallback }) {
+  if (!items || items.length === 0) {
+    return fallback;
+  } else {
+    return items.map((item) => {
+      return (
+        <div id="offer-block">
+          <h4>UberEats</h4>
+          {/* <div id="logo-wrapper">
+            <img src={ubereats_logo}></img>
+          </div> */}
+          <div>{item.promoPillMessage.text}</div>
+        </div>
+      );
+    });
+  }
+}
+
 function GrubhubOffers({ items, fallback }) {
   if (!items || items.length === 0) {
     return fallback;
@@ -18,7 +40,7 @@ function GrubhubOffers({ items, fallback }) {
     return items.map((item) => {
       return (
         <div id="offer-block">
-          <h3>Grubhub</h3>
+          <h4>GrubHub</h4>
           <div>{item.title}</div>
           <div>{item.description}</div>
         </div>
@@ -182,7 +204,6 @@ class StoreDetail extends React.Component {
           " CA Driver Benefits Fee ∙ ";
         total += this.state.json_data.ubereats_ca_driver_benefits_fee;
       } catch {
-        ubereats_fee += "$0 Service Fee ∙ ";
       }
       total_ubereats_fee = "$" + total.toFixed(2) + " Total Estimated Fees";
       try {
@@ -363,7 +384,10 @@ class StoreDetail extends React.Component {
             </div>
           </div>
         </div>
-        <GrubhubOffers items={this.state.offer.grubhub} fallback={""} />
+        <div className="offer-wrapper">
+          <UbereatsOffers items={this.state.offer.ubereats} fallback={""} />
+          <GrubhubOffers items={this.state.offer.grubhub} fallback={""} />
+        </div>
         {menuApp}
       </div>
     );
