@@ -17,7 +17,7 @@ function CategoryElement({ items, fallback }) {
   }
 }
 
-function MenuElement({ items, sectionEntitiesMap, fallback }) {
+function MenuElement({ uuid, items, sectionEntitiesMap, fallback }) {
   if (!items || items.length === 0) {
     return fallback;
   } else {
@@ -34,10 +34,18 @@ function MenuElement({ items, sectionEntitiesMap, fallback }) {
         imgUrl = "";
       var elemDisplay = "inline-flex";
       try {
-        title = sectionEntitiesMap[item].title;
-        description = sectionEntitiesMap[item].description;
-        price = "$" + parseFloat(sectionEntitiesMap[item].price) / 100;
-        imgUrl = sectionEntitiesMap[item].imageUrl;
+        // if (uuid != "") {
+        let menuItem = sectionEntitiesMap[uuid][item];
+        title = menuItem.title;
+        description = menuItem.description;
+        price = "$" + parseFloat(menuItem.price) / 100;
+        imgUrl = menuItem.imageUrl;
+        // } else {
+        //   title = sectionEntitiesMap[item].title;
+        //   description = sectionEntitiesMap[item].description;
+        //   price = "$" + parseFloat(sectionEntitiesMap[item].price) / 100;
+        //   imgUrl = sectionEntitiesMap[item].imageUrl;
+        // }
       } catch (error) {
         elemDisplay = "none";
       }
@@ -94,6 +102,7 @@ class Menu extends React.Component {
       <div className="menu-block">
         <CategoryElement items={this.props.subNav} fallback={"Loading..."} />
         <MenuElement
+          uuid={this.props.subNav.uuid}
           items={this.props.subNav.items}
           sectionEntitiesMap={this.props.sectionEntitiesMap}
           fallback={"Loading..."}

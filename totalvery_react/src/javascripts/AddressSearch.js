@@ -27,6 +27,7 @@ class AddressSearch extends React.Component {
       isLoaded: false,
       items: null,
       locCookie: cookies.get("tv.loc") || "",
+      ddOffer: cookies.get("dd.offer") || "",
     };
     this.fetchData = this.fetchData.bind(this);
   }
@@ -54,6 +55,7 @@ class AddressSearch extends React.Component {
       lng: parseFloat(this.props.match.params.lng),
       location: this.props.location.state.location,
       locCookie: cookies.get("tv.loc") || "",
+      ddOffer: cookies.get("dd.offer") || "",
     });
     const url = "http://127.0.0.1:8000/api/getFeed/";
     //const url = "https://totalvery.herokuapp.com/api/getFeed/";
@@ -73,6 +75,7 @@ class AddressSearch extends React.Component {
       lng: parseFloat(newProps.match.params.lng),
       location: newProps.location.state.location,
       locCookie: cookies.get("tv.loc") || "",
+      ddOffer: cookies.get("dd.offer") || "",
     });
     const url = "http://127.0.0.1:8000/api/getFeed/";
     //const url = "https://totalvery.herokuapp.com/api/getFeed/";
@@ -86,14 +89,28 @@ class AddressSearch extends React.Component {
 
   render() {
     var { isLoaded, items } = this.state;
-    
+    console.log(items);
+
     if (!isLoaded) {
       return (
-      <div>
-        <Spinner animation="border" style = {{ position: "fixed", top: "50%", left: "50%" }}></Spinner>
-        <h2 style = {{ position: "fixed", top: "55%", left: "46.5%", fontFamily:'Philosopher' }}>Loading...</h2>
-      </div>);
-    }  else {
+        <div>
+          <Spinner
+            animation="border"
+            style={{ position: "fixed", top: "50%", left: "50%" }}
+          ></Spinner>
+          <h2
+            style={{
+              position: "fixed",
+              top: "55%",
+              left: "46.5%",
+              fontFamily: "Philosopher",
+            }}
+          >
+            Loading...
+          </h2>
+        </div>
+      );
+    } else {
       return (
         <div className="addresssearch">
           <div>
@@ -133,8 +150,11 @@ class AddressSearch extends React.Component {
               fontSize: "20px",
             }}
           >
-          {JSON.parse(items).data.length ?   <AllRestaurants items={items}/>: <p>Sorry, there are no restaurants available at the moment. </p>}
-          
+            {JSON.parse(items).data.length ? (
+              <AllRestaurants items={items} />
+            ) : (
+              <p>Sorry, there are no restaurants available at the moment. </p>
+            )}
           </div>
         </div>
       );

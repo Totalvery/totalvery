@@ -29,12 +29,13 @@ class UberEats extends React.Component {
 
     var categs = this.props.json_data.menu.ubereats.subsectionsMap;
     var sections = this.props.json_data.menu.ubereats.sections;
-    var onSaleMenu;
+    var onSaleMenu = [];
     let multipleMenu = false;
     if (sections.length > 1) {
       sections.forEach(function (d) {
         if (d.isOnSale === true) {
-          onSaleMenu = d.subsectionUuids;
+          let key = d.uuid;
+          onSaleMenu[key] = d.subsectionUuids;
           multipleMenu = true;
           console.log("d");
           console.log(d);
@@ -46,24 +47,32 @@ class UberEats extends React.Component {
     var tmpArr = [];
 
     if (categs) {
-      Object.keys(categs).forEach(function (key) {
+      Object.keys(categs).forEach(function (categ) {
         if (multipleMenu === true) {
-          if (onSaleMenu.includes(key)) {
-            console.log("key in onSaleMenu");
-            tmpArr = categs[key]["itemUuids"];
+          for (var key in onSaleMenu) {
+            console.log("onSaleMenu[key]");
+            console.log(onSaleMenu[key]);
+            if (onSaleMenu[key].includes(categ)) {
+              console.log("key in onSaleMenu");
+              tmpArr = categs[categ]["itemUuids"];
+              arr.push({
+                uuid: key,
+                title: categs[categ]["title"],
+                id: categ,
+                items: tmpArr,
+              });
+            }
+          }
+        } else {
+          for (var key in onSaleMenu) {
+            tmpArr = categs[categ]["itemUuids"];
             arr.push({
-              title: categs[key]["title"],
-              id: key,
+              uuid: key,
+              title: categs[categ]["title"],
+              id: categ,
               items: tmpArr,
             });
           }
-        } else {
-          tmpArr = categs[key]["itemUuids"];
-          arr.push({
-            title: categs[key]["title"],
-            id: key,
-            items: tmpArr,
-          });
         }
       });
       console.log("ubereats arr:");

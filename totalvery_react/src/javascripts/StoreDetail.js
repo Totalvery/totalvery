@@ -11,22 +11,38 @@ import "../App.css";
 import { instanceOf } from "prop-types";
 import { withCookies, Cookies } from "react-cookie";
 
-// import ubereats_logo from "../images/ubereats_logo.png";
-// import grubhub_logo from "../images/grubhub_logo.png";
-// import doordash_logo from "../images/doordash_logo.png";
+import ubereats_logo from "../images/ubereats_logo.png";
+import grubhub_logo from "../images/grubhub_logo.png";
+import doordash_logo from "../images/doordash_logo.png";
 
 function UbereatsOffers({ items, fallback }) {
-  if (!items || items.length === 0) {
+  if (!items || items.length === 0 || items == null) {
     return fallback;
   } else {
     return items.map((item) => {
       return (
         <div id="offer-block">
-          <h4>UberEats</h4>
-          {/* <div id="logo-wrapper">
-            <img src={ubereats_logo}></img>
-          </div> */}
-          <div>{item.promoPillMessage.text}</div>
+          <div id="logo-wrapper">
+            <img id="logo" src={ubereats_logo}></img>
+          </div>
+          <div id="offer-description">{item.promoPillMessage.text}</div>
+        </div>
+      );
+    });
+  }
+}
+
+function DoordashOffers({ items, fallback }) {
+  if (!items || items.length === 0 || items == "") {
+    return fallback;
+  } else {
+    return items.map((item) => {
+      return (
+        <div id="offer-block">
+          <div id="logo-wrapper">
+            <img id="logo" src={doordash_logo}></img>
+          </div>
+          <div id="offer-description">{item.description}</div>
         </div>
       );
     });
@@ -38,11 +54,24 @@ function GrubhubOffers({ items, fallback }) {
     return fallback;
   } else {
     return items.map((item) => {
+      let title = item.title;
+      let descrp = item.description;
+      if (descrp.startsWith("Offer valid for orders of ")) {
+        const regexp = /\$[0-9]+(\.[0-9]{1,2})?/g;
+        let money = (item.title + item.description).matchAll(regexp);
+        title = "";
+        descrp = "Spend " + money[1] + ", Save " + money[0];
+      }
       return (
         <div id="offer-block">
-          <h4>GrubHub</h4>
-          <div>{item.title}</div>
-          <div>{item.description}</div>
+          <div id="logo-wrapper">
+            <img id="logo" src={grubhub_logo}></img>
+          </div>
+          <div id="offer-description">
+            {title}
+            <br></br>
+            {descrp}
+          </div>
         </div>
       );
     });
@@ -78,6 +107,7 @@ class StoreDetail extends React.Component {
       rating: null,
       locCookie: cookies.get("tv.loc") || "",
       storeCookie: cookies.get("tv.store") || "",
+      ddCookie: cookies.get("dd.offer") || "",
       city: "",
     };
   }
@@ -203,8 +233,7 @@ class StoreDetail extends React.Component {
           this.state.json_data.ubereats_ca_driver_benefits_fee.toFixed(2) +
           " CA Driver Benefits Fee ∙ ";
         total += this.state.json_data.ubereats_ca_driver_benefits_fee;
-      } catch {
-      }
+      } catch {}
       total_ubereats_fee = "$" + total.toFixed(2) + " Total Estimated Fees";
       try {
         ubereats_eta =
@@ -309,7 +338,6 @@ class StoreDetail extends React.Component {
         this.state.rating.grubhub.ratingValue;
     }
 
-    var offerBox = null;
     if (this.state.offer.length > 0) {
       // if (Object.keys(this.state.keys).includes("grubhub")) {
       console.log("grubhub offer 있음");
@@ -344,6 +372,11 @@ class StoreDetail extends React.Component {
     var grubhub_url =
       "https://www.grubhub.com/restaurant/" +
       this.state.storeCookie[0].grubhub.id;
+
+    let ddCookie = "";
+    if (this.state.ddCookie) {
+      ddCookie = this.state.ddCookie;
+    }
 
     return (
       <div className="requestTest">
@@ -386,6 +419,7 @@ class StoreDetail extends React.Component {
         </div>
         <div className="offer-wrapper">
           <UbereatsOffers items={this.state.offer.ubereats} fallback={""} />
+          <DoordashOffers items={ddCookie} fallback={""} />
           <GrubhubOffers items={this.state.offer.grubhub} fallback={""} />
         </div>
         {menuApp}

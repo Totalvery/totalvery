@@ -183,7 +183,7 @@
 }
 
 .menu-wrapper {
-  padding: 30px 100px 30px 100px;
+  padding: 0px 100px 30px 100px;
 }
 
 .nav .navbar-nav {
@@ -269,15 +269,37 @@ a:hover {
 }
 
 #offer-block {
-  display: inline-block;
-  border-style: solid;
-  border-width: 1px;
   margin: 5px;
   padding: 1%;
   font-weight: bold;
   background-color: #f6f5ee;
+  width: 100%;
+  max-width: 400px;
+  display: inherit;
 }
 
 .offer-wrapper {
   padding: 10px 0px 10px 50px;
+  display: inline-flex;
+  width: 100%;
+}
+
+#logo-wrapper {
+  margin: 1%;
+  width: 20%;
+  display: inline-block;
+  align-self: center;
+}
+
+#logo {
+  width: 100%;
+}
+
+#offer-description {
+  box-sizing: border-box;
+  margin: 1%;
+  width: 80%;
+  display: inline-block;
+  align-self: center;
+  padding-left: 3%;
 }

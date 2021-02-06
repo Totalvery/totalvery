@@ -1,3 +1,4 @@
+import logging
 import ipdb
 from collections import defaultdict
 from .serializers import StoreDetailSerializer, CustomerSerializer
@@ -23,7 +24,7 @@ import json
 from bson import ObjectId
 from totalvery_api.delivery_services.crawler import UbereatsCrawler, DoordashCrawler, GrubhubCrawler
 import os
-from dotenv import load_dotenv,find_dotenv
+from dotenv import load_dotenv, find_dotenv
 
 from pathlib import Path  # Python 3.6+ only
 from totalvery.settings import DATABASE_URI
@@ -49,11 +50,11 @@ def stores_feed(request):
         location = request.data['location']
         lat = request.data['lat']
         lon = request.data['lon']
-        # check if it exists in the database 
-       
+        # check if it exists in the database
+
         cluster = MongoClient(config.MONGO_URI)
         db = cluster["totalvery"]
-        db.users.remove({}) #removing the existing data - > for test sake
+        db.users.remove({})  # removing the existing data - > for test sake
         collection = db["totalvery"]  # mini database
         query = {
             'latitude': lat,
@@ -84,6 +85,11 @@ def stores_feed(request):
                 serializer.save()
 
         cluster.close()
+
+        # # 테스트
+        # UbereatsCrawler().get_feed(lat, lon)
+        # GrubhubCrawler().get_feed(lat, lon)
+        # total_feed = DoordashCrawler().get_feed(lat, lon)
 
         return Response(total_feed, status=status.HTTP_201_CREATED)
 
@@ -139,8 +145,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             dic['priceRange'] = ""
             dic['categories'] = " ・ ".join(
                 store_info['data']['categories'][0:])
-        uuid = store_info['data']['sections'][0]['uuid']
-        dic['menu']['ubereats'] = {'sectionEntitiesMap': store_info['data']['sectionEntitiesMap'][uuid],
+        dic['menu']['ubereats'] = {'sectionEntitiesMap': store_info['data']['sectionEntitiesMap'],
                                    'sections': store_info['data']['sections'], 'subsectionsMap': store_info['data']['subsectionsMap']}
 
         # "11:00 AM – 9:00 PM"
@@ -285,7 +290,8 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
             location_dic["city"] = store_info['storeHeader']['address']['city']
             dic['location'] = location_dic
             dic['menu']['doordash'] = store_info['itemLists']
-            dic['categories'] = store_info['storeHeader']['description'].replace(', ', ' ・ ')
+            dic['categories'] = store_info['storeHeader']['description'].replace(
+                ', ', ' ・ ')
 
         dic['isOpen']['doordash'] = store_info['storeHeader']['status']['delivery']['isAvailable']
 

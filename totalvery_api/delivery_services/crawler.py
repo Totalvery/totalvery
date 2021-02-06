@@ -34,6 +34,8 @@ class UbereatsCrawler:
                              'accept': '*/*'})
 
     def add_cart(self, session, store_json, restaurant_id):
+        with open('ubereats_detail.json', mode='w') as f:
+            f.write(json.dumps(store_json, indent=2))
 
         sectionEntitiesMap = store_json['data']['sectionEntitiesMap']
         for k, v in sectionEntitiesMap.items():
@@ -167,7 +169,7 @@ class UbereatsCrawler:
 
             feed_json = response.json()['data']
 
-            #assert feed_json['storesMap'] != None, f"feed_json:\n{feed_json}"
+            # assert feed_json['storesMap'] != None, f"feed_json:\n{feed_json}"
             if "message" in feed_json:  # no stores available message
                 break
             stores = feed_json['storesMap']
@@ -366,37 +368,54 @@ class DoordashCrawler:
                     }
                     total.append(a_dict)
         dictionary.update({'data': total})
-        with open('total_feed.json', mode='w') as f:
-            f.write(json.dumps(dictionary, indent=2))
+
+        # with open('total_feed.json', mode='w') as f:
+        #     f.write(json.dumps(dictionary, indent=2))
 
         # doordash offer json
-        data3 = '{"operationName":"dealFeed","variables":{"numTopDeals":10,"isFeedServiceMigration":true,"filterQuery":""},"query":"query dealFeed($isFeedServiceMigration: Boolean, $cursor: String, $filterQuery: String, $numTopDeals: Int) {  dealFeed(isFeedServiceMigration: $isFeedServiceMigration, cursor: $cursor, filterQuery: $filterQuery, numTopDeals: $numTopDeals) {    districtIsActive    totalDeals    dealList {      id      type      sortOrder      next {        cursor        __typename      }      data {        id        title        description        carouselStoreOrder        stores {          ... on Deal {            ...DealContentFragment            __typename          }          __typename        }        __typename      }      __typename    }    __typename  }}fragment DealContentFragment on Deal {  id  title  description  type  imageUrl  url  badge {    text    backgroundColor    __typename  }  store {    name    id    isDashpassPartner    averageRating    numRatings    numRatingsDisplayString    status {      asapAvailable      scheduledAvailable      asapMinutesRange      asapPickupMinutesRange      nextOpenTime      __typename    }    __typename  }  __typename}"}'
-        offer = session.post(url, data=data3).json()
+        data3 = '{"operationName":"dealFeed","variables":{"numTopDeals":1000,"isFeedServiceMigration":true,"filterQuery":""},"query":"query dealFeed($isFeedServiceMigration: Boolean, $cursor: String, $filterQuery: String, $numTopDeals: Int) {  dealFeed(isFeedServiceMigration: $isFeedServiceMigration, cursor: $cursor, filterQuery: $filterQuery, numTopDeals: $numTopDeals) {    districtIsActive    totalDeals    dealList {      id      type      sortOrder      next {        cursor        __typename      }      data {        id        title        description        carouselStoreOrder        stores {          ... on Deal {            ...DealContentFragment            __typename          }          __typename        }        __typename      }      __typename    }    __typename  }}fragment DealContentFragment on Deal {  id  title  description  type  imageUrl  url  badge {    text    backgroundColor    __typename  }  store {    name    id    isDashpassPartner    averageRating    numRatings    numRatingsDisplayString    status {      asapAvailable      scheduledAvailable      asapMinutesRange      asapPickupMinutesRange      nextOpenTime      __typename    }    __typename  }  __typename}"}'
+        offer = scraper.post(url, data=data3).json()
 
-        dealList = offer['data']['dealFeed']['dealList'][0]['data']['stores']
-        dictionary = {
-            "totalDeals": offer['data']['dealFeed']['totalDeals'],
-            "data": {
+        dictionary.update({"DoordashOffer": {
+                          "totalDeals": offer['data']['dealFeed']['totalDeals'], "data": {}}})
+        try:
+            dealList = offer['data']['dealFeed']['dealList'][0]['data']['stores']
+            try:
+                dealList += offer['data']['dealFeed']['dealList'][1]['data']['stores']
+            except:
+                logging.info("no more offers")
 
-            }
-        }
+            dictionary.update({"DoordashOffer": {
+                              "totalDeals": offer['data']['dealFeed']['totalDeals'], "data": {}}})
+
+            tmp_dic = {}
+            for i in range(len(dealList)):
+                restaurantId = dealList[i]['store']['id']
+                title = dealList[i]['title']
+                description = dealList[i]['description']
+                if restaurantId in tmp_dic:
+                    tmp_dic[restaurantId].append({'title': title,
+                                                  'description': description})
+                else:
+                    tmp_dic.update({restaurantId: [{'title': title,
+                                                    'description': description}]})
+
+            dictionary['DoordashOffer']['data'] = tmp_dic
+
+        except:
+            pass
+
         # to check original offer file
         # with open("offer.json", "w") as outfile:
         #         json.dump(dealList,outfile)
 
-        deal_list = []
+        # with open('total_feed_w_offer.json', mode='w') as f:
+        #     f.write(json.dumps(dictionary, indent=2))
 
-        for i in range(len(dealList)):
-            restaurantId = dealList[0]['store']['id']
-            title = dealList[0]['title']
-            description = dealList[0]['description']
-            a_dict = {restaurantId: {'title': title,
-                                     'description': description}}
-            deal_list.append(a_dict)
+        with open('total_feed.json', mode='w') as f:
+            f.write(json.dumps(dictionary, indent=2))
 
-        dictionary['data'] = deal_list
-        with open("offer_final_md.json", "w") as outfile:
-            json.dump(dictionary, outfile)
+        return json.dumps(dictionary)
 
     def estimate_service_fee(self, cart_size):  # TODO:
         fee = 0
