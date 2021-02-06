@@ -300,12 +300,16 @@ class DoordashCrawler:
 
         url = "https://www.doordash.com/graphql/"
 
-        session = requests.Session()
-        session.headers = headers
+        # session = requests.Session()
+        scraper = cloudscraper.create_scraper(delay=5)
+        # session.headers = headers
 
-        res = session.post(url, data=data)
-        searchStore = session.post(url, data=data2).json()
-        searchStore = self.search_all_stores(session, searchStore, LIMIT)
+        # res = session.post(url, data=data)
+        scraper.headers = headers
+        res = scraper.post(url, data=data)
+        # searchStore = session.post(url, data=data2).json()
+        searchStore = scraper.post(url, data=data2).json()
+        searchStore = self.search_all_stores(scraper, searchStore, LIMIT)
 
         # Get information for feed
         feed_list = []
@@ -365,38 +369,34 @@ class DoordashCrawler:
         with open('total_feed.json', mode='w') as f:
             f.write(json.dumps(dictionary, indent=2))
 
-        # doordash offer json 
-        data3 = '{"operationName":"dealFeed","variables":{"numTopDeals":6,"isFeedServiceMigration":true,"filterQuery":""},"query":"query dealFeed($isFeedServiceMigration: Boolean, $cursor: String, $filterQuery: String, $numTopDeals: Int) {  dealFeed(isFeedServiceMigration: $isFeedServiceMigration, cursor: $cursor, filterQuery: $filterQuery, numTopDeals: $numTopDeals) {    districtIsActive    totalDeals    dealList {      id      type      sortOrder      next {        cursor        __typename      }      data {        id        title        description        carouselStoreOrder        stores {          ... on Deal {            ...DealContentFragment            __typename          }          __typename        }        __typename      }      __typename    }    __typename  }}fragment DealContentFragment on Deal {  id  title  description  type  imageUrl  url  badge {    text    backgroundColor    __typename  }  store {    name    id    isDashpassPartner    averageRating    numRatings    numRatingsDisplayString    status {      asapAvailable      scheduledAvailable      asapMinutesRange      asapPickupMinutesRange      nextOpenTime      __typename    }    __typename  }  __typename}"}'
+        # doordash offer json
+        data3 = '{"operationName":"dealFeed","variables":{"numTopDeals":10,"isFeedServiceMigration":true,"filterQuery":""},"query":"query dealFeed($isFeedServiceMigration: Boolean, $cursor: String, $filterQuery: String, $numTopDeals: Int) {  dealFeed(isFeedServiceMigration: $isFeedServiceMigration, cursor: $cursor, filterQuery: $filterQuery, numTopDeals: $numTopDeals) {    districtIsActive    totalDeals    dealList {      id      type      sortOrder      next {        cursor        __typename      }      data {        id        title        description        carouselStoreOrder        stores {          ... on Deal {            ...DealContentFragment            __typename          }          __typename        }        __typename      }      __typename    }    __typename  }}fragment DealContentFragment on Deal {  id  title  description  type  imageUrl  url  badge {    text    backgroundColor    __typename  }  store {    name    id    isDashpassPartner    averageRating    numRatings    numRatingsDisplayString    status {      asapAvailable      scheduledAvailable      asapMinutesRange      asapPickupMinutesRange      nextOpenTime      __typename    }    __typename  }  __typename}"}'
         offer = session.post(url, data=data3).json()
 
         dealList = offer['data']['dealFeed']['dealList'][0]['data']['stores']
         dictionary = {
-            "totalDeals":offer['data']['dealFeed']['totalDeals'],
+            "totalDeals": offer['data']['dealFeed']['totalDeals'],
             "data": {
 
-             }
+            }
         }
-        #to check original offer file 
+        # to check original offer file
         # with open("offer.json", "w") as outfile:
         #         json.dump(dealList,outfile)
 
         deal_list = []
 
         for i in range(len(dealList)):
-            restaurantId=dealList[0]['store']['id']
-            title=dealList[0]['title']
-            description=dealList[0]['description']
-            a_dict = {
-                'restaurantId':restaurantId,
-                'title':title,
-                'description':description
-            }
+            restaurantId = dealList[0]['store']['id']
+            title = dealList[0]['title']
+            description = dealList[0]['description']
+            a_dict = {restaurantId: {'title': title,
+                                     'description': description}}
             deal_list.append(a_dict)
 
-        dictionary['data']=deal_list
-        with open("offer_final.json", "w") as outfile:
-                json.dump(dictionary,outfile)
-        
+        dictionary['data'] = deal_list
+        with open("offer_final_md.json", "w") as outfile:
+            json.dump(dictionary, outfile)
 
     def estimate_service_fee(self, cart_size):  # TODO:
         fee = 0
