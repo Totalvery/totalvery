@@ -31,16 +31,15 @@ class UberEats extends React.Component {
     var sections = this.props.json_data.menu.ubereats.sections;
     var onSaleMenu = [];
     let multipleMenu = false;
+    sections.forEach(function (d) {
+      if (d.isOnSale === true) {
+        let key = d.uuid;
+        onSaleMenu[key] = d.subsectionUuids;
+      }
+    });
+
     if (sections.length > 1) {
-      sections.forEach(function (d) {
-        if (d.isOnSale === true) {
-          let key = d.uuid;
-          onSaleMenu[key] = d.subsectionUuids;
-          multipleMenu = true;
-          console.log("d");
-          console.log(d);
-        }
-      });
+      multipleMenu = true;
     }
 
     var arr = [];
