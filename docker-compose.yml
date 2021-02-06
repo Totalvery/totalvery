@@ -9,6 +9,7 @@ services:
       CHOKIDAR_USEPOLLING: "true"
     volumes:
       - .:/app
+
     # command: python manage.py runserver
     command: python manage.py runserver 0.0.0.0:8000
     ports:
@@ -17,6 +18,7 @@ services:
       - my_db
   my_db:
     build: ./totalvery_db
+  
 
   frontend:
     build: ./totalvery_react

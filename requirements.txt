@@ -11,3 +11,4 @@ pymongo[srv]
 bson
 django_heroku
 cloudscraper
+python-dotenv

@@ -142,3 +142,11 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
+
+from dotenv import load_dotenv
+from pathlib import Path  # Python 3.6+ only
+import os
+
+env_path = Path('.')
+load_dotenv(dotenv_path=env_path)
+DATABASE_URI= os.getenv("MONGO_URI")

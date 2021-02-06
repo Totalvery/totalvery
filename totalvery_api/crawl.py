@@ -22,7 +22,12 @@ from bson import json_util
 import json
 from bson import ObjectId
 from totalvery_api.delivery_services.crawler import UbereatsCrawler, DoordashCrawler, GrubhubCrawler
+import os
+from dotenv import load_dotenv,find_dotenv
 
+from pathlib import Path  # Python 3.6+ only
+from totalvery.settings import DATABASE_URI
+import config
 
 DEFAULT_SMALL_ORDER_FEE = 2
 DEFAULT_MIN_SUBTOTAL = 8
@@ -44,9 +49,9 @@ def stores_feed(request):
         location = request.data['location']
         lat = request.data['lat']
         lon = request.data['lon']
-        # check if it exists in the database
-        cluster = MongoClient(
-            "mongodb+srv://totalvery:1111@cluster0.qpazd.mongodb.net/totalvery?retryWrites=true&w=majority")
+        # check if it exists in the database 
+       
+        cluster = MongoClient(config.MONGO_URI)
         db = cluster["totalvery"]
         db.users.remove({}) #removing the existing data - > for test sake
         collection = db["totalvery"]  # mini database
