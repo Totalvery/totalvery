@@ -76,3 +76,4 @@ $RECYCLE.BIN/
 
 #security
 .config
+.config.py
