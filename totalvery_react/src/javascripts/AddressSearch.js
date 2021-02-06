@@ -86,7 +86,6 @@ class AddressSearch extends React.Component {
 
   render() {
     var { isLoaded, items } = this.state;
-    console.log(items);
     
     if (!isLoaded) {
       return (
