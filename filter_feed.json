@@ -1,0 +1,159 @@
+{
+  "latitude": 0,
+  "longitude": 0,
+  "data": [
+    {
+      "name": "Illegal Pete's",
+      "data": {
+        "image": "",
+        "rating": 0,
+        "categories": [
+          "Burritos",
+          "Mexican",
+          "Tacos",
+          "Salad",
+          "Bowls",
+          "Chicken",
+          "Healthy",
+          "Vegan",
+          "Vegetarian",
+          "Alcohol",
+          "Cocktail Bar"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "199111",
+              "delivery_fee": 0
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Sexy Grilled Cheese and Salad Company",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/509e3f69-c5a7-4505-98f3-cdfc4611e655-retina-large.jpg",
+        "rating": 0,
+        "categories": [
+          "American",
+          "Sandwiches",
+          "Salad",
+          "Soup",
+          "Lunch",
+          "Dinner"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "1079933",
+              "delivery_fee": 0
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Subway",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/db13291c-1ff1-4b8c-93c3-476358b72370-retina-large-jpeg",
+        "rating": 0,
+        "categories": [
+          "Sandwiches",
+          "Salad",
+          "Fast Food",
+          "Breakfast",
+          "Healthy",
+          "Lunch",
+          "Dessert",
+          "Takeout",
+          "Delis",
+          "Catering",
+          "Salads",
+          "Dinner",
+          "Sandwich",
+          "Pickup",
+          "Sandwich",
+          "Breakfast",
+          "Cocktail Bar",
+          "Alcohol",
+          "Breakfast"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "189555",
+              "delivery_fee": 0
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Amy Fields Restaurant",
+      "data": {
+        "image": "",
+        "rating": 0,
+        "categories": [
+          "Salad"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "998518",
+              "delivery_fee": 0
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "DoordashOffer": {
+    "totalDeals": 0,
+    "data": {}
+  }
+}
