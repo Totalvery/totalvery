@@ -96,23 +96,36 @@
   display: center;
 }
 
+.header-img {
+  transform: translateY(-3%);
+  margin: 100px 100px 0 100px;
+  border-radius: 0.5em;
+}
+
 .store-title {
-  padding: 20px 5px 5px 60px;
+  padding: 20px 100px 5px 100px;
   font-family: "DM Serif Display";
   font-weight: bold;
 }
 
 .priceRange {
-  padding: 5px 5px 0px 60px;
+  padding: 5px 100px 0px 100px;
   font-family: "Exo";
 }
 
 .address {
-  padding: 0px 5px 20px 60px;
+  padding: 0px 100px 20px 100px;
   font-family: "Exo";
 }
-
-.fees-wrapper {
+.names-wrapper {
+  font-family: "Philosopher";
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  display: inline-block;
+  padding: 5px 0px 5px 0px;
+  font-weight: 900;
+}
+.app-name {
   padding: 5px;
 }
 
@@ -121,6 +134,7 @@
   -webkit-font-smoothing: antialiased;
   margin: 0;
   display: inline-block;
+  padding: 5px 0px 5px 0px;
 }
 
 .order-box {
@@ -137,7 +151,7 @@
   border-bottom-style: solid;
   border-top-style: solid;
   border-width: thin;
-  padding: 10px 0px 10px 50px;
+  padding: 10px 100px 10px 100px;
 }
 
 .ubereats-fee-wrapper {
@@ -191,13 +205,14 @@
 }
 
 .menu {
+  transform: translateY(-7px);
 }
 
 .menu-block {
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 5px 5px 10px #a8a8a8, -5px -5px 10px #ffffff;
-  padding: 2% 2% 2% 2%;
+  padding: 10px 2% 2% 2%;
   margin: 0px 0px 30px 0px;
 }
 
@@ -240,8 +255,15 @@
 }
 
 #menu-img {
+  vertical-align: middle;
+  border-style: none;
   height: 200px;
-  min-width: 300px;
+  min-width: 220px;
+  object-fit: cover;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  display: inline-block;
 }
 
 .menu-description {
@@ -274,12 +296,13 @@ a:hover {
   font-weight: bold;
   background-color: #f6f5ee;
   width: 100%;
-  max-width: 400px;
+  max-width: 440px;
   display: inherit;
+  border-radius: 4em;
 }
 
 .offer-wrapper {
-  padding: 10px 0px 10px 50px;
+  padding: 20px 100px 10px 100px;
   display: inline-flex;
   width: 100%;
 }
@@ -302,4 +325,8 @@ a:hover {
   display: inline-block;
   align-self: center;
   padding-left: 3%;
+}
+
+#menu-title {
+  margin: 0 0 1px 0;
 }

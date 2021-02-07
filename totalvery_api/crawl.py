@@ -172,7 +172,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
                 dic['fee']['smallOrderFee']['ubereats'] = 0
             try:
                 service_fee = cart_size * fee_dic['service_fee']
-                if service_fee < fee_dic['min_service_fee']:
+                if fee_dic['min_service_fee'] and service_fee < fee_dic['min_service_fee']:
                     service_fee = fee_dic['min_service_fee']
             except:
                 service_fee = 0

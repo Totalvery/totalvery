@@ -14,6 +14,7 @@ class TopBar extends React.Component {
                         width="20px"
                         height="30px"
                         alt="Location Marker"
+                        height="10%"
                     />
                     <t className="topbar_location" style={{color:"white", fontFamily:'Philosopher'}}>{this.props.location}</t>
                     <Navbar.Brand className="totalvery_title" href="/" style={{color:"white", textAlign:"center", fontFamily:'Philosopher',  fontSize: "30px"}}>TOTALVERY</Navbar.Brand>

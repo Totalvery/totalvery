@@ -57,8 +57,7 @@ function MenuElement({ uuid, items, sectionEntitiesMap, fallback }) {
           style={{ display: `${elemDisplay}` }}
         >
           <div className="menu-description">
-            <b>{title}</b>
-            <br></br>
+            <div id="menu-title"><b>{title}</b></div>
             {description}
             <br></br>
             <br></br>

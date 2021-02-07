@@ -105,10 +105,12 @@ class UbereatsCrawler:
                         service_fee_txt = re.findall(
                             r'\d*\.\d+|\d+', service_fee_txt)
                         service_fee = float(service_fee_txt[0])/100
-                        min_service_fee = float(service_fee_txt[1])
-
                         dic['service_fee'] = service_fee
-                        dic['min_service_fee'] = min_service_fee
+                        try:
+                            min_service_fee = float(service_fee_txt[1])
+                            dic['min_service_fee'] = min_service_fee
+                        except:
+                            logging.info(f"service_fee_txt: {service_fee_txt}")
 
                     elif each['label'] == 'CA Driver Benefits':
                         ca_driver_benefits_fee = each['rawValue']
@@ -133,19 +135,19 @@ class UbereatsCrawler:
         self.set_location_cookie(keyword)
         data = '{"storeUuid":"'+restaurantId+'"}'
 
-        with requests.Session() as s:
-            s.headers.update(self.headers)
-            response = s.post(
-                'https://www.ubereats.com/api/getStoreV1', data=data)
-            store_json = response.json()
+        s = cloudscraper.create_scraper()
+        s.headers.update(self.headers)
+        response = s.post(
+            'https://www.ubereats.com/api/getStoreV1', data=data)
+        store_json = response.json()
 
-            if store_json['data']['isOpen']:
-                fee_dic = self.estimate_service_fee(
-                    s, restaurantId, store_json, customer_location)
-            else:
-                fee_dic = None
+        if store_json['data']['isOpen']:
+            fee_dic = self.estimate_service_fee(
+                s, restaurantId, store_json, customer_location)
+        else:
+            fee_dic = None
 
-            return store_json, fee_dic
+        return store_json, fee_dic
 
     def get_feed(self, lat, lon):
         headers = {"x-csrf-token": "x"}
@@ -427,7 +429,7 @@ class GrubhubCrawler:
     def __init__(self):
         self.headers = {}
         self.payload = ""
-        self.s = requests.Session()
+        self.s = cloudscraper.create_scraper()
 
     def create_headers(self):
         self.headers = {
@@ -592,9 +594,9 @@ class GrubhubCrawler:
 
 # dc = UbereatsCrawler()
 # ipdb.set_trace()
-# keyword = {"address":{"address1":"2268 Bryant St","address2":"San Francisco, CA","aptOrSuite":"","eaterFormattedAddress":"2268 Bryant St, San Francisco, CA 94110, USA","subtitle":"San Francisco, CA","title":"2268 Bryant St","uuid":""},"latitude":37.7582462,"longitude":-122.4096447,"reference":"ChIJt5Ipqzd-j4ARuuhBTqe2MjY","referenceType":"google_places","type":"google_places","source":"manual_auto_complete","addressComponents":{"countryCode":"US","firstLevelSubdivisionCode":"CA","city":"SF","postalCode":"94110"},"originType":"user_autocomplete"}
+# keyword = {"address":{"address1":"Seattle","address2":"WA","aptOrSuite":"","eaterFormattedAddress":"Seattle, WA, USA","subtitle":"WA","title":"Seattle","uuid":""},"latitude":47.6062095,"longitude":-122.3320708,"reference":"ChIJVTPokywQkFQRmtVEaUZlJRA","referenceType":"google_places","type":"google_places","source":"manual_auto_complete","addressComponents":{"countryCode":"","firstLevelSubdivisionCode":"","city":"","postalCode":""},"originType":"user_autocomplete"}
 # keyword = json.dumps(keyword)
-# store_info = dc.get_store("f5662d57-747a-428d-b974-d2faaa5bc7ba", keyword)
+# store_info = dc.get_store("1350441a-366e-44f7-8c09-1914c2f0b421", keyword)
 
 # dc = DoordashCrawler()
 # dc.get_store('171033')

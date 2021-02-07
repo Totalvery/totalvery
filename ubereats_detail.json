@@ -1,6 +1,7 @@
 {
   "status": "success",
   "data": {
+<<<<<<< HEAD
     "sectionEntitiesMap": {
       "ea6b5fff-daf2-5243-9020-823e1b6998ab": {
         "91997ed0-0fe2-50eb-8fe3-fc60f472f0d5": {
@@ -2105,6 +2106,19 @@
           "price": 215,
           "title": "G2 Gatorade\u00ae Fruit Punch",
           "uuid": "c1acade9-5722-5e7c-b6cd-fa8e23313ba0",
+=======
+    "singleUseItemsInfo": {
+      "title": "Request utensils, straws, etc."
+    },
+    "sectionEntitiesMap": {
+      "e247e06e-6493-4226-9503-7403db46c5ce": {
+        "0fad383e-af39-432a-8727-8b4b7542f43a": {
+          "description": null,
+          "imageUrl": "",
+          "price": 400,
+          "title": "Iced Toddy Brew",
+          "uuid": "0fad383e-af39-432a-8727-8b4b7542f43a",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2118,12 +2132,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "f0c2d01b-e995-5bba-bf2a-06308d9e957c": {
           "description": "",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/0f752d2d-619d-4c17-a3a7-06ff5abe538b.jpeg",
           "price": 215,
           "title": "Mountain Dew\u00ae Kickstart\u2122 Orange Citrus",
           "uuid": "f0c2d01b-e995-5bba-bf2a-06308d9e957c",
+=======
+        "48878081-d840-4741-b663-c72afe664ade": {
+          "description": null,
+          "imageUrl": "",
+          "price": 400,
+          "title": "Chai Latte",
+          "uuid": "48878081-d840-4741-b663-c72afe664ade",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2137,6 +2160,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "e6b0254a-f559-5f93-9614-55b5b2b2f295": {
           "description": "A refreshing Strawberry freeze.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/49661183-efa7-4bad-a4e6-d1f354340a2a.jpeg",
@@ -2276,6 +2300,14 @@
           "price": 863,
           "title": "Chicken Quesadilla Combo",
           "uuid": "1628409f-ab77-5ddc-8a11-375b8a303fc2",
+=======
+        "ba7fb8a6-78b5-4372-8e22-8e3fc433344d": {
+          "description": null,
+          "imageUrl": "",
+          "price": 325,
+          "title": "Americano",
+          "uuid": "ba7fb8a6-78b5-4372-8e22-8e3fc433344d",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2289,37 +2321,57 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "50620320-333e-5ca6-8d88-9c8e8467bef9": {
           "description": "A warm flour tortilla filled with our 3-cheese blend. Item is lacto-ovo, allowing for dairy & egg consumption. Preparation methods may lead to cross contact with meat. See ta.co for full details.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/e856d049-70cb-4cd5-b89c-a9496511d140.jpeg",
           "price": 120,
           "title": "Cheesy Roll Up",
           "uuid": "50620320-333e-5ca6-8d88-9c8e8467bef9",
+=======
+        "db914f40-60fe-45f9-a478-4651e8b6aad9": {
+          "description": null,
+          "imageUrl": "",
+          "price": 800,
+          "title": "Seasonal Cheesecake ",
+          "uuid": "db914f40-60fe-45f9-a478-4651e8b6aad9",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "4be890ec-0fff-5b87-bf8e-90dfd52ea968": {
           "description": "",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/96d3caa3-7687-4264-8c7b-7381fc3c2a06.jpeg",
           "price": 215,
           "title": "Mountain Dew\u00ae Baja Blast\u2122 Zero Sugar",
           "uuid": "4be890ec-0fff-5b87-bf8e-90dfd52ea968",
+=======
+        "a6f53863-88cd-461a-a535-1745fcf47efb": {
+          "description": "Vanilla, chocolate, or strawberry.",
+          "imageUrl": "",
+          "price": 500,
+          "title": "Milkshakes",
+          "uuid": "a6f53863-88cd-461a-a535-1745fcf47efb",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
-            "allergens": "",
+            "allergens": [
+              ""
+            ],
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
           "hasCustomizations": true,
           "itemAttributeInfo": {
@@ -2327,18 +2379,29 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "39e4b72b-9fc8-5141-8f5f-c9c8d2b88057": {
           "description": "Crispy, puffed corn twists sprinkled with cinnamon and sugar.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/b2e94f2d-64f0-4b65-9eae-8d83c6475e9d.jpeg",
           "price": 120,
           "title": "Cinnamon Twists",
           "uuid": "39e4b72b-9fc8-5141-8f5f-c9c8d2b88057",
+=======
+        "0c7f3797-2f5b-48e0-af89-5b23a52e7b52": {
+          "description": "Milkshake and espresso.",
+          "imageUrl": "",
+          "price": 600,
+          "title": "Espresso Shakes",
+          "uuid": "0c7f3797-2f5b-48e0-af89-5b23a52e7b52",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
-            "allergens": "",
+            "allergens": [
+              ""
+            ],
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
           "hasCustomizations": false,
           "itemAttributeInfo": {
@@ -2346,14 +2409,25 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "ce2b5ebe-4d65-5bae-bd71-f4d239aa835b": {
           "description": "",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/e6826920-8011-4ecf-b24b-ba12eb540338.jpeg",
           "price": 0,
           "title": "Mild Sauce Packet",
           "uuid": "ce2b5ebe-4d65-5bae-bd71-f4d239aa835b",
+=======
+        "ff866002-0668-44df-9a48-cebaf287efe6": {
+          "description": "Four layer chocolate cake topped with strawberries.",
+          "imageUrl": "",
+          "price": 900,
+          "title": "Chocolate Cake",
+          "uuid": "ff866002-0668-44df-9a48-cebaf287efe6",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
-            "allergens": "",
+            "allergens": [
+              ""
+            ],
             "displayString": ""
           },
           "suspendReason": null,
@@ -2365,12 +2439,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "3d8ff959-8e74-51e2-ad44-6c0b365463a7": {
           "description": "Includes 12 Soft Tacos",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/c936f486-7ef2-4ca0-9662-ce17ceb05749.jpeg",
           "price": 2039,
           "title": "Soft Taco Party Pack",
           "uuid": "3d8ff959-8e74-51e2-ad44-6c0b365463a7",
+=======
+        "4975febe-70cf-4d08-b760-ced3af6be210": {
+          "description": "Tri-colored tortellini pasta stuffed with a 4 cheese blend and tossed in basil pesto and parmesan cheese. ",
+          "imageUrl": "",
+          "price": 800,
+          "title": "Basil Tortellini Pasta Salad",
+          "uuid": "4975febe-70cf-4d08-b760-ced3af6be210",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2378,18 +2461,27 @@
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "4dbf698e-2cdb-5435-803b-89732ae1d39d": {
           "description": "",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/d9216e2a-fb15-4259-8f90-86e4561c6114.jpeg",
           "price": 215,
           "title": "Pepsi\u00ae",
           "uuid": "4dbf698e-2cdb-5435-803b-89732ae1d39d",
+=======
+        "4cc6e2fa-8a86-425a-b5af-ab5d70c42d3c": {
+          "description": null,
+          "imageUrl": "",
+          "price": 500,
+          "title": "Thai Iced Coffee",
+          "uuid": "4cc6e2fa-8a86-425a-b5af-ab5d70c42d3c",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2403,31 +2495,49 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "b04b44d6-a252-507d-8abd-f675be73bc30": {
           "description": "",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/3b02605a-d033-46e9-9c03-c8f7b43461e4.jpeg",
           "price": 215,
           "title": "Diet Pepsi\u00ae",
           "uuid": "b04b44d6-a252-507d-8abd-f675be73bc30",
+=======
+        "43e073a0-b435-4bc1-8fbb-6d217a5841de": {
+          "description": "Mozzarella balls, cherry tomatoes, and fresh basil tossed in olive oil with sea salt and fresh cracked pepper. ",
+          "imageUrl": "",
+          "price": 800,
+          "title": "Caprese Salad",
+          "uuid": "43e073a0-b435-4bc1-8fbb-6d217a5841de",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "255b2190-7325-5828-957d-5f4cb0f95612": {
           "description": "Served with a drink and 3 beef tacos.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/4f626657-a3ab-4ad3-a95c-477783d026dc.jpeg",
           "price": 719,
           "title": "3 Soft Tacos Combo",
           "uuid": "255b2190-7325-5828-957d-5f4cb0f95612",
+=======
+        "8b4a4267-1df1-4cd2-87a0-411d89be00c3": {
+          "description": null,
+          "imageUrl": "",
+          "price": 375,
+          "title": "Cappuccino",
+          "uuid": "8b4a4267-1df1-4cd2-87a0-411d89be00c3",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2441,12 +2551,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "556825fb-f8bd-510c-9866-89141211019a": {
           "description": "A warm flour tortilla filled with refried beans, seasoned rice, nacho cheese sauce and creamy jalape\u00f1o sauce. Item is lacto-ovo, allowing for dairy & egg consumption. Preparation methods may lead to cross contact with meat. See ta.co for full details",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/5f885b3b-8ae2-4007-b254-e384e96300cb.jpeg",
           "price": 120,
           "title": "Cheesy Bean and Rice Burrito",
           "uuid": "556825fb-f8bd-510c-9866-89141211019a",
+=======
+        "8f62b276-cda8-4ffd-a229-93cdedce7bf7": {
+          "description": "Classic marshmallows, Hershey's and graham crackers.  For 2 or for 4, must provide your own fire. ",
+          "imageUrl": "",
+          "price": 750,
+          "title": "S'mores",
+          "uuid": "8f62b276-cda8-4ffd-a229-93cdedce7bf7",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2460,12 +2579,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "93b869f5-866f-553a-b66d-341eeb216d61": {
           "description": "Includes a Bacon Club Chalupa, two Crunchy Tacos, and a Large Fountain drink.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/1cd247b2-a094-433f-8138-09eac6f581e4.jpeg",
           "price": 719,
           "title": "Bacon Club Chalupa Combo",
           "uuid": "93b869f5-866f-553a-b66d-341eeb216d61",
+=======
+        "d69fe178-4f26-4664-bcce-883c56b38862": {
+          "description": null,
+          "imageUrl": "",
+          "price": 450,
+          "title": "Mocha Latte",
+          "uuid": "d69fe178-4f26-4664-bcce-883c56b38862",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2479,31 +2607,49 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "8989aa5f-a039-553f-9cc0-b4758730749b": {
           "description": "A warm flour tortilla filled with seasoned beef, crispy lettuce and shredded cheddar cheese.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/581df403-5fd2-464d-95a6-d6f1e49ea4aa.jpeg",
           "price": 179,
           "title": "Soft Taco",
           "uuid": "8989aa5f-a039-553f-9cc0-b4758730749b",
+=======
+        "bb9962ff-b918-4601-ac99-d35ae5a64f81": {
+          "description": "Quinoa, cucumber, red onion, feta, kalamata olives, and cherry tomatoes. ",
+          "imageUrl": "",
+          "price": 1100,
+          "title": "Greek Quinoa Salad",
+          "uuid": "bb9962ff-b918-4601-ac99-d35ae5a64f81",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "319abeea-07e2-56dc-9dfb-03b1d74a1180": {
           "description": "A warm tortilla is covered in a layer of warm nacho cheese and topped with seasoned beef, refried beans, cool sour cream and shredded cheddar cheese. Then it's wrapped creating a layer of nacho cheese all around the outside of the burrito.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/e5e69cc3-42f0-4b27-8864-e3e5c159a8a5.jpeg",
           "price": 335,
           "title": "Beefy 5-Layer Burrito",
           "uuid": "319abeea-07e2-56dc-9dfb-03b1d74a1180",
+=======
+        "f09ce1a5-ed7e-4491-bb6b-398fa3ab1056": {
+          "description": null,
+          "imageUrl": "",
+          "price": 400,
+          "title": "Latte",
+          "uuid": "f09ce1a5-ed7e-4491-bb6b-398fa3ab1056",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2517,12 +2663,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "29c6b66d-ec10-506d-a35e-50305908cb60": {
           "description": "A chewy chalupa shell filled with black beans, reduced-fat sour cream, lettuce, tomatoes, and three-cheese blend.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/8569feef-3a7d-422d-a66c-eb2edef33b76.jpeg",
           "price": 395,
           "title": "Black Bean Chalupa",
           "uuid": "29c6b66d-ec10-506d-a35e-50305908cb60",
+=======
+        "9d5caf60-1ce8-4e2e-8894-8170c826f60d": {
+          "description": null,
+          "imageUrl": "",
+          "price": 275,
+          "title": "Iced Tea",
+          "uuid": "9d5caf60-1ce8-4e2e-8894-8170c826f60d",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2530,18 +2685,27 @@
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "6c565f57-8111-59f9-b3c6-980327e1bfe7": {
           "description": "A warm flour tortilla filled with USDA Select Marinated Grilled Steak, Three Cheese Blend, Creamy Jalapeno Sauce, folded over and grilled.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/46fc5747-3353-4241-aae8-467e75b350db.jpeg",
           "price": 527,
           "title": "Steak Quesadilla",
           "uuid": "6c565f57-8111-59f9-b3c6-980327e1bfe7",
+=======
+        "623b84c7-324f-48ce-bd8d-d27d9eafbc5b": {
+          "description": null,
+          "imageUrl": "",
+          "price": 500,
+          "title": "Vietnamese Coffee",
+          "uuid": "623b84c7-324f-48ce-bd8d-d27d9eafbc5b",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2555,18 +2719,27 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "2aa0d4f6-5cfd-5efe-b0ce-18c6467a640e": {
           "description": "",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/269331ea-68a9-4807-8755-2b00fa73e18f.jpeg",
           "price": 0,
           "title": "Diablo Sauce Packet",
           "uuid": "2aa0d4f6-5cfd-5efe-b0ce-18c6467a640e",
+=======
+        "84363805-daf7-4c65-8f9d-5f396cd496e7": {
+          "description": null,
+          "imageUrl": "",
+          "price": 1500,
+          "title": "Antonelli\u2019s Cheese Board",
+          "uuid": "84363805-daf7-4c65-8f9d-5f396cd496e7",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
           "hasCustomizations": false,
           "itemAttributeInfo": {
@@ -2574,12 +2747,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "b48f7e51-a245-584e-a690-a86edbac8644": {
           "description": "A melty cheese quesadilla, with shredded cheddar cheese and warm nacho cheese sauce is opened and wrapped around a burrito filled with seasoned beef, seasoned rice, cool sour cream and creamy chipotle sauce.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/24eb2de8-9674-4cbb-980a-0c4f4288dd69.jpeg",
           "price": 431,
           "title": "Quesarito",
           "uuid": "b48f7e51-a245-584e-a690-a86edbac8644",
+=======
+        "b1c776b8-aedb-45f1-93d8-9cce3046e159": {
+          "description": "Oven roasted turkey, pepper jack cheese with spicy maple mustard. Served on sourdough with chips.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/7705a6dc-0c63-4693-b5fd-9de5f8ac6ce0.jpeg",
+          "price": 800,
+          "title": "Turkey Sandwich",
+          "uuid": "b1c776b8-aedb-45f1-93d8-9cce3046e159",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2593,18 +2775,27 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "ad1d998f-e7a7-5ff8-94d6-f9c0f11f7e05": {
           "description": "Your choice of 12 of the following tacos: Crunchy or Soft Taco Supremes\u00ae.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/31816967-e69b-4a35-b5d9-c700617be0f9.jpeg",
           "price": 2339,
           "title": "Supreme Taco Party Pack",
           "uuid": "ad1d998f-e7a7-5ff8-94d6-f9c0f11f7e05",
+=======
+        "68f683a6-b5a0-4f6d-baf5-e6ba8e80d3c1": {
+          "description": null,
+          "imageUrl": "",
+          "price": 2000,
+          "title": "Antonelli\u2019s Cheese with Charcuterie Board",
+          "uuid": "68f683a6-b5a0-4f6d-baf5-e6ba8e80d3c1",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
           "hasCustomizations": true,
           "itemAttributeInfo": {
@@ -2612,18 +2803,29 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "0da777b5-8ba4-535b-948b-7c12f24b8c2e": {
           "description": "Served with a large drink and a crunchy taco supreme.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/cf40702f-4a2d-4207-b29f-55403e6f53dd.jpeg",
           "price": 923,
           "title": "Nachos BellGrande\u00ae Combo",
           "uuid": "0da777b5-8ba4-535b-948b-7c12f24b8c2e",
+=======
+        "312a57fb-bdca-4166-b666-ecb64e382b3c": {
+          "description": "Mango, strawberry, banana, or any combo.",
+          "imageUrl": "",
+          "price": 500,
+          "title": "Smoothie",
+          "uuid": "312a57fb-bdca-4166-b666-ecb64e382b3c",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
-            "allergens": "",
+            "allergens": [
+              ""
+            ],
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
           "hasCustomizations": true,
           "itemAttributeInfo": {
@@ -2631,18 +2833,27 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "b15bd5b4-b829-55e7-8680-037c374cb83f": {
           "description": "Savory black beans. Item is lacto-ovo, allowing for dairy & egg consumption. Preparation methods may lead to cross contact with meat. See ta.co for full details.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/ba379405-1311-4ba1-8c17-64aa72d2bfaf.jpeg",
           "price": 179,
           "title": "Black Beans",
           "uuid": "b15bd5b4-b829-55e7-8680-037c374cb83f",
+=======
+        "a1f5880d-6a93-446a-a521-f48054e75308": {
+          "description": "Kale, quinoa, garbanzo beans, sliced almonds, blueberries, avocado, sea salt, and cracked pepper with blueberry lemon vinaigrette. ",
+          "imageUrl": "",
+          "price": 1400,
+          "title": "Kale Blueberry Salad",
+          "uuid": "a1f5880d-6a93-446a-a521-f48054e75308",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
           "hasCustomizations": true,
           "itemAttributeInfo": {
@@ -2650,12 +2861,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "608eb357-b009-58ff-9240-43c38a565114": {
           "description": "A crunchy taco shell made from Nacho Cheese Doritos\u00ae is filled with seasoned beef, crispy lettuce, and pico de gallo.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/3915d18f-4de6-4c8e-b6ae-b54c137d5e01.jpeg",
           "price": 239,
           "title": "Nacho Cheese Doritos\u00ae Locos Tacos",
           "uuid": "608eb357-b009-58ff-9240-43c38a565114",
+=======
+        "a32b2ace-72ce-4934-86f4-80c3440b045e": {
+          "description": null,
+          "imageUrl": "",
+          "price": 275,
+          "title": "Coffee",
+          "uuid": "a32b2ace-72ce-4934-86f4-80c3440b045e",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2669,18 +2889,29 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "3b37fdfc-bfd9-5ef7-9a2c-3ef7d1ec0b10": {
           "description": "Your choice of 12 of the following tacos: Crunchy or Soft Taco Supremes\u00ae, or Nacho Cheese Doritos\u00ae Locos Tacos Supremes\u00ae",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/bd8fbd9b-a371-44d4-95c0-77020e3ab6cf.jpeg",
           "price": 2519,
           "title": "Supreme Variety Taco Party Pack",
           "uuid": "3b37fdfc-bfd9-5ef7-9a2c-3ef7d1ec0b10",
+=======
+        "29b0189f-e279-41fd-b93e-e0f63f4c6430": {
+          "description": "Oven roasted turkey, brie cheese, and mushroom pesto. Served on sourdough with chips.",
+          "imageUrl": "",
+          "price": 1150,
+          "title": "Turkey Brie Sandwich",
+          "uuid": "29b0189f-e279-41fd-b93e-e0f63f4c6430",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
-            "allergens": "",
+            "allergens": [
+              ""
+            ],
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
           "hasCustomizations": true,
           "itemAttributeInfo": {
@@ -2688,12 +2919,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "95c35d61-7bd5-55f6-8a5c-7897c0ebe8e5": {
           "description": "Includes three Nacho Cheese Doritos\u00ae Locos Tacos Supreme\u00ae and a Large drink.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/d6b98074-eb14-496b-a0a0-a08b94830308.jpeg",
           "price": 959,
           "title": "3 Doritos\u00ae Locos Tacos Supreme Combo",
           "uuid": "95c35d61-7bd5-55f6-8a5c-7897c0ebe8e5",
+=======
+        "97dc9c42-e543-4af9-a5d9-7d3f670d822b": {
+          "description": null,
+          "imageUrl": "",
+          "price": 500,
+          "title": "Mexican Hot Cocoa",
+          "uuid": "97dc9c42-e543-4af9-a5d9-7d3f670d822b",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2701,24 +2941,33 @@
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "bd92b9c5-5886-5f97-9c82-7faae27599f7": {
           "description": "",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/27fec71e-a786-4daf-8d0d-35bf528d77bf.jpeg",
           "price": 0,
           "title": "Hot Sauce Packet",
           "uuid": "bd92b9c5-5886-5f97-9c82-7faae27599f7",
+=======
+        "670fe192-4034-445f-b2db-62ee1533a06e": {
+          "description": "Classic chicken salad with tarragon, celery, grapes, and capers. Served on sourdough with chips.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/4a9087de-4f1d-45ab-b0ce-d175495c8101.jpeg",
+          "price": 1300,
+          "title": "Chicken Salad Sandwich",
+          "uuid": "670fe192-4034-445f-b2db-62ee1533a06e",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
           "hasCustomizations": false,
           "itemAttributeInfo": {
@@ -2726,37 +2975,57 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "eddd4e2c-579a-5458-a6ef-63b725e5ae89": {
           "description": "A warm flatbread layered with three-cheese blend and warm nacho cheese sauce and wrapped around a crunchy taco filled with seasoned beef, spicy ranch sauce, crispy lettuce and shredded cheddar cheese.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/f95cec09-834d-499b-8f4b-d116185e439b.jpeg",
           "price": 503,
           "title": "Cheesy Gordita Crunch",
           "uuid": "eddd4e2c-579a-5458-a6ef-63b725e5ae89",
+=======
+        "0b55547f-cc97-4a43-bc11-d24fca1e0587": {
+          "description": "Our signature, grandma\u2019s style carrot cake.",
+          "imageUrl": "",
+          "price": 900,
+          "title": "Carrot Cake",
+          "uuid": "0b55547f-cc97-4a43-bc11-d24fca1e0587",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
-            "allergens": "",
+            "allergens": [
+              ""
+            ],
             "displayString": ""
           },
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "3534f879-8521-5ee7-be4d-9ab0d89f4274": {
           "description": "A flour tortilla layered with seasoned beef, warm nacho cheese sauce, a crispy tostada shell, crispy lettuce, ripe tomatoes and topped with cool sour cream all wrapped in our signature crunchwrap fold and grilled to go.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/79420c12-6ff2-4979-902c-4c2b9217db27.jpeg",
           "price": 479,
           "title": "Crunchwrap Supreme\u00ae",
           "uuid": "3534f879-8521-5ee7-be4d-9ab0d89f4274",
+=======
+        "facaabf3-2122-4595-8613-f89a94402132": {
+          "description": "Quinoa, black beans, corn, red bell peppers, cherry tomatoes, green onions, and cilantro with a southwest ranch dressing. ",
+          "imageUrl": "",
+          "price": 1100,
+          "title": "Southwest Quinoa Bowl ",
+          "uuid": "facaabf3-2122-4595-8613-f89a94402132",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
           "hasCustomizations": true,
           "itemAttributeInfo": {
@@ -2764,12 +3033,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "ecf61abc-1b00-51a6-9d5a-864756d92e92": {
           "description": "",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/7fa2fd58-19c1-4c65-b4fb-ea70e8959b45.jpeg",
           "price": 0,
           "title": "Fire Sauce Packet",
           "uuid": "ecf61abc-1b00-51a6-9d5a-864756d92e92",
+=======
+        "6beadac7-685b-45b1-bb2a-895ea7823f0d": {
+          "description": "Ham, cheddar and caramelized onions",
+          "imageUrl": "",
+          "price": 600,
+          "title": "Quiche",
+          "uuid": "6beadac7-685b-45b1-bb2a-895ea7823f0d",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2783,33 +3061,53 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "bd482eb6-a809-5dee-a2b7-85cca96bbc82": {
           "description": "A chewy, flaky Chalupa shell filled with grilled chicken, bacon, lettuce, tomato, three-cheese blend, and avocado ranch sauce.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/d4d9f0b6-23f9-47bb-b4a0-23e6eaed252f.jpeg",
           "price": 419,
           "title": "Bacon Club Chalupa",
           "uuid": "bd482eb6-a809-5dee-a2b7-85cca96bbc82",
+=======
+        "d2e0bc4e-1da0-477b-9cc9-6b14aaba22c3": {
+          "description": "Home made chocolate brownie a la mode, topped with ice cream and chocolate syrup.",
+          "imageUrl": "",
+          "price": 800,
+          "title": "Brownie in a Mug",
+          "uuid": "d2e0bc4e-1da0-477b-9cc9-6b14aaba22c3",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "2da4c632-fe49-5b02-a4cd-d1075ddea90c": {
           "description": "Flour tortilla, black beans, nacho cheese sauce, tostada shell, lettuce, tomatoes & reduced fat sour cream layers grilled in a crunchwrap. Item is lacto-ovo, allowing for dairy & egg consumption. Preparation method may lead to cross contact with meat",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/08a7c653-5299-483c-9d2c-af67acbb623d.jpeg",
           "price": 467,
           "title": "Black Bean Crunchwrap Supreme\u00ae",
           "uuid": "2da4c632-fe49-5b02-a4cd-d1075ddea90c",
+=======
+        "1ecde9b9-0870-4ec0-b5e6-22294d8c945d": {
+          "description": "Chicken, basil pesto, tomato, and parmesan. Served on sourdough with chips. No substitutions or additions.",
+          "imageUrl": "",
+          "price": 800,
+          "title": "Chicken Pesto Sandwich",
+          "uuid": "1ecde9b9-0870-4ec0-b5e6-22294d8c945d",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
-            "allergens": "",
+            "allergens": [
+              ""
+            ],
             "displayString": ""
           },
           "suspendReason": null,
@@ -2821,12 +3119,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "2bfdcb65-9bf7-5640-80de-36bb47470f6a": {
           "description": "A sweet, juicy blue raspberry-flavored Freeze.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/b439d416-c15b-437b-8755-a961be8b84f8.jpeg",
           "price": 347,
           "title": "Blue Raspberry Freeze",
           "uuid": "2bfdcb65-9bf7-5640-80de-36bb47470f6a",
+=======
+        "7462e8c9-b37b-49d4-b2c2-584c7d9a62f6": {
+          "description": null,
+          "imageUrl": "",
+          "price": 375,
+          "title": "Cortado",
+          "uuid": "7462e8c9-b37b-49d4-b2c2-584c7d9a62f6",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2840,12 +3147,12 @@
           },
           "tagSection": null
         },
-        "ce9d1f8d-0e2e-5b69-80d5-b63b809715ce": {
-          "description": "A crunchy taco shell filled with seasoned beef, crispy lettuce and shredded cheddar cheese.",
-          "imageUrl": "https://d1ralsognjng37.cloudfront.net/264c893d-2965-4d7d-9d51-7356bebb4116.jpeg",
-          "price": 179,
-          "title": "Crunchy Taco",
-          "uuid": "ce9d1f8d-0e2e-5b69-80d5-b63b809715ce",
+        "11655ac6-5f19-4f62-b39d-1bedad0b8c32": {
+          "description": null,
+          "imageUrl": "",
+          "price": 300,
+          "title": "Espresso",
+          "uuid": "11655ac6-5f19-4f62-b39d-1bedad0b8c32",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2859,12 +3166,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "4a54f63b-4552-528c-91c8-6c5194dc32e3": {
           "description": "A flour tortilla filled with seasoned beef, nacho cheese sauce, real shredded cheddar cheese, lettuce, and red strips.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/c203f22b-d6a7-41f4-b300-e5b2f8d47fd0.jpeg",
           "price": 120,
           "title": "Loaded Nacho Taco",
           "uuid": "4a54f63b-4552-528c-91c8-6c5194dc32e3",
+=======
+        "7b750fe3-9ec7-4fa8-944d-848817ff1c83": {
+          "description": "Served with warm pita bread.",
+          "imageUrl": "",
+          "price": 800,
+          "title": "Spinach Artichoke Dip",
+          "uuid": "7b750fe3-9ec7-4fa8-944d-848817ff1c83",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2872,18 +3188,27 @@
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "2c4f7a5a-1dd8-5adb-8f24-d9410a11d1c3": {
           "description": "Your choice of 12 of the following tacos: Crunchy or Soft Tacos, Crunchy or Soft Taco Supremes\u00ae.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/578f5938-dc3a-4e94-9052-e6ccf16e3788.jpeg",
           "price": 2039,
           "title": "Taco Party Pack",
           "uuid": "2c4f7a5a-1dd8-5adb-8f24-d9410a11d1c3",
+=======
+        "f65f620e-f1de-467a-83b4-d2ab4fa71995": {
+          "description": null,
+          "imageUrl": "",
+          "price": 300,
+          "title": "Hot Cocoa",
+          "uuid": "f65f620e-f1de-467a-83b4-d2ab4fa71995",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2891,24 +3216,36 @@
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "eef9c03f-a225-5fd6-b663-35a23160c8f7": {
           "description": "Includes 12 Soft Tacos Supreme\u00ae.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/fd11538a-6f8d-4bba-b4b2-f3caa53d4775.jpeg",
           "price": 2339,
           "title": "Supreme Soft Taco Party Pack",
           "uuid": "eef9c03f-a225-5fd6-b663-35a23160c8f7",
+=======
+        "b7990078-74a8-4811-b41f-240902701ce4": {
+          "description": "Grilled chicken, bacon, pepper jack, tomato, and spicy chipotle mayonnaise. Served on sourdough with chips.No substitutions or additions.",
+          "imageUrl": "",
+          "price": 800,
+          "title": "Spicy Chicken Sandwich",
+          "uuid": "b7990078-74a8-4811-b41f-240902701ce4",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
-            "allergens": "",
+            "allergens": [
+              ""
+            ],
             "displayString": ""
           },
           "suspendReason": null,
           "suspendUntil": 0,
+<<<<<<< HEAD
           "classifications": [],
           "hasCustomizations": true,
           "itemAttributeInfo": {
@@ -2925,9 +3262,12 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
+=======
+          "endorsement": {
+            "text": "Spicy",
+            "iconUrl": "https://uber-test.s3.amazonaws.com/badge_check@3x.png"
+>>>>>>> sy_frontend
           },
-          "suspendReason": null,
-          "suspendUntil": 0,
           "classifications": [],
           "hasCustomizations": true,
           "itemAttributeInfo": {
@@ -2935,6 +3275,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "47e5c393-6bac-5ad4-8731-1be2b888cfd4": {
           "description": "A crunchy taco shell made from Nacho Cheese Doritos\u00ae is filled with seasoned beef, cool sour cream, crispy lettuce, shredded cheddar cheese and ripe tomatoes.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/8bf9a2db-f78c-41b8-b32c-5c9c7e3468e4.jpeg",
@@ -2960,6 +3301,14 @@
           "price": 120,
           "title": "Chicken Chipotle Melt",
           "uuid": "bd8979d5-f825-5597-8e2a-a9e68641722c",
+=======
+        "bfad7050-9c0a-4a2a-8a2c-1ffc134b85cd": {
+          "description": null,
+          "imageUrl": "",
+          "price": 300,
+          "title": "Macchiato",
+          "uuid": "bfad7050-9c0a-4a2a-8a2c-1ffc134b85cd",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -2973,6 +3322,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "3272561b-bb8c-5901-b253-d86c82df7af0": {
           "description": "A warm flour tortilla loaded with seasoned beef, refried beans, tomatoes, onions, iceberg lettuce, reduced-fat sour cream, red sauce and cheddar cheese.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/e82c7d9f-14e3-4885-bd35-4ebb3bb5b855.jpeg",
@@ -2998,6 +3348,14 @@
           "price": 215,
           "title": "Sierra Mist\u00ae",
           "uuid": "042686df-a2fc-5531-9a97-b1e77845bf4e",
+=======
+        "290e3107-eea0-430f-938d-51ea9e29971f": {
+          "description": "Cheddar, Monteray jack, tomatoes  ",
+          "imageUrl": "",
+          "price": 600,
+          "title": "Grilled Tomato and Cheese",
+          "uuid": "290e3107-eea0-430f-938d-51ea9e29971f",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -3011,6 +3369,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "b6f9c292-fae6-5b27-bc13-5a6c45160628": {
           "description": "Served with a large drink and 3 tacos.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/c642bd0c-22ca-4408-a353-6e1b51c6f314.jpeg",
@@ -3036,6 +3395,14 @@
           "price": 203,
           "title": "Bean Burrito",
           "uuid": "d616dd17-f134-5c81-ba83-cac13c6bf34d",
+=======
+        "f36f237f-a089-4c22-b3e4-08d3fb6c885c": {
+          "description": "Topped with freshly ground pepper, olive oil, and paprika and served with warm pita and veggies.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/f368eaac-a06b-41aa-a418-5343b1a56587.jpeg",
+          "price": 900,
+          "title": "Hummus",
+          "uuid": "f36f237f-a089-4c22-b3e4-08d3fb6c885c",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -3048,6 +3415,7 @@
             "dietaryLabels": null
           },
           "tagSection": null
+<<<<<<< HEAD
         },
         "0ea7d253-e45c-59e5-a23d-360721b53089": {
           "description": "",
@@ -3055,12 +3423,23 @@
           "price": 215,
           "title": "Mountain Dew\u00ae",
           "uuid": "0ea7d253-e45c-59e5-a23d-360721b53089",
+=======
+        }
+      },
+      "c52d8fb3-c382-43d9-a11c-39bba1e369a5": {
+        "fe641d86-b7a7-44a9-941f-237c63fcecc7": {
+          "description": "Choose between cinnamon raisin, everything, or plain. Served with your choice of regular, strawberry, or herb cream cheese.",
+          "imageUrl": "",
+          "price": 450,
+          "title": "Rockstar Bagels",
+          "uuid": "fe641d86-b7a7-44a9-941f-237c63fcecc7",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
           "hasCustomizations": true,
           "itemAttributeInfo": {
@@ -3068,12 +3447,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "6c3b97ec-5995-5080-a32e-c1fc97f1a57d": {
           "description": "Golden, crisp Nacho Fries seasoned with bold Mexican spices and nacho cheese sauce for dipping.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/1c578e45-61ff-4103-98e1-94db1a3d064c.jpeg",
           "price": 179,
           "title": "Nacho Fries",
           "uuid": "6c3b97ec-5995-5080-a32e-c1fc97f1a57d",
+=======
+        "a67b51e1-f57c-41f2-a409-8b1bece1d59d": {
+          "description": "Choose between bacon egg and cheese, potato egg and cheese, or migas. Served on flour or corn tortilla.",
+          "imageUrl": "",
+          "price": 400,
+          "title": "Tacos",
+          "uuid": "a67b51e1-f57c-41f2-a409-8b1bece1d59d",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -3087,14 +3475,25 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "9f735d41-d0b2-53ae-a7dd-2da8bf8853d1": {
           "description": "A warm flour tortilla filled with seasoned beef, cool sour cream, crispy lettuce, shredded cheddar cheese and ripe tomatoes.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/bbfdd2ca-e087-40d8-be31-03417d8d0a29.jpeg",
           "price": 239,
           "title": "Soft Taco Supreme\u00ae",
           "uuid": "9f735d41-d0b2-53ae-a7dd-2da8bf8853d1",
+=======
+        "a76f3583-891e-44ff-aa97-d178517b6f70": {
+          "description": "Served with maple cream cheese spread, blueberries, and strawberries.",
+          "imageUrl": "",
+          "price": 1000,
+          "title": "Overnight French Toast",
+          "uuid": "a76f3583-891e-44ff-aa97-d178517b6f70",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
-            "allergens": "",
+            "allergens": [
+              ""
+            ],
             "displayString": ""
           },
           "suspendReason": null,
@@ -3106,18 +3505,27 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "654609dd-b9ec-56bd-b0ed-368be010cdec": {
           "description": "Seasoned rice and black beans topped with grilled chicken, avocado ranch sauce, reduced-fat sour cream, lettuce, tomatoes, real cheddar cheese and guacamole.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/0f010fd6-bd83-473b-8ce3-307d0c402722.jpeg",
           "price": 719,
           "title": "Power Menu Bowl",
           "uuid": "654609dd-b9ec-56bd-b0ed-368be010cdec",
+=======
+        "b6682f58-84f2-4915-954b-03992662a476": {
+          "description": "Toasted bagel of choice, lox, cream cheese, tomatoes, capers, and red onion.",
+          "imageUrl": "",
+          "price": 1000,
+          "title": "Bagels and Lox",
+          "uuid": "b6682f58-84f2-4915-954b-03992662a476",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 0,
+          "suspendUntil": 8640000000,
           "classifications": [],
           "hasCustomizations": true,
           "itemAttributeInfo": {
@@ -3125,12 +3533,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "84892d57-ef9d-50bf-8529-5e8e33b43c1d": {
           "description": "Three Soft Taco Supremes served with a large drink",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/656543bc-e399-49b9-8c5a-c28b70bbe249.jpeg",
           "price": 899,
           "title": "3 Soft Tacos Supreme\u00ae Combo",
           "uuid": "84892d57-ef9d-50bf-8529-5e8e33b43c1d",
+=======
+        "347be6a6-93f7-4ed4-8d9c-ace7e7e4b2cf": {
+          "description": "Choose:\nbacon, egg & cheese\npotato, egg & cheese\nmigas",
+          "imageUrl": "",
+          "price": 1000,
+          "title": "Burrito",
+          "uuid": "347be6a6-93f7-4ed4-8d9c-ace7e7e4b2cf",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -3144,12 +3561,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "af22bc8d-b25f-5667-a9e8-79ab8f1de9a7": {
           "description": "Served with a drink, chicken quesadilla, regular crunchy taco.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/b90903ed-d35d-48d8-9ad6-2ee5e3860da3.jpeg",
           "price": 1103,
           "title": "2 Chicken Chalupas Supreme Combo",
           "uuid": "af22bc8d-b25f-5667-a9e8-79ab8f1de9a7",
+=======
+        "35dc10d8-304a-4f6c-bf33-3b82a675ba33": {
+          "description": "Toast, bacon, egg, Cheddar, and spicy mayonnaise.",
+          "imageUrl": "",
+          "price": 850,
+          "title": "Breakfast Sandwich",
+          "uuid": "35dc10d8-304a-4f6c-bf33-3b82a675ba33",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -3162,6 +3588,7 @@
             "dietaryLabels": null
           },
           "tagSection": null
+<<<<<<< HEAD
         },
         "c2bcba80-f125-57d6-9414-a830cf5bb2cc": {
           "description": "Black beans served with seasoned rice. Item is lacto-ovo, allowing for dairy & egg consumption. Preparation methods may lead to cross contact with meat. See ta.co for full details.",
@@ -3219,84 +3646,49 @@
             "dietaryLabels": null
           },
           "tagSection": null
+=======
+>>>>>>> sy_frontend
         }
       }
     },
     "sections": [
       {
         "subsectionUuids": [
+<<<<<<< HEAD
           "c066520a-cc6c-5d68-90f6-43cd7e44af9e"
         ],
         "title": "HappyHour",
         "subtitle": "2:00 PM \u2013 5:00 PM",
         "uuid": "ea6b5fff-daf2-5243-9020-823e1b6998ab",
+=======
+          "7e12b8f3-084e-55e3-a667-a883e633c17c",
+          "f2280b25-7b12-4093-85f5-030d9ebccec7",
+          "0d737f2a-cc46-4957-a809-e9c258d927cf",
+          "dfd0862e-5280-473d-b22f-209fde98fc24",
+          "dc7ff924-8919-45c4-a1c9-2daeff877cf3",
+          "3ad1d2e0-b3eb-420a-a534-9ed14e97e4be",
+          "8db7d821-cf92-4b19-a54b-982fbf7d14ff"
+        ],
+        "title": "Menu",
+        "subtitle": "8:00 AM \u2013 2:00 AM",
+        "uuid": "e247e06e-6493-4226-9503-7403db46c5ce",
+>>>>>>> sy_frontend
         "isTop": true,
         "isOnSale": true
       },
       {
         "subsectionUuids": [
-          "7e12b8f3-7d96-593d-9701-132b7a83a722",
-          "ec0ad931-8aac-52e4-a464-418c43601bfb",
-          "1e576814-5ff2-528c-986f-640329de0918",
-          "ffe96a43-ff2e-5323-8fa3-5c22328613e2",
-          "de47d867-561d-5676-8c23-e90d5b444674",
-          "0d739b4f-f45d-5722-a7a9-f1b32c2db65a",
-          "307f03a9-0853-5627-ad93-2c5b339b0651",
-          "bad99e4d-c165-518e-a563-b8f8d967de67",
-          "236cebcd-15d7-5800-8fae-b581cd7faedf",
-          "9996ee2c-7dea-51b5-b2f1-d86092a3c57e",
-          "1697ab4a-cb1c-5d18-aa07-3a7e808e854d",
-          "496f29f0-32fd-577b-8ceb-d98431a64c64",
-          "f9e1149b-2b98-5be1-9d8f-6de967b18481",
-          "68a68c75-e9e6-55aa-9088-bed2c00cf2e4",
-          "f67173ef-a4d5-51f2-95d6-c7e04db0a1d9",
-          "fa01b24a-8b57-5b9e-936e-bd89055b2c6c"
-        ],
-        "title": "Lunch/Dinner",
-        "subtitle": "Sun 9:00 AM \u2013 2:30 AM",
-        "uuid": "c179d31b-ad63-5ae3-854f-26ef65c512a8",
-        "isTop": false,
-        "isOnSale": false
-      },
-      {
-        "subsectionUuids": [
-          "7e12b8f3-f385-5fd0-845f-9502b14be719",
-          "de47d867-561d-5676-8c23-e90d5b444674",
-          "68a68c75-e9e6-55aa-9088-bed2c00cf2e4"
+          "8da1fa3d-04b3-4964-81ab-f336ea3cc7d0"
         ],
         "title": "Breakfast",
-        "subtitle": "Sun 7:00 AM \u2013 10:30 AM",
-        "uuid": "aba489ea-5763-5207-97d3-214dbfb61154",
+        "subtitle": "Sun 8:00 AM \u2013 11:00 AM",
+        "uuid": "c52d8fb3-c382-43d9-a11c-39bba1e369a5",
         "isTop": false,
         "isOnSale": false
-      },
-      {
-        "subsectionUuids": [
-          "7e12b8f3-8832-5976-8b16-b1dab589ed27",
-          "ec0ad931-8aac-52e4-a464-418c43601bfb",
-          "1e576814-5ff2-528c-986f-640329de0918",
-          "ffe96a43-ff2e-5323-8fa3-5c22328613e2",
-          "de47d867-561d-5676-8c23-e90d5b444674",
-          "0d739b4f-f45d-5722-a7a9-f1b32c2db65a",
-          "307f03a9-0853-5627-ad93-2c5b339b0651",
-          "bad99e4d-c165-518e-a563-b8f8d967de67",
-          "236cebcd-15d7-5800-8fae-b581cd7faedf",
-          "9996ee2c-7dea-51b5-b2f1-d86092a3c57e",
-          "1697ab4a-cb1c-5d18-aa07-3a7e808e854d",
-          "496f29f0-32fd-577b-8ceb-d98431a64c64",
-          "f9e1149b-2b98-5be1-9d8f-6de967b18481",
-          "68a68c75-e9e6-55aa-9088-bed2c00cf2e4",
-          "f67173ef-a4d5-51f2-95d6-c7e04db0a1d9",
-          "fa01b24a-8b57-5b9e-936e-bd89055b2c6c"
-        ],
-        "title": "Lunch/Dinner",
-        "subtitle": "9:00 AM \u2013 3:30 AM",
-        "uuid": "1122eba6-1041-597d-a14d-0a50910ca898",
-        "isTop": false,
-        "isOnSale": true
       }
     ],
     "subsectionsMap": {
+<<<<<<< HEAD
       "ec0ad931-8aac-52e4-a464-418c43601bfb": {
         "itemUuids": [
           "cc28bb49-6ef7-59d3-8a5d-2096fffd6c69",
@@ -3328,18 +3720,56 @@
         "subtitle": null,
         "title": "Sauce Packets",
         "uuid": "de47d867-561d-5676-8c23-e90d5b444674",
-        "displayType": null
-      },
-      "f67173ef-a4d5-51f2-95d6-c7e04db0a1d9": {
+=======
+      "8db7d821-cf92-4b19-a54b-982fbf7d14ff": {
         "itemUuids": [
-          "07354f89-2065-549b-a668-8920ca9cce20",
-          "654609dd-b9ec-56bd-b0ed-368be010cdec"
+          "9d5caf60-1ce8-4e2e-8894-8170c826f60d",
+          "48878081-d840-4741-b663-c72afe664ade",
+          "f65f620e-f1de-467a-83b4-d2ab4fa71995",
+          "97dc9c42-e543-4af9-a5d9-7d3f670d822b"
         ],
         "subtitle": null,
-        "title": "BOWLS",
-        "uuid": "f67173ef-a4d5-51f2-95d6-c7e04db0a1d9",
+        "title": "Other Drink",
+        "uuid": "8db7d821-cf92-4b19-a54b-982fbf7d14ff",
         "displayType": null
       },
+      "8da1fa3d-04b3-4964-81ab-f336ea3cc7d0": {
+        "itemUuids": [
+          "35dc10d8-304a-4f6c-bf33-3b82a675ba33",
+          "a67b51e1-f57c-41f2-a409-8b1bece1d59d",
+          "a76f3583-891e-44ff-aa97-d178517b6f70",
+          "347be6a6-93f7-4ed4-8d9c-ace7e7e4b2cf"
+        ],
+        "subtitle": "",
+        "title": "Breakfast",
+        "uuid": "8da1fa3d-04b3-4964-81ab-f336ea3cc7d0",
+        "displayType": null
+      },
+      "f2280b25-7b12-4093-85f5-030d9ebccec7": {
+        "itemUuids": [
+          "b7990078-74a8-4811-b41f-240902701ce4",
+          "1ecde9b9-0870-4ec0-b5e6-22294d8c945d",
+          "b1c776b8-aedb-45f1-93d8-9cce3046e159",
+          "290e3107-eea0-430f-938d-51ea9e29971f"
+        ],
+        "subtitle": "",
+        "title": "Sandwiches",
+        "uuid": "f2280b25-7b12-4093-85f5-030d9ebccec7",
+>>>>>>> sy_frontend
+        "displayType": null
+      },
+      "0d737f2a-cc46-4957-a809-e9c258d927cf": {
+        "itemUuids": [
+          "7b750fe3-9ec7-4fa8-944d-848817ff1c83",
+          "f36f237f-a089-4c22-b3e4-08d3fb6c885c",
+          "6beadac7-685b-45b1-bb2a-895ea7823f0d"
+        ],
+        "subtitle": null,
+        "title": "Snacks",
+        "uuid": "0d737f2a-cc46-4957-a809-e9c258d927cf",
+        "displayType": null
+      },
+<<<<<<< HEAD
       "68a68c75-e9e6-55aa-9088-bed2c00cf2e4": {
         "itemUuids": [
           "13bb8522-7eee-5b1e-ba11-b2915cafe596",
@@ -3562,52 +3992,108 @@
         "subtitle": null,
         "title": "Combos",
         "uuid": "1e576814-5ff2-528c-986f-640329de0918",
+=======
+      "dfd0862e-5280-473d-b22f-209fde98fc24": {
+        "itemUuids": [
+          "4975febe-70cf-4d08-b760-ced3af6be210"
+        ],
+        "subtitle": "",
+        "title": "Salads and Bowls",
+        "uuid": "dfd0862e-5280-473d-b22f-209fde98fc24",
+        "displayType": null
+      },
+      "dc7ff924-8919-45c4-a1c9-2daeff877cf3": {
+        "itemUuids": [
+          "ff866002-0668-44df-9a48-cebaf287efe6",
+          "0b55547f-cc97-4a43-bc11-d24fca1e0587",
+          "8f62b276-cda8-4ffd-a229-93cdedce7bf7"
+        ],
+        "subtitle": "",
+        "title": "Desserts",
+        "uuid": "dc7ff924-8919-45c4-a1c9-2daeff877cf3",
+        "displayType": null
+      },
+      "7e12b8f3-084e-55e3-a667-a883e633c17c": {
+        "itemUuids": [
+          "ff866002-0668-44df-9a48-cebaf287efe6",
+          "0b55547f-cc97-4a43-bc11-d24fca1e0587",
+          "48878081-d840-4741-b663-c72afe664ade",
+          "97dc9c42-e543-4af9-a5d9-7d3f670d822b",
+          "4cc6e2fa-8a86-425a-b5af-ab5d70c42d3c"
+        ],
+        "subtitle": null,
+        "title": "Picked For You",
+        "uuid": "7e12b8f3-084e-55e3-a667-a883e633c17c",
+        "displayType": null
+      },
+      "3ad1d2e0-b3eb-420a-a534-9ed14e97e4be": {
+        "itemUuids": [
+          "a32b2ace-72ce-4934-86f4-80c3440b045e",
+          "8b4a4267-1df1-4cd2-87a0-411d89be00c3",
+          "f09ce1a5-ed7e-4491-bb6b-398fa3ab1056",
+          "11655ac6-5f19-4f62-b39d-1bedad0b8c32",
+          "ba7fb8a6-78b5-4372-8e22-8e3fc433344d",
+          "7462e8c9-b37b-49d4-b2c2-584c7d9a62f6",
+          "bfad7050-9c0a-4a2a-8a2c-1ffc134b85cd",
+          "d69fe178-4f26-4664-bcce-883c56b38862",
+          "4cc6e2fa-8a86-425a-b5af-ab5d70c42d3c",
+          "0fad383e-af39-432a-8727-8b4b7542f43a",
+          "623b84c7-324f-48ce-bd8d-d27d9eafbc5b"
+        ],
+        "subtitle": null,
+        "title": "Coffee",
+        "uuid": "3ad1d2e0-b3eb-420a-a534-9ed14e97e4be",
+>>>>>>> sy_frontend
         "displayType": null
       }
     },
-    "title": "Taco Bell (1818 E. Speedway Blvd.)",
-    "sanitizedTitle": "Taco Bell (1818 E. Speedway Blvd.)",
-    "uuid": "16df88e0-a001-4cd4-8b48-f0c10397f904",
-    "cityId": 48,
+    "title": "Halcyon Coffee, Bar & Lounge (Austin Downtown)",
+    "sanitizedTitle": "Halcyon Coffee, Bar &amp; Lounge (Austin Downtown)",
+    "uuid": "d93123ab-88b7-44bb-9607-831728c759cf",
+    "cityId": 4,
     "categories": [
       "$",
-      "Burritos",
-      "Fast Food",
-      "Mexican"
+      "American",
+      "Breakfast and Brunch",
+      "Desserts",
+      "Local Eats"
     ],
     "categoryLinks": [
       {
-        "text": "Burritos"
+        "text": "American",
+        "link": "/category/austin-tx/american"
       },
       {
-        "text": "Fast Food",
-        "link": "/category/tucson-az/fast-food"
+        "text": "Breakfast and Brunch",
+        "link": "/category/austin-tx/breakfast-and-brunch"
       },
       {
-        "text": "Mexican",
-        "link": "/category/tucson-az/mexican"
+        "text": "Desserts",
+        "link": "/category/austin-tx/dessert"
+      },
+      {
+        "text": "Local Eats"
       }
     ],
     "cuisineList": [
-      "Burritos",
-      "Fast Food",
-      "Mexican"
+      "American",
+      "Breakfast and Brunch",
+      "Desserts",
+      "Local Eats"
     ],
     "priceBucket": "$",
     "etaRange": {
-      "text": "15\u201325 Min",
+      "text": "30\u201340 Min",
       "iconUrl": "",
-      "accessibilityText": "Delivered in 15 to 25 Min"
+      "accessibilityText": "Delivered in 30 to 40 Min"
     },
-    "disclaimerBadge": {
-      "text": "<span>Items marked with a green &amp; white &#x201C;V&#x201D; graphic are American Vegetarian Association certified Vegetarian food items, are lacto-ovo, allowing consumption of dairy and eggs but not animal byproducts. The same frying oil may be used to prepare menu items that could contain meat. Vegetarian and meat ingredients are handled in common, and cross contact may occur, which may not be acceptable to certain types of vegetarian diets. Neither Taco Bell&#xAE;, its employees, nor its franchisees nor the AVA assume any responsibility for such cross contact.</span>"
-    },
+    "disclaimerBadge": null,
     "distanceBadge": null,
     "fareBadge": {
-      "text": "$3.49 Delivery Fee",
+      "text": "$0 Delivery Fee",
       "iconUrl": null,
       "textFormat": null,
-      "accessibilityText": "Delivery Fee is $3.49"
+      "accessibilityText": "Delivery Fee is No Fee"
     },
     "eatsPassExclusionBadge": {
       "backgroundColor": null,
@@ -3622,38 +4108,34 @@
       "actionUrl": null
     },
     "fareInfo": {
-      "serviceFee": 3.49,
-      "serviceFeeCents": 349
+      "serviceFee": 0,
+      "serviceFeeCents": 0
     },
-    "promotion": {
-      "text": "$0 Delivery Fee (Spend $15)",
-      "promotionUuid": "815b2407-5699-417f-9615-291e415140aa",
-      "description": "$0 delivery fee for orders of $15 or more (before taxes and fees) at . Available for a limited time only.  Cannot be combined with other promotions."
-    },
+    "promotion": null,
     "shouldIndex": true,
     "heroImageUrls": [
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/ac432beb-e462-4078-81a0-5351e8f3b970.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/88c67d12-a36e-4123-8f04-aa0e86e994e0.jpeg",
         "width": 240
       },
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/90b58466-2aae-448e-87e0-216e8d3b3c50.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/a5432432-f88a-4858-b021-aac98dcfd9d9.jpeg",
         "width": 550
       },
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/5ecb0763-02bd-4d75-9461-c8eb7d7de804.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/3d395e61-c8d5-4cee-b275-f7ddbc809855.jpeg",
         "width": 640
       },
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/385c1cfd-01cc-46ee-a651-ce8071c52c98.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/aa1b6d0a-ffc8-4713-ba46-a44d7c98f275.jpeg",
         "width": 750
       },
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/266436a5-6693-403b-a52c-fed4f55632e1.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/427f7288-ad5c-4e32-9bec-c36eb85bbdaa.jpeg",
         "width": 1080
       },
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/f07ce1a3-4b2d-4e46-b489-7406f0ce08af.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/9218fb72-7163-4035-a8d1-d829c9b84640.jpeg",
         "width": 2880
       }
     ],
@@ -3661,97 +4143,59 @@
     "currencyCode": "USD",
     "closedMessage": "",
     "location": {
-      "address": "1818 E. Speedway Blvd., Tucson, AZ 85719",
-      "streetAddress": "1818 E. Speedway Blvd.",
-      "city": "Tucson",
+      "address": "218 W 4th St, Austin, TX 78701",
+      "streetAddress": "218 W 4th St",
+      "city": "Austin",
       "country": "US",
-      "postalCode": "85719",
-      "region": "AZ",
-      "latitude": 32.2355917,
-      "longitude": -110.9446165
+      "postalCode": "78701",
+      "region": "TX",
+      "latitude": 30.2669671,
+      "longitude": -97.7456713
     },
     "isDeliveryBandwagon": false,
     "isDeliveryOverTheTop": false,
     "isDeliveryThirdParty": false,
     "hours": [
       {
-        "dayRange": "Sunday - Wednesday",
+        "dayRange": "Every Day",
         "sectionHours": [
           {
-            "startTime": 840,
-            "endTime": 1020,
-            "sectionTitle": "HappyHour"
+            "startTime": 480,
+            "endTime": 120,
+            "sectionTitle": "Menu"
           },
           {
-            "startTime": 540,
-            "endTime": 150,
-            "sectionTitle": "Lunch/Dinner"
-          },
-          {
-            "startTime": 420,
-            "endTime": 630,
+            "startTime": 480,
+            "endTime": 660,
             "sectionTitle": "Breakfast"
-          }
-        ]
-      },
-      {
-        "dayRange": "Thursday - Saturday",
-        "sectionHours": [
-          {
-            "startTime": 840,
-            "endTime": 1020,
-            "sectionTitle": "HappyHour"
-          },
-          {
-            "startTime": 420,
-            "endTime": 630,
-            "sectionTitle": "Breakfast"
-          },
-          {
-            "startTime": 540,
-            "endTime": 210,
-            "sectionTitle": "Lunch/Dinner"
           }
         ]
       }
     ],
-    "disableOrderInstruction": true,
-    "disableCheckoutInstruction": true,
+    "disableOrderInstruction": false,
+    "disableCheckoutInstruction": false,
     "nuggets": [],
     "isWithinDeliveryRange": true,
-    "slug": "taco-bell-1818-e-speedway-blvd",
-    "citySlug": "tucson",
-    "phoneNumber": "+15203211141",
-    "metaJson": "{\"@context\":\"http:\\u002F\\u002Fschema.org\",\"@type\":\"Restaurant\",\"@id\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Ftucson\\u002Ffood-delivery\\u002Ftaco-bell-1818-e-speedway-blvd\\u002FFt-I4KABTNSLSPDBA5f5BA\",\"name\":\"Taco Bell (1818 E. Speedway Blvd.)\",\"servesCuisine\":[\"Burritos\",\"Fast Food\",\"Mexican\"],\"priceRange\":\"$\",\"image\":[\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fac432beb-e462-4078-81a0-5351e8f3b970.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F90b58466-2aae-448e-87e0-216e8d3b3c50.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F5ecb0763-02bd-4d75-9461-c8eb7d7de804.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F385c1cfd-01cc-46ee-a651-ce8071c52c98.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F266436a5-6693-403b-a52c-fed4f55632e1.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Ff07ce1a3-4b2d-4e46-b489-7406f0ce08af.jpeg\"],\"potentialAction\":{\"@type\":\"OrderAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Ftucson\\u002Ffood-delivery\\u002Ftaco-bell-1818-e-speedway-blvd\\u002FFt-I4KABTNSLSPDBA5f5BA?utm_campaign=order-action&amp;utm_medium=organic\",\"inLanguage\":\"English\",\"actionPlatform\":[\"http:\\u002F\\u002Fschema.org\\u002FDesktopWebPlatform\",\"http:\\u002F\\u002Fschema.org\\u002FMobileWebPlatform\"]},\"deliveryMethod\":[\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModeOwnFleet\"]},\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Tucson\",\"addressRegion\":\"AZ\",\"postalCode\":\"85719\",\"addressCountry\":\"US\",\"streetAddress\":\"1818 E. Speedway Blvd.\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":32.2355917,\"longitude\":-110.9446165},\"telephone\":\"+15203211141\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":4.4,\"reviewCount\":\"100\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\"],\"opens\":\"14:0\",\"closes\":\"17:0\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\"],\"opens\":\"9:0\",\"closes\":\"2:30\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\"],\"opens\":\"7:0\",\"closes\":\"10:30\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Thursday\",\"Friday\",\"Saturday\"],\"opens\":\"14:0\",\"closes\":\"17:0\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Thursday\",\"Friday\",\"Saturday\"],\"opens\":\"7:0\",\"closes\":\"10:30\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Thursday\",\"Friday\",\"Saturday\"],\"opens\":\"9:0\",\"closes\":\"3:30\"}]}",
-    "promoTrackings": [
-      {
-        "promotionUuid": "815b2407-5699-417f-9615-291e415140aa",
-        "promoPillMessage": {
-          "backgroundColor": "",
-          "iconColor": "",
-          "iconUrl": "",
-          "text": "Spend $15 for a $0 delivery fee",
-          "textColor": "",
-          "textFormat": "",
-          "additionalText": "",
-          "accessibilityText": ""
-        },
-        "shouldAutoApply": false,
-        "discountInfo": null,
-        "constraints": null,
-        "minBasketSizeConstraintInDecimal": null,
-        "isMinBasketPromo": false
-      }
-    ],
+    "slug": "halcyon-coffee-bar-&-lounge-austin-downtown",
+    "citySlug": "austin",
+    "phoneNumber": "+15124729637",
+    "metaJson": "{\"@context\":\"http:\\u002F\\u002Fschema.org\",\"@type\":\"Restaurant\",\"@id\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Faustin\\u002Ffood-delivery\\u002Fhalcyon-coffee-bar-%26-lounge-austin-downtown\\u002F2TEjq4i3RLuWB4MXKMdZzw\",\"name\":\"Halcyon Coffee, Bar &amp; Lounge (Austin Downtown)\",\"servesCuisine\":[\"American\",\"Breakfast and Brunch\",\"Desserts\",\"Local Eats\"],\"priceRange\":\"$\",\"image\":[\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F88c67d12-a36e-4123-8f04-aa0e86e994e0.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fa5432432-f88a-4858-b021-aac98dcfd9d9.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F3d395e61-c8d5-4cee-b275-f7ddbc809855.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Faa1b6d0a-ffc8-4713-ba46-a44d7c98f275.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F427f7288-ad5c-4e32-9bec-c36eb85bbdaa.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F9218fb72-7163-4035-a8d1-d829c9b84640.jpeg\"],\"potentialAction\":{\"@type\":\"OrderAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Faustin\\u002Ffood-delivery\\u002Fhalcyon-coffee-bar-%26-lounge-austin-downtown\\u002F2TEjq4i3RLuWB4MXKMdZzw?utm_campaign=order-action&amp;utm_medium=organic\",\"inLanguage\":\"English\",\"actionPlatform\":[\"http:\\u002F\\u002Fschema.org\\u002FDesktopWebPlatform\",\"http:\\u002F\\u002Fschema.org\\u002FMobileWebPlatform\"]},\"deliveryMethod\":[\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModeOwnFleet\",\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModePickUp\"]},\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Austin\",\"addressRegion\":\"TX\",\"postalCode\":\"78701\",\"addressCountry\":\"US\",\"streetAddress\":\"218 W 4th St\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":30.2669671,\"longitude\":-97.7456713},\"telephone\":\"+15124729637\",\"aggregateRating\":{},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"8:0\",\"closes\":\"2:0\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"8:0\",\"closes\":\"11:0\"}]}",
+    "promoTrackings": [],
     "suggestedPromotion": {
-      "text": "$0 Delivery Fee (Spend $15)",
-      "promotionUuid": "815b2407-5699-417f-9615-291e415140aa"
+      "text": "",
+      "promotionUuid": ""
     },
     "supportedDiningModes": [
       {
         "mode": "DELIVERY",
         "title": "Delivery",
         "isSelected": true,
+        "isAvailable": true
+      },
+      {
+        "mode": "PICKUP",
+        "title": "Pickup",
+        "isSelected": false,
         "isAvailable": true
       }
     ],
@@ -3804,16 +4248,15 @@
         "promoUuid": null
       }
     },
-    "rating": {
-      "ratingValue": 4.4,
-      "reviewCount": "100+"
-    },
-    "menuUUID": "16df88e0-a001-4cd4-8b48-f0c10397f904",
+    "rating": null,
+    "menuUUID": "d93123ab-88b7-44bb-9607-831728c759cf",
     "hasMultipleMenus": false,
-    "isChain": true,
+    "isChain": false,
     "specialInstructionHintText": "Add a note (extra sauce, no onions, etc.)",
     "shouldRenderAllItems": true,
-    "optoutRestaurantExperiments": null,
+    "optoutRestaurantExperiments": {
+      "optoutMenuExperiments": null
+    },
     "adaptedDeliveryHoursInfos": {
       "dates": [
         "2021-02-06",
@@ -3826,74 +4269,6 @@
       ],
       "timeRanges": {
         "2021-02-06": [
-          {
-            "startTime": 1020,
-            "endTime": 1050
-          },
-          {
-            "startTime": 1035,
-            "endTime": 1065
-          },
-          {
-            "startTime": 1050,
-            "endTime": 1080
-          },
-          {
-            "startTime": 1065,
-            "endTime": 1095
-          },
-          {
-            "startTime": 1080,
-            "endTime": 1110
-          },
-          {
-            "startTime": 1095,
-            "endTime": 1125
-          },
-          {
-            "startTime": 1110,
-            "endTime": 1140
-          },
-          {
-            "startTime": 1125,
-            "endTime": 1155
-          },
-          {
-            "startTime": 1140,
-            "endTime": 1170
-          },
-          {
-            "startTime": 1155,
-            "endTime": 1185
-          },
-          {
-            "startTime": 1170,
-            "endTime": 1200
-          },
-          {
-            "startTime": 1185,
-            "endTime": 1215
-          },
-          {
-            "startTime": 1200,
-            "endTime": 1230
-          },
-          {
-            "startTime": 1215,
-            "endTime": 1245
-          },
-          {
-            "startTime": 1230,
-            "endTime": 1260
-          },
-          {
-            "startTime": 1245,
-            "endTime": 1275
-          },
-          {
-            "startTime": 1260,
-            "endTime": 1290
-          },
           {
             "startTime": 1275,
             "endTime": 1305
@@ -3967,46 +4342,6 @@
           {
             "startTime": 105,
             "endTime": 135
-          },
-          {
-            "startTime": 120,
-            "endTime": 150
-          },
-          {
-            "startTime": 135,
-            "endTime": 165
-          },
-          {
-            "startTime": 150,
-            "endTime": 180
-          },
-          {
-            "startTime": 165,
-            "endTime": 195
-          },
-          {
-            "startTime": 180,
-            "endTime": 210
-          },
-          {
-            "startTime": 195,
-            "endTime": 225
-          },
-          {
-            "startTime": 480,
-            "endTime": 510
-          },
-          {
-            "startTime": 495,
-            "endTime": 525
-          },
-          {
-            "startTime": 510,
-            "endTime": 540
-          },
-          {
-            "startTime": 525,
-            "endTime": 555
           },
           {
             "startTime": 540,
@@ -4279,30 +4614,6 @@
             "endTime": 135
           },
           {
-            "startTime": 120,
-            "endTime": 150
-          },
-          {
-            "startTime": 135,
-            "endTime": 165
-          },
-          {
-            "startTime": 480,
-            "endTime": 510
-          },
-          {
-            "startTime": 495,
-            "endTime": 525
-          },
-          {
-            "startTime": 510,
-            "endTime": 540
-          },
-          {
-            "startTime": 525,
-            "endTime": 555
-          },
-          {
             "startTime": 540,
             "endTime": 570
           },
@@ -4571,30 +4882,6 @@
           {
             "startTime": 105,
             "endTime": 135
-          },
-          {
-            "startTime": 120,
-            "endTime": 150
-          },
-          {
-            "startTime": 135,
-            "endTime": 165
-          },
-          {
-            "startTime": 480,
-            "endTime": 510
-          },
-          {
-            "startTime": 495,
-            "endTime": 525
-          },
-          {
-            "startTime": 510,
-            "endTime": 540
-          },
-          {
-            "startTime": 525,
-            "endTime": 555
           },
           {
             "startTime": 540,
@@ -4867,30 +5154,6 @@
             "endTime": 135
           },
           {
-            "startTime": 120,
-            "endTime": 150
-          },
-          {
-            "startTime": 135,
-            "endTime": 165
-          },
-          {
-            "startTime": 480,
-            "endTime": 510
-          },
-          {
-            "startTime": 495,
-            "endTime": 525
-          },
-          {
-            "startTime": 510,
-            "endTime": 540
-          },
-          {
-            "startTime": 525,
-            "endTime": 555
-          },
-          {
             "startTime": 540,
             "endTime": 570
           },
@@ -5159,30 +5422,6 @@
           {
             "startTime": 105,
             "endTime": 135
-          },
-          {
-            "startTime": 120,
-            "endTime": 150
-          },
-          {
-            "startTime": 135,
-            "endTime": 165
-          },
-          {
-            "startTime": 480,
-            "endTime": 510
-          },
-          {
-            "startTime": 495,
-            "endTime": 525
-          },
-          {
-            "startTime": 510,
-            "endTime": 540
-          },
-          {
-            "startTime": 525,
-            "endTime": 555
           },
           {
             "startTime": 540,
@@ -5455,46 +5694,6 @@
             "endTime": 135
           },
           {
-            "startTime": 120,
-            "endTime": 150
-          },
-          {
-            "startTime": 135,
-            "endTime": 165
-          },
-          {
-            "startTime": 150,
-            "endTime": 180
-          },
-          {
-            "startTime": 165,
-            "endTime": 195
-          },
-          {
-            "startTime": 180,
-            "endTime": 210
-          },
-          {
-            "startTime": 195,
-            "endTime": 225
-          },
-          {
-            "startTime": 480,
-            "endTime": 510
-          },
-          {
-            "startTime": 495,
-            "endTime": 525
-          },
-          {
-            "startTime": 510,
-            "endTime": 540
-          },
-          {
-            "startTime": 525,
-            "endTime": 555
-          },
-          {
             "startTime": 540,
             "endTime": 570
           },
@@ -5736,8 +5935,8 @@
     },
     "eaterConsent": null,
     "seoMeta": {
-      "title": "Taco Bell (1818 E. Speedway Blvd.) Delivery | Tucson | Uber Eats",
-      "description": "Use your Uber account to order delivery from Taco Bell (1818 E. Speedway Blvd.) in Tucson. Browse the menu, view popular items, and track your order.",
+      "title": "Halcyon Coffee, Bar & Lounge (Austin Downtown) Delivery | Austin | Uber Eats",
+      "description": "Use your Uber account to order delivery from Halcyon Coffee, Bar & Lounge (Austin Downtown) in Austin. Browse the menu, view popular items, and track your order.",
       "content": ""
     }
   }
