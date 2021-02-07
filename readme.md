@@ -15,7 +15,7 @@ To run this app:
    $ docker-compose up --build
    ```
 
-Check your CONTAINER ID of the 'totalvery_web' IMAGE:
+Open the new terminal and check your CONTAINER ID of the __totalvery_web__ IMAGE:
    ```
    $ docker ps
    ```
