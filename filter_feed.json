@@ -1,415 +1,283 @@
 {
-  "latitude": 32.1831704,
-  "longitude": -110.9196485,
-  "data": [
-    {
-      "name": "McDonald's\u00ae (Speedway & Campbell)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/b53bbb9c-278f-4535-a1c1-8aaa9df1e91c.jpeg",
-        "rating": 4.6,
-        "categories": [
-          "American",
-          "Burgers",
-          "Fast Food"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "34ed2021-5c64-490f-b251-b3981944dbd9",
-              "delivery_fee": "$5.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Burger King (3485 East Ajo Way #9644)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/6619174b-637d-47c7-b98e-3eec895f4ff8.jpeg",
-        "rating": 0,
-        "categories": [
-          "American",
-          "burger",
-          "Fast Food",
-          "Family Meals"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "dd5b5093-3041-4edd-9917-c588045cd737",
-              "delivery_fee": "$2.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Taco Bell (3930 East 22nd Street)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/90b58466-2aae-448e-87e0-216e8d3b3c50.jpeg",
-        "rating": 4.5,
-        "categories": [
-          "Burritos",
-          "Fast Food",
-          "Mexican"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "582405e5-8f18-46f7-8f6e-eff76bab742b",
-              "delivery_fee": "$4.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Jack in the Box (3397 S 6th Ave)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/5d5d001b-d099-400b-8546-7cddd70d713a.jpeg",
-        "rating": 4.1,
-        "categories": [
-          "American",
-          "burger",
-          "Fast Food"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "94cbed62-93d3-4276-be65-eb8bd09e9fa0",
-              "delivery_fee": "$3.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Wienerschnitzel (1481 S Alvernon Way)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/e3316524-be3a-4cb6-a43d-60f4a0b61e0f.jpeg",
-        "rating": 4.7,
-        "categories": [
-          "Hot Dog",
-          "Sandwich",
-          "American",
-          "Fast Food"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "b2d61349-f40a-4f77-9107-9b0c9663db9a",
-              "delivery_fee": "$1.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Subway (2245 E Irvington Rd)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/3e13ab90-52a4-4254-b954-9dc0b8a326a0.jpeg",
-        "rating": 4.8,
-        "categories": [
-          "Fast Food",
-          "Sandwich",
-          "American"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "7f8fced3-68be-4ff0-bee0-ff16e247ee06",
-              "delivery_fee": "$4.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Popeyes Louisiana Kitchen (3060 North Campbell Avenue)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/7c21e574-6849-4def-9486-f593219127fa.jpeg",
-        "rating": 4.5,
-        "categories": [
-          "American",
-          "Fast Food",
-          "Southern",
-          "Wings",
-          "Family Meals",
-          "Family Friendly"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "5ab93499-a1a5-4386-8a41-f1aff5128aa9",
-              "delivery_fee": "$5.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Del Taco (840 E Broadway Blvd | 859)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/c76ef7b1-1a49-4009-a270-339d5b7fd2ea.jpeg",
-        "rating": 4.6,
-        "categories": [
-          "Fast Food",
-          "Mexican",
-          "Tacos"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "c8a39ffe-1ea0-4b2c-8117-59a9d5da4227",
-              "delivery_fee": "$5.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Wendy's  (3535 E. IRVINGTON ROAD)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/448b48fe-c8b9-4224-8bc4-cccca65bac0b.jpeg",
-        "rating": 4.5,
-        "categories": [
-          "American",
-          "Burgers",
-          "Fast Food"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "dfd03f82-8de8-49b7-89ea-112ec62e3501",
-              "delivery_fee": "$4.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Jack in the Box (3749 S Mission Rd)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/5d5d001b-d099-400b-8546-7cddd70d713a.jpeg",
-        "rating": 4.2,
-        "categories": [
-          "American",
-          "burger",
-          "Fast Food"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "9b376e21-d203-4732-bbe6-b67cc82b9fdf",
-              "delivery_fee": "$4.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Wienerschnitzel (5765 E Broadway Blvd)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/e3316524-be3a-4cb6-a43d-60f4a0b61e0f.jpeg",
-        "rating": 3.8,
-        "categories": [
-          "Hot Dog",
-          "Sandwich",
-          "American",
-          "Fast Food"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "548fc459-dde5-4436-8bbc-c524aa40b9b0",
-              "delivery_fee": "$3.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Subway (6320 E Golf Links Rd)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/ea3278cc-d242-4edc-972f-79933b69e379.jpeg",
-        "rating": 4.4,
-        "categories": [
-          "Fast Food",
-          "Sandwich",
-          "American"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "45e3e3d4-762a-421e-8a9b-bbe5523fda0f",
-              "delivery_fee": "$6.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Taco Bell (1620 W Valencia Rd)",
-      "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/90b58466-2aae-448e-87e0-216e8d3b3c50.jpeg",
-        "rating": 3.8,
-        "categories": [
-          "Burritos",
-          "Fast Food",
-          "Mexican"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": true,
-              "id": "be1ab2ca-ff2e-4c9b-90ed-6e5ea04f6ee2",
-              "delivery_fee": "$7.49 Delivery Fee"
-            },
-            "doordash": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
+  "_id": "601f72011dd8c75b6b884ce9",
+  "latitude": 32.30994070000001,
+  "longitude": -110.9116039,
+  "data": [],
+  "DoordashOffer": {
+    "totalDeals": 50,
+    "data": {
+      "171134": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "207676": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $20."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $10, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "170384": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        }
+      ],
+      "1028342": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "199111": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "674307": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1213822": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1381978": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "862671": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "529969": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1079933": [
+        {
+          "title": "15% off, up to $4",
+          "description": "15% off orders over $20, up to $4."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $20."
+        }
+      ],
+      "1051517": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1199019": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1388112": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1236963": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "631111": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1134674": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1108127": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1335945": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "932777": [
+        {
+          "title": "$8 off",
+          "description": "$8 off orders over $40."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1451889": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1340576": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "901667": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1119214": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1119157": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1108123": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "512593": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1481850": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1178634": [
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "1113031": [
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "307062": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "167178": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1124177": [
+        {
+          "title": "$8 off",
+          "description": "$8 off orders over $55."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "171693": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "293412": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $20, up to $5."
+        }
+      ],
+      "660258": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ]
     }
-  ]
+  }
 }

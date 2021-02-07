@@ -182,7 +182,7 @@ class AddressSearch extends React.Component {
               justifyContent:"left",
               fontSize: "20px",
               fontStyle:"italic",
-              fontColor:"grey",
+              color:"#CDCDCD",
               fontFamily: "Exo",
             }}
           >
@@ -192,18 +192,18 @@ class AddressSearch extends React.Component {
           <div
             style={{
               position: "absolute",
-              top: 760,
+              top: 770,
               justifyContent: "center",
               alignItems: "center",
   
             }}
           >
-            <Button filter="Fast Food" onClick = {()=>this.handleCateogry("Fast Food")}  style={{fontSize: "30px",fontFamily:"Exo",margin:"20px"}}>Quick</Button>
-            <Button filter="Local Eats" onClick = {()=>this.handleCateogry("Local Eats")}  style={{fontSize: "30px",fontFamily:"Exo",margin:"20px"}}>Local</Button>
-            <Button filter="Healthy" onClick = {()=>this.handleCateogry("Healthy")}  style={{fontSize: "30px",fontFamily:"Exo",margin:"20px"}}>Healthy</Button>
-            <Button filter="Vegan" onClick = {()=>this.handleCateogry("Vegan")}  style={{fontSize: "30px",fontFamily:"Exo",margin:"20px"}}>Vegan</Button>
-            <Button filter="Desserts" onClick = {()=>this.handleCateogry("Dessert")}  style={{fontSize: "30px",fontFamily:"Exo",margin:"20px"}}>Sweet</Button>
-            <Button filter="All" onClick = {this.handleAll} style={{fontSize: "30px",fontFamily:"Exo",margin:"20px"}}>Anything</Button>
+            <Button filter="Fast Food" onClick = {()=>this.handleCateogry("Fast Food")}  style={{fontSize: "30px",fontFamily:"Exo",margin:"20px",backgroundColor:"#fbc687"}}>Quick</Button>
+            <Button filter="Local Eats" onClick = {()=>this.handleCateogry("Local Eats")}  style={{fontSize: "30px",fontFamily:"Exo",margin:"20px",backgroundColor:"#fbc687"}}>Local</Button>
+            <Button filter="Healthy" onClick = {()=>this.handleCateogry("Healthy")}  style={{fontSize: "30px",fontFamily:"Exo",margin:"20px",backgroundColor:"#fbc687"}}>Healthy</Button>
+            <Button filter="Desserts" onClick = {()=>this.handleCateogry("Dessert")}  style={{fontSize: "30px",fontFamily:"Exo",margin:"20px",backgroundColor:"#fbc687"}}>Sweet</Button>
+            <Button filter="Vegan" onClick = {()=>this.handleCateogry("Vegan")}  style={{fontSize: "30px",fontFamily:"Exo",margin:"20px",backgroundColor:"#fbc687"}}>Vegan</Button>
+            <Button filter="All" onClick = {this.handleAll} style={{fontSize: "30px",fontFamily:"Exo",margin:"20px",backgroundColor:"#fbc687"}}>Anything</Button>
       
         </div>
 
