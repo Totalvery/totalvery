@@ -102,7 +102,7 @@ class AddressSearch extends React.Component {
             style={{
               position: "fixed",
               top: "55%",
-              left: "46.5%",
+              left: "48%",
               fontFamily: "Philosopher",
             }}
           >
