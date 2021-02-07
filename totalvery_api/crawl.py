@@ -22,11 +22,9 @@ from pymongo import MongoClient
 from bson import json_util
 import json
 from bson import ObjectId
-from totalvery_api.delivery_services.crawler import UbereatsCrawler, DoordashCrawler, GrubhubCrawler
+from totalvery_api.delivery_services.crawler import UbereatsCrawler, DoordashCrawler, GrubhubCrawler, FilterFeed
 import os
-from dotenv import load_dotenv, find_dotenv
 
-from pathlib import Path  # Python 3.6+ only
 from totalvery.settings import DATABASE_URI
 import config
 
@@ -54,7 +52,7 @@ def stores_feed(request):
 
         cluster = MongoClient(config.MONGO_URI)
         db = cluster["totalvery"]
-        db.users.remove({})  # removing the existing data - > for test sake
+        #db.users.remove({})  # removing the existing data - > for test sake
         collection = db["totalvery"]  # mini database
         query = {
             'latitude': lat,
@@ -96,6 +94,39 @@ def stores_feed(request):
     else:
         return Response(status=status.HTTP_400_BAD_REQUEST)
 
+
+@csrf_exempt
+@api_view(['POST'])
+def stores_feed_filter(request):
+    if request.method == 'POST':
+        param= request.data['param']
+        lat = request.data['lat']
+        lon = request.data['lon']
+        cluster = MongoClient(config.MONGO_URI)
+        db = cluster["totalvery"]
+        #db.users.remove({})  # removing the existing data - > for test sake
+        collection = db["totalvery"]  # mini database
+        query = {
+            'latitude': lat,
+            'longitude': lon
+        }
+
+        data_list = collection.find(query)
+        #when total_feed file does not exist 
+        if(data_list.count() > 0):  
+            cursor = collection.find_one(query)
+            # Converting cursor to the list  of dictionaries
+            total_feed = json_util.loads(
+                json_util.dumps(cursor, default="str"))
+            total_feed = JSONEncoder().encode(total_feed)
+            #write total_feed by extracting it from the database
+            with open('total_feed.json', mode='w') as f:
+                f.write(total_feed)
+        #filter based on the total_feed file 
+        filtered_feed = FilterFeed().filter(param)
+        return Response(filtered_feed, status=status.HTTP_201_CREATED)
+    else:
+        return Response(status=status.HTTP_400_BAD_REQUEST)
 
 def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False, Grubhub=False, cart_size=20.00):
     '''

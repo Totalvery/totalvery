@@ -13,6 +13,25 @@ from collections import defaultdict
 import cloudscraper
 
 
+
+class FilterFeed:
+    def __init__(self):
+        self.param =""
+    def filter(self,param):
+        self.param = param
+        f = open('total_feed.json',) 
+        dictionary = json.load(f)
+        if type(dictionary) is dict:
+            stores = dictionary['data']
+        filter =param
+        matchingElements = [d for d in stores if filter in d.get('data',{}).get('categories')]
+
+        dictionary['data'] = matchingElements
+        with open('filter_feed.json', mode='w') as f:
+            f.write(json.dumps(dictionary, indent=2))
+        return json.dumps(dictionary)
+
+
 class UbereatsCrawler:
 
     def __init__(self):
@@ -197,8 +216,7 @@ class UbereatsCrawler:
                     restaurantId = key
                     store_name = dict_stores[key]['title']
                     store_img = dict_stores[key]['heroImageUrl']
-                    # if(store_img ==""):
-                    #     store_img = "../no-image.png"
+                    categories = dict_stores[key]['meta']['categories']
                     if(dict_stores[key]['feedback'] != None):
                         store_rating = dict_stores[key]['feedback']['rating']
                     else:
@@ -214,6 +232,7 @@ class UbereatsCrawler:
                         'data': {
                             'image': store_img,
                             'rating': store_rating,
+                            'categories':categories,
                             'platform': [{
 
                                 'ubereats': {
@@ -342,11 +361,15 @@ class DoordashCrawler:
                     store_img = store_data['headerImgUrl']
                     store_rating = store_data['averageRating']
                     delivery_fee = store_data['deliveryFee']
+                    categories_str = store_data['description']
+                    categories = categories_str.split(", ")
+
                     a_dict = {
                         'name': store_name,
                         'data': {
                             'image': store_img,
                             'rating': store_rating,
+                            'categories':categories,
                             'platform': [{
                                 'ubereats': {
                                     'support': False,
@@ -560,11 +583,13 @@ class GrubhubCrawler:
                         delivery_fee = stores[i]['delivery_fee']['price']
                     else:
                         delivery_fee = -1  # when delivery is not available
+                    categories = stores[i]['cuisines']
                     a_dict = {
                         'name': store_name,
                         'data': {
                             'image': store_img,
                             'rating': store_rating,
+                            'categories':categories,
                             'platform': [{
                                 'ubereats': {
                                     'support': False,

@@ -20,6 +20,7 @@ function App() {
           <Switch>
             <Route path="/" component={MainHome} exact />
             <Route path="/search/:lat/:lng" component={AddressSearch} />
+
             <Route path="/googleApi" component={GoogleApi} />
             <Route path="/store" component={StoreDetail} />
             <Route path="/imgTest" component={ImgTest} />

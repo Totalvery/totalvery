@@ -1,0 +1,283 @@
+{
+  "_id": "601f72011dd8c75b6b884ce9",
+  "latitude": 32.30994070000001,
+  "longitude": -110.9116039,
+  "data": [],
+  "DoordashOffer": {
+    "totalDeals": 50,
+    "data": {
+      "171134": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "207676": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $20."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $10, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "170384": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        }
+      ],
+      "1028342": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "199111": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "674307": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1213822": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1381978": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "862671": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "529969": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1079933": [
+        {
+          "title": "15% off, up to $4",
+          "description": "15% off orders over $20, up to $4."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $20."
+        }
+      ],
+      "1051517": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1199019": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1388112": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1236963": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "631111": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1134674": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1108127": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1335945": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "932777": [
+        {
+          "title": "$8 off",
+          "description": "$8 off orders over $40."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1451889": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1340576": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "901667": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1119214": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1119157": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1108123": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "512593": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1481850": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1178634": [
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "1113031": [
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "307062": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "167178": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1124177": [
+        {
+          "title": "$8 off",
+          "description": "$8 off orders over $55."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "171693": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "293412": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $20, up to $5."
+        }
+      ],
+      "660258": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ]
+    }
+  }
+}
