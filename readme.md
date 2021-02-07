@@ -53,10 +53,10 @@ Then you can see the demo web page with your local computer:
 # Learning Outcomes
 
 - Coding with team
-- Using Docker to code in equal virtual environment
+- Using Docker to code in equal environments
 - Using React to build frontend
-- Using bootstraps for frontend design and development
-- Learning how to use Javascript and CSS
+- Using Bootstrap for frontend design and development
+- Learning how to use Javascript, HTML and CSS
 
 
 ## Author
