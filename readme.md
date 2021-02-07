@@ -50,6 +50,14 @@ Then you can see the demo web page with your local computer:
 ![Result7](assets/result7.png)
 ![Result8](assets/result8.png)
 
+# Learning Outcomes
+
+- Coding with team
+- Using Docker to code in equal virtual environment
+- Using React to build frontend
+- Using bootstraps for frontend design and development
+- Learning how to use Javascript and CSS
+
 
 ## Author
 

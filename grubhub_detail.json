@@ -243,10 +243,10 @@
       "catering": false
     },
     "next_open_closed_info": {
-      "next_order_send_time_delivery": "2021-02-07T03:09:08.100Z",
-      "next_order_send_time_pickup": "2021-02-07T03:09:08.100Z",
-      "next_delivery_time": "2021-02-07T03:54:08.100Z",
-      "next_pickup_time": "2021-02-07T03:39:08.100Z",
+      "next_order_send_time_delivery": "2021-02-07T04:45:39.530Z",
+      "next_order_send_time_pickup": "2021-02-07T04:45:39.530Z",
+      "next_delivery_time": "2021-02-07T05:30:39.530Z",
+      "next_pickup_time": "2021-02-07T05:15:39.530Z",
       "next_cutoff_order_send_time_delivery": "2021-02-07T06:40:00.000Z",
       "next_cutoff_order_send_time_pickup": "2021-02-07T05:00:00.000Z",
       "order_tiers": [
@@ -254,19 +254,19 @@
           "threshold_type": "ORDER_AMOUNT_CENTS",
           "threshold": 15000,
           "additional_prep_time_minutes": 20,
-          "next_delivery_time": "2021-02-07T04:14:08.100Z",
-          "next_order_send_time_delivery": "2021-02-07T03:09:08.100Z",
-          "next_pickup_time": "2021-02-07T03:59:08.100Z",
-          "next_order_send_time_pickup": "2021-02-07T03:09:08.100Z"
+          "next_delivery_time": "2021-02-07T05:50:39.530Z",
+          "next_order_send_time_delivery": "2021-02-07T04:45:39.530Z",
+          "next_pickup_time": "2021-02-07T05:35:39.530Z",
+          "next_order_send_time_pickup": "2021-02-07T04:45:39.530Z"
         },
         {
           "threshold_type": "ORDER_AMOUNT_CENTS",
           "threshold": 10000,
           "additional_prep_time_minutes": 20,
-          "next_delivery_time": "2021-02-07T04:14:08.100Z",
-          "next_order_send_time_delivery": "2021-02-07T03:09:08.100Z",
-          "next_pickup_time": "2021-02-07T03:59:08.100Z",
-          "next_order_send_time_pickup": "2021-02-07T03:09:08.100Z"
+          "next_delivery_time": "2021-02-07T05:50:39.530Z",
+          "next_order_send_time_delivery": "2021-02-07T04:45:39.530Z",
+          "next_pickup_time": "2021-02-07T05:35:39.530Z",
+          "next_order_send_time_pickup": "2021-02-07T04:45:39.530Z"
         }
       ]
     },
@@ -322,11 +322,11 @@
       "inundated": false
     },
     "contact_free_required": false,
+    "cutoff_for_delivery": false,
+    "cutoff_for_pickup": false,
     "blacked_out": false,
     "white_in": false,
-    "inundated": false,
-    "cutoff_for_delivery": false,
-    "cutoff_for_pickup": false
+    "inundated": false
   },
   "restaurant": {
     "id": "1409552",
