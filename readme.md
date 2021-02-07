@@ -31,14 +31,14 @@ It will be like this:
 
 Replace [CONTAINER ID] with the most top ID that you checked above:
    ```
-   docker exec -it [CONTAINER ID] python manage.py makemigrations
-   docker exec -it [CONTAINER ID] python manage.py migrate
+   $ docker exec -it [CONTAINER ID] python manage.py makemigrations
+   $ docker exec -it [CONTAINER ID] python manage.py migrate
    ```
 
 For exeample:
    ```
-   docker exec -it 7468f0fe33d5 python manage.py makemigrations
-   docker exec -it 7468f0fe33d5 python manage.py migrate
+   $ docker exec -it 7468f0fe33d5 python manage.py makemigrations
+   $ docker exec -it 7468f0fe33d5 python manage.py migrate
    ```
 
 Then you can see the demo web page with your local computer:
