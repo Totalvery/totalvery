@@ -38,7 +38,7 @@ function DoordashOffers({ items, fallback }) {
   } else {
     return items.map((item) => {
       let descrp = item.description;
-      if (descrp.includes("off orders over")){
+      if (!descrp.includes("up to") && descrp.includes("off orders over") ){
         const regexp = /\$[0-9]+(\.[0-9]{1,2})?/g;
         let money = (descrp).match(regexp);
         descrp = "Spend " + money[1] + ", Save " + money[0];
