@@ -24,7 +24,8 @@ class FilterFeed:
         if type(dictionary) is dict:
             stores = dictionary['data']
         filter =param
-        matchingElements = [d for d in stores if filter in d.get('data',{}).get('categories')]
+        if(len(stores)!= 0):
+            matchingElements = [d for d in stores if filter in d.get('data',{}).get('categories')]
 
         dictionary['data'] = matchingElements
         with open('filter_feed.json', mode='w') as f:
