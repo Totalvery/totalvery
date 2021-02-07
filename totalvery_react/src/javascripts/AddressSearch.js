@@ -94,7 +94,7 @@ class AddressSearch extends React.Component {
   handleAll(){
     const url = "http://127.0.0.1:8000/api/getFeed/";
     const data = {
-      location: this.state.location,
+      location: JSON.stringify(this.state.locCookie),
       lat: this.state.lat,
       lon: this.state.lng,
     };
