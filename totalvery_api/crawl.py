@@ -185,7 +185,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
 
         dic['rating']['ubereats'] = store_info['data']['rating']
 
-        if fee_dic:  # only if the store is open
+        if fee_dic and fee_dic != -1:  # only if the store is open
             dic['etaRange']['ubereats'] = fee_dic['etaRange']
             # ex) {'min': 20, 'max': 30}
 

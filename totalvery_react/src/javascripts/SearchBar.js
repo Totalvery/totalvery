@@ -172,7 +172,7 @@ class SearchBar extends Component {
   handleCookie = () => {
     const { cookies } = this.props;
     let locJson = null;
-    if (this.state.postal_code != "") {
+    if (this.state.postal_code !== "") {
       locJson = {
         address: {
           address1: this.state.street + " " + this.state.route,

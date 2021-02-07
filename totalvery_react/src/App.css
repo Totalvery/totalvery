@@ -320,11 +320,12 @@ a:hover {
   margin: 5px;
   padding: 1%;
   font-weight: bold;
-  background-color: #f6f5ee;
   width: 100%;
   max-width: 440px;
   display: inherit;
-  border-radius: 4em;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
 }
 
 .offer-wrapper {
@@ -351,6 +352,7 @@ a:hover {
   display: inline-block;
   align-self: center;
   padding-left: 3%;
+  font-family: system-ui;
 }
 
 #menu-title {
