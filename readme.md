@@ -16,6 +16,8 @@ _First of all, you need US IP because some apps where Totalvery crawls data in r
 To run this app:
 
    ```
+   $ git clone https://github.com/Totalvery/totalvery.git
+   $ cd totalvery
    $ docker-compose down -v
    $ docker-compose up --build
    ```
