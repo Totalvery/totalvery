@@ -38,9 +38,9 @@ function DoordashOffers({ items, fallback }) {
   } else {
     return items.map((item) => {
       let descrp = item.description;
-      if (!descrp.includes("up to") && descrp.includes("off orders over") ){
+      if (!descrp.includes("up to") && descrp.includes("off orders over")) {
         const regexp = /\$[0-9]+(\.[0-9]{1,2})?/g;
-        let money = (descrp).match(regexp);
+        let money = descrp.match(regexp);
         descrp = "Spend " + money[1] + ", Save " + money[0];
       }
       return (
@@ -64,11 +64,15 @@ function GrubhubOffers({ items, fallback }) {
       let title = item.title;
       let dp = "block";
       let descrp = item.description;
+      console.log(descrp);
       if (descrp === prev) {
         return "";
       }
       prev = descrp;
-      if (descrp.startsWith("Offer valid for orders of ")) {
+      if (
+        item.title.endsWith("$ off") &&
+        descrp.startsWith("Offer valid for orders of ")
+      ) {
         const regexp = /\$[0-9]+(\.[0-9]{1,2})?/g;
         let money = (item.title + item.description).match(regexp);
         dp = "none";
@@ -81,7 +85,7 @@ function GrubhubOffers({ items, fallback }) {
           </div>
           <div id="offer-description">
             <span id="offer-title" style={{ display: dp }}>
-              {title}
+              <b>{title}</b>
               <br></br>
             </span>
             {descrp}
@@ -453,10 +457,12 @@ class StoreDetail extends React.Component {
             </div>
           </div>
         </div>
-        <div className="offer-wrapper">
-          <UbereatsOffers items={this.state.offer.ubereats} fallback={""} />
-          <DoordashOffers items={ddCookie} fallback={""} />
-          <GrubhubOffers items={this.state.offer.grubhub} fallback={""} />
+        <div className="offer-container">
+          <div className="offer-wrapper">
+            <UbereatsOffers items={this.state.offer.ubereats} fallback={""} />
+            <DoordashOffers items={ddCookie} fallback={""} />
+            <GrubhubOffers items={this.state.offer.grubhub} fallback={""} />
+          </div>
         </div>
         {menuApp}
       </div>

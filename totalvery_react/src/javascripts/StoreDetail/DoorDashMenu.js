@@ -1,5 +1,5 @@
-import React, { useState, Suspense } from "react";
-import { Element, Link } from "react-scroll";
+import React from "react";
+import { Element } from "react-scroll";
 
 function CategoryElement({ items, fallback }) {
   if (!items || items.length === 0) {

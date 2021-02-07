@@ -52,7 +52,7 @@ def stores_feed(request):
 
         cluster = MongoClient(config.MONGO_URI)
         db = cluster["totalvery"]
-        #db.users.remove({})  # removing the existing data - > for test sake
+        # db.users.remove({})  # removing the existing data - > for test sake
         collection = db["totalvery"]  # mini database
         query = {
             'latitude': lat,
@@ -99,12 +99,12 @@ def stores_feed(request):
 @api_view(['POST'])
 def stores_feed_filter(request):
     if request.method == 'POST':
-        param= request.data['param']
+        param = request.data['param']
         lat = request.data['lat']
         lon = request.data['lon']
         cluster = MongoClient(config.MONGO_URI)
         db = cluster["totalvery"]
-        #db.users.remove({})  # removing the existing data - > for test sake
+        # db.users.remove({})  # removing the existing data - > for test sake
         collection = db["totalvery"]  # mini database
         query = {
             'latitude': lat,
@@ -112,21 +112,22 @@ def stores_feed_filter(request):
         }
 
         data_list = collection.find(query)
-        #when total_feed file does not exist 
-        if(data_list.count() > 0):  
+        # when total_feed file does not exist
+        if(data_list.count() > 0):
             cursor = collection.find_one(query)
             # Converting cursor to the list  of dictionaries
             total_feed = json_util.loads(
                 json_util.dumps(cursor, default="str"))
             total_feed = JSONEncoder().encode(total_feed)
-            #write total_feed by extracting it from the database
+            # write total_feed by extracting it from the database
             with open('total_feed.json', mode='w') as f:
                 f.write(total_feed)
-        #filter based on the total_feed file 
+        # filter based on the total_feed file
         filtered_feed = FilterFeed().filter(param)
         return Response(filtered_feed, status=status.HTTP_201_CREATED)
     else:
         return Response(status=status.HTTP_400_BAD_REQUEST)
+
 
 def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False, Grubhub=False, cart_size=20.00):
     '''
@@ -184,7 +185,7 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
 
         dic['rating']['ubereats'] = store_info['data']['rating']
 
-        if fee_dic:  # only if the store is open
+        if fee_dic and fee_dic != -1:  # only if the store is open
             dic['etaRange']['ubereats'] = fee_dic['etaRange']
             # ex) {'min': 20, 'max': 30}
 
@@ -226,9 +227,13 @@ def create_store_json(ID_dict, customer_location, Ubereats=False, Doordash=False
 
         if Ubereats == False or dic['isOpen']['ubereats'] == False:
             dic['representative'] = 'grubhub'
-            headerbackground = store_info['restaurant']['additional_media_images']['HEADER_BACKGROUND']
-            dic['heroImageUrl'] = headerbackground['base_url'] + \
-                headerbackground['public_id']
+            try:
+                headerbackground = store_info['restaurant']['additional_media_images']['HEADER_BACKGROUND']
+                dic['heroImageUrl'] = headerbackground['base_url'] + \
+                    headerbackground['public_id']
+            except:
+                dic['heroImageUrl'] = ""
+
             dic['title'] = store_info['restaurant']['name']
             location_dic["streetAddress"] = store_info['restaurant']['address']['street_address']
             location_dic["city"] = store_info['restaurant']['address']['locality']

@@ -80,7 +80,10 @@ class UbereatsCrawler:
                             self.customer_location = [store_json['data']['location']
                                                       ['latitude'], store_json['data']['location']['longitude']]
 
-        assert uuid != "", "No items available to add"
+        try:
+            assert uuid != "", "No items available to add"
+        except:
+            return -1
         return None
 
     def estimate_service_fee(self, session, restaurant_id, store_json, customer_location=None):
@@ -94,6 +97,9 @@ class UbereatsCrawler:
                                       ['latitude'], store_json['data']['location']['longitude']]
 
         response = self.add_cart(session, store_json, restaurant_id)
+
+        if response == -1:
+            return -1
 
         while True:
             try:

@@ -2,13 +2,6 @@
 
   Totalvery helps you compare the price, the estimated time of arrival, and offers between the top food delivery services such as UberEats, DoorDash, and GrubHub.
 
-## To-do
-
-- [x] Create a Totalvery API that returns a restaurant list around the user and the information of a restaurnat by aggregating data from all the delivery apps
-- [x] Connect a MongoDB
-- [x] Implement functionality to filter restaurants based on the user preference
-- [ ] Implement functionality to enable users to link their account with UberEats, Doordash and GrubHub, which helps Totalvery provide more reliable information about estimated fees
-
 ## Instruction
 
 _First of all, you need a __US IP__ because some apps where Totalvery crawls data in real-time may not be available in your country other than the US. You can set a US IP with VPN. Then, you have to install __Docker__ in order to build the environment._
@@ -22,7 +15,7 @@ To run this app:
    $ docker-compose up --build
    ```
 
-Check your CONTAINER ID of the 'totalvery_web' IMAGE:
+Open the new terminal and check your CONTAINER ID of the __totalvery_web__ IMAGE:
    ```
    $ docker ps
    ```
@@ -38,14 +31,14 @@ It will be like this:
 
 Replace [CONTAINER ID] with the most top ID that you checked above:
    ```
-   docker exec -it [CONTAINER ID] python manage.py makemigrations
-   docker exec -it [CONTAINER ID] python manage.py migrate
+   $ docker exec -it [CONTAINER ID] python manage.py makemigrations
+   $ docker exec -it [CONTAINER ID] python manage.py migrate
    ```
 
 For exeample:
    ```
-   docker exec -it 7468f0fe33d5 python manage.py makemigrations
-   docker exec -it 7468f0fe33d5 python manage.py migrate
+   $ docker exec -it 7468f0fe33d5 python manage.py makemigrations
+   $ docker exec -it 7468f0fe33d5 python manage.py migrate
    ```
 
 Then you can see the demo web page with your local computer:
@@ -86,10 +79,17 @@ Then you can see the demo web page with your local computer:
 - Using React to build frontend
 - Using Bootstrap for frontend design and development
 - Learning how to use Javascript, HTML and CSS
-- Learning how to use the Python Requests libary to get information 
 - Using Django REST Framework to build API 
 - Connecting MongoDB with Django for better performance 
-- Using Python Requests library to send query and get data from external websites or APIs
+- Using Python Requests library to send query and fetch data from external websites or APIs
+
+## To-do
+
+- [x] Create a Totalvery API that returns a restaurant list around the user and the information of a restaurnat by aggregating data from all the delivery apps
+- [x] Connect a MongoDB
+- [x] Implement functionality to filter restaurants based on the user preference
+- [ ] Function that enable users adjust their expected cart size
+- [ ] Implement functionality to enable users to link their account with UberEats, Doordash and GrubHub, which helps Totalvery provide more reliable information about estimated fees
 
 ## Author
 
