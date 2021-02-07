@@ -37,12 +37,18 @@ function DoordashOffers({ items, fallback }) {
     return fallback;
   } else {
     return items.map((item) => {
+      let descrp = item.description;
+      if (descrp.includes("off orders over")){
+        const regexp = /\$[0-9]+(\.[0-9]{1,2})?/g;
+        let money = (descrp).match(regexp);
+        descrp = "Spend " + money[1] + ", Save " + money[0];
+      }
       return (
         <div id="offer-block">
           <div id="logo-wrapper">
             <img id="logo" src={doordash_logo}></img>
           </div>
-          <div id="offer-description">{item.description}</div>
+          <div id="offer-description">{descrp}</div>
         </div>
       );
     });

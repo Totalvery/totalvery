@@ -2,6 +2,7 @@
   "status": "success",
   "data": {
     "sectionEntitiesMap": {
+<<<<<<< HEAD
       "faf18f24-616f-5dae-b27f-a65503d77422": {
         "d164c3b8-ac5d-5063-96f6-8185606ae2cc": {
           "description": "Limit of 2",
@@ -4875,6 +4876,15 @@
           "price": 219,
           "title": "Caramel Sundae",
           "uuid": "155667d0-20a9-5593-8393-a56d3599864a",
+=======
+      "b02d4bba-4a36-540f-a0dc-46ba3c844361": {
+        "bc1596d1-6791-50e2-8cc6-307b267f8922": {
+          "description": "Treat yourself to a tour of meat with any three different meat selections. Served with choice of two sides and a Corn Bread Muffin.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/c7e46113-53d8-4d3f-8411-2caf56502487.png",
+          "price": 2420,
+          "title": "3 Meat Combo",
+          "uuid": "bc1596d1-6791-50e2-8cc6-307b267f8922",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "340 Cal."
@@ -4888,12 +4898,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "b2e44cff-d5bd-5351-85e8-ca4d371bd0bf": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/02a6d87b-577d-4cb5-a615-fa270926a27e.jpeg",
           "price": 379,
           "title": "Medium Caramel Frapp\u00e9",
           "uuid": "b2e44cff-d5bd-5351-85e8-ca4d371bd0bf",
+=======
+        "014191ef-91c9-5166-b052-f54744f0e488": {
+          "description": "",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/23728f08-d419-4118-904c-9838b97f866e.png",
+          "price": 440,
+          "title": "Seasonings and Rubs",
+          "uuid": "014191ef-91c9-5166-b052-f54744f0e488",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "510 Cal."
@@ -4907,12 +4926,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "95cb11d3-dea0-57ff-badb-c478b0ef5d7e": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/8699f52f-f8b0-437c-9571-da4b8a2efbc7.jpeg",
           "price": 100,
           "title": "Medium Powerade\u00ae",
           "uuid": "95cb11d3-dea0-57ff-badb-c478b0ef5d7e",
+=======
+        "87121502-4557-5163-a6db-505c8d759670": {
+          "description": "Our award-winning spareribs plus your choice of any one meat selection.  Served with choice of two sides and a Corn Bread Muffin.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/276fce94-4d77-4d72-b79d-fedd3b88cdf2.png",
+          "price": 2090,
+          "title": "St. Louis Rib-N-Meat ",
+          "uuid": "87121502-4557-5163-a6db-505c8d759670",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "120 Cal."
@@ -4926,12 +4954,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "4f15fdbf-a00f-5f1d-98b5-d5d05e4a3f78": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/4658617f-7afc-4e22-8c76-a858c6327038.jpeg",
           "price": 379,
           "title": "Medium Caramel Cappuccino",
           "uuid": "4f15fdbf-a00f-5f1d-98b5-d5d05e4a3f78",
+=======
+        "a573d438-c84b-5cc2-ba88-d2af2afe90f4": {
+          "description": "",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/b9cae02d-3649-4e39-a63b-a8cc6e09e9c7.png",
+          "price": 440,
+          "title": "Seasonings and Rubs",
+          "uuid": "a573d438-c84b-5cc2-ba88-d2af2afe90f4",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "260 Cal."
@@ -4945,12 +4982,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "8ea40448-54ec-5d8f-bc81-ae1a81259ba4": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/a8304665-f568-46d4-ab02-afdd45e5fedf.jpeg",
           "price": 239,
           "title": "Medium Minute Maid\u00ae Orange Juice",
           "uuid": "8ea40448-54ec-5d8f-bc81-ae1a81259ba4",
+=======
+        "34e67acf-86da-5bd5-b775-c3041122bb35": {
+          "description": "Piled high with hand-seasoned, oak-smoked Texas Beef Brisket. \r\n\r\nServed with choice of 1 side and spicy Hell-Fire Pickles.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/8d5dd9a9-ff6d-4784-b597-e519a4518c26.png",
+          "price": 1430,
+          "title": "Texas Beef Brisket Sandwich",
+          "uuid": "34e67acf-86da-5bd5-b775-c3041122bb35",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "200 Cal."
@@ -4964,12 +5010,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "254a98fe-f77c-51ab-83e2-8402fd3fad66": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/b5ef6902-fdb1-4b90-962e-c9a3c9fd93da.jpeg",
           "price": 529,
           "title": "10 Piece McNuggets",
           "uuid": "254a98fe-f77c-51ab-83e2-8402fd3fad66",
+=======
+        "13d77c40-d14d-52cc-9028-0a98a21fc73b": {
+          "description": "Per pound selections of our famous meats.\r\n\r\nPrices vary based upon meat selection.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/032b4300-de5b-428e-a082-e5968f2337e4.png",
+          "price": 550,
+          "title": "Meats by the Pound",
+          "uuid": "13d77c40-d14d-52cc-9028-0a98a21fc73b",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "420 Cal."
@@ -4983,12 +5038,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "a21f70e4-61b5-5454-bede-79751d3a2944": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/ad3ae79d-f90e-486e-b97b-1be8fd355eb5.jpeg",
           "price": 489,
           "title": "Hot and Spicy McChicken Meal",
           "uuid": "a21f70e4-61b5-5454-bede-79751d3a2944",
+=======
+        "c0e80de2-db63-562b-9592-b801dbefbac6": {
+          "description": "Crisp tortilla chips topped with cheddar cheese sauce, Wilbur Beans and your choice of Texas Beef Brisket, Georgia Chopped Pork or BBQ Pulled Chicken. Garnished with lettuce, tomato, jalape\u00f1os, seasoned sour cream and Rich & Sassy\u00ae.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/b5883d07-054f-47f3-abb1-4be40f743ffd.png",
+          "price": 1265,
+          "title": "BBQ Nachos ",
+          "uuid": "c0e80de2-db63-562b-9592-b801dbefbac6",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "380 - 960 Cal."
@@ -5002,12 +5066,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "bc85686b-b4a0-53b7-b0ea-d40d0bc98bc3": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/32548ced-b7ba-422f-98ce-4a56b676a823.jpeg",
           "price": 379,
           "title": "Medium Sugar Free Vanilla latte",
           "uuid": "bc85686b-b4a0-53b7-b0ea-d40d0bc98bc3",
+=======
+        "0e17f549-3615-5073-8e7d-72eb6712b072": {
+          "description": "Lemon-pepper marinated chicken, roasted and char-grilled to perfection. \r\n\r\nServed with choice of one side, or carrots and celery, plus OREO Cookies and a fountain beverage or milk. ",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/4285aaa3-e224-4f61-81e3-9e4bf7e76cd2.png",
+          "price": 550,
+          "title": "Kid's Country-Roasted Chicken",
+          "uuid": "0e17f549-3615-5073-8e7d-72eb6712b072",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "220 Cal."
@@ -5021,12 +5094,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "cafae61d-77ee-545e-840e-83c918445954": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/0e13601e-4b36-4992-8859-3d74802695ef.jpeg",
           "price": 729,
           "title": "Double Quarter Pounder with Cheese",
           "uuid": "cafae61d-77ee-545e-840e-83c918445954",
+=======
+        "a0ad7ba1-dbba-5c99-b576-60fb2d69b0cf": {
+          "description": "Generous helpings of St. Louis-Style Spareribs, Country-Roasted Chicken, choice of Texas Beef Brisket or Georgia Chopped Pork, plus Creamy Coleslaw, Famous Fries, Wilbur Beans, Sweet Corn and Corn Bread Muffins. Served family-style for 2-3 people.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/77eb70c5-b38d-4244-98bd-babaa944a707.png",
+          "price": 4620,
+          "title": "Feast for Two ",
+          "uuid": "a0ad7ba1-dbba-5c99-b576-60fb2d69b0cf",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "720 Cal."
@@ -5040,12 +5122,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "3952555b-5e3f-5737-9fd9-9584eaaddd93": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/1d8d5a78-b4c1-4037-91bf-b392affc4dca.jpeg",
           "price": 879,
           "title": "Filet O Fish Meal",
           "uuid": "3952555b-5e3f-5737-9fd9-9584eaaddd93",
+=======
+        "0525be1e-1473-5047-a381-50f1bcfd0e88": {
+          "description": "Tender pieces of Texas Beef Brisket seared and caramelized with Sweet & Zesty\u00ae BBQ sauce. \r\n\r\nServed with choice of one side and spicy Hell-Fire Pickles.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/acea615c-11d8-4d23-85d8-7c3c3ce15522.png",
+          "price": 1320,
+          "title": "Burnt Ends Sandwich",
+          "uuid": "0525be1e-1473-5047-a381-50f1bcfd0e88",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "410 - 970 Cal."
@@ -5059,12 +5150,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "84c41e1f-7b7f-5bcc-b64b-86b657e4bf31": {
           "description": "Limit of 2",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/05cfdc25-e9d7-45d3-8908-88666a966c6f.jpeg",
           "price": 0,
           "title": "Lite Mayo Packet",
           "uuid": "84c41e1f-7b7f-5bcc-b64b-86b657e4bf31",
+=======
+        "4e46be15-9660-5b40-bb0f-4a5e577a3381": {
+          "description": "Hand-rubbed with Dave\u2019s secret blend of special spices and pit-smoked for 3-4 hours over a smoldering hickory fire. Then slathered with sauce over an open flame to seal in the Famous flavor and give them a crispy, caramelized coating.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/d65f8b36-f6ea-479d-a4c7-0a7ef7ea2b8a.png",
+          "price": 1430,
+          "title": "St. Louis-Style Spareribs",
+          "uuid": "4e46be15-9660-5b40-bb0f-4a5e577a3381",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "40 Cal."
@@ -5078,12 +5178,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "081cb35d-0356-5b04-bcb6-d113e9f3b3ba": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/65895950-79fb-4d65-a578-96dfae789e39.jpeg",
           "price": 289,
           "title": "Medium Caramel Hot Chocolate",
           "uuid": "081cb35d-0356-5b04-bcb6-d113e9f3b3ba",
+=======
+        "1861d126-1190-5285-952c-e9b40bf73d48": {
+          "description": "Extra portions of your favorite sides.\r\n\r\nPrices vary based on selection.\r\n",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/9658c0e9-6ff3-4f60-a68c-02eeb4df6303.jpeg",
+          "price": 310,
+          "title": "Individual Sides",
+          "uuid": "1861d126-1190-5285-952c-e9b40bf73d48",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "420 Cal."
@@ -5097,12 +5206,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "f0b26139-edbd-5208-8eef-88304296d375": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/7a407526-27bf-4cc7-80b8-0bea30a5f520.jpeg",
           "price": 619,
           "title": "6 Piece McNuggets Meal",
           "uuid": "f0b26139-edbd-5208-8eef-88304296d375",
+=======
+        "3bcbf1d5-1e3f-5583-b2ee-6b7fff055258": {
+          "description": "The Pitmaster's secret. Tender pieces of Texas Beef Brisket seared and caramelized with Sweet & Zesty\u00ae BBQ sauce. Served with Onion Strings, Jalape\u00f1o Pickled Red Onions and spicy Hell-Fire Pickles.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/9398df63-ad96-45f4-ba2c-3a8a68699dd3.png",
+          "price": 1320,
+          "title": "Burnt Ends",
+          "uuid": "3bcbf1d5-1e3f-5583-b2ee-6b7fff055258",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "290 - 870 Cal."
@@ -5116,6 +5234,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "afbd85bd-32e5-5f1f-a281-b997cc0e2d60": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/a2a817bd-e378-4096-808b-2821e9260d46.jpeg",
@@ -5160,6 +5279,14 @@
           "price": 379,
           "title": "Medium Caramel Macchiato",
           "uuid": "ac98e0a5-0883-5f67-98e1-ed891f2ff47a",
+=======
+        "d24f3ca8-efb7-51b9-a9fe-e86858694916": {
+          "description": "Rich and creamy banana pudding with slices of fresh bananas and vanilla wafers, covered in whipped cream.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/b47cebc8-a48b-4d4a-8ae9-c94bc5ca7388.png",
+          "price": 330,
+          "title": "Down Home Banana Pudding",
+          "uuid": "d24f3ca8-efb7-51b9-a9fe-e86858694916",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "320 Cal."
@@ -5167,18 +5294,27 @@
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "0f434929-f042-57c2-8976-fae4605e0e87": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/e9a18d5f-6da9-4dad-8869-0b5c4b04af7d.jpeg",
           "price": 300,
           "title": "Triple Cheeseburger",
           "uuid": "0f434929-f042-57c2-8976-fae4605e0e87",
+=======
+        "0721cfca-44b8-576a-b3ac-2dcb60d0f583": {
+          "description": "Family sized portions of our Corn Bread Muffins or sweet dinner rolls.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/6d340a56-6619-4355-813b-83c52fd6de0d.png",
+          "price": 110,
+          "title": "Muffins & Buns",
+          "uuid": "0721cfca-44b8-576a-b3ac-2dcb60d0f583",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "530 Cal."
@@ -5192,12 +5328,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "cc366771-7c74-5534-ba14-fd292fd26aff": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/745fca80-3995-464d-ba2b-dde114f47235.jpeg",
           "price": 379,
           "title": "Medium Iced Caramel Macchiato",
           "uuid": "cc366771-7c74-5534-ba14-fd292fd26aff",
+=======
+        "72491cfe-b419-5aff-96f3-2a4f83f28509": {
+          "description": "Melt-in-your-mouth, scratch-made bread pudding. Served with pecan praline sauce, vanilla ice cream and whipped cream on the side. ",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/6afaca28-793a-468a-9b99-679129ba85f4.png",
+          "price": 440,
+          "title": "Dave's Award-Winning Bread Pudding",
+          "uuid": "72491cfe-b419-5aff-96f3-2a4f83f28509",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "250 Cal."
@@ -5205,18 +5350,27 @@
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "82740a86-9c66-588b-99f6-5fcce8ee4d1b": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/088c422b-58aa-4c70-b906-8e25814db7a3.jpeg",
           "price": 379,
           "title": "Medium Sugarfree Vanilla Cappuccino",
           "uuid": "82740a86-9c66-588b-99f6-5fcce8ee4d1b",
+=======
+        "66be0ba7-5d8e-5cd0-8fa9-cd2ddaac0fb5": {
+          "description": "Award-winning, slow-smoked chopped pork topped with Rich & Sassy\u00ae.\r\n\r\nServed with your choice of one side and spicy Hell-Fire Pickles.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/00721c64-40c6-48d7-81b7-c58394470892.png",
+          "price": 1210,
+          "title": "Georgia Chopped Pork Sandwich",
+          "uuid": "66be0ba7-5d8e-5cd0-8fa9-cd2ddaac0fb5",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "160 Cal."
@@ -5230,12 +5384,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "a6f5c211-0bea-507e-9063-ff6f2d602633": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/65725bf9-342e-4182-9ed1-a86287aea441.jpeg",
           "price": 379,
           "title": "Medium Iced Mocha",
           "uuid": "a6f5c211-0bea-507e-9063-ff6f2d602633",
+=======
+        "16cc038f-9828-5155-824b-151c19442664": {
+          "description": "Double your pleasure with any two different meat selections. Served with choice of two sides and a Corn Bread Muffin.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/a0ead8a5-aeb2-4457-96a2-506cede2ed62.png",
+          "price": 1980,
+          "title": "2 Meat Combo",
+          "uuid": "16cc038f-9828-5155-824b-151c19442664",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "330 Cal."
@@ -5249,12 +5412,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "7f736f56-1e9b-53a4-8014-ed9a2cc2273e": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/33a5e90a-96e3-48f5-a618-8f30823ca5d0.jpeg",
           "price": 299,
           "title": "Regular M&M McFlurry",
           "uuid": "7f736f56-1e9b-53a4-8014-ed9a2cc2273e",
+=======
+        "49431dc2-f0f9-5851-96a3-1d34e0534a28": {
+          "description": "Start with a burger patty and choose from the below add-ons.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/7b01cd80-40d6-41e4-b8af-b9a78a63ddba.png",
+          "price": 1100,
+          "title": "Build Your Own Burger",
+          "uuid": "49431dc2-f0f9-5851-96a3-1d34e0534a28",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "640 Cal."
@@ -5268,12 +5440,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "87cf6823-1ed7-53a0-a968-6264543ec3d7": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/2b56e463-b6f4-484d-b413-65a368292175.jpeg",
           "price": 909,
           "title": "10 pc Spicy Mcnuggets Meal",
           "uuid": "87cf6823-1ed7-53a0-a968-6264543ec3d7",
+=======
+        "370c9cd6-047c-5198-a85c-cb7839824b6a": {
+          "description": "Bulk selections of our side dishes.\r\n\r\nFeeds 4 - 8 people.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/58473061-222c-4f74-b132-fc264a8facf1.png",
+          "price": 1070,
+          "title": "Quart Sides",
+          "uuid": "370c9cd6-047c-5198-a85c-cb7839824b6a",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "530 - 1070 Cal."
@@ -5287,12 +5468,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "5eb9022e-c06e-572c-8e2c-59485f9eb297": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/73a6d473-09d4-4b01-bd5c-055975e99a52.jpeg",
           "price": 359,
           "title": "6 Piece McNuggets",
           "uuid": "5eb9022e-c06e-572c-8e2c-59485f9eb297",
+=======
+        "2ef4f552-1d40-5733-857c-62bce04d113c": {
+          "description": "Choice of Georgia Chopped Pork, Texas Beef Brisket or Chicken (BBQ pulled, grilled or crispy). Served on crisp greens with bacon, cheddar cheese, tomatoes and shoestring potatoes. Tossed with honey BBQ dressing. Served with a Corn Bread Muffin.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/7e06cedb-fe25-4431-b6dc-3459b64c0787.png",
+          "price": 1430,
+          "title": "Dave's Sassy BBQ Salad",
+          "uuid": "2ef4f552-1d40-5733-857c-62bce04d113c",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "250 Cal."
@@ -5306,12 +5496,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "6c439196-57fa-545e-b98e-ef3e1d23e144": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/11072e20-742f-4e3c-bfcc-50c10281091d.jpeg",
           "price": 619,
           "title": "Quarter Pounder with Cheese",
           "uuid": "6c439196-57fa-545e-b98e-ef3e1d23e144",
+=======
+        "3b563678-8bd9-51e2-8736-afd394c0c668": {
+          "description": "",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/378a70f1-64b5-42ac-9838-0f7afe7661bf.png",
+          "price": 440,
+          "title": "Sauce Bottles",
+          "uuid": "3b563678-8bd9-51e2-8736-afd394c0c668",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "520 Cal."
@@ -5325,12 +5524,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "79bb1fe6-3188-5ff3-9fac-c4ef2853bf04": {
           "description": "40 Piece McNugget (x1) and Medium Fry (x4)",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/685f9104-b54b-4faf-aaa2-836d36a6a8db.jpeg",
           "price": 1599,
           "title": "40 Piece McNugget and 4 Medium Fry ",
           "uuid": "79bb1fe6-3188-5ff3-9fac-c4ef2853bf04",
+=======
+        "0bfa9345-fb23-5781-ac0e-e02188ddbd6e": {
+          "description": "Hand-rubbed with Dave\u2019s secret blend of special spices and pit-smoked for 3-4 hours over a smoldering hickory fire. Then slathered with sauce over an open flame to seal in the Famous flavor and give them a crispy, caramelized coating. Served with choice of two sides and a Corn Bread Muffin.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/a145fae5-4bb0-405f-b7b0-83a83a565d4c.png",
+          "price": 1650,
+          "title": "St. Louis-Style Spareribs",
+          "uuid": "0bfa9345-fb23-5781-ac0e-e02188ddbd6e",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "2940 Cal."
@@ -5344,12 +5552,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "7c3859d3-f642-58f2-b6d7-843054b59cb5": {
           "description": "Limit of 2",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/71f90b5e-ca9b-4feb-8774-2b36658f5c39.jpeg",
           "price": 0,
           "title": "Grape Jam",
           "uuid": "7c3859d3-f642-58f2-b6d7-843054b59cb5",
+=======
+        "fcdfe3db-c575-51c2-8fe1-63b90d613f7b": {
+          "description": "Kraft Macaroni and Cheese. \r\n\r\nServed with choice of one side, or carrots and celery, plus OREO Cookies and a fountain beverage or milk. ",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/357ce658-54d2-4180-aca6-80046ad65bac.png",
+          "price": 550,
+          "title": "Kid's Kraft Macaroni & Cheese",
+          "uuid": "fcdfe3db-c575-51c2-8fe1-63b90d613f7b",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "40 Cal."
@@ -5363,12 +5580,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "99151459-3396-5107-af1d-1cf5e875f33e": {
           "description": "Limit of 2",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/c46a8ba5-c82c-49cd-abe5-d5aae9575925.jpeg",
           "price": 0,
           "title": "Hot Picante Salsa",
           "uuid": "99151459-3396-5107-af1d-1cf5e875f33e",
+=======
+        "11e4ba9a-6d9b-5c6d-8668-1366f56dff36": {
+          "description": "Walnut-covered chocolate brownie served with vanilla ice cream, fudge and whipped cream on the side. ",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/774fe539-72bb-4050-807c-de22339361b3.png",
+          "price": 330,
+          "title": "Hot Fudge Brownie",
+          "uuid": "11e4ba9a-6d9b-5c6d-8668-1366f56dff36",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "5 Cal."
@@ -5382,12 +5608,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "b01b59e5-160b-5b24-b6b5-f1abc21620a6": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/9a630493-c4e7-4b20-bff0-47a2e10c5b6f.jpeg",
           "price": 929,
           "title": "Quarter Pounder with Cheese Meal",
           "uuid": "b01b59e5-160b-5b24-b6b5-f1abc21620a6",
+=======
+        "51ed4f19-74f3-5a6e-b5d0-b6bda06aa451": {
+          "description": "Roasted, pulled chicken tossed in Rich & Sassy\u00ae and topped with melted Monterey Jack cheese. \r\n\r\nServed with choice of 1 side and spicy Hell-Fire Pickles.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/1323dfa5-dec4-4c52-bef7-ed702eac60e7.png",
+          "price": 1100,
+          "title": "Barbeque Pulled Chicken Sandwich",
+          "uuid": "51ed4f19-74f3-5a6e-b5d0-b6bda06aa451",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "840 - 1080 Cal."
@@ -5401,12 +5636,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "5dacd095-ec2d-596c-a4a2-f907a7ccf750": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/5ec8da2a-e09a-4112-8d1d-ece46d31d76b.jpeg",
           "price": 299,
           "title": "Medium French Fries",
           "uuid": "5dacd095-ec2d-596c-a4a2-f907a7ccf750",
+=======
+        "e7ee5bb7-9889-5cce-a4fe-3a414d8a7a10": {
+          "description": "Choose either Country-Roasted Chicken or BBQ Chicken that's flame-kissed and slathered with Rich & Sassy\u00ae",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/7856dee9-559c-4cef-acf5-2f465b7d685e.png",
+          "price": 800,
+          "title": "Whole Chicken",
+          "uuid": "e7ee5bb7-9889-5cce-a4fe-3a414d8a7a10",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "320 Cal."
@@ -5420,12 +5664,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "452c8e72-5128-5352-97e3-00b1900d4d2c": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/3a041429-d35e-4940-875c-760f77538d9f.jpeg",
           "price": 79,
           "title": "Apple Pie",
           "uuid": "452c8e72-5128-5352-97e3-00b1900d4d2c",
+=======
+        "6b553849-1c76-51f4-888d-74b1fbec463b": {
+          "description": "Choose larger portions of our side dishes.\r\n\r\nFeeds 2 - 4 people.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/8d56e1e2-2f75-4710-97ce-a82b958b8c65.png",
+          "price": 550,
+          "title": "Pint Sides",
+          "uuid": "6b553849-1c76-51f4-888d-74b1fbec463b",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "250 Cal."
@@ -5439,12 +5692,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "c33d07a0-c924-5288-895e-7fa9c26cec68": {
           "description": "Limit of 2",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/35c84b17-a9ca-4e40-80ea-d6727ef0353a.jpeg",
           "price": 15,
           "title": "Tangy Honey Mustard",
           "uuid": "c33d07a0-c924-5288-895e-7fa9c26cec68",
+=======
+        "915553f8-a0e4-59c3-956f-4dccece0241a": {
+          "description": "Tender strips lightly-breaded with cornmeal and flash-fried. \r\n\r\nServed with choice of one side, or carrots and celery, plus OREO Cookies and a fountain beverage or milk. ",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/5c479ab0-7962-494a-85e2-832b183cbc12.png",
+          "price": 550,
+          "title": "Kid's Chicken Strips",
+          "uuid": "915553f8-a0e4-59c3-956f-4dccece0241a",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "60 Cal."
@@ -5458,6 +5720,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "e6ebadb5-cf93-5a25-9823-45f1714c611e": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/bfa0dced-5b01-40a6-a1ec-3d013453e515.jpeg",
@@ -5521,6 +5784,14 @@
           "price": 379,
           "title": "Medium Caramel Latte",
           "uuid": "36557f03-f624-5a8e-b915-39244e81077d",
+=======
+        "fc1f7757-19ed-5a8d-a730-8f0877b64180": {
+          "description": "",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/c4e86429-88ea-4f43-9aac-ddf24e54005b.png",
+          "price": 440,
+          "title": "Sauce Bottles",
+          "uuid": "fc1f7757-19ed-5a8d-a730-8f0877b64180",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "320 Cal."
@@ -5534,12 +5805,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "f81780ac-dade-5480-9843-a3bfe45cd572": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/37d4feca-c7fe-4959-98bc-39e3cc1eff71.jpeg",
           "price": 1029,
           "title": "Double Quarter Pounder with Cheese Meal",
           "uuid": "f81780ac-dade-5480-9843-a3bfe45cd572",
+=======
+        "a2164e03-e27c-5a96-b489-b70ff030396b": {
+          "description": "A full slab of St. Louis-Style Spareribs, Country-Roasted Chicken, choice of Texas Beef Brisket or Georgia Chopped Pork, Creamy Coleslaw, Famous Fries, Wilbur Beans, Sweet Corn and Corn Bread Muffins. Served family-style for 4-6 people.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/bf22f6a8-518c-4c48-a22d-dd7a679f661f.png",
+          "price": 7700,
+          "title": "All-American BBQ Feast",
+          "uuid": "a2164e03-e27c-5a96-b489-b70ff030396b",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "790 - 1350 Cal."
@@ -5553,12 +5833,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "db16fd4a-d14b-54c6-833d-6941f39a415a": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/d385572c-6387-476a-8d82-4d0246cf4010.jpeg",
           "price": 189,
           "title": "Plain Sundae",
           "uuid": "db16fd4a-d14b-54c6-833d-6941f39a415a",
+=======
+        "4e6efc56-5609-571c-9729-8e7bec9539ea": {
+          "description": "Choose your 1 meat selection.\r\n\r\nServed with choice of two sides and a Corn Bread Muffin. \r\n\r\nPrices vary by meat selection. ",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/074fdb50-e4bd-466a-a6d0-cf8c4fb2f121.png",
+          "price": 1650,
+          "title": "1 Meat Platter",
+          "uuid": "4e6efc56-5609-571c-9729-8e7bec9539ea",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "210 - 440 Cal."
@@ -5572,12 +5861,21 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "2b40ef13-10c6-5f77-af5a-32752b4c3a87": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/0d2e62bc-9cbc-410b-ab58-cda15a07739b.jpeg",
           "price": 379,
           "title": "Medium Iced French Vanilla Latte",
           "uuid": "2b40ef13-10c6-5f77-af5a-32752b4c3a87",
+=======
+        "864dba1c-2aac-57f6-a9f4-49a4a826db8d": {
+          "description": "Award-winning, slow-smoked chopped pork topped with Rich & Sassy\u00ae. \r\n\r\nServed with choice of one side, or carrots and celery, plus OREO Cookies and a fountain beverage or milk. ",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/45e0d422-36cf-4e04-9a0b-cfb30035ed32.png",
+          "price": 550,
+          "title": "Kid's Georgia Chopped Pork Sandwich",
+          "uuid": "864dba1c-2aac-57f6-a9f4-49a4a826db8d",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "200 Cal."
@@ -5591,6 +5889,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "21aae500-389d-57b2-9e63-dda7ac0fe158": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/43ca2f0b-1bcf-43e0-8691-64c7c5d86353.jpeg",
@@ -5616,6 +5915,14 @@
           "price": 379,
           "title": "Medium Iced Latte",
           "uuid": "06fa373f-5433-59ea-88ef-31db4cad4ee0",
+=======
+        "b55a619f-bada-5eb0-acef-b47b99298fd0": {
+          "description": "Refreshing beverages by the gallon.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/a8c13c8f-e35a-4022-babf-64d1a01a52e4.png",
+          "price": 880,
+          "title": "Gallon Beverages",
+          "uuid": "b55a619f-bada-5eb0-acef-b47b99298fd0",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "120 Cal."
@@ -5628,6 +5935,7 @@
             "dietaryLabels": null
           },
           "tagSection": null
+<<<<<<< HEAD
         }
       },
       "0a7e4b03-6af6-5e38-a657-020f88d38c0a": {
@@ -5637,6 +5945,15 @@
           "price": 199,
           "title": "McCaf\u00e9 Blueberry Muffin",
           "uuid": "87b6daa4-e202-5413-9c66-94f442ad0f02",
+=======
+        },
+        "b53a8810-44b1-5cb4-99f9-9adef6ae4106": {
+          "description": "A pound of Memphis-style, dry-rubbed tips served with a side of jalape\u00f1o pickled red onions, Hell-Fire Pickles and our Southside BBQ sauce. ",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/5b1934f7-9c2f-4823-9ede-bc26c5f67b42.png",
+          "price": 1320,
+          "title": "Southside Rib Tips ",
+          "uuid": "b53a8810-44b1-5cb4-99f9-9adef6ae4106",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "470 Cal."
@@ -5649,6 +5966,7 @@
             "dietaryLabels": null
           },
           "tagSection": null
+<<<<<<< HEAD
         },
         "36557f03-f624-5a8e-b915-39244e81077d": {
           "description": null,
@@ -8024,12 +8342,15 @@
             "dietaryLabels": null
           },
           "tagSection": null
+=======
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
         }
       }
     },
     "sections": [
       {
         "subsectionUuids": [
+<<<<<<< HEAD
           "40537968-1a13-558d-bbd4-75b07edc7858",
           "03fb929f-d80f-5cd4-a92c-9e397497075f",
           "74738b9e-516f-56f7-b11a-ad822b54244f",
@@ -8083,11 +8404,29 @@
         "title": "Dinner",
         "subtitle": "5:00 PM \u2013 11:29 PM",
         "uuid": "0c708e02-1c9e-5021-be29-6150953770b7",
+=======
+          "7e12b8f3-965d-5112-a49a-e4f8960ac100",
+          "450ea1bc-2b48-59fe-a976-7c39249b58cc",
+          "380ae19b-60a9-5b31-aba9-cde7bc88bfda",
+          "f7b27eee-ea92-5047-8b7b-c4ca5fae6c10",
+          "7dfe8501-59e9-533e-a084-4d56b12554ab",
+          "d8602ae2-941a-50d9-aaa9-0d2123e582d6",
+          "db166e3d-d2bb-54ae-af62-0034efd51763",
+          "4f14a344-69f2-5d31-ad27-0130caf68126",
+          "b79c495b-7ad8-547a-9b1f-dda15dd7a6c4",
+          "0f9b02a5-5238-585f-8b97-eb92eda646c1",
+          "9ef09457-90a3-50ce-bc45-9176b9022c7c"
+        ],
+        "title": "Everyday",
+        "subtitle": "11:00 AM \u2013 8:30 PM",
+        "uuid": "b02d4bba-4a36-540f-a0dc-46ba3c844361",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
         "isTop": true,
         "isOnSale": true
       }
     ],
     "subsectionsMap": {
+<<<<<<< HEAD
       "286c16f9-d42c-511b-a027-2baa648b8423": {
         "itemUuids": [
           "93ee65a6-6501-5876-b82b-bbe050b04ec8",
@@ -8823,10 +9162,152 @@
       "Burgers",
       "Fast Food",
       "Fast Food"
+=======
+      "7e12b8f3-965d-5112-a49a-e4f8960ac100": {
+        "itemUuids": [
+          "16cc038f-9828-5155-824b-151c19442664",
+          "bc1596d1-6791-50e2-8cc6-307b267f8922",
+          "0bfa9345-fb23-5781-ac0e-e02188ddbd6e",
+          "72491cfe-b419-5aff-96f3-2a4f83f28509",
+          "0525be1e-1473-5047-a381-50f1bcfd0e88"
+        ],
+        "subtitle": null,
+        "title": "Picked For You",
+        "uuid": "7e12b8f3-965d-5112-a49a-e4f8960ac100",
+        "displayType": null
+      },
+      "b79c495b-7ad8-547a-9b1f-dda15dd7a6c4": {
+        "itemUuids": [
+          "13d77c40-d14d-52cc-9028-0a98a21fc73b",
+          "4e46be15-9660-5b40-bb0f-4a5e577a3381",
+          "e7ee5bb7-9889-5cce-a4fe-3a414d8a7a10",
+          "370c9cd6-047c-5198-a85c-cb7839824b6a",
+          "6b553849-1c76-51f4-888d-74b1fbec463b",
+          "0721cfca-44b8-576a-b3ac-2dcb60d0f583",
+          "b55a619f-bada-5eb0-acef-b47b99298fd0",
+          "3b563678-8bd9-51e2-8736-afd394c0c668",
+          "014191ef-91c9-5166-b052-f54744f0e488"
+        ],
+        "subtitle": null,
+        "title": "Family To Go - Tucson | Triple A ",
+        "uuid": "b79c495b-7ad8-547a-9b1f-dda15dd7a6c4",
+        "displayType": null
+      },
+      "450ea1bc-2b48-59fe-a976-7c39249b58cc": {
+        "itemUuids": [
+          "a2164e03-e27c-5a96-b489-b70ff030396b",
+          "a0ad7ba1-dbba-5c99-b576-60fb2d69b0cf"
+        ],
+        "subtitle": null,
+        "title": "Famous Feasts",
+        "uuid": "450ea1bc-2b48-59fe-a976-7c39249b58cc",
+        "displayType": null
+      },
+      "d8602ae2-941a-50d9-aaa9-0d2123e582d6": {
+        "itemUuids": [
+          "bc1596d1-6791-50e2-8cc6-307b267f8922",
+          "16cc038f-9828-5155-824b-151c19442664",
+          "4e6efc56-5609-571c-9729-8e7bec9539ea"
+        ],
+        "subtitle": null,
+        "title": "Pitmaster Favorites",
+        "uuid": "d8602ae2-941a-50d9-aaa9-0d2123e582d6",
+        "displayType": null
+      },
+      "9ef09457-90a3-50ce-bc45-9176b9022c7c": {
+        "itemUuids": [
+          "11e4ba9a-6d9b-5c6d-8668-1366f56dff36",
+          "72491cfe-b419-5aff-96f3-2a4f83f28509",
+          "d24f3ca8-efb7-51b9-a9fe-e86858694916"
+        ],
+        "subtitle": null,
+        "title": "Homemade Desserts",
+        "uuid": "9ef09457-90a3-50ce-bc45-9176b9022c7c",
+        "displayType": null
+      },
+      "380ae19b-60a9-5b31-aba9-cde7bc88bfda": {
+        "itemUuids": [
+          "c0e80de2-db63-562b-9592-b801dbefbac6",
+          "3bcbf1d5-1e3f-5583-b2ee-6b7fff055258",
+          "b53a8810-44b1-5cb4-99f9-9adef6ae4106"
+        ],
+        "subtitle": null,
+        "title": "Sassy Starters",
+        "uuid": "380ae19b-60a9-5b31-aba9-cde7bc88bfda",
+        "displayType": null
+      },
+      "f7b27eee-ea92-5047-8b7b-c4ca5fae6c10": {
+        "itemUuids": [
+          "2ef4f552-1d40-5733-857c-62bce04d113c"
+        ],
+        "subtitle": null,
+        "title": "Salads 'N More",
+        "uuid": "f7b27eee-ea92-5047-8b7b-c4ca5fae6c10",
+        "displayType": null
+      },
+      "7dfe8501-59e9-533e-a084-4d56b12554ab": {
+        "itemUuids": [
+          "0bfa9345-fb23-5781-ac0e-e02188ddbd6e",
+          "87121502-4557-5163-a6db-505c8d759670"
+        ],
+        "subtitle": null,
+        "title": "Award-Winning Ribs",
+        "uuid": "7dfe8501-59e9-533e-a084-4d56b12554ab",
+        "displayType": null
+      },
+      "4f14a344-69f2-5d31-ad27-0130caf68126": {
+        "itemUuids": [
+          "0e17f549-3615-5073-8e7d-72eb6712b072",
+          "fcdfe3db-c575-51c2-8fe1-63b90d613f7b",
+          "915553f8-a0e4-59c3-956f-4dccece0241a",
+          "864dba1c-2aac-57f6-a9f4-49a4a826db8d"
+        ],
+        "subtitle": null,
+        "title": "Lil' Wilbur Meals",
+        "uuid": "4f14a344-69f2-5d31-ad27-0130caf68126",
+        "displayType": null
+      },
+      "db166e3d-d2bb-54ae-af62-0034efd51763": {
+        "itemUuids": [
+          "66be0ba7-5d8e-5cd0-8fa9-cd2ddaac0fb5",
+          "51ed4f19-74f3-5a6e-b5d0-b6bda06aa451",
+          "34e67acf-86da-5bd5-b775-c3041122bb35",
+          "0525be1e-1473-5047-a381-50f1bcfd0e88",
+          "49431dc2-f0f9-5851-96a3-1d34e0534a28"
+        ],
+        "subtitle": null,
+        "title": "Signature Sandwiches & Burgers ",
+        "uuid": "db166e3d-d2bb-54ae-af62-0034efd51763",
+        "displayType": null
+      },
+      "0f9b02a5-5238-585f-8b97-eb92eda646c1": {
+        "itemUuids": [
+          "1861d126-1190-5285-952c-e9b40bf73d48",
+          "fc1f7757-19ed-5a8d-a730-8f0877b64180",
+          "a573d438-c84b-5cc2-ba88-d2af2afe90f4"
+        ],
+        "subtitle": null,
+        "title": "Add-Ons & Extras - Tucson | Triple A",
+        "uuid": "0f9b02a5-5238-585f-8b97-eb92eda646c1",
+        "displayType": null
+      }
+    },
+    "title": "Famous Dave's ( 3007 E Speedway Blvd )",
+    "sanitizedTitle": "Famous Dave's ( 3007 E Speedway Blvd )",
+    "uuid": "e0d79985-943d-4839-af66-62c4ee85d19a",
+    "cityId": 48,
+    "categories": [
+      "$$",
+      "American",
+      "BBQ",
+      "Sandwich",
+      "Family Meals"
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
     ],
     "categoryLinks": [
       {
         "text": "American",
+<<<<<<< HEAD
         "link": "/category/yuma-az/american"
       },
       {
@@ -8839,10 +9320,26 @@
       {
         "text": "Fast Food",
         "link": "/category/yuma-az/fast-food"
+=======
+        "link": "/category/tucson-az/american"
+      },
+      {
+        "text": "BBQ",
+        "link": "/category/tucson-az/bbq"
+      },
+      {
+        "text": "Sandwich",
+        "link": "/category/tucson-az/sandwich"
+      },
+      {
+        "text": "Family Meals",
+        "link": "/category/tucson-az/family-meals"
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
       }
     ],
     "cuisineList": [
       "American",
+<<<<<<< HEAD
       "Burgers",
       "Fast Food",
       "Fast Food"
@@ -8852,14 +9349,32 @@
       "text": "25\u201335 Min",
       "iconUrl": "",
       "accessibilityText": "Delivered in 25 to 35 Min"
+=======
+      "BBQ",
+      "Sandwich",
+      "Family Meals"
+    ],
+    "priceBucket": "$$",
+    "etaRange": {
+      "text": "55\u201365 Min",
+      "iconUrl": "",
+      "accessibilityText": "Delivered in 55 to 65 Min"
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
     },
     "disclaimerBadge": null,
     "distanceBadge": null,
     "fareBadge": {
+<<<<<<< HEAD
       "text": "$1.99 Delivery Fee",
       "iconUrl": null,
       "textFormat": null,
       "accessibilityText": "Delivery Fee is $1.99"
+=======
+      "text": "$0.49 Delivery Fee",
+      "iconUrl": null,
+      "textFormat": null,
+      "accessibilityText": "Delivery Fee is $0.49"
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
     },
     "eatsPassExclusionBadge": {
       "backgroundColor": null,
@@ -8874,13 +9389,19 @@
       "actionUrl": null
     },
     "fareInfo": {
+<<<<<<< HEAD
       "serviceFee": 1.99,
       "serviceFeeCents": 199
+=======
+      "serviceFee": 0.49,
+      "serviceFeeCents": 49
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
     },
     "promotion": null,
     "shouldIndex": true,
     "heroImageUrls": [
       {
+<<<<<<< HEAD
         "url": "https://d1ralsognjng37.cloudfront.net/4769a26d-d17d-4a95-b514-dd757b4bbfce.jpeg",
         "width": 240
       },
@@ -8902,6 +9423,29 @@
       },
       {
         "url": "https://d1ralsognjng37.cloudfront.net/8bab88a3-54cd-431f-89b5-270b98cfb07c.jpeg",
+=======
+        "url": "https://d1ralsognjng37.cloudfront.net/c16a24d5-674b-420d-aa76-3df204867fe3.webp",
+        "width": 240
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/40ce6ebe-03c0-42b3-9795-32f8ceed4bde.webp",
+        "width": 550
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/590f4436-c043-4a92-bbba-b2d2b3ed9f97.webp",
+        "width": 640
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/11f99593-da32-4dc8-8d72-1f71ac4b267a.webp",
+        "width": 750
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/b9f5db7e-e06b-489b-ac47-9ffdaa28717a.webp",
+        "width": 1080
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/0d7d7782-b63e-430a-9a75-7460bb5d570a.webp",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
         "width": 2880
       }
     ],
@@ -8909,6 +9453,7 @@
     "currencyCode": "USD",
     "closedMessage": "",
     "location": {
+<<<<<<< HEAD
       "address": "2560 S 4th Ave, YUMA, AZ 85364",
       "streetAddress": "2560 S 4TH AVE",
       "city": "YUMA",
@@ -8917,12 +9462,23 @@
       "region": "AZ",
       "latitude": 32.6805285,
       "longitude": -114.6252042
+=======
+      "address": "3007 E Speedway Blvd, Tucson, AZ 85716",
+      "streetAddress": "3007 E Speedway Blvd",
+      "city": "Tucson",
+      "country": "US",
+      "postalCode": "85716",
+      "region": "AZ",
+      "latitude": 32.23637,
+      "longitude": -110.9278602
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
     },
     "isDeliveryBandwagon": false,
     "isDeliveryOverTheTop": false,
     "isDeliveryThirdParty": false,
     "hours": [
       {
+<<<<<<< HEAD
         "dayRange": "Sunday",
         "sectionHours": [
           {
@@ -9742,22 +10298,125 @@
             "startTime": 645,
             "endTime": 675
           },
+=======
+        "dayRange": "Sunday - Thursday",
+        "sectionHours": [
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           {
             "startTime": 660,
-            "endTime": 690
-          },
+            "endTime": 1170,
+            "sectionTitle": ""
+          }
+        ]
+      },
+      {
+        "dayRange": "Friday - Saturday",
+        "sectionHours": [
           {
-            "startTime": 675,
-            "endTime": 705
-          },
-          {
-            "startTime": 690,
-            "endTime": 720
-          },
-          {
-            "startTime": 705,
-            "endTime": 735
-          },
+            "startTime": 660,
+            "endTime": 1230,
+            "sectionTitle": ""
+          }
+        ]
+      }
+    ],
+    "disableOrderInstruction": true,
+    "disableCheckoutInstruction": true,
+    "nuggets": [],
+    "isWithinDeliveryRange": true,
+    "slug": "famous-daves-3007-e-speedway-blvd",
+    "citySlug": "tucson",
+    "phoneNumber": "+15208881512",
+    "metaJson": "{\"@context\":\"http:\\u002F\\u002Fschema.org\",\"@type\":\"Restaurant\",\"@id\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Ftucson\\u002Ffood-delivery\\u002Ffamous-daves-3007-e-speedway-blvd\\u002F4NeZhZQ9SDmvZmLE7oXRmg\",\"name\":\"Famous Dave's ( 3007 E Speedway Blvd )\",\"servesCuisine\":[\"American\",\"BBQ\",\"Sandwich\",\"Family Meals\"],\"priceRange\":\"$$\",\"image\":[\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fc16a24d5-674b-420d-aa76-3df204867fe3.webp\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F40ce6ebe-03c0-42b3-9795-32f8ceed4bde.webp\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F590f4436-c043-4a92-bbba-b2d2b3ed9f97.webp\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F11f99593-da32-4dc8-8d72-1f71ac4b267a.webp\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fb9f5db7e-e06b-489b-ac47-9ffdaa28717a.webp\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F0d7d7782-b63e-430a-9a75-7460bb5d570a.webp\"],\"potentialAction\":{\"@type\":\"OrderAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Ftucson\\u002Ffood-delivery\\u002Ffamous-daves-3007-e-speedway-blvd\\u002F4NeZhZQ9SDmvZmLE7oXRmg?utm_campaign=order-action&amp;utm_medium=organic\",\"inLanguage\":\"English\",\"actionPlatform\":[\"http:\\u002F\\u002Fschema.org\\u002FDesktopWebPlatform\",\"http:\\u002F\\u002Fschema.org\\u002FMobileWebPlatform\"]},\"deliveryMethod\":[\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModeOwnFleet\",\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModePickUp\"]},\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Tucson\",\"addressRegion\":\"AZ\",\"postalCode\":\"85716\",\"addressCountry\":\"US\",\"streetAddress\":\"3007 E Speedway Blvd\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":32.23637,\"longitude\":-110.9278602},\"telephone\":\"+15208881512\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":4.4,\"reviewCount\":\"71\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"11:0\",\"closes\":\"19:30\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Friday\",\"Saturday\"],\"opens\":\"11:0\",\"closes\":\"20:30\"}]}",
+    "promoTrackings": [],
+    "suggestedPromotion": {
+      "text": "",
+      "promotionUuid": ""
+    },
+    "supportedDiningModes": [
+      {
+        "mode": "DELIVERY",
+        "title": "Delivery",
+        "isSelected": true,
+        "isAvailable": true
+      },
+      {
+        "mode": "PICKUP",
+        "title": "Pickup",
+        "isSelected": false,
+        "isAvailable": true
+      }
+    ],
+    "isPreview": false,
+    "pinnedInfo": {
+      "primary": {
+        "backgroundColor": null,
+        "iconColor": null,
+        "iconUrl": null,
+        "text": "$0 Delivery Fee + 5% off with Eats Pass \u2192",
+        "textColor": null,
+        "textFormat": "<span style=\"color:#247A00;\">$0 Delivery Fee + 5% off with Eats Pass \u2192</span>",
+        "additionalText": null,
+        "accessibilityText": null,
+        "textBorder": null,
+        "actionUrl": null
+      },
+      "hideable": null,
+      "iconUrl": null,
+      "maxCountToHide": null,
+      "hideableCountKey": null,
+      "pinnedMessage": {
+        "backgroundColor": null,
+        "iconColor": null,
+        "iconUrl": null,
+        "text": "$0 Delivery Fee + 5% off with Eats Pass \u2192",
+        "textColor": null,
+        "textFormat": "<span style=\"color:#247A00;\">$0 Delivery Fee + 5% off with Eats Pass \u2192</span>",
+        "additionalText": null,
+        "accessibilityText": null,
+        "textBorder": null,
+        "actionUrl": null
+      },
+      "backgroundColor": {
+        "alpha": 1,
+        "color": "#EEF7ED"
+      },
+      "overrides": null,
+      "action": {
+        "type": "MEMBERSHIP",
+        "value": {
+          "type": "uri",
+          "uri": "ubereats://subscription?entry-point=STORE_MENU_INFO_BOX"
+        },
+        "title": null,
+        "payload": null
+      },
+      "metadata": {
+        "feature": "membership_non_subscriber",
+        "promoUuid": null
+      }
+    },
+    "rating": {
+      "ratingValue": 4.4,
+      "reviewCount": "71"
+    },
+    "menuUUID": "e0d79985-943d-4839-af66-62c4ee85d19a",
+    "hasMultipleMenus": false,
+    "isChain": true,
+    "specialInstructionHintText": "Add a note (extra sauce, no onions, etc.)",
+    "shouldRenderAllItems": true,
+    "optoutRestaurantExperiments": null,
+    "adaptedDeliveryHoursInfos": {
+      "dates": [
+        "2021-02-07",
+        "2021-02-08",
+        "2021-02-09",
+        "2021-02-10",
+        "2021-02-11",
+        "2021-02-12"
+      ],
+      "timeRanges": {
+        "2021-02-07": [
           {
             "startTime": 720,
             "endTime": 750
@@ -9801,6 +10460,7 @@
           {
             "startTime": 870,
             "endTime": 900
+<<<<<<< HEAD
           },
           {
             "startTime": 885,
@@ -9987,55 +10647,87 @@
           {
             "startTime": 525,
             "endTime": 555
+=======
           },
           {
-            "startTime": 540,
-            "endTime": 570
+            "startTime": 885,
+            "endTime": 915
           },
           {
-            "startTime": 555,
-            "endTime": 585
+            "startTime": 900,
+            "endTime": 930
           },
           {
-            "startTime": 570,
-            "endTime": 600
+            "startTime": 915,
+            "endTime": 945
           },
           {
-            "startTime": 585,
-            "endTime": 615
+            "startTime": 930,
+            "endTime": 960
           },
           {
-            "startTime": 600,
-            "endTime": 630
+            "startTime": 945,
+            "endTime": 975
           },
           {
-            "startTime": 615,
-            "endTime": 645
+            "startTime": 960,
+            "endTime": 990
           },
           {
-            "startTime": 630,
-            "endTime": 660
+            "startTime": 975,
+            "endTime": 1005
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           },
           {
-            "startTime": 645,
-            "endTime": 675
+            "startTime": 990,
+            "endTime": 1020
           },
           {
-            "startTime": 660,
-            "endTime": 690
+            "startTime": 1005,
+            "endTime": 1035
           },
           {
-            "startTime": 675,
-            "endTime": 705
+            "startTime": 1020,
+            "endTime": 1050
           },
           {
-            "startTime": 690,
-            "endTime": 720
+            "startTime": 1035,
+            "endTime": 1065
           },
           {
-            "startTime": 705,
-            "endTime": 735
+            "startTime": 1050,
+            "endTime": 1080
           },
+          {
+            "startTime": 1065,
+            "endTime": 1095
+          },
+          {
+            "startTime": 1080,
+            "endTime": 1110
+          },
+          {
+            "startTime": 1095,
+            "endTime": 1125
+          },
+          {
+            "startTime": 1110,
+            "endTime": 1140
+          },
+          {
+            "startTime": 1125,
+            "endTime": 1155
+          },
+          {
+            "startTime": 1140,
+            "endTime": 1170
+          },
+          {
+            "startTime": 1155,
+            "endTime": 1185
+          }
+        ],
+        "2021-02-08": [
           {
             "startTime": 720,
             "endTime": 750
@@ -10155,64 +10847,43 @@
           {
             "startTime": 1155,
             "endTime": 1185
+          }
+        ],
+        "2021-02-09": [
+          {
+            "startTime": 720,
+            "endTime": 750
           },
           {
-            "startTime": 1170,
-            "endTime": 1200
+            "startTime": 735,
+            "endTime": 765
           },
           {
-            "startTime": 1185,
-            "endTime": 1215
+            "startTime": 750,
+            "endTime": 780
           },
           {
-            "startTime": 1200,
-            "endTime": 1230
+            "startTime": 765,
+            "endTime": 795
           },
           {
-            "startTime": 1215,
-            "endTime": 1245
+            "startTime": 780,
+            "endTime": 810
           },
           {
-            "startTime": 1230,
-            "endTime": 1260
+            "startTime": 795,
+            "endTime": 825
           },
           {
-            "startTime": 1245,
-            "endTime": 1275
+            "startTime": 810,
+            "endTime": 840
           },
           {
-            "startTime": 1260,
-            "endTime": 1290
+            "startTime": 825,
+            "endTime": 855
           },
           {
-            "startTime": 1275,
-            "endTime": 1305
-          },
-          {
-            "startTime": 1290,
-            "endTime": 1320
-          },
-          {
-            "startTime": 1305,
-            "endTime": 1335
-          },
-          {
-            "startTime": 1320,
-            "endTime": 1350
-          },
-          {
-            "startTime": 1335,
-            "endTime": 1365
-          },
-          {
-            "startTime": 1350,
-            "endTime": 1380
-          },
-          {
-            "startTime": 1365,
-            "endTime": 1395
-          },
-          {
+<<<<<<< HEAD
             "startTime": 1380,
             "endTime": 1410
           }
@@ -10265,55 +10936,97 @@
           {
             "startTime": 525,
             "endTime": 555
+=======
+            "startTime": 840,
+            "endTime": 870
           },
           {
-            "startTime": 540,
-            "endTime": 570
+            "startTime": 855,
+            "endTime": 885
           },
           {
-            "startTime": 555,
-            "endTime": 585
+            "startTime": 870,
+            "endTime": 900
           },
           {
-            "startTime": 570,
-            "endTime": 600
+            "startTime": 885,
+            "endTime": 915
           },
           {
-            "startTime": 585,
-            "endTime": 615
+            "startTime": 900,
+            "endTime": 930
           },
           {
-            "startTime": 600,
-            "endTime": 630
+            "startTime": 915,
+            "endTime": 945
           },
           {
-            "startTime": 615,
-            "endTime": 645
+            "startTime": 930,
+            "endTime": 960
           },
           {
-            "startTime": 630,
-            "endTime": 660
+            "startTime": 945,
+            "endTime": 975
           },
           {
-            "startTime": 645,
-            "endTime": 675
+            "startTime": 960,
+            "endTime": 990
           },
           {
-            "startTime": 660,
-            "endTime": 690
+            "startTime": 975,
+            "endTime": 1005
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           },
           {
-            "startTime": 675,
-            "endTime": 705
+            "startTime": 990,
+            "endTime": 1020
           },
           {
-            "startTime": 690,
-            "endTime": 720
+            "startTime": 1005,
+            "endTime": 1035
           },
           {
-            "startTime": 705,
-            "endTime": 735
+            "startTime": 1020,
+            "endTime": 1050
           },
+          {
+            "startTime": 1035,
+            "endTime": 1065
+          },
+          {
+            "startTime": 1050,
+            "endTime": 1080
+          },
+          {
+            "startTime": 1065,
+            "endTime": 1095
+          },
+          {
+            "startTime": 1080,
+            "endTime": 1110
+          },
+          {
+            "startTime": 1095,
+            "endTime": 1125
+          },
+          {
+            "startTime": 1110,
+            "endTime": 1140
+          },
+          {
+            "startTime": 1125,
+            "endTime": 1155
+          },
+          {
+            "startTime": 1140,
+            "endTime": 1170
+          },
+          {
+            "startTime": 1155,
+            "endTime": 1185
+          }
+        ],
+        "2021-02-10": [
           {
             "startTime": 720,
             "endTime": 750
@@ -10433,64 +11146,43 @@
           {
             "startTime": 1155,
             "endTime": 1185
+          }
+        ],
+        "2021-02-11": [
+          {
+            "startTime": 720,
+            "endTime": 750
           },
           {
-            "startTime": 1170,
-            "endTime": 1200
+            "startTime": 735,
+            "endTime": 765
           },
           {
-            "startTime": 1185,
-            "endTime": 1215
+            "startTime": 750,
+            "endTime": 780
           },
           {
-            "startTime": 1200,
-            "endTime": 1230
+            "startTime": 765,
+            "endTime": 795
           },
           {
-            "startTime": 1215,
-            "endTime": 1245
+            "startTime": 780,
+            "endTime": 810
           },
           {
-            "startTime": 1230,
-            "endTime": 1260
+            "startTime": 795,
+            "endTime": 825
           },
           {
-            "startTime": 1245,
-            "endTime": 1275
+            "startTime": 810,
+            "endTime": 840
           },
           {
-            "startTime": 1260,
-            "endTime": 1290
+            "startTime": 825,
+            "endTime": 855
           },
           {
-            "startTime": 1275,
-            "endTime": 1305
-          },
-          {
-            "startTime": 1290,
-            "endTime": 1320
-          },
-          {
-            "startTime": 1305,
-            "endTime": 1335
-          },
-          {
-            "startTime": 1320,
-            "endTime": 1350
-          },
-          {
-            "startTime": 1335,
-            "endTime": 1365
-          },
-          {
-            "startTime": 1350,
-            "endTime": 1380
-          },
-          {
-            "startTime": 1365,
-            "endTime": 1395
-          },
-          {
+<<<<<<< HEAD
             "startTime": 1380,
             "endTime": 1410
           }
@@ -10543,55 +11235,97 @@
           {
             "startTime": 525,
             "endTime": 555
+=======
+            "startTime": 840,
+            "endTime": 870
           },
           {
-            "startTime": 540,
-            "endTime": 570
+            "startTime": 855,
+            "endTime": 885
           },
           {
-            "startTime": 555,
-            "endTime": 585
+            "startTime": 870,
+            "endTime": 900
           },
           {
-            "startTime": 570,
-            "endTime": 600
+            "startTime": 885,
+            "endTime": 915
           },
           {
-            "startTime": 585,
-            "endTime": 615
+            "startTime": 900,
+            "endTime": 930
           },
           {
-            "startTime": 600,
-            "endTime": 630
+            "startTime": 915,
+            "endTime": 945
           },
           {
-            "startTime": 615,
-            "endTime": 645
+            "startTime": 930,
+            "endTime": 960
           },
           {
-            "startTime": 630,
-            "endTime": 660
+            "startTime": 945,
+            "endTime": 975
           },
           {
-            "startTime": 645,
-            "endTime": 675
+            "startTime": 960,
+            "endTime": 990
           },
           {
-            "startTime": 660,
-            "endTime": 690
+            "startTime": 975,
+            "endTime": 1005
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           },
           {
-            "startTime": 675,
-            "endTime": 705
+            "startTime": 990,
+            "endTime": 1020
           },
           {
-            "startTime": 690,
-            "endTime": 720
+            "startTime": 1005,
+            "endTime": 1035
           },
           {
-            "startTime": 705,
-            "endTime": 735
+            "startTime": 1020,
+            "endTime": 1050
           },
+          {
+            "startTime": 1035,
+            "endTime": 1065
+          },
+          {
+            "startTime": 1050,
+            "endTime": 1080
+          },
+          {
+            "startTime": 1065,
+            "endTime": 1095
+          },
+          {
+            "startTime": 1080,
+            "endTime": 1110
+          },
+          {
+            "startTime": 1095,
+            "endTime": 1125
+          },
+          {
+            "startTime": 1110,
+            "endTime": 1140
+          },
+          {
+            "startTime": 1125,
+            "endTime": 1155
+          },
+          {
+            "startTime": 1140,
+            "endTime": 1170
+          },
+          {
+            "startTime": 1155,
+            "endTime": 1185
+          }
+        ],
+        "2021-02-12": [
           {
             "startTime": 720,
             "endTime": 750
@@ -10727,6 +11461,7 @@
           {
             "startTime": 1215,
             "endTime": 1245
+<<<<<<< HEAD
           },
           {
             "startTime": 1230,
@@ -10771,6 +11506,8 @@
           {
             "startTime": 1380,
             "endTime": 1410
+=======
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
           }
         ]
       },
@@ -10778,8 +11515,13 @@
     },
     "eaterConsent": null,
     "seoMeta": {
+<<<<<<< HEAD
       "title": "McDonald's\u00ae (2560 S 4TH AVE) Delivery | Yuma | Uber Eats",
       "description": "Use your Uber account to order delivery from McDonald's\u00ae (2560 S 4TH AVE) in Yuma. Browse the menu, view popular items, and track your order.",
+=======
+      "title": "Famous Dave's ( 3007 E Speedway Blvd ) Delivery | Tucson | Uber Eats",
+      "description": "Use your Uber account to order delivery from Famous Dave's ( 3007 E Speedway Blvd ) in Tucson. Browse the menu, view popular items, and track your order.",
+>>>>>>> 8c3ea2868e221a109e00587d714b3ec10e625182
       "content": ""
     }
   }
