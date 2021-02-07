@@ -89,6 +89,7 @@ Then you can see the demo web page with your local computer:
 - Learning how to use the Python Requests libary to get information 
 - Using Django REST Framework to build API 
 - Connecting MongoDB with Django for better performance 
+- Using Python Requests library to send query and get data from external websites or APIs
 
 ## Author
 
