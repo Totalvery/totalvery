@@ -265,7 +265,7 @@
   box-sizing: border-box;
   display: inline-flex;
   margin: 10px 10px 10px 10px;
-  width: 48%;
+  width: 798px;
   height: 202px;
   border-style: groove;
   border-width: 1px;
@@ -319,7 +319,6 @@ a:hover {
 #offer-block {
   margin: 5px;
   padding: 1%;
-  font-weight: bold;
   width: 100%;
   max-width: 416px;
   display: inherit;

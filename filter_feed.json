@@ -1,38 +1,247 @@
 {
-  "_id": "601f988e3ca574d232c3b3c9",
-  "latitude": 32.2226066,
-  "longitude": -110.9747108,
+  "_id": "60200ae7cd19c3dcba7615d4",
+  "latitude": 34.0609097,
+  "longitude": -117.2218089,
   "data": [
     {
-      "name": "Urban Pita",
+      "name": "Miyagi Sushi",
       "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/885865a3-edb1-41a1-86b6-acd1db209c8a",
-        "rating": 4.6,
+        "image": "https://media-cdn.grubhub.com/image/upload/v1591108579/pv15d8zcfhcxo1k02mso.png",
+        "rating": "4",
         "categories": [
-          "Mediterranean",
-          "Street Food",
-          "American",
-          "Comfort Food",
-          "Soul Food",
-          "New American",
-          "Sandwich",
+          "Dessert",
           "Salads",
-          "Desserts",
-          "Middle Eastern",
-          "Healthy",
-          "Local Eats"
+          "Seafood",
+          "Sushi"
         ],
         "platform": [
           {
             "ubereats": {
-              "support": true,
-              "id": "7cd7cfe3-f83d-4c8b-b21f-d2e7b7580bf8",
-              "delivery_fee": "$0 Delivery Fee"
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
             },
             "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2198185",
+              "delivery_fee": 799
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Baseline Burger",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1602003290/xe05g5tvc7frcmg95kuf.png",
+        "rating": "3",
+        "categories": [
+          "American",
+          "Dessert",
+          "Hamburgers",
+          "Kids Menu",
+          "Sandwiches"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2383073",
+              "delivery_fee": 699
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Burger King",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1522444073/uy4abxa8b5hubp59qod4.png",
+        "rating": "3",
+        "categories": [
+          "American",
+          "Dessert",
+          "Hamburgers",
+          "Sandwiches"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "363491",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1275276",
+              "delivery_fee": 549
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Corner Bakery",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1580904200/i8uutqmrddwgzsqrvuuv.png",
+        "rating": "4",
+        "categories": [
+          "Coffee and Tea",
+          "Dessert",
+          "Fresh Fruits",
+          "Healthy",
+          "Pasta",
+          "Salads",
+          "Soup"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "386931",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1049236",
+              "delivery_fee": 499
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tyga Bites",
+      "data": {
+        "image": "",
+        "rating": 0,
+        "categories": [
+          "Chicken Wings",
+          "Dessert",
+          "American",
+          "Sandwich",
+          "Lunch",
+          "Dinner"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "1449727",
+              "delivery_fee": 0
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jack in the Box",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/20b15044-e463-4581-a7d0-a378f4d472bc-retina-large-jpeg",
+        "rating": 0,
+        "categories": [
+          "American (New)",
+          "Sandwich",
+          "Breakfast",
+          "Mexican",
+          "Burgers",
+          "Dessert",
+          "Chicken",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "1227474",
+              "delivery_fee": 0
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Subway",
+      "data": {
+        "image": "",
+        "rating": 0,
+        "categories": [
+          "Sandwiches",
+          "Salad",
+          "Fast Food",
+          "Breakfast",
+          "Healthy",
+          "Lunch",
+          "Dessert",
+          "Takeout",
+          "Delis",
+          "Catering",
+          "Salads",
+          "Dinner",
+          "Sandwich",
+          "Pickup",
+          "Sandwich",
+          "Cocktail Bar",
+          "Breakfast",
+          "Alcohol",
+          "Breakfast"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "257229",
+              "delivery_fee": 0
             },
             "grubhub": {
               "support": false,
@@ -47,280 +256,296 @@
   "DoordashOffer": {
     "totalDeals": 50,
     "data": {
-      "1213822": [
+      "873931": [
         {
-          "title": "$5 off",
-          "description": "$5 off orders over $25."
-        },
+          "title": "$3 off",
+          "description": "$3 off orders over $15."
+        }
+      ],
+      "454601": [
         {
           "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
+          "description": "20% off orders over $25, up to $5."
         },
         {
           "title": "$0 delivery fee",
           "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "862680": [
+      "296421": [
         {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        },
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "256989": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "256884": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "256874": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1449727": [
+        {
+          "title": "20% off, up to $3",
+          "description": "20% off orders over $15, up to $3."
+        }
+      ],
+      "1095909": [
         {
           "title": "GAMEDAY10",
           "description": "$10 off orders over $25."
         }
       ],
-      "869986": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "200814": [
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "1451889": [
-        {
-          "title": "$5 off",
-          "description": "$5 off orders over $25."
-        },
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "1340576": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        },
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "901667": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "1108123": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "1113031": [
+      "738697": [
         {
           "title": "GAMEDAY10",
           "description": "$10 off orders over $25."
         }
       ],
-      "1235981": [
+      "1234386": [
         {
           "title": "GAMEDAY10",
           "description": "$10 off orders over $25."
         }
       ],
-      "171134": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "207676": [
+      "261782": [
         {
           "title": "$5 off",
           "description": "$5 off orders over $20."
-        },
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $10, up to $5."
-        },
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "307062": [
+      "261858": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $15, up to $5."
-        },
+        }
+      ],
+      "293385": [
         {
           "title": "$0 delivery fee",
           "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "170384": [
+      "256898": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "272648": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "939909": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "256766": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "513794": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $25, up to $5."
+        }
+      ],
+      "1028882": [
+        {
+          "title": "$2.99 delivery fee",
+          "description": "$2.99 delivery fee on orders over $15."
+        }
+      ],
+      "256860": [
+        {
+          "title": "15% off, up to $4",
+          "description": "15% off orders over $15, up to $4."
+        }
+      ],
+      "385211": [
         {
           "title": "$5 off",
           "description": "$5 off orders over $25."
-        }
-      ],
-      "1028342": [
+        },
         {
           "title": "$0 delivery fee",
           "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "199111": [
+      "841409": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "310476": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $15, up to $5."
         }
       ],
-      "1124177": [
+      "376204": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1369934": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1415093": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $25, up to $5."
+        }
+      ],
+      "539828": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $25, up to $5."
+        }
+      ],
+      "1160647": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1142797": [
         {
           "title": "$8 off",
           "description": "$8 off orders over $55."
         },
         {
           "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
+          "description": "$0 delivery fee on orders over $25."
         }
       ],
-      "456544": [
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "171693": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "170340": [
-        {
-          "title": "15% off, up to $5",
-          "description": "15% off orders over $15, up to $5."
-        }
-      ],
-      "1079933": [
-        {
-          "title": "15% off, up to $4",
-          "description": "15% off orders over $20, up to $4."
-        },
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $20."
-        }
-      ],
-      "420124": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "1051517": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "170320": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "202760": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $25, up to $5."
-        }
-      ],
-      "631106": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "167139": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "171117": [
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "1241629": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        },
-        {
-          "title": "$3 off",
-          "description": "$3 off orders over $15."
-        }
-      ],
-      "1193585": [
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "167197": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "199119": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "677654": [
-        {
-          "title": "$3 off",
-          "description": "$3 off orders over $15."
-        }
-      ],
-      "1078684": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        },
-        {
-          "title": "$3 off",
-          "description": "$3 off orders over $15."
-        }
-      ],
-      "1023038": [
-        {
-          "title": "$3 off",
-          "description": "$3 off orders over $20."
-        }
-      ],
-      "230334": [
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "717490": [
+      "375312": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $20, up to $5."
         }
       ],
-      "167199": [
+      "355015": [
         {
           "title": "$0 delivery fee",
           "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "261860": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "257285": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1356531": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "524230": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "879691": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1381969": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1279988": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "787174": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "513993": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1387856": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1356545": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1455399": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $12."
+        }
+      ],
+      "261617": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1037136": [
+        {
+          "title": "Free Large Cheese Pizza over $25",
+          "description": "Free Large Cheese Pizza over $25"
+        }
+      ],
+      "802972": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
         }
       ]
     }
