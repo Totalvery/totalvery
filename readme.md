@@ -11,9 +11,13 @@
 
 ## Usage
 
+_First of all, you need US IP because some apps where Totalvery crawls data in real-time may not be available in your country other than US. You can set US IP with VPN._
+
 To run this app:
 
    ```
+   $ git clone https://github.com/Totalvery/totalvery.git
+   $ cd totalvery
    $ docker-compose down -v
    $ docker-compose up --build
    ```
