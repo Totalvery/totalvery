@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
   "latitude": 37.7749295,
   "longitude": -122.4194155,
   "data": [
     {
       "name": "The Milk Snob",
+=======
+  "latitude": 32.2632448,
+  "longitude": -110.9751826,
+  "data": [
+    {
+      "name": "McDonald's\u00ae (Campbell & Fort Lowell)",
+>>>>>>> sy_frontend
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/8964c865-38d9-4b82-9bca-4f456f24feab.jpeg",
         "rating": 2.9,
@@ -17,8 +25,13 @@
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "cb4742e1-32ee-4731-ae94-4fe671e4f277",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "7a228964-bbba-4cec-ab60-58ede5b18e19",
+              "delivery_fee": "$3.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -35,6 +48,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Downtown Grocery",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/3d58ffc1-3dd8-44f4-94da-89d3d587a3a7.jpeg",
@@ -46,12 +60,23 @@
           "Snacks",
           "Home & Personal Care"
         ],
+=======
+      "name": "Taco Bell (495 E. Wetmore Rd.)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/90b58466-2aae-448e-87e0-216e8d3b3c50.jpeg",
+        "rating": 4.3,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "5f9fd707-1609-461a-a94e-fb23ab669737",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "ee66ae9d-0476-4a6b-a12a-a6d97ec486af",
+              "delivery_fee": "$4.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -68,6 +93,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "SushiToni",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/8c392d30-4e64-4701-80ff-a681ecd6f411",
@@ -78,11 +104,21 @@
           "Asian Fusion",
           "Local Eats"
         ],
+=======
+      "name": "Sauce Pizza & Wine (N Campbell)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/19134de1-ff59-40aa-80cf-25b53921b08d",
+        "rating": 4.8,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "6d709005-19e8-4992-a611-1594aad4cecd",
+=======
+              "id": "65f472f1-5f54-4429-8956-0774ffee6cdd",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -100,6 +136,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "McDonald's\u00ae (Fillmore)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/b53bbb9c-278f-4535-a1c1-8aaa9df1e91c.jpeg",
@@ -109,12 +146,23 @@
           "Fast Food",
           "Burgers"
         ],
+=======
+      "name": "El Guero Canelo (North Tucson)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/2f2baec4-0f45-496b-9206-7d4b06696eff.jpeg",
+        "rating": 4.1,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "3f6d47fc-b7f7-49ed-b04a-68c61dfa0571",
               "delivery_fee": "$1.49 Delivery Fee"
+=======
+              "id": "40840aad-9ef9-437c-9b08-3acdb571f234",
+              "delivery_fee": "$0 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -131,6 +179,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Taqueria Castillo (McAllister)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/64cc2f30-fd90-4ce0-913d-967c2bf0b324.jpeg",
@@ -143,12 +192,23 @@
           "Vegetarian Friendly",
           "Local Eats"
         ],
+=======
+      "name": "Popeyes Louisiana Kitchen (3060 North Campbell Avenue)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/7c21e574-6849-4def-9486-f593219127fa.jpeg",
+        "rating": 4.5,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "92d76f51-b76c-4415-ba79-946a1cd6c052",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "5ab93499-a1a5-4386-8a41-f1aff5128aa9",
+              "delivery_fee": "$2.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -165,6 +225,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "El Capitan Taqueria",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/b4db88b1-e12f-4687-9253-67c96987221f",
@@ -175,12 +236,23 @@
           "New Mexican",
           "Local Eats"
         ],
+=======
+      "name": "Burger King (454 West Grant)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/6619174b-637d-47c7-b98e-3eec895f4ff8.jpeg",
+        "rating": 4.2,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "b4064b99-2c4b-49f1-94e6-b5aa37ee7356",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "1e4a2c8d-d128-4f81-810a-8890312ffab7",
+              "delivery_fee": "$1.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -197,6 +269,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Piccolo Italia Pizza",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/b92a1cfb-9581-4bc0-952f-f53b0ebf4667",
@@ -207,12 +280,23 @@
           "Italian",
           "Local Eats"
         ],
+=======
+      "name": "Cold Stone Creamery (475 W Wetmore Rd )",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/735d7c81-0464-49eb-be00-c580516d6582",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "a961c8bb-c20c-4e5c-86ef-6b9a9d3deb73",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "1f9c080d-f88d-4d55-af61-589172beac6a",
+              "delivery_fee": "$1.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -229,6 +313,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Yasmin",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/d58e1ce9-21dd-491a-958a-8c2305a4a021.jpeg",
@@ -240,21 +325,31 @@
           "Healthy",
           "Local Eats"
         ],
+=======
+      "name": "Riliberto's Fresh Mexican Food",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/d4d9404a-71d6-4e4b-a95f-a6c83b695689.jpeg",
+        "rating": 3.8,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "1672d93d-f7d1-4feb-9d4c-cb8dce1adfad",
+=======
+              "id": "080ea38a-bbfe-4efc-ab37-7de6fa812f1c",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "1213822",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "1400510",
               "delivery_fee": ""
             }
           }
@@ -262,6 +357,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Holy Cluck 2127 Polk St",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/137ce6a6-6417-48d1-b47a-aeb0c342cd2d.jpeg",
@@ -272,12 +368,23 @@
           "Wings",
           "Family Meals"
         ],
+=======
+      "name": "Jack in the Box (305 W Grant Rd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/5d5d001b-d099-400b-8546-7cddd70d713a.jpeg",
+        "rating": 3.8,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "49199547-31d2-48b5-aba1-472046773c07",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "92f74a10-3ad2-4a59-a0cb-3938cda20601",
+              "delivery_fee": "$0.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -294,6 +401,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "American Indian cuisine",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/0602e6ba-eade-4b16-a76d-aa7e5a332a21.jpeg",
@@ -309,11 +417,21 @@
           "Family Meals",
           "Local Eats"
         ],
+=======
+      "name": "Fuku Sushi (University Blvd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/c4559f39-b66c-4ef9-b954-e6b3945c01d6.jpeg",
+        "rating": 4.5,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "e53bdc21-3a8b-4d04-a8c9-a90b4cc179f2",
+=======
+              "id": "c5effce3-5bff-4600-aee7-aaec1823523b",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -331,6 +449,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Na Ya Dessert Cafe (Hayes Valley)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/1c962b94-2615-4e3c-b694-c9041c5b9a5f.jpeg",
@@ -340,11 +459,21 @@
           "Japanese",
           "Local Eats"
         ],
+=======
+      "name": "Los Betos Mexican food",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/2fe3dd9c-1042-4e31-93cd-c8d771213205.jpeg",
+        "rating": 4.4,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "037a8fb6-c787-4924-b909-e1b84c0bf512",
+=======
+              "id": "c020ea7d-e5e4-45e0-8ea9-910bc27d3a13",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -362,6 +491,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Pronto Pizza San Francisco",
       "data": {
         "image": "https://duyt4h9nfnj50.cloudfront.net/resized/6bd25ee911ded5827546e7cb4579580e-w550-7f.jpg",
@@ -371,12 +501,23 @@
           "Pizza",
           "Local Eats"
         ],
+=======
+      "name": "IHOP (4187 N Oracle Rd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/b0c0b672-641b-4f2e-bda0-df5d0efa42e3.jpeg",
+        "rating": 4.2,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "a043b209-4de1-412c-8819-758e6894208b",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "89a4cc4f-bdaf-4a01-81e7-09799a911d3b",
+              "delivery_fee": "$6.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -393,6 +534,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Marco's Italian Ristorante",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/75c16f4b-d647-4d1c-be6b-e7c0cae2a44b.jpeg",
@@ -403,11 +545,21 @@
           "Comfort Food",
           "Family Meals"
         ],
+=======
+      "name": "Graze Premium Burgers (Speedway & Treat)",
+      "data": {
+        "image": "https://duyt4h9nfnj50.cloudfront.net/resized/13747a7c018ec538d4d350b4dcc1eab5-w550-26.jpg",
+        "rating": 4.7,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "0004ef91-2afa-467e-8436-13e52fce4aa2",
+=======
+              "id": "60f50e4f-0559-4ca3-87ba-3495e6674506",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -425,6 +577,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Humphry Slocombe - Morris St",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/d14a593f-d44d-410d-983d-bdacc1684c20.jpeg",
@@ -435,21 +588,31 @@
           "Desserts",
           "Local Eats"
         ],
+=======
+      "name": "Filibertos Mexican Food",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/49437ce6-6db5-4bf1-bf9f-0118ad488634.jpeg",
+        "rating": 4.5,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "7dcc4007-bce3-4b18-84b4-5ae5ee475158",
+=======
+              "id": "f5628411-9d6f-4b1e-ad14-a129d96ba51e",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "674307",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "2198467",
               "delivery_fee": ""
             }
           }
@@ -457,6 +620,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Jake's Steaks (Valencia)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/ce5468a9-5cf8-4ec6-8b92-1de1a096cbb4.jpeg",
@@ -473,11 +637,21 @@
           "Local Eats",
           "Cheesesteak"
         ],
+=======
+      "name": "The Buffalo Spot (Tucson)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/2c57878a-2f14-4743-ab46-4da17109abf9.jpeg",
+        "rating": 4,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "efa63318-7a4c-49b5-a1db-89cc8ee5296d",
+=======
+              "id": "b4fd5edc-7667-482f-af37-b8e235edbd06",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -495,6 +669,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Frozen Yogurt Bar",
       "data": {
         "image": "https://duyt4h9nfnj50.cloudfront.net/resized/e30a7f26404db87cba467eb39588a0b8-w550-b9.jpg",
@@ -508,11 +683,21 @@
           "Snacks",
           "Home & Personal Care"
         ],
+=======
+      "name": "King churros",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/428ff700-94db-4a66-8b86-358f46a6acee.jpeg",
+        "rating": 4.2,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "108492a3-b43a-4c68-b413-1912a1511a4e",
+=======
+              "id": "e0e5a3d6-ed92-41d9-b9f0-4ac039a07e29",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -530,6 +715,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Nizario's Pizza (Valencia)",
       "data": {
         "image": "https://duyt4h9nfnj50.cloudfront.net/sku/59ff51b5bced55df21c0193e94a6de5c",
@@ -540,11 +726,21 @@
           "Pizza",
           "Local Eats"
         ],
+=======
+      "name": "Truland Burgers & Greens (Tucson)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/90b2bfa7-ec62-4291-b2e3-8f85321b4ae4.jpeg",
+        "rating": 4.6,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "884e785d-b486-437b-9932-dac380660206",
+=======
+              "id": "602f7d9c-f66e-469d-9554-51ffedd9b82f",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -562,6 +758,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Parma Pizzaiolo",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/13ce6518-d8da-435d-8803-3fe71ab1afec.jpeg",
@@ -572,11 +769,21 @@
           "Comfort Food",
           "Local Eats"
         ],
+=======
+      "name": "Southwest Grillers",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/7ed83d68-4f36-444e-9dbf-63e0b9642cb4",
+        "rating": 4,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "bfe5d384-62fb-4828-a884-f314ef15d2b1",
+=======
+              "id": "fc6973c1-b4a9-40af-8bdc-08442d6d8c6f",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -594,6 +801,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Red Chilli",
       "data": {
         "image": "https://duyt4h9nfnj50.cloudfront.net/sku/98bc678f9236d104ec2d0d1b65a1a5b9",
@@ -608,21 +816,33 @@
           "Seafood",
           "Healthy"
         ],
+=======
+      "name": "Urban Pita",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/885865a3-edb1-41a1-86b6-acd1db209c8a",
+        "rating": 4.6,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "aff8e9ba-392e-47e8-a584-4d0600daffb0",
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
-              "support": false,
-              "id": "",
+=======
+              "id": "7cd7cfe3-f83d-4c8b-b21f-d2e7b7580bf8",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": true,
+              "id": "1167301",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "345499",
               "delivery_fee": ""
             }
           }
@@ -630,6 +850,39 @@
       }
     },
     {
+      "name": "The Mexican Cocina",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/ae901c51-5e2c-457f-96a4-6dfba65e6c47.jpeg",
+        "rating": 3.5,
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "9e8df786-ebee-491f-b0b4-9a88a7037781",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+<<<<<<< HEAD
+              "support": false,
+              "id": "",
+=======
+              "support": true,
+              "id": "2548768",
+>>>>>>> sy_frontend
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+<<<<<<< HEAD
       "name": "Lapats Thai Noodles Bar",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/a185d748-5fb0-4fd1-8b43-e0b03c2c8bae.jpeg",
@@ -639,11 +892,21 @@
           "Family Friendly",
           "Local Eats"
         ],
+=======
+      "name": "Native Grill & Wings (Speedway & Country Club)",
+      "data": {
+        "image": "https://duyt4h9nfnj50.cloudfront.net/resized/644118e89f856e79a6103bc5b61440a7-w550-57.jpg",
+        "rating": 4.1,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "fdb34706-0df7-4d24-b5cd-70cc97466446",
+=======
+              "id": "435c3565-8a77-4617-9229-0d8ee92b1bcc",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -661,6 +924,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Los Hermanos Taqueria",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/9fab3f17-da5b-47c5-8e77-95150436f3d8",
@@ -671,10 +935,17 @@
           "New Mexican",
           "Local Eats"
         ],
+=======
+      "name": "Hana Hawaiian Grill",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/ffc5abf9-61f4-4749-9040-9c3e52ba8a9d.jpeg",
+        "rating": 4.5,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "1bcb9e11-f96f-4f7c-bbe2-7d812931d537",
               "delivery_fee": "$0 Delivery Fee"
             },
@@ -686,6 +957,19 @@
             "grubhub": {
               "support": false,
               "id": "",
+=======
+              "id": "bcce9ea4-aa5a-4006-91e9-f162a89d7d37",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": true,
+              "id": "1051517",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2249952",
+>>>>>>> sy_frontend
               "delivery_fee": ""
             }
           }
@@ -693,6 +977,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Philmore Creamery",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/eafe61ae-5873-4e37-a5b9-44932b048b5f.jpeg",
@@ -702,12 +987,23 @@
           "Desserts",
           "Ice Cream and Frozen Yogurt"
         ],
+=======
+      "name": "Del Taco (840 E Broadway Blvd | 859)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/c76ef7b1-1a49-4009-a270-339d5b7fd2ea.jpeg",
+        "rating": 4.6,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "06ab5d4a-bcdd-4903-92c6-e24e607e0625",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "c8a39ffe-1ea0-4b2c-8117-59a9d5da4227",
+              "delivery_fee": "$3.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -724,6 +1020,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Off the Griddle",
       "data": {
         "image": "https://duyt4h9nfnj50.cloudfront.net/resized/b80ccdcb7278077f033aa916741b5a07-w550-e3.jpg",
@@ -733,12 +1030,23 @@
           "Belgian",
           "Local Eats"
         ],
+=======
+      "name": "Panera (845 North Park Avenue)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/97e65233-f653-4d8d-9c4b-5fa330e1b2bd.jpeg",
+        "rating": 4.2,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "6756ca9a-5a10-4659-a827-740ae8383ca3",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "8f15d16c-c6c3-4fa6-9685-d84145bfcb3e",
+              "delivery_fee": "$5.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -755,6 +1063,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Authentiko",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/52a66bc8-c1e8-413d-b58b-fa7c2b4b2e9e.jpeg",
@@ -769,11 +1078,21 @@
           "Vegetarian",
           "Salads"
         ],
+=======
+      "name": "Filibertos Mexican Food (Grant & Sycamore)",
+      "data": {
+        "image": "https://duyt4h9nfnj50.cloudfront.net/resized/1527045664023-w550-f4.jpg",
+        "rating": 4.7,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "55d15351-2ea4-45dc-bee0-040143641ca7",
+=======
+              "id": "db11ff75-b4ea-475c-8d82-6b9387076bc1",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -791,6 +1110,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Perilla - Haight",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/ea0e52bc-bcc0-4e6b-9610-51106c904e8a.jpeg",
@@ -806,21 +1126,31 @@
           "Family Friendly",
           "Local Eats"
         ],
+=======
+      "name": "The Blind Pig",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/204b2e62-7f3d-488f-8adf-fdbc2ba08890.jpeg",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "05e443e4-522e-4a6e-a65c-0ed26fbc64d5",
+=======
+              "id": "ff56e5ca-bf14-4392-94ff-409eed990376",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "878213",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "1338122",
               "delivery_fee": ""
             }
           }
@@ -828,6 +1158,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Crepe Express",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/26b0155b-9afd-46b1-9574-4aea20c03436.jpeg",
@@ -839,12 +1170,23 @@
           "Healthy",
           "Local Eats"
         ],
+=======
+      "name": "Papa John's (La Canada & River)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/6513fd88-1569-4802-bb7d-0b5e34148c76.jpeg",
+        "rating": 5,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "f98087e5-16a2-49bf-80c4-8e65587408cf",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "3bf10df5-5c3e-4a25-83cb-9a265f23cf22",
+              "delivery_fee": "$3.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -861,6 +1203,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Loaded Fries N' Wings (Valencia St)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/2c1fd04f-bb08-48b9-b7a0-d70bf8c5d951.jpeg",
@@ -870,11 +1213,21 @@
           "American",
           "Italian"
         ],
+=======
+      "name": "Oy Vey N.Y. Delicatessen",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/841a358c-5983-4b22-9798-d961c9ed2a6c.webp",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "90c31750-fb3b-4ff7-932a-624ce026ba1b",
+=======
+              "id": "24183fe9-9940-4d3a-8d02-e7906cf444b1",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -892,6 +1245,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Pizzalicious",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/51358140-87da-453a-9d62-8b268526ae83.jpeg",
@@ -902,11 +1256,21 @@
           "Sandwich",
           "Local Eats"
         ],
+=======
+      "name": "Sexy Grilled Cheese and Salad Company",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/9cad14be-87cc-4061-a5ab-40bd0aeb2b74.jpeg",
+        "rating": 4.6,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "e6466e30-1732-4c68-bc8c-ff190850c39d",
+=======
+              "id": "72c9c74a-6fab-422b-bc7c-a86f48a18424",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -915,8 +1279,13 @@
               "delivery_fee": ""
             },
             "grubhub": {
+<<<<<<< HEAD
               "support": false,
               "id": "",
+=======
+              "support": true,
+              "id": "2288213",
+>>>>>>> sy_frontend
               "delivery_fee": ""
             }
           }
@@ -924,6 +1293,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Pastime Pastas",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/e44fb46c-4550-4fb8-a15f-1730ac2b04d4.jpeg",
@@ -933,11 +1303,21 @@
           "Pasta",
           "Comfort Food"
         ],
+=======
+      "name": "Postino (Grant)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/7dc541ff-9c8f-4478-8263-83a9a99ace45.jpeg",
+        "rating": 4.6,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "b49fc897-8a7f-4012-9766-cc8db86342a1",
+=======
+              "id": "06b82bc4-8de2-44a7-9c42-862f67ea7c76",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -955,6 +1335,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Aditi Indian Cuisine",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/979209d7-dee2-4579-b626-36c777ea08fe.jpeg",
@@ -966,12 +1347,23 @@
           "Healthy",
           "Local Eats"
         ],
+=======
+      "name": "Wendy's  (1005 N. CAMPBELL AVE.)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/644b5e4c-6bc0-4dbf-a15c-8e7003de4fa3.jpeg",
+        "rating": 4.6,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "e93b316f-50a3-4b24-9081-08310c9ca6b8",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "a8da7b9a-a1a3-462f-ada4-74a5b71612e4",
+              "delivery_fee": "$3.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -988,6 +1380,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Grubstake Diner",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/15df9b40-3cf0-4b42-b72e-0fa80e4359a9",
@@ -1001,11 +1394,21 @@
           "Family Friendly",
           "Local Eats"
         ],
+=======
+      "name": "Riliberto\u2019s (Tuscon)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/83633ae9-ed6a-41b9-af61-705049d2bcbb.jpeg",
+        "rating": 4,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "d07ba108-943a-442d-a3a7-dbc3448e9f06",
+=======
+              "id": "be8f40d6-f63f-4fe2-9f93-f411353c6d2e",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -1023,6 +1426,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Philly Cheesesteak Snob",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/a54d302e-4419-4e64-a0e0-38785cdef6be.jpeg",
@@ -1032,11 +1436,21 @@
           "American",
           "Sandwiches"
         ],
+=======
+      "name": "Gentle Ben's Brewing Company",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/f69f60e3-b2fe-4810-a631-54dbac37f597",
+        "rating": 4.6,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "58391ad7-9cc1-4fa6-9266-7a7bacddf8ef",
+=======
+              "id": "9a6cc74a-c355-477e-9744-48d048010192",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -1045,8 +1459,8 @@
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "321829",
               "delivery_fee": ""
             }
           }
@@ -1054,6 +1468,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Frjtz",
       "data": {
         "image": "https://duyt4h9nfnj50.cloudfront.net/sku/cd4569f6d28c6da790d6538de8e09b4a",
@@ -1065,11 +1480,21 @@
           "Healthy",
           "Local Eats"
         ],
+=======
+      "name": "Viva Burrito (River Rd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/ec28febb-abad-4db7-838a-04447675d15c.jpeg",
+        "rating": 4.2,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "d0c9f08f-ea6f-4082-a82e-90336c7572b6",
+=======
+              "id": "b209fc4c-608d-4485-be18-cae485cbc358",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -1087,6 +1512,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Friends Liquor",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/e2133c0b-17aa-4be1-b7be-ce5a0d9a2177.jpeg",
@@ -1099,12 +1525,23 @@
           "Home & Personal Care",
           "Alcohol"
         ],
+=======
+      "name": "Denny's (555 N Freeway)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/b0017738-ac42-447f-87e5-41e1d3af79b2.jpeg",
+        "rating": 4.2,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "2d4e3faa-b102-4299-9824-9687a6ecc304",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "b0d24d8b-da0a-4b59-85c4-c5d12b973fbf",
+              "delivery_fee": "$0.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -1121,6 +1558,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "project://boba",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/0e83f741-a045-47fa-9f21-07b74f9e5457.jpeg",
@@ -1130,16 +1568,31 @@
           "Coffee and Tea",
           "Juice and Smoothies"
         ],
+=======
+      "name": "Taro Sushi",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/a1b0c992-6a61-464a-8576-fddfd758d271.jpeg",
+        "rating": 4.3,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "f6ea1d04-a1c3-491e-b438-5f9a4535ce6e",
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
               "support": false,
               "id": "",
+=======
+              "id": "de8e30be-455f-4152-ab0f-28f7f561e8bd",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": true,
+              "id": "1151366",
+>>>>>>> sy_frontend
               "delivery_fee": ""
             },
             "grubhub": {
@@ -1152,6 +1605,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Gabriella's New York City Pizza - 22nd St",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/6e23154a-8224-4727-aca4-681f8b73e2f6.jpeg",
@@ -1161,10 +1615,17 @@
           "Italian",
           "Desserts"
         ],
+=======
+      "name": "Breakfast Burrito Snob",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/857a607c-ac55-4dc4-8909-e47e92d3d886.jpeg",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "7db1d7f1-ead8-4ea2-8317-6b087d777126",
               "delivery_fee": "$0 Delivery Fee"
             },
@@ -1176,6 +1637,19 @@
             "grubhub": {
               "support": false,
               "id": "",
+=======
+              "id": "8e68d0cb-021a-4e5c-9ecc-a6fd7d60b4de",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": true,
+              "id": "1451889",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2550896",
+>>>>>>> sy_frontend
               "delivery_fee": ""
             }
           }
@@ -1183,6 +1657,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Damn, Dosa!",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/0deeb688-4721-44b8-a7e4-a21be0390000.jpeg",
@@ -1194,12 +1669,23 @@
           "Healthy",
           "Local Eats"
         ],
+=======
+      "name": "Beauty & the Burger (1785 E. River Road)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/473d7631-ea13-4503-acbe-e1fdde8a4fce.jpeg",
+        "rating": 4.4,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "2d391dea-5152-4220-b032-bf95824be3d6",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "976706aa-b7f3-48ae-9662-076c5e9558b5",
+              "delivery_fee": "$0.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -1216,6 +1702,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Japanese Curry House",
       "data": {
         "image": "https://duyt4h9nfnj50.cloudfront.net/resized/1537465914150-w550-49.jpg",
@@ -1223,11 +1710,21 @@
         "categories": [
           "Japanese"
         ],
+=======
+      "name": "Empire Pizza & Pub",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/1bf5a917-e5b3-4888-8bc0-bc885080eb62.webp",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "041b2126-0de5-4bae-b1c7-f23832510ac3",
+=======
+              "id": "a5ea1e8a-eb69-4f0e-a01b-72a4a97365f1",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -1245,6 +1742,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Italian Gelato",
       "data": {
         "image": "https://duyt4h9nfnj50.cloudfront.net/resized/58db49a18e6c7e4cbc6097261808efba-w550-e8.jpg",
@@ -1258,11 +1756,21 @@
           "Snacks",
           "Home & Personal Care"
         ],
+=======
+      "name": "HI FI Kitchen & Cocktails (Tucson)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/21b4b4be-86ea-49b7-9819-ac877eee087f.jpeg",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "7b521d0b-0e2c-4028-a040-011ab31269e6",
+=======
+              "id": "7330d5c2-890e-4743-a9dd-3e728cf0cc3c",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -1280,6 +1788,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Drops of Dough",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/ed686a97-2903-4af0-92fa-900540fea1e1.jpeg",
@@ -1288,21 +1797,31 @@
           "Desserts",
           "American"
         ],
+=======
+      "name": "Sushi Sensei",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/16e7400c-8243-4151-a47e-0e2a25d3edc6.jpeg",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "c84fcd89-466c-481b-b6f7-7291e2cc53bb",
+=======
+              "id": "d479a161-a5db-47a5-a9ab-c4d43c2c9d72",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "1108127",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "2313382",
               "delivery_fee": ""
             }
           }
@@ -1310,6 +1829,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Raw Juicery",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/bd64f4ce-7d7e-4a1c-bd46-7b59ba28a788.jpeg",
@@ -1321,11 +1841,21 @@
           "Healthy",
           "Local Eats"
         ],
+=======
+      "name": "The Blind Tiger",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/8d0c76f6-92ed-4665-9c90-4cb03a324256",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "8ef2cd0a-0324-4d45-8538-ea10721edea9",
+=======
+              "id": "11fc32f9-7236-49f7-b9d3-0f00bd4e06f8",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -1334,8 +1864,8 @@
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "1075472",
               "delivery_fee": ""
             }
           }
@@ -1343,6 +1873,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Indian Summer",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/394d6dc1-d1d1-4bb6-a4c2-63c0b8c69f24.jpeg",
@@ -1353,12 +1884,23 @@
           "Asian Fusion",
           "Local Eats"
         ],
+=======
+      "name": "Sullivan's (1785 E. River Road)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/012df8ee-72f9-4d84-b71f-ed3bbd94678f.jpeg",
+        "rating": 4,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "7bc91d19-3567-490b-b28f-eefb51f63be3",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "bebe5dfe-0b3d-42ed-a767-5180fba75aec",
+              "delivery_fee": "$0.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -1375,6 +1917,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "That's It",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/1b751240-7ab8-4f40-bcc8-9e55c3ce99d0.jpeg",
@@ -1385,12 +1928,23 @@
           "Latin American",
           "Local Eats"
         ],
+=======
+      "name": "American Grilled Cheese Company (3761 E Broadway)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/fc580a58-e1ae-4391-8b45-ed3047a3d180.jpeg",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "6e9dd441-2b61-4d6d-afcd-36dcfa283c49",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "6a1b6329-d6d5-4643-9978-3a5a67fe00ce",
+              "delivery_fee": "$4.49 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -1407,6 +1961,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Philly Lovin",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/5c7a59d2-e350-49dc-a951-e8d1f7526c0a",
@@ -1418,10 +1973,17 @@
           "Fast Food",
           "Steak"
         ],
+=======
+      "name": "Dante's Fire",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/dd3a639b-7185-49ea-a04f-0fd7ccf7a4c4.jpeg",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "fa35a88b-a431-4890-86b7-e54ebbfa3686",
               "delivery_fee": "$0 Delivery Fee"
             },
@@ -1433,6 +1995,19 @@
             "grubhub": {
               "support": false,
               "id": "",
+=======
+              "id": "076367f5-6f02-4fcc-aa9e-5c4829550081",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": true,
+              "id": "1098696",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "287517",
+>>>>>>> sy_frontend
               "delivery_fee": ""
             }
           }
@@ -1440,6 +2015,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Chuck's Cheesesteaks (San Francisco)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/337a1ffb-e5df-4942-b648-811bebcfa065.jpeg",
@@ -1450,10 +2026,17 @@
           "Healthy",
           "Local Eats"
         ],
+=======
+      "name": "Sushi Cutie",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/f14588cd-bc44-4de0-ba93-e5176dc22c25.jpeg",
+        "rating": 4,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "804b23b1-15cf-4ed6-ab38-0635a18b6061",
               "delivery_fee": "$0 Delivery Fee"
             },
@@ -1465,6 +2048,19 @@
             "grubhub": {
               "support": false,
               "id": "",
+=======
+              "id": "ea4d9da3-fb1b-4fc3-a5b8-d324ea082cd8",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": true,
+              "id": "1119157",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2313672",
+>>>>>>> sy_frontend
               "delivery_fee": ""
             }
           }
@@ -1472,6 +2068,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Alhamra Indian and Pakistani",
       "data": {
         "image": "https://duyt4h9nfnj50.cloudfront.net/resized/0400ee85ee500b15ac2d5e096ed53006-w550-27.jpg",
@@ -1482,21 +2079,31 @@
           "Family Friendly",
           "Local Eats"
         ],
+=======
+      "name": "The Burrito Snob",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/c5aa1569-488a-41f4-b6f7-edea21d563c5.jpeg",
+        "rating": 4.2,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "bc3be885-4172-493b-840f-b450393cfeab",
+=======
+              "id": "48a18337-8a2c-4816-b8aa-b1bfcffcede0",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "1236963",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
+              "support": true,
+              "id": "2382052",
               "delivery_fee": ""
             }
           }
@@ -1504,6 +2111,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Bunch of Munchies",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/07502e1d-8c00-4a5d-9bad-333c897a6260.jpeg",
@@ -1546,10 +2154,17 @@
           "Comfort Food",
           "Family Meals"
         ],
+=======
+      "name": "Burrito Clasico",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/4cd9aabf-6a9f-41c6-8a6f-b6e739cb5fcf.jpeg",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "1a922f27-c31d-41ad-9f23-fdfa0d290e51",
               "delivery_fee": "$0 Delivery Fee"
             },
@@ -1584,6 +2199,10 @@
               "support": true,
               "id": "b0ddfe54-d904-4c46-9ff0-edfe4df1264f",
               "delivery_fee": "$0 Delivery Fee"
+=======
+              "id": "8d8ae8d5-6858-4992-9a9f-e4ea15fb1eee",
+              "delivery_fee": "$0 Delivery Fee"
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -1591,6 +2210,7 @@
               "delivery_fee": ""
             },
             "grubhub": {
+<<<<<<< HEAD
               "support": false,
               "id": "",
               "delivery_fee": ""
@@ -1625,6 +2245,10 @@
             "grubhub": {
               "support": false,
               "id": "",
+=======
+              "support": true,
+              "id": "2198300",
+>>>>>>> sy_frontend
               "delivery_fee": ""
             }
           }
@@ -1632,6 +2256,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Loving Cup Express (SOMA)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/3468b52a-4ae0-4bae-b866-21369248b1d4.jpeg",
@@ -1641,10 +2266,17 @@
           "Desserts",
           "Vegetarian"
         ],
+=======
+      "name": "Taco Taco Burrito Burrito",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/ffe5fc44-e31b-4fb1-af62-84f7a058c646.jpeg",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "e07c60c1-ec0b-48db-8966-3ca1a6d92774",
               "delivery_fee": "$0 Delivery Fee"
             },
@@ -1656,6 +2288,19 @@
             "grubhub": {
               "support": false,
               "id": "",
+=======
+              "id": "977920ec-d694-4536-9fe7-ece1b1741c8c",
+              "delivery_fee": "$2.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": true,
+              "id": "901667",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2040730",
+>>>>>>> sy_frontend
               "delivery_fee": ""
             }
           }
@@ -1663,6 +2308,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Pasta Twins",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/e1711767-805a-4fcc-a777-4a4659b38bcb.jpeg",
@@ -1673,11 +2319,21 @@
           "Pizza",
           "Local Eats"
         ],
+=======
+      "name": "Kettle Restaurant",
+      "data": {
+        "image": "rushmore.uberinternal.com/business/location/<550b2268-795b-4599-86b2-272d2fa865ea>",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "975b9b46-af47-4259-b942-6697917923d8",
+=======
+              "id": "9c8999eb-7b08-46f9-b5a9-e9ed4e403452",
+>>>>>>> sy_frontend
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
@@ -1695,6 +2351,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Pancake Playhouse",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/3d8c9c94-3a14-4b71-a8cd-f7fe877b280d.jpeg",
@@ -1705,10 +2362,17 @@
           "Sandwiches",
           "Local Eats"
         ],
+=======
+      "name": "Jay's Breakfast Bar",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/376e37cd-041b-4788-9a66-c192e9ec10ed.jpeg",
+        "rating": 4.4,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "894c63ee-4379-4540-9339-0e59e814d968",
               "delivery_fee": "$0 Delivery Fee"
             },
@@ -1782,6 +2446,19 @@
             "grubhub": {
               "support": false,
               "id": "",
+=======
+              "id": "3d37da73-faa5-46db-8f62-fc645b9a57a7",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": true,
+              "id": "1335945",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2460021",
+>>>>>>> sy_frontend
               "delivery_fee": ""
             }
           }
@@ -1789,6 +2466,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Primo Pizza - Divisadero",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/f4e8d82d-3126-4c71-9332-2ab19dfe0eb5.jpeg",
@@ -1799,10 +2477,17 @@
           "Italian",
           "Family Meals"
         ],
+=======
+      "name": "Mary's Breakfast Burritos",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/3b0f6b5f-ea6a-4b97-89fe-66ff2417e760.jpeg",
+        "rating": 0,
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
               "support": true,
+<<<<<<< HEAD
               "id": "b0fd393f-b5a6-48e3-b24a-8074464922ad",
               "delivery_fee": "$0 Delivery Fee"
             },
@@ -1911,6 +2596,19 @@
             "grubhub": {
               "support": false,
               "id": "",
+=======
+              "id": "188923a7-e5cd-4658-b03c-9fade1a70779",
+              "delivery_fee": "$0.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": true,
+              "id": "1340576",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2460413",
+>>>>>>> sy_frontend
               "delivery_fee": ""
             }
           }
@@ -1918,6 +2616,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Mexican Taqueria",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/bba06f82-ac7a-4bf9-bce2-53607dd1ebbf",
@@ -12488,12 +13187,35 @@
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+      "name": "Fuku Sushi",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1556946994/k4k7sz5vzu8kbbr8nj6c.png",
+        "rating": "4",
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "171134",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "288402",
+              "delivery_fee": 499
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Bombay Grill Masala ",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/62bbcd60-4e1d-4fd4-8374-006a795d9e1e.jpeg",
@@ -12552,12 +13274,35 @@
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+      "name": "No Anchovies",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1586917406/r0pdokqnnpcvupvqetxo.png",
+        "rating": "4",
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "170384",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1409552",
+              "delivery_fee": 499
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Local Veggie Eats (FiDi)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/49e2f49d-0cc3-47ca-bfd5-69884e9cd34f.jpeg",
@@ -12575,10 +13320,20 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Union Public House",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1490919526/lcwq2n1do9jzm3gos2ti.jpg",
+        "rating": "4",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
               "support": false,
               "id": "",
@@ -12615,12 +13370,24 @@
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+            "doordash": {
+              "support": true,
+              "id": "171061",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "380167",
+              "delivery_fee": 499
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Tandoori Mahal",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/7f183465-05ab-4ca4-96be-715d0cac50e7.jpeg",
@@ -12670,6 +13437,18 @@
               "support": true,
               "id": "e3da7a9a-4873-4365-ab6a-d1cfb5b65f49",
               "delivery_fee": "$0 Delivery Fee"
+=======
+      "name": "Aqui Con El Nene Taqueria y Hot Dogs",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1587417272/fwrw19dltf7lbucbuctz.png",
+        "rating": "4",
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -12677,15 +13456,22 @@
               "delivery_fee": ""
             },
             "grubhub": {
+<<<<<<< HEAD
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+              "support": true,
+              "id": "2109300",
+              "delivery_fee": 499
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "daldas community market",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/927cd05b-b16c-4122-bac8-941368cc657e.jpeg",
@@ -12733,6 +13519,18 @@
               "support": true,
               "id": "aabb8f63-8764-4622-b685-d2809ae04562",
               "delivery_fee": "$0 Delivery Fee"
+=======
+      "name": "Opa's Grill Greek American Cuisine",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1605098645/tgifp97zdfxmi3g4yokj.png",
+        "rating": "4",
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+>>>>>>> sy_frontend
             },
             "doordash": {
               "support": false,
@@ -12740,15 +13538,22 @@
               "delivery_fee": ""
             },
             "grubhub": {
+<<<<<<< HEAD
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+              "support": true,
+              "id": "2443616",
+              "delivery_fee": 499
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Asian Food Collective (Sunset)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/81c3e4a5-7721-42c7-92e5-3f7a107f76c6.jpeg",
@@ -12767,20 +13572,42 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Los Betos",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1588960194/ogibehegl2rw2varu1a9.jpg",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+            "doordash": {
+              "support": true,
+              "id": "784683",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2134956",
+              "delivery_fee": 199
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Tikka Kabob Masala",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/1ec7d28a-0ea5-4526-88b3-8d6a0f02ee62.jpeg",
@@ -12799,20 +13626,42 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "El Guero Canelo",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1595248593/utigrgrulov4bfqxe8qp.png",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+            "doordash": {
+              "support": true,
+              "id": "170350",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2285758",
+              "delivery_fee": 199
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Sinatra's Pizza",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/bdd190ea-dc6e-432f-9456-65344deac1e7.jpeg",
@@ -12831,20 +13680,42 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Filiberto's Mexican Food",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1591653446/bqjmepuhiqw84dpibjyw.png",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+<<<<<<< HEAD
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+=======
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
+              "support": true,
+              "id": "2439122",
+              "delivery_fee": 349
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Spice Kit Asian Street Food (Daly City)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/df06d34b-3786-4507-9479-4cd5340a10d1.jpeg",
@@ -12864,20 +13735,42 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Obon Sushi Bar Ramen (tucson)",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1603114577/kj6zzlhtl8qotsikzwob.webp",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+<<<<<<< HEAD
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+=======
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
+              "support": true,
+              "id": "2398384",
+              "delivery_fee": 499
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Makin' Bacon",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/08a200a0-229d-4833-b46e-72ea7659ec66.jpeg",
@@ -12895,20 +13788,42 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Brooklyn Pizza Company",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1572620493/v0pcrzzvnljd0v17qvfm.png",
+        "rating": "4",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+            "doordash": {
+              "support": true,
+              "id": "199185",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1472463",
+              "delivery_fee": 499
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Chicken Collection (Mission)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/6b53a0e9-ac33-4ef4-9453-2493c140a38d.jpeg",
@@ -12927,20 +13842,42 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Mario's Pizza Tucson",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1554923529/wmcnmkcscsluccap17yf.png",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+<<<<<<< HEAD
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+=======
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
+              "support": true,
+              "id": "1162425",
+              "delivery_fee": 399
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Crepes A Go Go (North Beach)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/97eeab04-14bd-41bd-a94e-d69c8696b2cd.jpeg",
@@ -12959,20 +13896,42 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Taqueria Juanitos",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1598904837/atg7rn1hdzmycvkyd7bx.webp",
+        "rating": "4",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+<<<<<<< HEAD
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+=======
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
+              "support": true,
+              "id": "2339358",
+              "delivery_fee": 199
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Pastrami Bar",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/30bf46c5-6a03-4c9e-b25c-0d485493ed17.jpeg",
@@ -12991,20 +13950,42 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Postino - Grant",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1585619623/epqskkbq5iugg90apbva.png",
+        "rating": "4",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+<<<<<<< HEAD
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+=======
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
+              "support": true,
+              "id": "2044677",
+              "delivery_fee": 499
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Salad Snob",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/3705a89d-bc7c-4149-a234-030e2c83824a.jpeg",
@@ -13023,20 +14004,42 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Truland Burgers & Greens",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1593084215/oeylm9cuain2o43jybms.jpg",
+        "rating": "4",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+<<<<<<< HEAD
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+=======
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
+              "support": true,
+              "id": "2037771",
+              "delivery_fee": 949
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Park Mediterranean Grill  (FiDi)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/a1c4a845-0e61-45ae-af4b-3438215edf62.jpeg",
@@ -13057,20 +14060,42 @@
               "delivery_fee": "$3.49 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "El Chapo Restaurant",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1588581254/incnwexsqrnwxfootitv.png",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+            "doordash": {
+              "support": true,
+              "id": "932777",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2064801",
+              "delivery_fee": 499
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Loop Neighborhood Market",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/040b69cb-953a-42f6-99b4-e234ce0dbe60.jpeg",
@@ -13090,20 +14115,42 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Taco Giro Restaurant",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1564517848/tck8ya5aexa0noghognv.png",
+        "rating": "4",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+<<<<<<< HEAD
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+=======
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
+              "support": true,
+              "id": "1718709",
+              "delivery_fee": 349
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Indian Mini Bowls ",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/e719853c-4eca-4bf4-af74-fc15cde19dee.jpeg",
@@ -13123,20 +14170,42 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Wienerschnitzel (N Oracle Rd)",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1564657252/qiyxbt7hu6l7ocm9dsim.png",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+<<<<<<< HEAD
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+=======
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
+              "support": true,
+              "id": "1420234",
+              "delivery_fee": 599
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Pizza By Any Means Necessary (Polk)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/73762e63-46d2-40d0-a975-7b046ab1c107.jpeg",
@@ -13153,20 +14222,42 @@
               "delivery_fee": "$1.49 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Taka Teriyaki",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1595428691/ls2jknvqni2sm2zpbey1.jpg",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+            "doordash": {
+              "support": true,
+              "id": "1134674",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2313379",
+              "delivery_fee": 499
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Bollywood SF ",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/fd12d10f-26eb-4dec-bdea-18ae34ac6746.jpeg",
@@ -13186,10 +14277,20 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "The Rolling Sushi",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1574798822/tvgkg0cv4qb7errqapcw.jpg",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
               "support": false,
               "id": "",
@@ -13218,20 +14319,109 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
-              "support": false,
-              "id": "",
+=======
+            "doordash": {
+              "support": true,
+              "id": "1119214",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
+              "support": true,
+              "id": "2313262",
+              "delivery_fee": 499
             }
           }
         ]
       }
     },
     {
+      "name": "Viva Burrito (W River Rd)",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1565170676/qrwj2mskhhjy4n7vox3g.png",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1420123",
+              "delivery_fee": 599
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Espresso Art Cafe",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1594126055/qiu5iucsdqnyvd4svmk6.png",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+<<<<<<< HEAD
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+=======
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2251577",
+              "delivery_fee": 499
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "filibertos mexican food",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1591319405/vxozouicyii3owopdan3.jpg",
+        "rating": "4",
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2198642",
+              "delivery_fee": 799
+>>>>>>> sy_frontend
+            }
+          }
+        ]
+      }
+    },
+    {
+<<<<<<< HEAD
       "name": "Sunny Day Creamery",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/e28aaa28-4d0a-43e8-b64b-674107ef8792",
@@ -13249,20 +14439,94 @@
               "delivery_fee": "$0.49 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Taqueria El Cheke",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1565169271/fli0rhqcyikbj0fyh4ig.png",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
+              "support": true,
+              "id": "1420440",
+              "delivery_fee": 599
             }
           }
         ]
       }
     },
     {
+      "name": "The Edge",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1591090672/j4oh15vxjk4gavqrbecz.jpg",
+        "rating": "0",
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2281192",
+              "delivery_fee": 599
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sunny & Fine's Breakfast Burritos",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1588694286/bephvsywph75d8kat2zv.jpg",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+<<<<<<< HEAD
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+=======
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2215693",
+              "delivery_fee": 799
+>>>>>>> sy_frontend
+            }
+          }
+        ]
+      }
+    },
+    {
+<<<<<<< HEAD
       "name": "Dietarian",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/abda1f6a-0f10-4dd6-9bc3-94f979d561ec.jpeg",
@@ -13283,20 +14547,94 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+=======
+      "name": "Outlaw Saloon",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1564653687/plumhwyw0i6gywqlb0ap.png",
+        "rating": "0",
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
             "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
+              "support": true,
+              "id": "1420327",
+              "delivery_fee": 599
             }
           }
         ]
       }
     },
     {
+      "name": "Hi-Fi Kitchen & Cocktails",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1603796338/yrldl05uv4xyeretsjyn.jpg",
+        "rating": "0",
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2418895",
+              "delivery_fee": 499
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Frost Gelato (N Oracle Rd)",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1565192869/z8s5rauhejikbrssa5w3.png",
+        "rating": "3",
+        "platform": [
+          {
+            "ubereats": {
+>>>>>>> sy_frontend
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+<<<<<<< HEAD
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+=======
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1418956",
+              "delivery_fee": 599
+>>>>>>> sy_frontend
+            }
+          }
+        ]
+      }
+    },
+    {
+<<<<<<< HEAD
       "name": "Easy Breezy Lunches  (FiDi)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/0a825fbb-7bc7-4950-8a63-f33ba6f3e6fe.jpeg",
@@ -13307,6 +14645,12 @@
           "Asian",
           "Mediterranean"
         ],
+=======
+      "name": "El Burrito Borracho",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1580966389/lh3s8ms050xfa3q7nazg.jpg",
+        "rating": "2",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13320,15 +14664,22 @@
               "delivery_fee": ""
             },
             "grubhub": {
+<<<<<<< HEAD
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+              "support": true,
+              "id": "2215888",
+              "delivery_fee": 799
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Snack Shack (Sunset)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/5b41cef3-16c0-4824-89cd-c06dca6a02e0.jpeg",
@@ -13340,6 +14691,12 @@
           "Desserts",
           "Desserts"
         ],
+=======
+      "name": "Percheron",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1564654015/wxh5kbjtgjymu8mbjuqd.png",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13353,15 +14710,22 @@
               "delivery_fee": ""
             },
             "grubhub": {
+<<<<<<< HEAD
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+              "support": true,
+              "id": "1269317",
+              "delivery_fee": 499
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Jr's Philly Cheesesteaks",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/8bf4a419-8887-4537-b1d2-d05607a19f83.jpeg",
@@ -13372,6 +14736,12 @@
           "Desserts",
           "Local Eats"
         ],
+=======
+      "name": "Thank U, Mex",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1583183729/ffobryb9cvcoqbxkczud.jpg",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13384,16 +14754,29 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2197927",
+              "delivery_fee": 799
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Bar Bites and More (Mission)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/de70b209-b8aa-4b0c-b716-1adbeb0391b8.jpeg",
@@ -13405,6 +14788,12 @@
           "Desserts",
           "Ice Cream & Frozen Yogurt"
         ],
+=======
+      "name": "Burger King",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1612307131/kaork1onyw1evg9es26u.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13413,6 +14802,7 @@
               "delivery_fee": "$0 Delivery Fee"
             },
             "doordash": {
+<<<<<<< HEAD
               "support": false,
               "id": "",
               "delivery_fee": ""
@@ -13421,13 +14811,27 @@
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+              "support": true,
+              "id": "189492",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1075275",
+              "delivery_fee": 199
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Humphry Slocombe Ice Cream (FiDi)",
+=======
+      "name": "IHOP",
+>>>>>>> sy_frontend
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/5fcc494b-af9d-49df-b263-ebdf9be4bb47.jpeg",
         "rating": 0,
@@ -13444,6 +14848,7 @@
               "delivery_fee": "$1.49 Delivery Fee"
             },
             "doordash": {
+<<<<<<< HEAD
               "support": false,
               "id": "",
               "delivery_fee": ""
@@ -13452,12 +14857,23 @@
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+              "support": true,
+              "id": "189591",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "893213",
+              "delivery_fee": 349
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Easy Breezy Lunches (Mission)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/0a825fbb-7bc7-4950-8a63-f33ba6f3e6fe.jpeg",
@@ -13468,6 +14884,12 @@
           "Asian",
           "Mediterranean"
         ],
+=======
+      "name": "Waffle House",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1589205736/chz74pfvtnqpiibkto94.jpg",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13481,15 +14903,22 @@
               "delivery_fee": ""
             },
             "grubhub": {
+<<<<<<< HEAD
               "support": false,
               "id": "",
               "delivery_fee": ""
+=======
+              "support": true,
+              "id": "2128581",
+              "delivery_fee": 599
+>>>>>>> sy_frontend
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Cozy Comfort Meals (FiDi)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/92ceb55f-d806-4705-b682-685d371cf96d.jpeg",
@@ -13501,6 +14930,12 @@
           "Comfort Food",
           "Burgers"
         ],
+=======
+      "name": "BJ's Restaurant & Brewhouse",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1540917943/ngp0sszwututr1abvipb.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13513,16 +14948,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "476570",
+              "delivery_fee": 349
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Indian Tikka Paradise (Sf Mission)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/5d9d0aec-d5a7-45d5-8cd2-682574d44d44.jpeg",
@@ -13533,6 +14978,12 @@
           "Indian Curry",
           "Local Eats"
         ],
+=======
+      "name": "Wendy's",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1574870004/un8zbyvnajrk67741xfy.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13545,16 +14996,25 @@
               "id": "",
               "delivery_fee": ""
             },
-            "grubhub": {
-              "support": false,
-              "id": "",
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1288048",
               "delivery_fee": ""
+            },
+>>>>>>> sy_frontend
+            "grubhub": {
+              "support": true,
+              "id": "1683237",
+              "delivery_fee": 349
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Fast Favorites (Sunset)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/1e40035c-b668-4f46-b10b-091601f78825.jpeg",
@@ -13566,6 +15026,12 @@
           "Desserts",
           "Ice Cream & Frozen Yogurt"
         ],
+=======
+      "name": "Cold Stone Creamery",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1478735056/kdffrsjpn9ecppkz94to.png",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13578,16 +15044,25 @@
               "id": "",
               "delivery_fee": ""
             },
-            "grubhub": {
-              "support": false,
-              "id": "",
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "881468",
               "delivery_fee": ""
+            },
+>>>>>>> sy_frontend
+            "grubhub": {
+              "support": true,
+              "id": "2212277",
+              "delivery_fee": 349
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "W & K MARKET",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/dd5412bd-7692-4884-a4bc-891bbc6beca8.jpeg",
@@ -13600,6 +15075,12 @@
           "Home & Personal Care",
           "Alcohol"
         ],
+=======
+      "name": "McDonald's",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1604203242/u1qpsfyly2thulxf5mek.png",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13612,16 +15093,25 @@
               "id": "",
               "delivery_fee": ""
             },
-            "grubhub": {
-              "support": false,
-              "id": "",
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "653658",
               "delivery_fee": ""
+            },
+>>>>>>> sy_frontend
+            "grubhub": {
+              "support": true,
+              "id": "2457672",
+              "delivery_fee": 349
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Pizzeria Bravo (22nd St)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/19b3eda5-0fee-4cae-9f3a-e71083e0c384.jpeg",
@@ -13631,6 +15121,12 @@
           "American",
           "Comfort Food"
         ],
+=======
+      "name": "Taco Bell",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1507761709/pqssgagabmtgqjwodrqq.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13643,16 +15139,25 @@
               "id": "",
               "delivery_fee": ""
             },
-            "grubhub": {
-              "support": false,
-              "id": "",
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1196222",
               "delivery_fee": ""
+            },
+>>>>>>> sy_frontend
+            "grubhub": {
+              "support": true,
+              "id": "928611",
+              "delivery_fee": 399
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Amsterdam Cafe",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/20699cb7-10d4-4719-a19b-8d9ef755aa80",
@@ -13663,6 +15168,12 @@
           "Sandwich",
           "Healthy"
         ],
+=======
+      "name": "Chick-fil-A",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1594212458/ib7ntuy7tywctha0nyau.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13675,16 +15186,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1962205",
+              "delivery_fee": 349
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Dessert Shack",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/fa838c25-eda8-46d6-883b-026777f95bb1.jpeg",
@@ -13695,6 +15216,12 @@
           "Drinks",
           "Local Eats"
         ],
+=======
+      "name": "Popeyes",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1594220379/fsoj87rvajnkfdaqru6e.jpg",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13707,16 +15234,25 @@
               "id": "",
               "delivery_fee": ""
             },
-            "grubhub": {
-              "support": false,
-              "id": "",
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "452142",
               "delivery_fee": ""
+            },
+>>>>>>> sy_frontend
+            "grubhub": {
+              "support": true,
+              "id": "1660053",
+              "delivery_fee": 349
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Cauli Crust Pizza Co.",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/16c87627-42af-4511-8a7c-f27722dbde3d.jpeg",
@@ -13726,6 +15262,12 @@
           "American",
           "Pizza"
         ],
+=======
+      "name": "Blackjack Pizza & Salads",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1510257333/pp2idnnmza1wrysol6g7.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13738,16 +15280,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1447195",
+              "delivery_fee": 450
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Fast Favorites (FiDi)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/1e40035c-b668-4f46-b10b-091601f78825.jpeg",
@@ -13759,6 +15311,12 @@
           "Desserts",
           "Ice Cream & Frozen Yogurt"
         ],
+=======
+      "name": "Panera Bread",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1602792215/le8hybhlwhq6qxfcenu9.png",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13771,16 +15329,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1294743",
+              "delivery_fee": 499
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "OMG Pizza (Polk)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/b44c5259-cc93-4f5c-9773-ad310a88d099.jpeg",
@@ -13790,6 +15358,12 @@
           "Pizza",
           "Italian"
         ],
+=======
+      "name": "Denny's",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1489010275/aqeom6oiawn14dq84jxp.png",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13802,16 +15376,25 @@
               "id": "",
               "delivery_fee": ""
             },
-            "grubhub": {
-              "support": false,
-              "id": "",
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "788053",
               "delivery_fee": ""
+            },
+>>>>>>> sy_frontend
+            "grubhub": {
+              "support": true,
+              "id": "1459037",
+              "delivery_fee": 499
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Cauliflower Pizza Kitchen",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/2db358be-e631-4c81-bfb7-1dde5581049e.jpeg",
@@ -13821,6 +15404,12 @@
           "American",
           "Pizza"
         ],
+=======
+      "name": "The Buffalo Spot",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1573222528/hqj44ihgz3l9iwrqzwiu.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13833,16 +15422,25 @@
               "id": "",
               "delivery_fee": ""
             },
-            "grubhub": {
-              "support": false,
-              "id": "",
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "518950",
               "delivery_fee": ""
+            },
+>>>>>>> sy_frontend
+            "grubhub": {
+              "support": true,
+              "id": "1703089",
+              "delivery_fee": 499
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Uncle Willie's Wings & Things - Lombard St. ",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/59a66fe2-f6eb-489a-bde2-bc9b723db4e2.jpeg",
@@ -13855,6 +15453,12 @@
           "Bar Food",
           "Soup"
         ],
+=======
+      "name": "P.F. Chang's",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1594824073/xovhyd4fwoi6ykktxdvb.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13867,16 +15471,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "349290",
+              "delivery_fee": 499
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Cajun SF",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/5564ba68-d0dc-4063-9d61-511238c66469.jpeg",
@@ -13886,6 +15500,12 @@
           "American",
           "Comfort Food"
         ],
+=======
+      "name": "Sullivan's Steakhouse",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1594338017/ww2ia2kzdrmkpzjfk7ov.png",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13898,16 +15518,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1032980",
+              "delivery_fee": 499
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Ice Cream Shop",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/6fe74145-fa72-4703-8482-f8ae61326938.jpeg",
@@ -13917,6 +15547,12 @@
           "Comfort Food",
           "Desserts"
         ],
+=======
+      "name": "Beauty & the Burger",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1600885598/oxcxkxfduau0dgxwvpik.jpg",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13929,16 +15565,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2407249",
+              "delivery_fee": 499
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Pushkin Dumplings",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/bfda4243-34b8-4f50-9886-e6e533d02564.jpeg",
@@ -13947,6 +15593,12 @@
           "Russian",
           "Ukrainian"
         ],
+=======
+      "name": "7-Eleven",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1601307393/ejn7cwuktve7vnihgakx.jpg",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13959,16 +15611,25 @@
               "id": "",
               "delivery_fee": ""
             },
-            "grubhub": {
-              "support": false,
-              "id": "",
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "862680",
               "delivery_fee": ""
+            },
+>>>>>>> sy_frontend
+            "grubhub": {
+              "support": true,
+              "id": "2116656",
+              "delivery_fee": 499
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Easy Breezy Lunches (Sunset)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/0a825fbb-7bc7-4950-8a63-f33ba6f3e6fe.jpeg",
@@ -13979,6 +15640,12 @@
           "Asian",
           "Mediterranean"
         ],
+=======
+      "name": "Papa John's Pizza",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1464988153/w1zbogiy6kw8enaqtk0h.png",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -13991,16 +15658,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2413474",
+              "delivery_fee": 599
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Local Veggie Eats (Mission)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/49e2f49d-0cc3-47ca-bfd5-69884e9cd34f.jpeg",
@@ -14010,6 +15687,12 @@
           "Vegan",
           "Healthy"
         ],
+=======
+      "name": "Graze Premium Burgers",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1568915943/fgogr8jwvplzhgc4eqzi.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14022,16 +15705,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1339724",
+              "delivery_fee": 649
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Icu Market Deli & Ice Cream",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/bd964117-5a5f-489d-ab27-9725f3b30a5c",
@@ -14042,6 +15735,12 @@
           "Desserts",
           "Local Eats"
         ],
+=======
+      "name": "Carl's Jr",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1602560460/kk39m1fvucthvhbjze5c.png",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14054,16 +15753,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2132982",
+              "delivery_fee": 649
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Local Veggie Eats (Sunset)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/49e2f49d-0cc3-47ca-bfd5-69884e9cd34f.jpeg",
@@ -14073,6 +15782,12 @@
           "Healthy",
           "Vegetarian"
         ],
+=======
+      "name": "American Grilled Cheese Company",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1608143359/gaxbikkcbixe0aqikw4b.jpg",
+        "rating": "0",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14085,16 +15800,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2532488",
+              "delivery_fee": 799
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Chicken Collection (Sunset)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/6b53a0e9-ac33-4ef4-9453-2493c140a38d.jpeg",
@@ -14105,6 +15830,12 @@
           "Family Meals",
           "Chicken"
         ],
+=======
+      "name": "Nashville Hot Chicken Shack",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1597096097/ac1ei2d0zlx98rxn4ogz.jpg",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14117,16 +15848,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2358336",
+              "delivery_fee": 799
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Penny's Chicken Tenders",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/df5f6c17-7b45-4c3d-a591-e24d8d072c42.jpeg",
@@ -14137,6 +15878,12 @@
           "Fast Food",
           "Local Eats"
         ],
+=======
+      "name": "Claim Jumper",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1587050181/utxt8ylv68pkbyvf7les.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14149,16 +15896,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2235136",
+              "delivery_fee": 799
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Bar Bites and More (Sunset)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/de70b209-b8aa-4b0c-b716-1adbeb0391b8.jpeg",
@@ -14170,6 +15927,12 @@
           "Desserts",
           "Ice Cream & Frozen Yogurt"
         ],
+=======
+      "name": "Smashburger",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1605199034/p6r3yozrzxrbvj5xzano.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14182,16 +15945,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1070442",
+              "delivery_fee": 799
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Bliss Pops",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/ded74640-55d8-42df-b6ab-74f8314380e2.jpeg",
@@ -14203,6 +15976,12 @@
           "Vegan",
           "Local Eats"
         ],
+=======
+      "name": "Pinkberry",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1547495742/u7y4bjoujoo5tqejc0e6.jpg",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14215,16 +15994,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1071604",
+              "delivery_fee": 949
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Seema's Indian Bar",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/2030a66d-ec9d-44f8-8d1f-9fd014ec2db4.jpeg",
@@ -14236,6 +16025,12 @@
           "Healthy",
           "Local Eats"
         ],
+=======
+      "name": "Native Grill & Wings",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1502307083/nrzqamevxujii151b16d.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14248,16 +16043,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1970244",
+              "delivery_fee": 999
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Cozy Comfort Meals (Sunset)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/50c8b62e-bf50-4619-9b39-ce4164c4a27a.jpeg",
@@ -14269,6 +16074,12 @@
           "Comfort Food",
           "Burgers"
         ],
+=======
+      "name": "Donut Bar Tucson",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1589467960/hmnzulaegh9jshnpdszt.png",
+        "rating": "0",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14281,16 +16092,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2499725",
+              "delivery_fee": 499
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Pride of the Mediterranean",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/1df0b0f4-1c71-4101-aaf4-cdef2e15f636",
@@ -14300,6 +16121,12 @@
           "Arabian",
           "Chicken"
         ],
+=======
+      "name": "IOU Sushi111",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1558022361/pvfowq04zdrwfzqeabjk.jpg",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14312,16 +16139,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1171469",
+              "delivery_fee": 349
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Central Park Liquors",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/06e37e58-8111-4e47-ac2a-e13c31176908.jpeg",
@@ -14334,6 +16171,12 @@
           "Liquor Stores",
           "Drinks"
         ],
+=======
+      "name": "Alexandria's Pearl",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1578605386/dodewxz6bjbahaooxfhk.jpg",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14346,16 +16189,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1748267",
+              "delivery_fee": 349
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "2020 Burger (Monterey)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/81b1854f-e285-485e-acd7-b58f07496f6c.jpeg",
@@ -14366,6 +16219,12 @@
           "Sandwiches",
           "Local Eats"
         ],
+=======
+      "name": "Carrabba's Italian Grill",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1593623214/vhekm7ldkf6swoflclga.png",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14378,16 +16237,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1266446",
+              "delivery_fee": 949
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Wild Burger Joint",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/96eef458-b460-4933-ae6e-c6783ee302bc.jpeg",
@@ -14398,6 +16267,12 @@
           "Fast Food",
           "Local Eats"
         ],
+=======
+      "name": "Angry Crab Shack & BBQ",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1585171885/birnhstycrbaohoavvb1.png",
+        "rating": "3",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14410,16 +16285,26 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2045920",
+              "delivery_fee": 349
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Licious pizza",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/3dbf1b5c-33dc-43c7-b0d0-5abbdc57095f.jpeg",
@@ -14429,6 +16314,12 @@
           "Comfort Food",
           "Pizza"
         ],
+=======
+      "name": "Carraba's Italian Grill",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1593623214/vhekm7ldkf6swoflclga.png",
+        "rating": "4",
+>>>>>>> sy_frontend
         "platform": [
           {
             "ubereats": {
@@ -14441,19 +16332,34 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
             "grubhub": {
+=======
+            "doordash": {
+>>>>>>> sy_frontend
               "support": false,
               "id": "",
               "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1431047",
+              "delivery_fee": 949
             }
           }
         ]
       }
     },
     {
+<<<<<<< HEAD
       "name": "Buffalo\u2019s Express (90 charter oak ave k30)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/15d486ac-3e33-4a82-bccf-cbec7d2f8754.jpeg",
+=======
+      "name": "Illegal Pete's",
+      "data": {
+        "image": "",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Burgers",
@@ -14472,6 +16378,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "199111",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14482,9 +16396,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Farmers Salad",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/5fb2a6be-89fe-4d9b-b430-92cd64632bf2.jpeg",
+=======
+      "name": "Carl's Jr.",
+      "data": {
+        "image": "",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Salads",
@@ -14503,6 +16423,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "200814",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14513,9 +16441,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Dave's Overnight Oats",
       "data": {
         "image": "rushmore.uberinternal.com/business/location/<550b2268-795b-4599-86b2-272d2fa865ea>",
+=======
+      "name": "The Sexy Grilled Cheese and Salad Company",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/509e3f69-c5a7-4505-98f3-cdfc4611e655-retina-large.jpg",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Breakfast and Brunch",
@@ -14534,6 +16468,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1079933",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14544,9 +16486,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Sinatra's Pizza",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/17cd1da5-cae2-4587-ab82-d1431951d880.jpeg",
+=======
+      "name": "Thank U, Mex (Mexican Cantina)",
+      "data": {
+        "image": "",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Italian",
@@ -14565,6 +16513,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1108123",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14575,7 +16531,11 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Mac 'n Cue by International Smoke (Mission)",
+=======
+      "name": "DashMart",
+>>>>>>> sy_frontend
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/69ec3306-f6a1-4af9-aead-30af6b6fbfa2.jpeg",
         "rating": 5,
@@ -14599,6 +16559,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1178634",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14609,9 +16577,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Slice House by Tony Gemignani (Sunset)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/8dccb66c-be9d-47c6-89c8-9776dc7f0ca7.jpeg",
+=======
+      "name": "The Flower Boutique",
+      "data": {
+        "image": "https://cdn.doordash.com/media/store/carousel/cd16e3b6-35dd-441c-aed4-f739eef07816.png",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Italian",
@@ -14630,6 +16604,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1478370",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14640,9 +16622,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Spice Kit Asian Street Food (FiDi)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/1a22e672-ecff-4b29-b5c4-f286d776849b.jpeg",
+=======
+      "name": "Villa Peru",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/451002f4-3bd1-46f1-8945-981765b9cf0d-retina-large.jpg",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Korean",
@@ -14663,6 +16651,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "199108",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14673,9 +16669,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "San Francisco Wing Company",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/94744930-9327-47d7-820b-0935f3f9583d.jpeg",
+=======
+      "name": "The Cheesecake Factory",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://cdn.doordash.com/media/store/carousel/CCF_5.png",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Mexican",
@@ -14694,6 +16696,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "201756",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14704,9 +16714,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Mac 'n Cue by International Smoke (Sunset)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/69ec3306-f6a1-4af9-aead-30af6b6fbfa2.jpeg",
+=======
+      "name": "Walgreens",
+      "data": {
+        "image": "",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "BBQ",
@@ -14728,6 +16744,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1113031",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14738,7 +16762,11 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Wingsanity (Polk)",
+=======
+      "name": "The Mexican Cocina - [Grandparent - 1965]",
+>>>>>>> sy_frontend
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/adb77f4f-76b6-4d0d-a015-08f75b006c8e.jpeg",
         "rating": 0,
@@ -14758,6 +16786,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1481850",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14768,9 +16804,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Mac 'n Cue by International Smoke (Daly City)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/69ec3306-f6a1-4af9-aead-30af6b6fbfa2.jpeg",
+=======
+      "name": "Little Caesars Pizza",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/9c93a2f6-574f-45f2-b6cd-3cea3d398ce3-retina-large-jpeg",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "BBQ",
@@ -14792,6 +16834,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1149438",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14802,9 +16852,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Hot Sandwich Bar",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/a1c54995-7bc3-44d4-bb0f-6f17145d8a12.jpeg",
+=======
+      "name": "CVS",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://cdn.doordash.com/media/photos/1da2f52c-1196-4883-b1f4-b3db39abdee7-retina-large.png",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Burgers",
@@ -14824,6 +16880,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1235981",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14834,9 +16898,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Bosscat Wings",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/1176d38b-33cc-4414-81ee-261ddc60290f.jpeg",
+=======
+      "name": "Jack in the Box",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/20b15044-e463-4581-a7d0-a378f4d472bc-retina-large-jpeg",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Wings",
@@ -14856,6 +16926,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1103830",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14866,9 +16944,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "PetitPita",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/eb35e97f-cfa1-4385-bf82-0f236a253431.jpeg",
+=======
+      "name": "Los Betos Mexican Food",
+      "data": {
+        "image": "",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Mediterranean",
@@ -14892,6 +16976,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1197589",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14902,9 +16994,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Seeti (Indian Meal Kits)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/3c515d53-4261-4823-999d-41ec6b969932.jpeg",
+=======
+      "name": "Postino",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/e52fd68e-dba4-499a-a5c4-8655ec6e0d28-retina-large.jpg",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Indian",
@@ -14923,6 +17021,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "918949",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14933,9 +17039,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Hot Frenchie",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/aac62666-7a26-4a2f-bae4-01896202c18a.jpeg",
+=======
+      "name": "North Italia",
+      "data": {
+        "image": "https://cdn.doordash.com/media/store/carousel/bolognese_doordash.jpg",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Breakfast and Brunch",
@@ -14954,6 +17066,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "736036",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14964,9 +17084,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "International House of Quesadillas",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/deb09ddc-ad4f-4ac2-bbb3-d40ffbbc3b87.jpeg",
+=======
+      "name": "Empire Pizza",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/98d413b9-3ce0-4eb6-9be2-e9f308829e0e-retina-large-jpeg",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Mexican",
@@ -14985,6 +17111,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "940455",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -14995,9 +17129,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "The Cali Calzone",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/bbd6e2c8-7094-49db-b693-256e7db07241.jpeg",
+=======
+      "name": "Chick-fil-A\u00ae",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://cdn.doordash.com/media/store/carousel/cfa_no_banner.png",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Pizza",
@@ -15017,6 +17157,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "189599",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -15027,7 +17175,11 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Anton SV P\u00e2tisserie",
+=======
+      "name": "Gentle Bens Brewing Company",
+>>>>>>> sy_frontend
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/74dbf38f-5857-4618-adbb-0325302902ed.jpeg",
         "rating": 0,
@@ -15048,6 +17200,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "656556",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -15058,9 +17218,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Grubstake Burgers and Breakfast (SFO06-1)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/9da606d1-933b-4282-86b1-a8fb68509471.jpeg",
+=======
+      "name": "Raising Cane's",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/1abf9836-be76-4f31-884a-4fa759e2cba2-retina-large.jpg",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Burgers",
@@ -15080,6 +17246,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "775836",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -15090,9 +17264,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Barney's Chicken Wings",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/7476d7f1-c97d-4a64-b80d-ba4ca94d6656.jpeg",
+=======
+      "name": "Percheron Mexican Grill",
+      "data": {
+        "image": "",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Wings",
@@ -15112,6 +17292,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1021652",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -15122,7 +17310,11 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Bamboo Restaurant",
+=======
+      "name": "The Royal Room",
+>>>>>>> sy_frontend
       "data": {
         "image": "https://duyt4h9nfnj50.cloudfront.net/sku/21ece900a8b1fcea493e83ced3a80916",
         "rating": 4.2,
@@ -15146,6 +17338,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1298445",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -15156,9 +17356,15 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Taqueria Castillo (Golden Gate)",
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/64eab4a3-f1a5-4ab0-a46b-63be894d2903.jpeg",
+=======
+      "name": "Oy-Vey N.Y. Delicatessen",
+      "data": {
+        "image": "",
+>>>>>>> sy_frontend
         "rating": 0,
         "categories": [
           "Mexican",
@@ -15179,6 +17385,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1386182",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -15189,7 +17403,11 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Indian Curry Junction (San Francisco)",
+=======
+      "name": "Shaka Sushi And Teriyaki",
+>>>>>>> sy_frontend
       "data": {
         "image": "https://d1ralsognjng37.cloudfront.net/f9959bb8-248b-4454-aa3b-a34797bc9dba.jpeg",
         "rating": 0,
@@ -15211,6 +17429,14 @@
               "id": "",
               "delivery_fee": ""
             },
+<<<<<<< HEAD
+=======
+            "doordash": {
+              "support": true,
+              "id": "1414071",
+              "delivery_fee": 0
+            },
+>>>>>>> sy_frontend
             "grubhub": {
               "support": false,
               "id": "",
@@ -15220,5 +17446,288 @@
         ]
       }
     }
+<<<<<<< HEAD
   ]
+=======
+  ],
+  "DoordashOffer": {
+    "totalDeals": 50,
+    "data": {
+      "171134": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "207676": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $20."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $10, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "170384": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        }
+      ],
+      "199111": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1028342": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "674307": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1213822": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "862680": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "869986": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "200814": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1079933": [
+        {
+          "title": "15% off, up to $4",
+          "description": "15% off orders over $20, up to $4."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $20."
+        }
+      ],
+      "1381978": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1051517": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "631106": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "529969": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1236963": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1134674": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1108127": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1199019": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1335945": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "932777": [
+        {
+          "title": "$8 off",
+          "description": "$8 off orders over $40."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1451889": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1340576": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "901667": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1119214": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1119157": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1388112": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1108123": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "512593": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1481850": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1178634": [
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "1113031": [
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "1235981": [
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "602237": [
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "307062": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "167178": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1124177": [
+        {
+          "title": "$8 off",
+          "description": "$8 off orders over $55."
+        }
+      ]
+    }
+  }
+>>>>>>> sy_frontend
 }

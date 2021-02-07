@@ -1,7 +1,11 @@
 {
   "status": "success",
   "data": {
+    "singleUseItemsInfo": {
+      "title": "Request utensils, straws, etc."
+    },
     "sectionEntitiesMap": {
+<<<<<<< HEAD
       "0a7e4b03-6af6-5e38-a657-020f88d38c0a": {
         "0d6c3211-e20f-50bd-bbb8-920374a6768d": {
           "description": null,
@@ -12,6 +16,18 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "35 Cal."
+=======
+      "cf7a69be-a4da-423f-a251-59423189c3f9": {
+        "c163df05-6f37-463f-9e15-1f4869d6a805": {
+          "description": "",
+          "imageUrl": "",
+          "price": 199,
+          "title": "Chicken el Pastor Taco",
+          "uuid": "c163df05-6f37-463f-9e15-1f4869d6a805",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -22,6 +38,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "7bc12be2-50a3-5577-9c79-795a71309bd4": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/653b2f45-3eab-4dbf-b04f-9e2218a37096.jpeg",
@@ -50,6 +67,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "600 - 770 Cal."
+=======
+        "f05a1ff9-bbb0-4984-9a23-8b16c9f49f87": {
+          "description": "Served with 2 eggs, tortilla, rice, and beans.",
+          "imageUrl": "",
+          "price": 799,
+          "title": "Breakfast Omelette Breakfast Platter",
+          "uuid": "f05a1ff9-bbb0-4984-9a23-8b16c9f49f87",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -60,6 +88,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "8ad13f90-2474-57a8-8c20-e05eb1b416fb": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/5da41ea2-fa7a-47f5-afbe-b94753cf9a87.jpeg",
@@ -69,6 +98,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "190 Cal."
+=======
+        "b646888b-bcdc-4c62-a21f-02e4dae10e37": {
+          "description": "Steak, potatoes, pico de gallo, and cheese.",
+          "imageUrl": "",
+          "price": 899,
+          "title": "Arizona Burrito",
+          "uuid": "b646888b-bcdc-4c62-a21f-02e4dae10e37",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -79,6 +119,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "e4f87fc3-2985-52d9-893f-eb3c7517cc1a": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/6671bf5e-3455-4e00-9e41-306ab1810e7c.jpeg",
@@ -104,9 +145,17 @@
           "price": 100,
           "title": "Medium Diet Coke\u00ae",
           "uuid": "ae234678-7341-5bee-b07a-07e9603e160f",
+=======
+        "3c22c589-cf14-4ee4-9ceb-c820c9a8cbed": {
+          "description": "",
+          "imageUrl": "",
+          "price": 199,
+          "title": "Pollo Asado Taco",
+          "uuid": "3c22c589-cf14-4ee4-9ceb-c820c9a8cbed",
+>>>>>>> sy_frontend
           "nutritionalInfo": {
             "allergens": "",
-            "displayString": "0 Cal."
+            "displayString": ""
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -117,6 +166,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "5b8b1571-38df-5e8f-a9a3-ea5d62907370": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/efbe89af-2d4a-447f-8c24-37aa50f903f5.jpeg",
@@ -126,6 +176,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "300 Cal."
+=======
+        "a5f1b0d2-4585-4251-b8f6-68fe361c1d1d": {
+          "description": "Pico de gallo, lettuce, and tartar sauce.",
+          "imageUrl": "",
+          "price": 799,
+          "title": "Fish Burrito",
+          "uuid": "a5f1b0d2-4585-4251-b8f6-68fe361c1d1d",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -136,6 +197,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "6ac9e153-4cc4-5969-bdbe-b44bd2cb4765": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/73fef4e2-301e-4fde-900c-2c2d601dd89c.jpeg",
@@ -164,6 +226,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "190 Cal."
+=======
+        "6c1a915b-94bb-4c48-a593-a43d5384c39c": {
+          "description": "Includes guacamole and sour cream.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/c7434737-1672-4fa3-94e0-09002a531f0c.jpeg",
+          "price": 1099,
+          "title": "Grilled Chicken and Cheese Quesadilla (Pollo Asado)",
+          "uuid": "6c1a915b-94bb-4c48-a593-a43d5384c39c",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -174,6 +247,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "c4248f4d-08aa-5791-8e3a-67b3436974c9": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/4c5264ce-c326-4da0-ace4-621c98e1cf90.jpeg",
@@ -183,6 +257,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "90 Cal."
+=======
+        "fad0d97f-97c0-4002-8b68-e4cdbf2446b9": {
+          "description": "Served with chorizo and egg.",
+          "imageUrl": "",
+          "price": 699,
+          "title": "Chorizo Breakfast Burrito",
+          "uuid": "fad0d97f-97c0-4002-8b68-e4cdbf2446b9",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -193,6 +278,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "5b82489c-9a12-5a6c-9209-820ba1d27281": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/cf343b4d-7d95-4967-98e8-4c61b6c22d4a.jpeg",
@@ -202,6 +288,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "0 Cal."
+=======
+        "4bf46b09-0f68-4f5a-abb0-1c52e9c8d7fb": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1069,
+          "title": "2 Chicken Taco Combo",
+          "uuid": "4bf46b09-0f68-4f5a-abb0-1c52e9c8d7fb",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -212,6 +309,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "7915c1dc-672c-542a-af37-01947a149ece": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/e1f34024-3f22-42c6-83e3-c09322c7a9a0.jpeg",
@@ -221,6 +319,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "550 - 720 Cal."
+=======
+        "66f2e0a1-c31c-4e7b-a2ae-a531e30838bf": {
+          "description": "",
+          "imageUrl": "",
+          "price": 699,
+          "title": "Bean and Cheese Burrito",
+          "uuid": "66f2e0a1-c31c-4e7b-a2ae-a531e30838bf",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -231,6 +340,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "4b99605f-2ee7-5a4e-a13f-8edcee333a67": {
           "description": "Limit of 2",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/83ef9d8f-8d77-4d92-90c5-b2c7645e1df5.jpeg",
@@ -240,6 +350,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "45 Cal."
+=======
+        "a18dad38-fdbf-42b4-bb48-ee86c11a7270": {
+          "description": "3 delicious chocolate brownies with cakey exterior and fudgy in the middle.",
+          "imageUrl": "",
+          "price": 350,
+          "title": "3 Brownies Combo",
+          "uuid": "a18dad38-fdbf-42b4-bb48-ee86c11a7270",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -250,6 +371,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "e898d5ef-a62c-563b-bf25-e390b1764bb5": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/eb3c4e9b-5807-4e0d-8992-e8c3cb7ccf92.jpeg",
@@ -278,6 +400,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "110 Cal."
+=======
+        "aff7b4a9-2d1f-4fa2-ab2b-200f8208a351": {
+          "description": "2 carne asada burritos. Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1549,
+          "title": "Carne Asada Burrito Combo",
+          "uuid": "aff7b4a9-2d1f-4fa2-ab2b-200f8208a351",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -288,6 +421,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "a8ae447c-0329-541c-b014-a7f408ef1774": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/e44db22e-8027-4344-84fd-7355af87b508.jpeg",
@@ -297,6 +431,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "0 Cal."
+=======
+        "1e599618-9e28-41a2-bc4a-a0da61bd534d": {
+          "description": "Guacamole and pico de gallo.",
+          "imageUrl": "",
+          "price": 799,
+          "title": "Carnitas Burrito",
+          "uuid": "1e599618-9e28-41a2-bc4a-a0da61bd534d",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -307,6 +452,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "c8f24349-0c58-5cc4-80a2-af3b865b47a5": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/1a88f343-e212-4e7c-8b90-0317bc9dd352.jpeg",
@@ -316,6 +462,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "700 - 870 Cal."
+=======
+        "b81333b5-e0a4-4b50-ace2-24ff397894fc": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1049,
+          "title": "Two Beef Taco",
+          "uuid": "b81333b5-e0a4-4b50-ace2-24ff397894fc",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -326,6 +483,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "081cb35d-0356-5b04-bcb6-d113e9f3b3ba": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/65895950-79fb-4d65-a578-96dfae789e39.jpeg",
@@ -373,6 +531,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "50 Cal."
+=======
+        "c773dd0a-b285-47c0-97b6-381d3a9ebd7f": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1049,
+          "title": "Pollo Asado Plate",
+          "uuid": "c773dd0a-b285-47c0-97b6-381d3a9ebd7f",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -383,6 +552,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "b2e44cff-d5bd-5351-85e8-ca4d371bd0bf": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/02a6d87b-577d-4cb5-a615-fa270926a27e.jpeg",
@@ -392,6 +562,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "510 Cal."
+=======
+        "d7155b1c-a2a8-42eb-8da5-5a5512a18d4d": {
+          "description": "Rice, beans, guacamole, lettuce, and pico de gallo.",
+          "imageUrl": "",
+          "price": 729,
+          "title": "Veggie Burrito",
+          "uuid": "d7155b1c-a2a8-42eb-8da5-5a5512a18d4d",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -402,6 +583,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "d3916205-0de9-5295-aad2-02f3fe9250ed": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/2cb03ecf-5f15-4d3a-b196-6ad7c0cca9e8.jpeg",
@@ -411,6 +593,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "590 Cal."
+=======
+        "106ab9be-3fe4-4312-9fbc-df0eda9f9684": {
+          "description": "Cabbage, guacamole, and pico de gallo.",
+          "imageUrl": "",
+          "price": 799,
+          "title": "Adobada Burrito",
+          "uuid": "106ab9be-3fe4-4312-9fbc-df0eda9f9684",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -421,6 +614,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "12c82eda-ea20-5576-bcb0-3411c894f310": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/966fe051-b2ca-4610-baff-c0202ceb7e8f.jpeg",
@@ -430,6 +624,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "420 Cal."
+=======
+        "7985b74a-2fc4-4432-ad4b-050ca7766199": {
+          "description": "Steak, beans, lettuce, and cheese.",
+          "imageUrl": "",
+          "price": 699,
+          "title": "Carne Asada Tostada",
+          "uuid": "7985b74a-2fc4-4432-ad4b-050ca7766199",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -440,6 +645,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "4ddcc901-89ec-51b1-b896-4781c03a76fc": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/ad041129-d43f-47db-8f6d-9753948fd23b.jpeg",
@@ -449,6 +655,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "250 Cal."
+=======
+        "3cd7859f-86a2-474e-b0b8-4d6569590bd0": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1069,
+          "title": "Beef Burrito and Beef Taco",
+          "uuid": "3cd7859f-86a2-474e-b0b8-4d6569590bd0",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -459,6 +676,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "cd5aae1b-8e27-559b-8901-6532bb303518": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/088c422b-58aa-4c70-b906-8e25814db7a3.jpeg",
@@ -468,6 +686,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "230 Cal."
+=======
+        "4434bfca-9db7-420d-b915-f37d77e8db8e": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1059,
+          "title": "California Fries A la Carte with Angus Carne Asada",
+          "uuid": "4434bfca-9db7-420d-b915-f37d77e8db8e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -478,6 +707,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "82740a86-9c66-588b-99f6-5fcce8ee4d1b": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/088c422b-58aa-4c70-b906-8e25814db7a3.jpeg",
@@ -506,6 +736,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "750 - 920 Cal."
+=======
+        "ebf47d9f-86c1-48ef-a876-84358ecab42f": {
+          "description": "",
+          "imageUrl": "",
+          "price": 599,
+          "title": "Chips and Guacamole A la Carte",
+          "uuid": "ebf47d9f-86c1-48ef-a876-84358ecab42f",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -516,6 +757,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "615a6775-260e-53ec-81cd-af291c909f54": {
           "description": "Limit of 3",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/a0bc3bf1-8bb9-4917-beaa-3eac41219729.jpeg",
@@ -563,6 +805,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "620 - 790 Cal."
+=======
+        "d5b64572-ea70-4a3b-befe-0d7b2ae4140d": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1369,
+          "title": "Beef Fajita",
+          "uuid": "d5b64572-ea70-4a3b-befe-0d7b2ae4140d",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -573,6 +826,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "98798541-f941-58aa-9bf8-59ce200c4c67": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/7785e433-fdb1-4f4b-8289-d2a40346efee.jpeg",
@@ -582,6 +836,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "220 Cal."
+=======
+        "cda542af-1168-4c40-bfce-c7bcf7a9fd39": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1049,
+          "title": "Fish Taco Combo",
+          "uuid": "cda542af-1168-4c40-bfce-c7bcf7a9fd39",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -592,6 +857,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "06fa373f-5433-59ea-88ef-31db4cad4ee0": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/bb85ab4d-d06f-4664-be89-b0b0372975fa.jpeg",
@@ -601,6 +867,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "120 Cal."
+=======
+        "5dff1f63-fa5b-4c00-b10c-24ac448ba5e9": {
+          "description": "Steak, fries, pico de gallo, guacamole, and cheese.",
+          "imageUrl": "",
+          "price": 999,
+          "title": "California Burrito",
+          "uuid": "5dff1f63-fa5b-4c00-b10c-24ac448ba5e9",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -611,6 +888,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "99f55ecd-e951-5605-8312-7010ad3dec1c": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/777a39ce-0699-4eb7-a8f2-5f4d505b50cf.jpeg",
@@ -620,101 +898,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "250 Cal."
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "02a4e6e1-55ff-522a-9675-685fc53a05be": {
-          "description": null,
-          "imageUrl": "https://d1ralsognjng37.cloudfront.net/66d101b7-a368-451a-835e-63dc24bfbe7c.jpeg",
-          "price": 379,
-          "title": "Medium Nonfat Latte",
-          "uuid": "02a4e6e1-55ff-522a-9675-685fc53a05be",
+=======
+        "4e044997-49ca-4d7c-a8dd-ec8ac7cb2fc8": {
+          "description": "",
+          "imageUrl": "",
+          "price": 199,
+          "title": "Fish Taco",
+          "uuid": "4e044997-49ca-4d7c-a8dd-ec8ac7cb2fc8",
           "nutritionalInfo": {
             "allergens": "",
-            "displayString": "110 Cal."
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "c4f890ae-c965-59c2-8d26-bda3317ef31f": {
-          "description": null,
-          "imageUrl": "https://d1ralsognjng37.cloudfront.net/bfa0dced-5b01-40a6-a1ec-3d013453e515.jpeg",
-          "price": 379,
-          "title": "Medium Iced Nonfat Sugar Free Vanilla Latte",
-          "uuid": "c4f890ae-c965-59c2-8d26-bda3317ef31f",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": "120 Cal."
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "216fca4a-4135-5394-8420-6167c492fa16": {
-          "description": null,
-          "imageUrl": "https://d1ralsognjng37.cloudfront.net/4c579dc1-4f8e-48e9-8ff8-1ae9faa96660.jpeg",
-          "price": 169,
-          "title": "Biscuit",
-          "uuid": "216fca4a-4135-5394-8420-6167c492fa16",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": "270 Cal."
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "b6ff5be5-a94a-5159-8731-c18e4f7efb9a": {
-          "description": null,
-          "imageUrl": "https://d1ralsognjng37.cloudfront.net/b3116865-c5cc-4bb9-98bf-5417bcbe75f9.jpeg",
-          "price": 349,
-          "title": "Medium Americano",
-          "uuid": "b6ff5be5-a94a-5159-8731-c18e4f7efb9a",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": "5 Cal."
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "c0f39e68-bc91-5e03-8784-f3c50028810c": {
-          "description": "Limit of 2",
-          "imageUrl": "https://d1ralsognjng37.cloudfront.net/9f6f6f99-150a-40fd-9ccf-a8f83d858c8e.jpeg",
-          "price": 0,
-          "title": "Butter",
-          "uuid": "c0f39e68-bc91-5e03-8784-f3c50028810c",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": "35 Cal."
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -725,6 +919,162 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
+        "02a4e6e1-55ff-522a-9675-685fc53a05be": {
+          "description": null,
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/66d101b7-a368-451a-835e-63dc24bfbe7c.jpeg",
+          "price": 379,
+          "title": "Medium Nonfat Latte",
+          "uuid": "02a4e6e1-55ff-522a-9675-685fc53a05be",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": "110 Cal."
+=======
+        "db53bc77-25a1-40cf-910e-1e54d7af3cc1": {
+          "description": "Includes guacamole and sour cream.",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/21d6e33f-ba5c-4e0a-8871-dcd7a1265fca.jpeg",
+          "price": 1099,
+          "title": "Steak and Cheese Quesadilla (Carne Asada)",
+          "uuid": "db53bc77-25a1-40cf-910e-1e54d7af3cc1",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+<<<<<<< HEAD
+        "c4f890ae-c965-59c2-8d26-bda3317ef31f": {
+          "description": null,
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/bfa0dced-5b01-40a6-a1ec-3d013453e515.jpeg",
+          "price": 379,
+          "title": "Medium Iced Nonfat Sugar Free Vanilla Latte",
+          "uuid": "c4f890ae-c965-59c2-8d26-bda3317ef31f",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": "120 Cal."
+=======
+        "3801d8e9-49a3-4fca-ab02-f2b2975dc08c": {
+          "description": "Guacamole and pico de gallo.",
+          "imageUrl": "",
+          "price": 899,
+          "title": "Carne Asada Burrito",
+          "uuid": "3801d8e9-49a3-4fca-ab02-f2b2975dc08c",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+<<<<<<< HEAD
+        "216fca4a-4135-5394-8420-6167c492fa16": {
+          "description": null,
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/4c579dc1-4f8e-48e9-8ff8-1ae9faa96660.jpeg",
+          "price": 169,
+          "title": "Biscuit",
+          "uuid": "216fca4a-4135-5394-8420-6167c492fa16",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": "270 Cal."
+=======
+        "348697d1-fd07-4b08-97bc-9d5bac47f5e3": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1079,
+          "title": "Green Chile Plate",
+          "uuid": "348697d1-fd07-4b08-97bc-9d5bac47f5e3",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+<<<<<<< HEAD
+        "b6ff5be5-a94a-5159-8731-c18e4f7efb9a": {
+          "description": null,
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/b3116865-c5cc-4bb9-98bf-5417bcbe75f9.jpeg",
+          "price": 349,
+          "title": "Medium Americano",
+          "uuid": "b6ff5be5-a94a-5159-8731-c18e4f7efb9a",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": "5 Cal."
+=======
+        "1c4eb5ea-182d-4042-981b-4db4320da157": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1099,
+          "title": "Two Enchilada",
+          "uuid": "1c4eb5ea-182d-4042-981b-4db4320da157",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+<<<<<<< HEAD
+        "c0f39e68-bc91-5e03-8784-f3c50028810c": {
+          "description": "Limit of 2",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/9f6f6f99-150a-40fd-9ccf-a8f83d858c8e.jpeg",
+          "price": 0,
+          "title": "Butter",
+          "uuid": "c0f39e68-bc91-5e03-8784-f3c50028810c",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": "35 Cal."
+=======
+        "25f34cdc-4e72-4f18-a388-f941a6d87e2f": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1369,
+          "title": "2 Carne Asada Taco Combo",
+          "uuid": "25f34cdc-4e72-4f18-a388-f941a6d87e2f",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+<<<<<<< HEAD
         "3bf990be-e7f8-57c0-8bb7-e59b5945fd2b": {
           "description": "Limit of 2",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/2889dcfd-7a8a-45fe-a6db-b436bcd51643.jpeg",
@@ -753,6 +1103,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "10 Cal."
+=======
+        "98c367c7-19fc-402a-bcc2-2624d2bcec94": {
+          "description": "Served with bacon, egg, and cheese.",
+          "imageUrl": "",
+          "price": 699,
+          "title": "Bacon Burrito",
+          "uuid": "98c367c7-19fc-402a-bcc2-2624d2bcec94",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -763,6 +1124,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "d164c3b8-ac5d-5063-96f6-8185606ae2cc": {
           "description": "Limit of 2",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/06e2d778-317d-48ba-b3cb-93cdefe69fd2.jpeg",
@@ -772,6 +1134,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "110 Cal."
+=======
+        "fdd4f617-3e3b-4b9a-b376-13368910eb08": {
+          "description": "Beef. Topped with guacamole and cheese.",
+          "imageUrl": "",
+          "price": 549,
+          "title": "3 Rolled Taco with Guacamole",
+          "uuid": "fdd4f617-3e3b-4b9a-b376-13368910eb08",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -782,6 +1155,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "d44fed62-bbed-5c00-b4df-1b70cfcfb9ba": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/baee1558-e6d3-4499-8c3f-521ade1da771.jpeg",
@@ -791,6 +1165,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "780 Cal."
+=======
+        "83f19318-89bb-4b89-bc0d-19aa7861e499": {
+          "description": "Chicken, beans, lettuce, and cheese.",
+          "imageUrl": "",
+          "price": 599,
+          "title": "Chicken Tostada",
+          "uuid": "83f19318-89bb-4b89-bc0d-19aa7861e499",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -801,6 +1186,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "47b56b89-1c4a-505c-9d28-a941b3fe8d1a": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/10c1ac7b-3c70-435c-bbef-c4912404e000.jpeg",
@@ -810,6 +1196,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "100 Cal."
+=======
+        "e20059a9-6b35-40b1-a243-ac59ed63d4ac": {
+          "description": "Hardshell beef taco with lettuce and cheese.",
+          "imageUrl": "",
+          "price": 369,
+          "title": "Beef Taco",
+          "uuid": "e20059a9-6b35-40b1-a243-ac59ed63d4ac",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -820,6 +1217,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "93c45ab9-e519-50d1-98a5-2ff31a8b055a": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/172624c4-5eb0-43b8-b64c-f6f09c852b70.jpeg",
@@ -829,6 +1227,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "420 - 510 Cal."
+=======
+        "497ca17a-b1ce-4f21-8ad7-4806335e9eea": {
+          "description": "Shredded beef, egg, bell peppers, onion, and tomato.",
+          "imageUrl": "",
+          "price": 649,
+          "title": "Machaca Breakfast Burrito",
+          "uuid": "497ca17a-b1ce-4f21-8ad7-4806335e9eea",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -839,6 +1248,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "4f15fdbf-a00f-5f1d-98b5-d5d05e4a3f78": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/4658617f-7afc-4e22-8c76-a858c6327038.jpeg",
@@ -848,6 +1258,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "260 Cal."
+=======
+        "7e4f8fbb-4ce0-4bd8-8785-40de84a323b6": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1099,
+          "title": "Beef Burrito and Enchilada",
+          "uuid": "7e4f8fbb-4ce0-4bd8-8785-40de84a323b6",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -858,6 +1279,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "db79d774-b1ea-54f9-90bb-ed75e80fb0c2": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/e47d570d-9e62-4987-ae23-2d682ce1b69e.jpeg",
@@ -867,6 +1289,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "380 Cal."
+=======
+        "c6f40020-0a52-4c30-8688-050124bab0a0": {
+          "description": "Hardshell chicken taco with lettuce and cheese.",
+          "imageUrl": "",
+          "price": 369,
+          "title": "Chicken Taco",
+          "uuid": "c6f40020-0a52-4c30-8688-050124bab0a0",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -877,6 +1310,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "d680a1c1-5845-50e1-b8f8-7923cc097b05": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/84452bfe-f936-4234-9240-241fc8e80600.jpeg",
@@ -886,6 +1320,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "130 Cal."
+=======
+        "b447970a-798e-4dc7-962b-34f4046d01ad": {
+          "description": "Beans, cheese, and lettuce.",
+          "imageUrl": "",
+          "price": 489,
+          "title": "Bean Tostada",
+          "uuid": "b447970a-798e-4dc7-962b-34f4046d01ad",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -896,6 +1341,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "60620de8-b535-5403-911a-de8213ff7d67": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/fd9c6b16-e14a-4118-8389-2a8e98807721.jpeg",
@@ -905,6 +1351,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "200 Cal."
+=======
+        "ea3f4407-b737-4c8a-b2af-84973c1f0130": {
+          "description": "Includes guacamole and sour cream.",
+          "imageUrl": "",
+          "price": 1099,
+          "title": "Pork and Cheese Quesadilla (Carnitas)",
+          "uuid": "ea3f4407-b737-4c8a-b2af-84973c1f0130",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -915,6 +1372,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "109337f3-6b65-55b5-9bc6-104e8f0f12e0": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/bb87951e-7ef9-4b21-a67a-fe8d0e9a3322.jpeg",
@@ -924,6 +1382,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "570 - 740 Cal."
+=======
+        "64614f8f-8586-464c-84ec-d1ebcd4480fc": {
+          "description": "Shredded beef mixed with onion, bell pepper, tomatoes, sour cream, guacamole, pico, and lettuce.",
+          "imageUrl": "",
+          "price": 849,
+          "title": "Chimichanga A la Carte",
+          "uuid": "64614f8f-8586-464c-84ec-d1ebcd4480fc",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -934,6 +1403,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "95cb11d3-dea0-57ff-badb-c478b0ef5d7e": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/8699f52f-f8b0-437c-9571-da4b8a2efbc7.jpeg",
@@ -943,6 +1413,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "120 Cal."
+=======
+        "6291aec0-0295-4844-a0cb-da66b78d9249": {
+          "description": "Served with 2 eggs, tortilla, rice, and beans.",
+          "imageUrl": "",
+          "price": 949,
+          "title": "Machaca Breakfast Platter",
+          "uuid": "6291aec0-0295-4844-a0cb-da66b78d9249",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -953,6 +1434,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "f103fb19-a32e-556c-8b08-dcd8c77ffa2c": {
           "description": "Comes with 13 cookies.",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/e6d6bd2d-ab6d-4392-aad3-f6beefecf94a.jpeg",
@@ -962,6 +1444,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "1820 - 2210 Cal."
+=======
+        "c83fef74-db51-4fe2-a7b1-12d216a8c454": {
+          "description": "A delicious chocolate brownie that's cakey on the outside and fudgy in the middle.",
+          "imageUrl": "",
+          "price": 125,
+          "title": "Brownie",
+          "uuid": "c83fef74-db51-4fe2-a7b1-12d216a8c454",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -972,6 +1465,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "e01ae108-211b-5605-85be-ebb1ccd5648f": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/2afdc9fc-a9c8-413f-b035-f9c21b74f73d.jpeg",
@@ -981,6 +1475,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "300 Cal."
+=======
+        "6cabe45e-8ce7-42ad-aa23-d7a54d4d800e": {
+          "description": "Served with potato, egg, and cheese.",
+          "imageUrl": "",
+          "price": 699,
+          "title": "Potato Burrito",
+          "uuid": "6cabe45e-8ce7-42ad-aa23-d7a54d4d800e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -991,6 +1496,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "99151459-3396-5107-af1d-1cf5e875f33e": {
           "description": "Limit of 2",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/c46a8ba5-c82c-49cd-abe5-d5aae9575925.jpeg",
@@ -1000,6 +1506,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "5 Cal."
+=======
+        "541e810d-baa2-4131-9720-f4c78018bf2e": {
+          "description": "Guacamole and pico de gallo.",
+          "imageUrl": "",
+          "price": 799,
+          "title": "Chile Relleno Burrito",
+          "uuid": "541e810d-baa2-4131-9720-f4c78018bf2e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1010,6 +1527,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "8ea40448-54ec-5d8f-bc81-ae1a81259ba4": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/a8304665-f568-46d4-ab02-afdd45e5fedf.jpeg",
@@ -1019,6 +1537,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "200 Cal."
+=======
+        "30dd107d-aaf2-493e-8872-027520013a06": {
+          "description": "Served with ham, egg, cheese, and pico.",
+          "imageUrl": "",
+          "price": 699,
+          "title": "Breakfast Burrito",
+          "uuid": "30dd107d-aaf2-493e-8872-027520013a06",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1029,6 +1558,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "bd9880d4-ca8b-57ff-ae4a-d2ecf8a42904": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/51695793-0f90-4d43-b526-a60fcca929cc.jpeg",
@@ -1038,6 +1568,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "290 Cal."
+=======
+        "428b4bb6-4f2c-4876-b216-ac693ae6dd76": {
+          "description": "Shrimp, red sauce, and cheese. Includes guacamole and sour cream.",
+          "imageUrl": "",
+          "price": 1199,
+          "title": "Shrimp Quesadilla",
+          "uuid": "428b4bb6-4f2c-4876-b216-ac693ae6dd76",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1048,6 +1589,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "21aae500-389d-57b2-9e63-dda7ac0fe158": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/43ca2f0b-1bcf-43e0-8691-64c7c5d86353.jpeg",
@@ -1057,6 +1599,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "0 Cal."
+=======
+        "d30b476b-bca9-4281-add5-1e2214f2729c": {
+          "description": "Topped with red sauce. Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1069,
+          "title": "2 Chili Relleno Combo",
+          "uuid": "d30b476b-bca9-4281-add5-1e2214f2729c",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1067,6 +1620,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "7c11b73f-8ab1-5213-8bdc-9d5832d0d339": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/2be25249-af18-4e75-adb4-0dd0adb8e2a1.jpeg",
@@ -1076,6 +1630,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "560 Cal."
+=======
+        "0c445c79-a488-4664-9990-1c0fedf6ade2": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1199,
+          "title": "Super Nachos A la Carte",
+          "uuid": "0c445c79-a488-4664-9990-1c0fedf6ade2",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1086,6 +1651,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "84c41e1f-7b7f-5bcc-b64b-86b657e4bf31": {
           "description": "Limit of 2",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/05cfdc25-e9d7-45d3-8908-88666a966c6f.jpeg",
@@ -1095,6 +1661,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "40 Cal."
+=======
+        "a55d2f66-1f03-497c-b7d1-aeb57360612e": {
+          "description": "Includes guacamole and sour cream.",
+          "imageUrl": "",
+          "price": 1249,
+          "title": "Mar Y Tierra Quesadilla",
+          "uuid": "a55d2f66-1f03-497c-b7d1-aeb57360612e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1105,6 +1682,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "7449c511-ebd6-560e-a467-ae4abc930efd": {
           "description": "Limit of 2",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/eee2873f-3309-4647-af77-cba4119dc690.jpeg",
@@ -1114,6 +1692,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "90 Cal."
+=======
+        "207a062f-3969-4e5e-9f30-11def59e0d9a": {
+          "description": "Pico, cabbage, and tartar sauce.",
+          "imageUrl": "",
+          "price": 499,
+          "title": "Shrimp Taco",
+          "uuid": "207a062f-3969-4e5e-9f30-11def59e0d9a",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1124,6 +1713,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "10fc187e-0c71-5a04-bc6d-2af6e3fd6644": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/a7a318be-78fb-462e-b60b-02c220735acd.jpeg",
@@ -1133,6 +1723,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "220 Cal."
+=======
+        "fbdebcdf-40be-431f-899f-95d2606c72ac": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1049,
+          "title": "Tostada and Beef Taco",
+          "uuid": "fbdebcdf-40be-431f-899f-95d2606c72ac",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1143,6 +1744,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "346ad3d8-f219-58ec-a57c-ba28ee75df43": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/a1e3d97f-313f-4048-bff6-191e0da239d5.jpeg",
@@ -1152,6 +1754,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "140 Cal."
+=======
+        "9db3e5c6-cc78-4023-b71b-ee1c1ba757fd": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1349,
+          "title": "Chicken Fajita",
+          "uuid": "9db3e5c6-cc78-4023-b71b-ee1c1ba757fd",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1162,6 +1775,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "d8e71b3e-a706-59f7-b4df-70f569d20c64": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/43e09fc1-af8b-4147-9566-82cf30901094.jpeg",
@@ -1171,6 +1785,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "140 Cal."
+=======
+        "f1009b3d-3474-4014-968d-ad754e488bfe": {
+          "description": "Served with 2 eggs, tortilla, rice, and beans.",
+          "imageUrl": "",
+          "price": 849,
+          "title": "Chorizo Breakfast Platter",
+          "uuid": "f1009b3d-3474-4014-968d-ad754e488bfe",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1181,6 +1806,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "ee5e161d-0d64-552a-a8c2-ad1e60dcb314": {
           "description": "Limit of 3",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/12e9fbc5-2fbc-4671-9782-12d78ad652c1.jpeg",
@@ -1209,6 +1835,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "190 Cal."
+=======
+        "667a731d-5c6a-48af-8602-65219ef92ef5": {
+          "description": "Guacamole and pico de gallo.",
+          "imageUrl": "",
+          "price": 799,
+          "title": "Pollo Asado Burrito",
+          "uuid": "667a731d-5c6a-48af-8602-65219ef92ef5",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1219,6 +1856,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "a6f5c211-0bea-507e-9063-ff6f2d602633": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/65725bf9-342e-4182-9ed1-a86287aea441.jpeg",
@@ -1285,6 +1923,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "35 Cal."
+=======
+        "8a74de46-47dd-4f42-8e98-d0b8e0166151": {
+          "description": "Steak, guacamole, and pico.",
+          "imageUrl": "",
+          "price": 499,
+          "title": "Carne Asada Taco",
+          "uuid": "8a74de46-47dd-4f42-8e98-d0b8e0166151",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1295,6 +1944,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "1935354b-d7c6-5e8f-99ec-858055ca401f": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/dd96c6d0-a717-428a-8d01-095177ef9239.jpeg",
@@ -1304,16 +1954,28 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "240 Cal."
+=======
+        "f784601d-973c-4d47-a0cd-a45016e17337": {
+          "description": "",
+          "imageUrl": "",
+          "price": 199,
+          "title": "Pork al Pastor Taco",
+          "uuid": "f784601d-973c-4d47-a0cd-a45016e17337",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "a397f627-c765-502f-9381-1188d200139b": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/e52a2870-e397-48d7-8f78-18c4099de094.jpeg",
@@ -1323,16 +1985,28 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "200 Cal."
+=======
+        "2ed681a9-3aa5-4321-ac18-101bcc63657c": {
+          "description": "",
+          "imageUrl": "",
+          "price": 449,
+          "title": "Flan Napolitano",
+          "uuid": "2ed681a9-3aa5-4321-ac18-101bcc63657c",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "d35e8c06-a1c3-5130-9271-856ae2c6ca1f": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/3d5fb078-b4ca-45b1-a51d-fc18d353e3de.jpeg",
@@ -1342,6 +2016,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "150 Cal."
+=======
+        "87121f85-cc67-485e-972b-1c4390d5eb32": {
+          "description": "Carnitas, beans, cheese, and lettuce.",
+          "imageUrl": "",
+          "price": 599,
+          "title": "Carnitas Tostada",
+          "uuid": "87121f85-cc67-485e-972b-1c4390d5eb32",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1352,6 +2037,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "9f708b52-4706-52bc-8d12-edac29918452": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/cf343b4d-7d95-4967-98e8-4c61b6c22d4a.jpeg",
@@ -1361,16 +2047,28 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "0 Cal."
+=======
+        "78f0c1b3-945b-418b-ad63-019140a026ca": {
+          "description": "Beef.",
+          "imageUrl": "",
+          "price": 449,
+          "title": "3 Rolled Taco with Cheese",
+          "uuid": "78f0c1b3-945b-418b-ad63-019140a026ca",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "2e2bd188-6757-5923-bfca-7e62036d737a": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/7eb41fb7-11e5-4f11-b2d1-e560ce5590fb.jpeg",
@@ -1380,6 +2078,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "210 Cal."
+=======
+        "55f02ddb-5201-4143-b48f-f3c4779681b5": {
+          "description": "",
+          "imageUrl": "",
+          "price": 199,
+          "title": "Churro A la Carte",
+          "uuid": "55f02ddb-5201-4143-b48f-f3c4779681b5",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1390,6 +2099,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "0a3c69ef-5d4c-5076-9153-2e2fbbb202ad": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/831faaf1-2eba-40c0-b7f3-db92a1ac1094.jpeg",
@@ -1399,6 +2109,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "190 Cal."
+=======
+        "697bca4b-a006-435e-8fd1-3b920b0df8e8": {
+          "description": "Chicken in red sauce and cheese. Includes guacamole and sour cream.",
+          "imageUrl": "",
+          "price": 999,
+          "title": "Chicken Quesadilla",
+          "uuid": "697bca4b-a006-435e-8fd1-3b920b0df8e8",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1409,6 +2130,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "579f9d15-8355-5751-b727-a3760e1fe7eb": {
           "description": "Limit of 2",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/c672d5e2-7600-47f0-813a-e1ce24fd8797.jpeg",
@@ -1418,6 +2140,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "50 Cal."
+=======
+        "8dc16f15-350e-4ea2-a557-9e3c697da076": {
+          "description": "",
+          "imageUrl": "",
+          "price": 199,
+          "title": "Cabeza Taco",
+          "uuid": "8dc16f15-350e-4ea2-a557-9e3c697da076",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1428,6 +2161,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "53f65342-41da-5388-825d-c815fa75e5de": {
           "description": "Limit of 3",
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/2bd1a966-d2a8-428c-a23a-f6c885092ad8.jpeg",
@@ -1437,6 +2171,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "0 Cal."
+=======
+        "53a52203-5b02-4164-aae0-71cf1ee17d69": {
+          "description": "Served with steak, egg, and cheese.",
+          "imageUrl": "",
+          "price": 799,
+          "title": "Steak and Egg Burrito",
+          "uuid": "53a52203-5b02-4164-aae0-71cf1ee17d69",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1447,6 +2192,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "ead19ad5-d994-507a-aea8-e0cbdcdd7ab7": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/a098946c-0116-40ed-ade6-3ff5d6b1a31d.jpeg",
@@ -1456,6 +2202,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "170 Cal."
+=======
+        "10f9d2f5-755a-4fde-8900-49ee7b6d67f6": {
+          "description": "Served with 2 eggs, tortilla, rice, and beans.",
+          "imageUrl": "",
+          "price": 699,
+          "title": "Huevos Rancheros Breakfast Platter",
+          "uuid": "10f9d2f5-755a-4fde-8900-49ee7b6d67f6",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1466,6 +2223,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "99ce8a0c-ba12-55c5-8504-0affd7b58ca6": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/1c47a1c1-81d3-4718-8d4f-ebf4e5829322.jpeg",
@@ -1475,16 +2233,28 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "270 Cal."
+=======
+        "11bc66dc-d211-48ef-9536-06645a1dc0fc": {
+          "description": "",
+          "imageUrl": "",
+          "price": 199,
+          "title": "Carne Asada Taco",
+          "uuid": "11bc66dc-d211-48ef-9536-06645a1dc0fc",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "21643baa-d90f-5402-ab2c-5239cd29ebcc": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/24bd16ca-04f2-4b6f-9d23-b62c32deae7f.jpeg",
@@ -1494,6 +2264,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "300 Cal."
+=======
+        "fff0d1e2-f315-4383-b132-801594bc3764": {
+          "description": "Shredded chicken in red sauce.",
+          "imageUrl": "",
+          "price": 799,
+          "title": "Chicken Burrito",
+          "uuid": "fff0d1e2-f315-4383-b132-801594bc3764",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1504,6 +2285,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "0072a0fc-825b-5374-833e-226298f2b5c8": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/44d3f33a-1591-4c50-a74c-04b5d2ff6156.jpeg",
@@ -1513,6 +2295,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "580 Cal."
+=======
+        "516d457c-f18e-48b9-b243-71246eb58274": {
+          "description": "Served with rice and beans.",
+          "imageUrl": "",
+          "price": 1349,
+          "title": "Shrimp Ranchero",
+          "uuid": "516d457c-f18e-48b9-b243-71246eb58274",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1523,6 +2316,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "a46d2bbc-4a16-5e37-9469-fa602c331f4c": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/4bad67f3-296f-4518-ab2d-521910d18ced.jpeg",
@@ -1532,6 +2326,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "140 - 170 Cal."
+=======
+        "4f962927-cbda-433e-a32e-ca05c5574f50": {
+          "description": "With cheese, lettuce, and red enchilada sauce.",
+          "imageUrl": "",
+          "price": 699,
+          "title": "2 Cheese Enchilada A la Carte",
+          "uuid": "4f962927-cbda-433e-a32e-ca05c5574f50",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1542,6 +2347,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "45e061ab-8fe2-5932-97bf-da71a9467b74": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/4eff09e9-3933-48f0-bbb9-f52359d52482.jpeg",
@@ -1551,6 +2357,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "300 Cal."
+=======
+        "5b071d34-75f8-4fa6-916c-5a4a2cd2f666": {
+          "description": "3 luscious soft center cookies with just the slightest outer crunch.",
+          "imageUrl": "",
+          "price": 175,
+          "title": "3 Cookie Combo",
+          "uuid": "5b071d34-75f8-4fa6-916c-5a4a2cd2f666",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1561,6 +2378,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "5ae3f81b-6244-505e-b3e9-ace30e0af554": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/d69b3ddb-ff47-420c-a649-73f6f6d42286.jpeg",
@@ -1570,16 +2388,28 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "160 Cal."
+=======
+        "1553e1e6-5b6f-4364-b128-a5e9227b657e": {
+          "description": "",
+          "imageUrl": "",
+          "price": 199,
+          "title": "Carnitas Taco",
+          "uuid": "1553e1e6-5b6f-4364-b128-a5e9227b657e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "542996c1-41da-5af6-87f3-207bfa335c4c": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/72d617e6-7ab5-4fe7-acd6-970ace212ddf.jpeg",
@@ -1589,6 +2419,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "180 Cal."
+=======
+        "d8f1e172-6177-40fa-ba79-92b5ddfca160": {
+          "description": "Served with sausage, egg, and cheese.",
+          "imageUrl": "",
+          "price": 699,
+          "title": "Sausage Breakfast Burrito",
+          "uuid": "d8f1e172-6177-40fa-ba79-92b5ddfca160",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1599,6 +2440,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "0592b809-463d-5138-9d54-dffb467c9e2d": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/c32c74a2-8659-4ecd-a54c-3210595cfaf1.jpeg",
@@ -1627,6 +2469,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "530 Cal."
+=======
+        "0a378fde-66c5-43a8-a6a2-ff0a74e73041": {
+          "description": "Shredded beef, bell pepper, onion, and tomatoes.",
+          "imageUrl": "",
+          "price": 799,
+          "title": "Beef Burrito",
+          "uuid": "0a378fde-66c5-43a8-a6a2-ff0a74e73041",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1637,6 +2490,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "fc0f10bf-e957-5ba2-b1c5-5b1cfa3a6e1b": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/e817fc09-de77-4cee-92d9-123f7bfb99ad.jpeg",
@@ -1646,6 +2500,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "570 - 740 Cal."
+=======
+        "dd0750bc-614f-406a-8d18-c18c06367ed0": {
+          "description": "Luscious soft center with just the slightest outer crunch.",
+          "imageUrl": "",
+          "price": 85,
+          "title": "Cookie",
+          "uuid": "dd0750bc-614f-406a-8d18-c18c06367ed0",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1656,6 +2521,7 @@
           },
           "tagSection": null
         },
+<<<<<<< HEAD
         "4edc9aae-bd3f-59c8-ad2a-ad5a0d165dc6": {
           "description": null,
           "imageUrl": "https://d1ralsognjng37.cloudfront.net/dea339ef-28a9-4eb9-b4bb-d773c257f19f.jpeg",
@@ -1665,6 +2531,17 @@
           "nutritionalInfo": {
             "allergens": "",
             "displayString": "15 Cal."
+=======
+        "aceaaa68-b285-45ae-9f62-13951e693584": {
+          "description": "",
+          "imageUrl": "",
+          "price": 199,
+          "title": "Churro",
+          "uuid": "aceaaa68-b285-45ae-9f62-13951e693584",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+>>>>>>> sy_frontend
           },
           "suspendReason": null,
           "suspendUntil": 0,
@@ -1674,6 +2551,7 @@
             "dietaryLabels": null
           },
           "tagSection": null
+<<<<<<< HEAD
         },
         "81b30bee-68ad-5cdc-9c2d-512d0b053dec": {
           "description": null,
@@ -8024,12 +8902,15 @@
             "dietaryLabels": null
           },
           "tagSection": null
+=======
+>>>>>>> sy_frontend
         }
       }
     },
     "sections": [
       {
         "subsectionUuids": [
+<<<<<<< HEAD
           "40537968-1a13-558d-bbd4-75b07edc7858",
           "03fb929f-d80f-5cd4-a92c-9e397497075f",
           "74738b9e-516f-56f7-b11a-ad822b54244f",
@@ -8083,11 +8964,29 @@
         "title": "Dinner",
         "subtitle": "5:00 PM \u2013 11:29 PM",
         "uuid": "0c708e02-1c9e-5021-be29-6150953770b7",
+=======
+          "7e12b8f3-60b0-55f8-8ade-9a1be560da6d",
+          "0ef13495-427d-42f2-9407-538df44d7366",
+          "8fbda9ae-3e48-4938-a5e6-e1b2e773733f",
+          "94715f7b-0483-4e59-9780-bb1f6ad9b9f6",
+          "c0122fa5-f1dd-4d56-9bda-cb53bafb4f40",
+          "9c80b780-575c-4ab1-92dc-72a8e6a02312",
+          "f6ef4320-bb5e-4d66-ab3f-ac73e8ca2592",
+          "3452001b-039c-4618-ab2c-e258e3a697e5",
+          "23985849-20f6-4008-801b-998c708b760d",
+          "f36858eb-51d6-4a4c-ac8d-63cd13513d49",
+          "bc0553d6-ff27-4bb0-978d-d6d561f8a765"
+        ],
+        "title": "Menu",
+        "subtitle": "12:01 AM \u2013 11:59 PM",
+        "uuid": "cf7a69be-a4da-423f-a251-59423189c3f9",
+>>>>>>> sy_frontend
         "isTop": true,
         "isOnSale": true
       }
     ],
     "subsectionsMap": {
+<<<<<<< HEAD
       "4cdd1e94-7b01-537a-ac08-524dc616ef40": {
         "itemUuids": [
           "f935fda6-af22-5fb8-87c6-1417c9d6d26a",
@@ -8846,20 +9745,234 @@
       "Burgers",
       "Fast Food",
       "Fast Food"
+=======
+      "7e12b8f3-60b0-55f8-8ade-9a1be560da6d": {
+        "itemUuids": [
+          "0c445c79-a488-4664-9990-1c0fedf6ade2",
+          "5dff1f63-fa5b-4c00-b10c-24ac448ba5e9",
+          "4434bfca-9db7-420d-b915-f37d77e8db8e",
+          "b646888b-bcdc-4c62-a21f-02e4dae10e37",
+          "3801d8e9-49a3-4fca-ab02-f2b2975dc08c"
+        ],
+        "subtitle": null,
+        "title": "Picked For You",
+        "uuid": "7e12b8f3-60b0-55f8-8ade-9a1be560da6d",
+        "displayType": null
+      },
+      "c0122fa5-f1dd-4d56-9bda-cb53bafb4f40": {
+        "itemUuids": [
+          "1c4eb5ea-182d-4042-981b-4db4320da157",
+          "7e4f8fbb-4ce0-4bd8-8785-40de84a323b6",
+          "25f34cdc-4e72-4f18-a388-f941a6d87e2f",
+          "4bf46b09-0f68-4f5a-abb0-1c52e9c8d7fb",
+          "cda542af-1168-4c40-bfce-c7bcf7a9fd39",
+          "fbdebcdf-40be-431f-899f-95d2606c72ac",
+          "9db3e5c6-cc78-4023-b71b-ee1c1ba757fd",
+          "d5b64572-ea70-4a3b-befe-0d7b2ae4140d",
+          "aff7b4a9-2d1f-4fa2-ab2b-200f8208a351",
+          "d30b476b-bca9-4281-add5-1e2214f2729c",
+          "348697d1-fd07-4b08-97bc-9d5bac47f5e3",
+          "c773dd0a-b285-47c0-97b6-381d3a9ebd7f",
+          "3cd7859f-86a2-474e-b0b8-4d6569590bd0",
+          "516d457c-f18e-48b9-b243-71246eb58274",
+          "b81333b5-e0a4-4b50-ace2-24ff397894fc"
+        ],
+        "subtitle": null,
+        "title": "Combination Platters",
+        "uuid": "c0122fa5-f1dd-4d56-9bda-cb53bafb4f40",
+        "displayType": null
+      },
+      "0ef13495-427d-42f2-9407-538df44d7366": {
+        "itemUuids": [
+          "78f0c1b3-945b-418b-ad63-019140a026ca",
+          "fdd4f617-3e3b-4b9a-b376-13368910eb08",
+          "c6f40020-0a52-4c30-8688-050124bab0a0",
+          "e20059a9-6b35-40b1-a243-ac59ed63d4ac",
+          "8a74de46-47dd-4f42-8e98-d0b8e0166151",
+          "207a062f-3969-4e5e-9f30-11def59e0d9a"
+        ],
+        "subtitle": null,
+        "title": "Tacos",
+        "uuid": "0ef13495-427d-42f2-9407-538df44d7366",
+        "displayType": null
+      },
+      "f6ef4320-bb5e-4d66-ab3f-ac73e8ca2592": {
+        "itemUuids": [
+          "30dd107d-aaf2-493e-8872-027520013a06",
+          "d8f1e172-6177-40fa-ba79-92b5ddfca160",
+          "98c367c7-19fc-402a-bcc2-2624d2bcec94",
+          "6cabe45e-8ce7-42ad-aa23-d7a54d4d800e",
+          "497ca17a-b1ce-4f21-8ad7-4806335e9eea",
+          "fad0d97f-97c0-4002-8b68-e4cdbf2446b9",
+          "53a52203-5b02-4164-aae0-71cf1ee17d69"
+        ],
+        "subtitle": null,
+        "title": "Breakfast Burritos",
+        "uuid": "f6ef4320-bb5e-4d66-ab3f-ac73e8ca2592",
+        "displayType": null
+      },
+      "9c80b780-575c-4ab1-92dc-72a8e6a02312": {
+        "itemUuids": [
+          "10f9d2f5-755a-4fde-8900-49ee7b6d67f6",
+          "f05a1ff9-bbb0-4984-9a23-8b16c9f49f87",
+          "f1009b3d-3474-4014-968d-ad754e488bfe",
+          "6291aec0-0295-4844-a0cb-da66b78d9249"
+        ],
+        "subtitle": null,
+        "title": "Breakfast Platters",
+        "uuid": "9c80b780-575c-4ab1-92dc-72a8e6a02312",
+        "displayType": null
+      },
+      "bc0553d6-ff27-4bb0-978d-d6d561f8a765": {
+        "itemUuids": [
+          "dd0750bc-614f-406a-8d18-c18c06367ed0",
+          "c83fef74-db51-4fe2-a7b1-12d216a8c454",
+          "aceaaa68-b285-45ae-9f62-13951e693584",
+          "5b071d34-75f8-4fa6-916c-5a4a2cd2f666",
+          "a18dad38-fdbf-42b4-bb48-ee86c11a7270",
+          "2ed681a9-3aa5-4321-ac18-101bcc63657c"
+        ],
+        "subtitle": null,
+        "title": "Dessert",
+        "uuid": "bc0553d6-ff27-4bb0-978d-d6d561f8a765",
+        "displayType": null
+      },
+      "3452001b-039c-4618-ab2c-e258e3a697e5": {
+        "itemUuids": [
+          "3c22c589-cf14-4ee4-9ceb-c820c9a8cbed",
+          "4e044997-49ca-4d7c-a8dd-ec8ac7cb2fc8",
+          "c163df05-6f37-463f-9e15-1f4869d6a805",
+          "f784601d-973c-4d47-a0cd-a45016e17337",
+          "11bc66dc-d211-48ef-9536-06645a1dc0fc",
+          "1553e1e6-5b6f-4364-b128-a5e9227b657e",
+          "8dc16f15-350e-4ea2-a557-9e3c697da076"
+        ],
+        "subtitle": null,
+        "title": "Street Tacos",
+        "uuid": "3452001b-039c-4618-ab2c-e258e3a697e5",
+        "displayType": null
+      },
+      "94715f7b-0483-4e59-9780-bb1f6ad9b9f6": {
+        "itemUuids": [
+          "db53bc77-25a1-40cf-910e-1e54d7af3cc1",
+          "6c1a915b-94bb-4c48-a593-a43d5384c39c",
+          "697bca4b-a006-435e-8fd1-3b920b0df8e8",
+          "ea3f4407-b737-4c8a-b2af-84973c1f0130",
+          "428b4bb6-4f2c-4876-b216-ac693ae6dd76",
+          "a55d2f66-1f03-497c-b7d1-aeb57360612e"
+        ],
+        "subtitle": null,
+        "title": "Quesadilla",
+        "uuid": "94715f7b-0483-4e59-9780-bb1f6ad9b9f6",
+        "displayType": null
+      },
+      "23985849-20f6-4008-801b-998c708b760d": {
+        "itemUuids": [
+          "83f19318-89bb-4b89-bc0d-19aa7861e499",
+          "7985b74a-2fc4-4432-ad4b-050ca7766199",
+          "87121f85-cc67-485e-972b-1c4390d5eb32",
+          "b447970a-798e-4dc7-962b-34f4046d01ad"
+        ],
+        "subtitle": null,
+        "title": "Tostadas",
+        "uuid": "23985849-20f6-4008-801b-998c708b760d",
+        "displayType": null
+      },
+      "f36858eb-51d6-4a4c-ac8d-63cd13513d49": {
+        "itemUuids": [
+          "4434bfca-9db7-420d-b915-f37d77e8db8e",
+          "0c445c79-a488-4664-9990-1c0fedf6ade2",
+          "ebf47d9f-86c1-48ef-a876-84358ecab42f",
+          "55f02ddb-5201-4143-b48f-f3c4779681b5",
+          "4f962927-cbda-433e-a32e-ca05c5574f50",
+          "64614f8f-8586-464c-84ec-d1ebcd4480fc"
+        ],
+        "subtitle": null,
+        "title": "A La Carte",
+        "uuid": "f36858eb-51d6-4a4c-ac8d-63cd13513d49",
+        "displayType": null
+      },
+      "8fbda9ae-3e48-4938-a5e6-e1b2e773733f": {
+        "itemUuids": [
+          "3801d8e9-49a3-4fca-ab02-f2b2975dc08c",
+          "667a731d-5c6a-48af-8602-65219ef92ef5",
+          "66f2e0a1-c31c-4e7b-a2ae-a531e30838bf",
+          "5dff1f63-fa5b-4c00-b10c-24ac448ba5e9",
+          "541e810d-baa2-4131-9720-f4c78018bf2e",
+          "b646888b-bcdc-4c62-a21f-02e4dae10e37",
+          "fff0d1e2-f315-4383-b132-801594bc3764",
+          "0a378fde-66c5-43a8-a6a2-ff0a74e73041",
+          "a5f1b0d2-4585-4251-b8f6-68fe361c1d1d",
+          "1e599618-9e28-41a2-bc4a-a0da61bd534d",
+          "d7155b1c-a2a8-42eb-8da5-5a5512a18d4d",
+          "106ab9be-3fe4-4312-9fbc-df0eda9f9684"
+        ],
+        "subtitle": null,
+        "title": "Burritos",
+        "uuid": "8fbda9ae-3e48-4938-a5e6-e1b2e773733f",
+        "displayType": null
+      }
+    },
+    "title": "Riliberto's Fresh Mexican Food",
+    "sanitizedTitle": "Riliberto's Fresh Mexican Food",
+    "uuid": "080ea38a-bbfe-4efc-ab37-7de6fa812f1c",
+    "cityId": 48,
+    "categories": [
+      "Mexican",
+      "Latin American",
+      "New Mexican",
+      "Local Eats"
     ],
-    "priceBucket": "$",
+    "categoryLinks": [
+      {
+        "text": "Mexican",
+        "link": "/category/tucson-az/mexican"
+      },
+      {
+        "text": "Latin American",
+        "link": "/category/tucson-az/latin-american"
+      },
+      {
+        "text": "New Mexican",
+        "link": "/category/tucson-az/new-mexican"
+      },
+      {
+        "text": "Local Eats"
+      }
+    ],
+    "cuisineList": [
+      "Mexican",
+      "Latin American",
+      "New Mexican",
+      "Local Eats"
+>>>>>>> sy_frontend
+    ],
+    "priceBucket": "",
     "etaRange": {
+<<<<<<< HEAD
       "text": "35\u201345 Min",
       "iconUrl": "",
       "accessibilityText": "Delivered in 35 to 45 Min"
+=======
+      "text": "25\u201335 Min",
+      "iconUrl": "",
+      "accessibilityText": "Delivered in 25 to 35 Min"
+>>>>>>> sy_frontend
     },
     "disclaimerBadge": null,
     "distanceBadge": null,
     "fareBadge": {
+<<<<<<< HEAD
       "text": "$1.99 Delivery Fee",
       "iconUrl": null,
       "textFormat": null,
       "accessibilityText": "Delivery Fee is $1.99"
+=======
+      "text": "$0 Delivery Fee",
+      "iconUrl": null,
+      "textFormat": null,
+      "accessibilityText": "Delivery Fee is No Fee"
+>>>>>>> sy_frontend
     },
     "eatsPassExclusionBadge": {
       "backgroundColor": null,
@@ -8874,6 +9987,7 @@
       "actionUrl": null
     },
     "fareInfo": {
+<<<<<<< HEAD
       "serviceFee": 1.99,
       "serviceFeeCents": 199
     },
@@ -8902,6 +10016,40 @@
       },
       {
         "url": "https://d1ralsognjng37.cloudfront.net/8bab88a3-54cd-431f-89b5-270b98cfb07c.jpeg",
+=======
+      "serviceFee": 0,
+      "serviceFeeCents": 0
+    },
+    "promotion": {
+      "text": "$0 Delivery Fee (Spend $10)",
+      "promotionUuid": "9ba27492-7ecb-40a5-a61c-20e853850ea1",
+      "description": "$0 delivery fee for orders of $10 or more (before taxes and fees) at . Available for a limited time only.  Cannot be combined with other promotions."
+    },
+    "shouldIndex": true,
+    "heroImageUrls": [
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/6a1b9fd4-38b8-4a21-9a7a-9cf13c848959.jpeg",
+        "width": 240
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/d4d9404a-71d6-4e4b-a95f-a6c83b695689.jpeg",
+        "width": 550
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/a0aad276-ece1-46db-ae06-fb8e94a2db60.jpeg",
+        "width": 640
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/a8b0cbbf-a513-4f7c-9bd9-e7eb58e8d235.jpeg",
+        "width": 750
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/064e475e-f01f-4978-abc1-219f34345abc.jpeg",
+        "width": 1080
+      },
+      {
+        "url": "https://d1ralsognjng37.cloudfront.net/d417660d-b3e9-438c-9ea7-8722b5012e9f.jpeg",
+>>>>>>> sy_frontend
         "width": 2880
       }
     ],
@@ -8909,6 +10057,7 @@
     "currencyCode": "USD",
     "closedMessage": "",
     "location": {
+<<<<<<< HEAD
       "address": "2560 S 4th Ave, YUMA, AZ 85364",
       "streetAddress": "2560 S 4TH AVE",
       "city": "YUMA",
@@ -8917,12 +10066,23 @@
       "region": "AZ",
       "latitude": 32.6805285,
       "longitude": -114.6252042
+=======
+      "address": "3344 North Oracle Road, Tucson, AZ 85705",
+      "streetAddress": "3344 North Oracle Road",
+      "city": "Tucson",
+      "country": "US",
+      "postalCode": "85705",
+      "region": "AZ",
+      "latitude": 32.267334,
+      "longitude": -110.977554
+>>>>>>> sy_frontend
     },
     "isDeliveryBandwagon": false,
     "isDeliveryOverTheTop": false,
     "isDeliveryThirdParty": false,
     "hours": [
       {
+<<<<<<< HEAD
         "dayRange": "Sunday",
         "sectionHours": [
           {
@@ -8964,43 +10124,42 @@
       },
       {
         "dayRange": "Saturday",
+=======
+        "dayRange": "Every Day",
+>>>>>>> sy_frontend
         "sectionHours": [
           {
-            "startTime": 300,
-            "endTime": 659,
-            "sectionTitle": "Breakfast"
-          },
-          {
-            "startTime": 660,
-            "endTime": 1019,
-            "sectionTitle": "Lunch"
-          },
-          {
-            "startTime": 1020,
-            "endTime": 1409,
-            "sectionTitle": "Dinner"
+            "startTime": 1,
+            "endTime": 1439,
+            "sectionTitle": ""
           }
         ]
       }
     ],
-    "disableOrderInstruction": true,
-    "disableCheckoutInstruction": true,
+    "disableOrderInstruction": false,
+    "disableCheckoutInstruction": false,
     "nuggets": [],
     "isWithinDeliveryRange": true,
-    "slug": "mcdonalds-2560-s-4th-ave",
-    "citySlug": "yuma",
-    "phoneNumber": "+19283443613",
-    "metaJson": "{\"@context\":\"http:\\u002F\\u002Fschema.org\",\"@type\":\"Restaurant\",\"@id\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Fyuma\\u002Ffood-delivery\\u002Fmcdonalds-2560-s-4th-ave\\u002Fdmin1h2PRRCbcduJuod-Hw\",\"name\":\"McDonald's\u00ae (2560 S 4TH AVE)\",\"servesCuisine\":[\"American\",\"Burgers\",\"Fast Food\",\"Fast Food\"],\"priceRange\":\"$\",\"image\":[\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F4769a26d-d17d-4a95-b514-dd757b4bbfce.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fb53bbb9c-278f-4535-a1c1-8aaa9df1e91c.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F0e475f92-9e10-432c-8f03-b202d69fc814.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fb938a89f-d057-462f-a007-f301c5d330c9.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fcf9a1417-f75e-414d-b4ec-5be2b5a6371f.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F8bab88a3-54cd-431f-89b5-270b98cfb07c.jpeg\"],\"potentialAction\":{\"@type\":\"OrderAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Fyuma\\u002Ffood-delivery\\u002Fmcdonalds-2560-s-4th-ave\\u002Fdmin1h2PRRCbcduJuod-Hw?utm_campaign=order-action&amp;utm_medium=organic\",\"inLanguage\":\"English\",\"actionPlatform\":[\"http:\\u002F\\u002Fschema.org\\u002FDesktopWebPlatform\",\"http:\\u002F\\u002Fschema.org\\u002FMobileWebPlatform\"]},\"deliveryMethod\":[\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModeOwnFleet\"]},\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"YUMA\",\"addressRegion\":\"AZ\",\"postalCode\":\"85364\",\"addressCountry\":\"US\",\"streetAddress\":\"2560 S 4TH AVE\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":32.6805285,\"longitude\":-114.6252042},\"telephone\":\"+19283443613\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":4.1,\"reviewCount\":\"60\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Sunday\",\"opens\":\"5:0\",\"closes\":\"10:59\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Sunday\",\"opens\":\"11:0\",\"closes\":\"16:59\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Sunday\",\"opens\":\"17:0\",\"closes\":\"23:29\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\"],\"opens\":\"5:0\",\"closes\":\"10:29\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\"],\"opens\":\"10:30\",\"closes\":\"16:59\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\"],\"opens\":\"17:0\",\"closes\":\"23:29\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Saturday\",\"opens\":\"5:0\",\"closes\":\"10:59\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Saturday\",\"opens\":\"11:0\",\"closes\":\"16:59\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Saturday\",\"opens\":\"17:0\",\"closes\":\"23:29\"}]}",
+    "slug": "rilibertos-fresh-mexican-food",
+    "citySlug": "tucson",
+    "phoneNumber": "+15204955765",
+    "metaJson": "{\"@context\":\"http:\\u002F\\u002Fschema.org\",\"@type\":\"Restaurant\",\"@id\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Ftucson\\u002Ffood-delivery\\u002Frilibertos-fresh-mexican-food\\u002FCA6jirv-TvyrN33m-oEvHA\",\"name\":\"Riliberto's Fresh Mexican Food\",\"servesCuisine\":[\"Mexican\",\"Latin American\",\"New Mexican\",\"Local Eats\"],\"priceRange\":null,\"image\":[\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F6a1b9fd4-38b8-4a21-9a7a-9cf13c848959.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fd4d9404a-71d6-4e4b-a95f-a6c83b695689.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fa0aad276-ece1-46db-ae06-fb8e94a2db60.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fa8b0cbbf-a513-4f7c-9bd9-e7eb58e8d235.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F064e475e-f01f-4978-abc1-219f34345abc.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fd417660d-b3e9-438c-9ea7-8722b5012e9f.jpeg\"],\"potentialAction\":{\"@type\":\"OrderAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Ftucson\\u002Ffood-delivery\\u002Frilibertos-fresh-mexican-food\\u002FCA6jirv-TvyrN33m-oEvHA?utm_campaign=order-action&amp;utm_medium=organic\",\"inLanguage\":\"English\",\"actionPlatform\":[\"http:\\u002F\\u002Fschema.org\\u002FDesktopWebPlatform\",\"http:\\u002F\\u002Fschema.org\\u002FMobileWebPlatform\"]},\"deliveryMethod\":[\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModeOwnFleet\",\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModePickUp\"]},\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Tucson\",\"addressRegion\":\"AZ\",\"postalCode\":\"85705\",\"addressCountry\":\"US\",\"streetAddress\":\"3344 North Oracle Road\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":32.267334,\"longitude\":-110.977554},\"telephone\":\"+15204955765\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":3.8,\"reviewCount\":\"59\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"0:1\",\"closes\":\"23:59\"}]}",
     "promoTrackings": [],
     "suggestedPromotion": {
-      "text": "",
-      "promotionUuid": ""
+      "text": "$0 Delivery Fee (Spend $10)",
+      "promotionUuid": "9ba27492-7ecb-40a5-a61c-20e853850ea1"
     },
     "supportedDiningModes": [
       {
         "mode": "DELIVERY",
         "title": "Delivery",
         "isSelected": true,
+        "isAvailable": true
+      },
+      {
+        "mode": "PICKUP",
+        "title": "Pickup",
+        "isSelected": false,
         "isAvailable": true
       }
     ],
@@ -9054,20 +10213,15 @@
       }
     },
     "rating": {
-      "ratingValue": 4.1,
-      "reviewCount": "60"
+      "ratingValue": 3.8,
+      "reviewCount": "59"
     },
-    "menuUUID": "7668a7d6-1d8f-4510-9b71-db89ba877e1f",
+    "menuUUID": "080ea38a-bbfe-4efc-ab37-7de6fa812f1c",
     "hasMultipleMenus": false,
-    "isChain": true,
+    "isChain": false,
     "specialInstructionHintText": "Add a note (extra sauce, no onions, etc.)",
-    "shouldRenderAllItems": false,
-    "optoutRestaurantExperiments": {
-      "optoutMenuExperiments": {
-        "optoutAllExperiments": true,
-        "experiments": null
-      }
-    },
+    "shouldRenderAllItems": true,
+    "optoutRestaurantExperiments": null,
     "adaptedDeliveryHoursInfos": {
       "dates": [
         "2021-02-06",
@@ -9081,16 +10235,101 @@
       "timeRanges": {
         "2021-02-06": [
           {
+<<<<<<< HEAD
             "startTime": 1365,
             "endTime": 1395
-          },
-          {
+=======
             "startTime": 1380,
             "endTime": 1410
+          },
+          {
+            "startTime": 1395,
+            "endTime": 1425
+          },
+          {
+            "startTime": 1410,
+            "endTime": 1440
           }
         ],
         "2021-02-07": [
           {
+            "startTime": 75,
+            "endTime": 105
+          },
+          {
+            "startTime": 90,
+            "endTime": 120
+          },
+          {
+            "startTime": 105,
+            "endTime": 135
+>>>>>>> sy_frontend
+          },
+          {
+            "startTime": 120,
+            "endTime": 150
+          },
+          {
+            "startTime": 135,
+            "endTime": 165
+          },
+          {
+            "startTime": 150,
+            "endTime": 180
+          },
+          {
+            "startTime": 165,
+            "endTime": 195
+          },
+          {
+            "startTime": 180,
+            "endTime": 210
+          },
+          {
+            "startTime": 195,
+            "endTime": 225
+          },
+          {
+            "startTime": 210,
+            "endTime": 240
+          },
+          {
+            "startTime": 225,
+            "endTime": 255
+          },
+          {
+            "startTime": 240,
+            "endTime": 270
+          },
+          {
+            "startTime": 255,
+            "endTime": 285
+          },
+          {
+            "startTime": 270,
+            "endTime": 300
+          },
+          {
+            "startTime": 285,
+            "endTime": 315
+          },
+          {
+            "startTime": 300,
+            "endTime": 330
+          },
+          {
+            "startTime": 315,
+            "endTime": 345
+          },
+          {
+            "startTime": 330,
+            "endTime": 360
+          },
+          {
+            "startTime": 345,
+            "endTime": 375
+          },
+          {
             "startTime": 360,
             "endTime": 390
           },
@@ -9365,10 +10604,94 @@
           {
             "startTime": 1380,
             "endTime": 1410
+          },
+          {
+            "startTime": 1395,
+            "endTime": 1425
+          },
+          {
+            "startTime": 1410,
+            "endTime": 1440
           }
         ],
         "2021-02-08": [
           {
+            "startTime": 75,
+            "endTime": 105
+          },
+          {
+            "startTime": 90,
+            "endTime": 120
+          },
+          {
+            "startTime": 105,
+            "endTime": 135
+          },
+          {
+            "startTime": 120,
+            "endTime": 150
+          },
+          {
+            "startTime": 135,
+            "endTime": 165
+          },
+          {
+            "startTime": 150,
+            "endTime": 180
+          },
+          {
+            "startTime": 165,
+            "endTime": 195
+          },
+          {
+            "startTime": 180,
+            "endTime": 210
+          },
+          {
+            "startTime": 195,
+            "endTime": 225
+          },
+          {
+            "startTime": 210,
+            "endTime": 240
+          },
+          {
+            "startTime": 225,
+            "endTime": 255
+          },
+          {
+            "startTime": 240,
+            "endTime": 270
+          },
+          {
+            "startTime": 255,
+            "endTime": 285
+          },
+          {
+            "startTime": 270,
+            "endTime": 300
+          },
+          {
+            "startTime": 285,
+            "endTime": 315
+          },
+          {
+            "startTime": 300,
+            "endTime": 330
+          },
+          {
+            "startTime": 315,
+            "endTime": 345
+          },
+          {
+            "startTime": 330,
+            "endTime": 360
+          },
+          {
+            "startTime": 345,
+            "endTime": 375
+          },
+          {
             "startTime": 360,
             "endTime": 390
           },
@@ -9643,10 +10966,94 @@
           {
             "startTime": 1380,
             "endTime": 1410
+          },
+          {
+            "startTime": 1395,
+            "endTime": 1425
+          },
+          {
+            "startTime": 1410,
+            "endTime": 1440
           }
         ],
         "2021-02-09": [
           {
+            "startTime": 75,
+            "endTime": 105
+          },
+          {
+            "startTime": 90,
+            "endTime": 120
+          },
+          {
+            "startTime": 105,
+            "endTime": 135
+          },
+          {
+            "startTime": 120,
+            "endTime": 150
+          },
+          {
+            "startTime": 135,
+            "endTime": 165
+          },
+          {
+            "startTime": 150,
+            "endTime": 180
+          },
+          {
+            "startTime": 165,
+            "endTime": 195
+          },
+          {
+            "startTime": 180,
+            "endTime": 210
+          },
+          {
+            "startTime": 195,
+            "endTime": 225
+          },
+          {
+            "startTime": 210,
+            "endTime": 240
+          },
+          {
+            "startTime": 225,
+            "endTime": 255
+          },
+          {
+            "startTime": 240,
+            "endTime": 270
+          },
+          {
+            "startTime": 255,
+            "endTime": 285
+          },
+          {
+            "startTime": 270,
+            "endTime": 300
+          },
+          {
+            "startTime": 285,
+            "endTime": 315
+          },
+          {
+            "startTime": 300,
+            "endTime": 330
+          },
+          {
+            "startTime": 315,
+            "endTime": 345
+          },
+          {
+            "startTime": 330,
+            "endTime": 360
+          },
+          {
+            "startTime": 345,
+            "endTime": 375
+          },
+          {
             "startTime": 360,
             "endTime": 390
           },
@@ -9921,10 +11328,94 @@
           {
             "startTime": 1380,
             "endTime": 1410
+          },
+          {
+            "startTime": 1395,
+            "endTime": 1425
+          },
+          {
+            "startTime": 1410,
+            "endTime": 1440
           }
         ],
         "2021-02-10": [
           {
+            "startTime": 75,
+            "endTime": 105
+          },
+          {
+            "startTime": 90,
+            "endTime": 120
+          },
+          {
+            "startTime": 105,
+            "endTime": 135
+          },
+          {
+            "startTime": 120,
+            "endTime": 150
+          },
+          {
+            "startTime": 135,
+            "endTime": 165
+          },
+          {
+            "startTime": 150,
+            "endTime": 180
+          },
+          {
+            "startTime": 165,
+            "endTime": 195
+          },
+          {
+            "startTime": 180,
+            "endTime": 210
+          },
+          {
+            "startTime": 195,
+            "endTime": 225
+          },
+          {
+            "startTime": 210,
+            "endTime": 240
+          },
+          {
+            "startTime": 225,
+            "endTime": 255
+          },
+          {
+            "startTime": 240,
+            "endTime": 270
+          },
+          {
+            "startTime": 255,
+            "endTime": 285
+          },
+          {
+            "startTime": 270,
+            "endTime": 300
+          },
+          {
+            "startTime": 285,
+            "endTime": 315
+          },
+          {
+            "startTime": 300,
+            "endTime": 330
+          },
+          {
+            "startTime": 315,
+            "endTime": 345
+          },
+          {
+            "startTime": 330,
+            "endTime": 360
+          },
+          {
+            "startTime": 345,
+            "endTime": 375
+          },
+          {
             "startTime": 360,
             "endTime": 390
           },
@@ -10151,6 +11642,7 @@
           {
             "startTime": 1200,
             "endTime": 1230
+<<<<<<< HEAD
           },
           {
             "startTime": 1215,
@@ -10193,15 +11685,143 @@
             "endTime": 1380
           },
           {
+=======
+          },
+          {
+            "startTime": 1215,
+            "endTime": 1245
+          },
+          {
+            "startTime": 1230,
+            "endTime": 1260
+          },
+          {
+            "startTime": 1245,
+            "endTime": 1275
+          },
+          {
+            "startTime": 1260,
+            "endTime": 1290
+          },
+          {
+            "startTime": 1275,
+            "endTime": 1305
+          },
+          {
+            "startTime": 1290,
+            "endTime": 1320
+          },
+          {
+            "startTime": 1305,
+            "endTime": 1335
+          },
+          {
+            "startTime": 1320,
+            "endTime": 1350
+          },
+          {
+            "startTime": 1335,
+            "endTime": 1365
+          },
+          {
+            "startTime": 1350,
+            "endTime": 1380
+          },
+          {
+>>>>>>> sy_frontend
             "startTime": 1365,
             "endTime": 1395
           },
           {
             "startTime": 1380,
             "endTime": 1410
+          },
+          {
+            "startTime": 1395,
+            "endTime": 1425
+          },
+          {
+            "startTime": 1410,
+            "endTime": 1440
           }
         ],
         "2021-02-11": [
+          {
+            "startTime": 75,
+            "endTime": 105
+          },
+          {
+            "startTime": 90,
+            "endTime": 120
+          },
+          {
+            "startTime": 105,
+            "endTime": 135
+          },
+          {
+            "startTime": 120,
+            "endTime": 150
+          },
+          {
+            "startTime": 135,
+            "endTime": 165
+          },
+          {
+            "startTime": 150,
+            "endTime": 180
+          },
+          {
+            "startTime": 165,
+            "endTime": 195
+          },
+          {
+            "startTime": 180,
+            "endTime": 210
+          },
+          {
+            "startTime": 195,
+            "endTime": 225
+          },
+          {
+            "startTime": 210,
+            "endTime": 240
+          },
+          {
+            "startTime": 225,
+            "endTime": 255
+          },
+          {
+            "startTime": 240,
+            "endTime": 270
+          },
+          {
+            "startTime": 255,
+            "endTime": 285
+          },
+          {
+            "startTime": 270,
+            "endTime": 300
+          },
+          {
+            "startTime": 285,
+            "endTime": 315
+          },
+          {
+            "startTime": 300,
+            "endTime": 330
+          },
+          {
+            "startTime": 315,
+            "endTime": 345
+          },
+          {
+            "startTime": 330,
+            "endTime": 360
+          },
+          {
+            "startTime": 345,
+            "endTime": 375
+          },
           {
             "startTime": 360,
             "endTime": 390
@@ -10331,6 +11951,14 @@
             "endTime": 855
           },
           {
+<<<<<<< HEAD
+            "startTime": 525,
+            "endTime": 555
+          },
+          {
+            "startTime": 540,
+            "endTime": 570
+=======
             "startTime": 840,
             "endTime": 870
           },
@@ -10369,52 +11997,177 @@
           {
             "startTime": 975,
             "endTime": 1005
+>>>>>>> sy_frontend
           },
           {
-            "startTime": 990,
-            "endTime": 1020
+            "startTime": 555,
+            "endTime": 585
           },
           {
-            "startTime": 1005,
-            "endTime": 1035
+            "startTime": 570,
+            "endTime": 600
           },
           {
-            "startTime": 1020,
-            "endTime": 1050
+            "startTime": 585,
+            "endTime": 615
           },
           {
-            "startTime": 1035,
-            "endTime": 1065
+            "startTime": 600,
+            "endTime": 630
           },
           {
-            "startTime": 1050,
-            "endTime": 1080
+            "startTime": 615,
+            "endTime": 645
           },
           {
-            "startTime": 1065,
-            "endTime": 1095
+            "startTime": 630,
+            "endTime": 660
           },
           {
-            "startTime": 1080,
-            "endTime": 1110
+            "startTime": 645,
+            "endTime": 675
           },
           {
-            "startTime": 1095,
-            "endTime": 1125
+            "startTime": 660,
+            "endTime": 690
           },
           {
-            "startTime": 1110,
-            "endTime": 1140
+            "startTime": 675,
+            "endTime": 705
           },
           {
-            "startTime": 1125,
-            "endTime": 1155
+            "startTime": 690,
+            "endTime": 720
           },
           {
-            "startTime": 1140,
-            "endTime": 1170
+            "startTime": 705,
+            "endTime": 735
           },
           {
+<<<<<<< HEAD
+            "startTime": 720,
+            "endTime": 750
+=======
+            "startTime": 1155,
+            "endTime": 1185
+>>>>>>> sy_frontend
+          },
+          {
+            "startTime": 1170,
+            "endTime": 1200
+          },
+          {
+            "startTime": 1185,
+            "endTime": 1215
+          },
+          {
+            "startTime": 1200,
+            "endTime": 1230
+          },
+          {
+            "startTime": 1215,
+            "endTime": 1245
+          },
+          {
+            "startTime": 1230,
+            "endTime": 1260
+          },
+          {
+            "startTime": 1245,
+            "endTime": 1275
+          },
+          {
+            "startTime": 1260,
+            "endTime": 1290
+          },
+          {
+            "startTime": 1275,
+            "endTime": 1305
+          },
+          {
+            "startTime": 1290,
+            "endTime": 1320
+          },
+          {
+            "startTime": 1305,
+            "endTime": 1335
+          },
+          {
+            "startTime": 1320,
+            "endTime": 1350
+          },
+          {
+            "startTime": 1335,
+            "endTime": 1365
+          },
+          {
+            "startTime": 1350,
+            "endTime": 1380
+          },
+          {
+            "startTime": 1365,
+            "endTime": 1395
+          },
+          {
+            "startTime": 1380,
+            "endTime": 1410
+          },
+          {
+            "startTime": 1395,
+            "endTime": 1425
+          },
+          {
+            "startTime": 1410,
+            "endTime": 1440
+          }
+        ],
+        "2021-02-12": [
+          {
+            "startTime": 75,
+            "endTime": 105
+          },
+          {
+            "startTime": 90,
+            "endTime": 120
+          },
+          {
+            "startTime": 105,
+            "endTime": 135
+          },
+          {
+            "startTime": 120,
+            "endTime": 150
+          },
+          {
+            "startTime": 135,
+            "endTime": 165
+          },
+          {
+            "startTime": 150,
+            "endTime": 180
+          },
+          {
+            "startTime": 165,
+            "endTime": 195
+          },
+          {
+            "startTime": 180,
+            "endTime": 210
+          },
+          {
+            "startTime": 195,
+            "endTime": 225
+          },
+          {
+            "startTime": 210,
+            "endTime": 240
+          },
+          {
+            "startTime": 225,
+            "endTime": 255
+          },
+          {
+<<<<<<< HEAD
             "startTime": 1155,
             "endTime": 1185
           },
@@ -10481,6 +12234,40 @@
         ],
         "2021-02-12": [
           {
+=======
+            "startTime": 240,
+            "endTime": 270
+          },
+          {
+            "startTime": 255,
+            "endTime": 285
+          },
+          {
+            "startTime": 270,
+            "endTime": 300
+          },
+          {
+            "startTime": 285,
+            "endTime": 315
+          },
+          {
+            "startTime": 300,
+            "endTime": 330
+          },
+          {
+            "startTime": 315,
+            "endTime": 345
+          },
+          {
+            "startTime": 330,
+            "endTime": 360
+          },
+          {
+            "startTime": 345,
+            "endTime": 375
+          },
+          {
+>>>>>>> sy_frontend
             "startTime": 360,
             "endTime": 390
           },
@@ -10755,6 +12542,17 @@
           {
             "startTime": 1380,
             "endTime": 1410
+<<<<<<< HEAD
+=======
+          },
+          {
+            "startTime": 1395,
+            "endTime": 1425
+          },
+          {
+            "startTime": 1410,
+            "endTime": 1440
+>>>>>>> sy_frontend
           }
         ]
       },
@@ -10762,8 +12560,13 @@
     },
     "eaterConsent": null,
     "seoMeta": {
+<<<<<<< HEAD
       "title": "McDonald's\u00ae (2560 S 4TH AVE) Delivery | Yuma | Uber Eats",
       "description": "Use your Uber account to order delivery from McDonald's\u00ae (2560 S 4TH AVE) in Yuma. Browse the menu, view popular items, and track your order.",
+=======
+      "title": "Riliberto's Fresh Mexican Food Delivery | Tucson | Uber Eats",
+      "description": "Use your Uber account to order delivery from Riliberto's Fresh Mexican Food in Tucson. Browse the menu, view popular items, and track your order.",
+>>>>>>> sy_frontend
       "content": ""
     }
   }

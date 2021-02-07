@@ -22,9 +22,23 @@ To run this app:
    $ docker-compose up --build
    ```
 
+Check your CONTAINER ID of the 'totalvery_web' IMAGE:
+   ```
+   $ docker ps
+   ```
+
+Replace [CONTAINER ID] with the ID that you checked above:
+   ```
+   docker exec -it [CONTAINER ID] python manage.py makemigrations
+   docker exec -it [CONTAINER ID] python manage.py migrate
+   ```
+
 Then you can see the demo web page with your local computer:
 
-    $ http://localhost:3000/
+ 👉🏼  http://localhost:3000/
+
+
+ _* Logging will be on your terminal. If you think the program's not working, check your terminal._
 
 ## Usage of Google Cloud
 
