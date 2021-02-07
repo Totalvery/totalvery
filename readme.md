@@ -42,7 +42,7 @@ Then you can see the demo web page with your local computer:
 ## Result
 
 ![Result1](assets/result1.png)
-![Result2](assets/result2_fixed.png)
+![Result2](assets/result2.png)
 ![Result3](assets/result3.png)
 ![Result4](assets/result4.png)
 ![Result5](assets/result5.png)
