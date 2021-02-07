@@ -4,20 +4,16 @@
 
 ## To-do
 
-- [x] Create a Totalvery API that returns a restaurant list around the user and the information of a restaurnat by aggregating data from all the delivery apps.
+- [x] Create a Totalvery API that returns a restaurant list around the user and the information of a restaurnat by aggregating data from all the delivery apps
 - [x] Connect a MongoDB
-- [ ] Implement functionality to enable users to link their account with UberEats, Doordash and GrubHub, which helps Totalvery provide more reliable information about estimated fees.
+- [ ] Implement functionality to enable users to link their account with UberEats, Doordash and GrubHub, which helps Totalvery provide more reliable information about estimated fees
 - [ ] Implement functionality to recommend daily menu based on the user's mood
 
 ## Instruction
 
-_First of all, you need US IP because some apps where Totalvery crawls data in real-time may not be available in your country other than US. You can set US IP with VPN._
-
 To run this app:
 
    ```
-   $ git clone https://github.com/Totalvery/totalvery.git
-   $ cd totalvery
    $ docker-compose down -v
    $ docker-compose up --build
    ```
@@ -25,6 +21,19 @@ To run this app:
 Then you can see the demo web page with your local computer:
 
     $ http://localhost:3000/
+
+## Usage of Google Cloud
+
+- Google Places API
+  - Used for address autocomplete at search bar
+- Google Maps Javascript API
+  - Used to show map for the searched location
+
+## Uniqueness Compared to Other Similar Apps
+
+- Includes promotion deals
+- Offers options to choose restaurants by your mood
+- Also, we plan to show membership-applied fees and offers by connecting accounts
 
 ## Result
 
