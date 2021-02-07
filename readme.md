@@ -2,13 +2,6 @@
 
   Totalvery helps you compare the price, the estimated time of arrival, and offers between the top food delivery services such as UberEats, DoorDash, and GrubHub.
 
-## To-do
-
-- [x] Create a Totalvery API that returns a restaurant list around the user and the information of a restaurnat by aggregating data from all the delivery apps
-- [x] Connect a MongoDB
-- [x] Implement functionality to filter restaurants based on the user preference
-- [ ] Implement functionality to enable users to link their account with UberEats, Doordash and GrubHub, which helps Totalvery provide more reliable information about estimated fees
-
 ## Instruction
 
 _First of all, you need a __US IP__ because some apps where Totalvery crawls data in real-time may not be available in your country other than the US. You can set a US IP with VPN. Then, you have to install __Docker__ in order to build the environment._
@@ -90,6 +83,14 @@ Then you can see the demo web page with your local computer:
 - Using Django REST Framework to build API 
 - Connecting MongoDB with Django for better performance 
 - Using Python Requests library to send query and get data from external websites or APIs
+
+## To-do
+
+- [x] Create a Totalvery API that returns a restaurant list around the user and the information of a restaurnat by aggregating data from all the delivery apps
+- [x] Connect a MongoDB
+- [x] Implement functionality to filter restaurants based on the user preference
+- [ ] Function that enable users adjust their expected cart size
+- [ ] Implement functionality to enable users to link their account with UberEats, Doordash and GrubHub, which helps Totalvery provide more reliable information about estimated fees
 
 ## Author
 
