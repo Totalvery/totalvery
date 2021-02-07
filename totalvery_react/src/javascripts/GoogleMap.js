@@ -23,7 +23,7 @@ const AnyReactComponent = ({ text }) => (
 class GoogleMap extends Component {
   render() {
     return (
-      <div className="googlemap" style={{ height: "200px", width: "850px" }}>
+      <div className="googlemap" style={{ height: "300px", width: "850px" }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: bootstrapURLKeys }}
           defaultCenter={{ lat: this.props.lat, lng: this.props.lng }}

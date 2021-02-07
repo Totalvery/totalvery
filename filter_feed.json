@@ -1,36 +1,28 @@
 {
-  "latitude": 0,
-  "longitude": 0,
+  "latitude": 32.1831704,
+  "longitude": -110.9196485,
   "data": [
     {
-      "name": "Illegal Pete's",
+      "name": "McDonald's\u00ae (Speedway & Campbell)",
       "data": {
-        "image": "",
-        "rating": 0,
+        "image": "https://d1ralsognjng37.cloudfront.net/b53bbb9c-278f-4535-a1c1-8aaa9df1e91c.jpeg",
+        "rating": 4.6,
         "categories": [
-          "Burritos",
-          "Mexican",
-          "Tacos",
-          "Salad",
-          "Bowls",
-          "Chicken",
-          "Healthy",
-          "Vegan",
-          "Vegetarian",
-          "Alcohol",
-          "Cocktail Bar"
+          "American",
+          "Burgers",
+          "Fast Food"
         ],
         "platform": [
           {
             "ubereats": {
+              "support": true,
+              "id": "34ed2021-5c64-490f-b251-b3981944dbd9",
+              "delivery_fee": "$5.49 Delivery Fee"
+            },
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
-            },
-            "doordash": {
-              "support": true,
-              "id": "199111",
-              "delivery_fee": 0
             },
             "grubhub": {
               "support": false,
@@ -42,76 +34,27 @@
       }
     },
     {
-      "name": "The Sexy Grilled Cheese and Salad Company",
+      "name": "Burger King (3485 East Ajo Way #9644)",
       "data": {
-        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/509e3f69-c5a7-4505-98f3-cdfc4611e655-retina-large.jpg",
+        "image": "https://d1ralsognjng37.cloudfront.net/6619174b-637d-47c7-b98e-3eec895f4ff8.jpeg",
         "rating": 0,
         "categories": [
           "American",
-          "Sandwiches",
-          "Salad",
-          "Soup",
-          "Lunch",
-          "Dinner"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "doordash": {
-              "support": true,
-              "id": "1079933",
-              "delivery_fee": 0
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Subway",
-      "data": {
-        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/db13291c-1ff1-4b8c-93c3-476358b72370-retina-large-jpeg",
-        "rating": 0,
-        "categories": [
-          "Sandwiches",
-          "Salad",
+          "burger",
           "Fast Food",
-          "Breakfast",
-          "Healthy",
-          "Lunch",
-          "Dessert",
-          "Takeout",
-          "Delis",
-          "Catering",
-          "Salads",
-          "Dinner",
-          "Sandwich",
-          "Pickup",
-          "Sandwich",
-          "Breakfast",
-          "Cocktail Bar",
-          "Alcohol",
-          "Breakfast"
+          "Family Meals"
         ],
         "platform": [
           {
             "ubereats": {
+              "support": true,
+              "id": "dd5b5093-3041-4edd-9917-c588045cd737",
+              "delivery_fee": "$2.49 Delivery Fee"
+            },
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
-            },
-            "doordash": {
-              "support": true,
-              "id": "189555",
-              "delivery_fee": 0
             },
             "grubhub": {
               "support": false,
@@ -123,24 +66,341 @@
       }
     },
     {
-      "name": "Amy Fields Restaurant",
+      "name": "Taco Bell (3930 East 22nd Street)",
       "data": {
-        "image": "",
-        "rating": 0,
+        "image": "https://d1ralsognjng37.cloudfront.net/90b58466-2aae-448e-87e0-216e8d3b3c50.jpeg",
+        "rating": 4.5,
         "categories": [
-          "Salad"
+          "Burritos",
+          "Fast Food",
+          "Mexican"
         ],
         "platform": [
           {
             "ubereats": {
+              "support": true,
+              "id": "582405e5-8f18-46f7-8f6e-eff76bab742b",
+              "delivery_fee": "$4.49 Delivery Fee"
+            },
+            "doordash": {
               "support": false,
               "id": "",
               "delivery_fee": ""
             },
-            "doordash": {
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jack in the Box (3397 S 6th Ave)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/5d5d001b-d099-400b-8546-7cddd70d713a.jpeg",
+        "rating": 4.1,
+        "categories": [
+          "American",
+          "burger",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
               "support": true,
-              "id": "998518",
-              "delivery_fee": 0
+              "id": "94cbed62-93d3-4276-be65-eb8bd09e9fa0",
+              "delivery_fee": "$3.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wienerschnitzel (1481 S Alvernon Way)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/e3316524-be3a-4cb6-a43d-60f4a0b61e0f.jpeg",
+        "rating": 4.7,
+        "categories": [
+          "Hot Dog",
+          "Sandwich",
+          "American",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "b2d61349-f40a-4f77-9107-9b0c9663db9a",
+              "delivery_fee": "$1.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Subway (2245 E Irvington Rd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/3e13ab90-52a4-4254-b954-9dc0b8a326a0.jpeg",
+        "rating": 4.8,
+        "categories": [
+          "Fast Food",
+          "Sandwich",
+          "American"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "7f8fced3-68be-4ff0-bee0-ff16e247ee06",
+              "delivery_fee": "$4.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Popeyes Louisiana Kitchen (3060 North Campbell Avenue)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/7c21e574-6849-4def-9486-f593219127fa.jpeg",
+        "rating": 4.5,
+        "categories": [
+          "American",
+          "Fast Food",
+          "Southern",
+          "Wings",
+          "Family Meals",
+          "Family Friendly"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "5ab93499-a1a5-4386-8a41-f1aff5128aa9",
+              "delivery_fee": "$5.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Del Taco (840 E Broadway Blvd | 859)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/c76ef7b1-1a49-4009-a270-339d5b7fd2ea.jpeg",
+        "rating": 4.6,
+        "categories": [
+          "Fast Food",
+          "Mexican",
+          "Tacos"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "c8a39ffe-1ea0-4b2c-8117-59a9d5da4227",
+              "delivery_fee": "$5.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wendy's  (3535 E. IRVINGTON ROAD)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/448b48fe-c8b9-4224-8bc4-cccca65bac0b.jpeg",
+        "rating": 4.5,
+        "categories": [
+          "American",
+          "Burgers",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "dfd03f82-8de8-49b7-89ea-112ec62e3501",
+              "delivery_fee": "$4.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jack in the Box (3749 S Mission Rd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/5d5d001b-d099-400b-8546-7cddd70d713a.jpeg",
+        "rating": 4.2,
+        "categories": [
+          "American",
+          "burger",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "9b376e21-d203-4732-bbe6-b67cc82b9fdf",
+              "delivery_fee": "$4.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wienerschnitzel (5765 E Broadway Blvd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/e3316524-be3a-4cb6-a43d-60f4a0b61e0f.jpeg",
+        "rating": 3.8,
+        "categories": [
+          "Hot Dog",
+          "Sandwich",
+          "American",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "548fc459-dde5-4436-8bbc-c524aa40b9b0",
+              "delivery_fee": "$3.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Subway (6320 E Golf Links Rd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/ea3278cc-d242-4edc-972f-79933b69e379.jpeg",
+        "rating": 4.4,
+        "categories": [
+          "Fast Food",
+          "Sandwich",
+          "American"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "45e3e3d4-762a-421e-8a9b-bbe5523fda0f",
+              "delivery_fee": "$6.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taco Bell (1620 W Valencia Rd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/90b58466-2aae-448e-87e0-216e8d3b3c50.jpeg",
+        "rating": 3.8,
+        "categories": [
+          "Burritos",
+          "Fast Food",
+          "Mexican"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "be1ab2ca-ff2e-4c9b-90ed-6e5ea04f6ee2",
+              "delivery_fee": "$7.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
             },
             "grubhub": {
               "support": false,
@@ -151,9 +411,5 @@
         ]
       }
     }
-  ],
-  "DoordashOffer": {
-    "totalDeals": 0,
-    "data": {}
-  }
+  ]
 }

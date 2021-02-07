@@ -100,7 +100,29 @@ def stores_feed(request):
 def stores_feed_filter(request):
     if request.method == 'POST':
         param= request.data['param']
+        lat = request.data['lat']
+        lon = request.data['lon']
+        cluster = MongoClient(config.MONGO_URI)
+        db = cluster["totalvery"]
+        #db.users.remove({})  # removing the existing data - > for test sake
+        collection = db["totalvery"]  # mini database
+        query = {
+            'latitude': lat,
+            'longitude': lon
+        }
 
+        data_list = collection.find(query)
+        #when total_feed file does not exist 
+        if(data_list.count() > 0):  
+            cursor = collection.find_one(query)
+            # Converting cursor to the list  of dictionaries
+            total_feed = json_util.loads(
+                json_util.dumps(cursor, default="str"))
+            total_feed = JSONEncoder().encode(total_feed)
+            #write total_feed by extracting it from the database
+            with open('total_feed.json', mode='w') as f:
+                f.write(total_feed)
+        #filter based on the total_feed file 
         filtered_feed = FilterFeed().filter(param)
         return Response(filtered_feed, status=status.HTTP_201_CREATED)
     else:
