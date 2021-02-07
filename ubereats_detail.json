@@ -5,32 +5,13 @@
       "title": "Request utensils, straws, etc."
     },
     "sectionEntitiesMap": {
-      "e247e06e-6493-4226-9503-7403db46c5ce": {
-        "0fad383e-af39-432a-8727-8b4b7542f43a": {
-          "description": null,
+      "1db7df79-d9cb-4a56-869f-3f8f7f4ccf4e": {
+        "1330384d-65b0-4124-857b-d7a7467444da": {
+          "description": "Ham, eggs, pico, and cheese in a 14\" flour tortilla",
           "imageUrl": "",
-          "price": 400,
-          "title": "Iced Toddy Brew",
-          "uuid": "0fad383e-af39-432a-8727-8b4b7542f43a",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "48878081-d840-4741-b663-c72afe664ade": {
-          "description": null,
-          "imageUrl": "",
-          "price": 400,
-          "title": "Chai Latte",
-          "uuid": "48878081-d840-4741-b663-c72afe664ade",
+          "price": 686,
+          "title": "Breakfast Burrito",
+          "uuid": "1330384d-65b0-4124-857b-d7a7467444da",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -44,113 +25,12 @@
           },
           "tagSection": null
         },
-        "ba7fb8a6-78b5-4372-8e22-8e3fc433344d": {
-          "description": null,
+        "c52caf4e-18e3-40f6-b8e5-248a33d30fad": {
+          "description": "Eggs, sausage and cheese. Served in a 14 inch flour tortilla",
           "imageUrl": "",
-          "price": 325,
-          "title": "Americano",
-          "uuid": "ba7fb8a6-78b5-4372-8e22-8e3fc433344d",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "db914f40-60fe-45f9-a478-4651e8b6aad9": {
-          "description": null,
-          "imageUrl": "",
-          "price": 800,
-          "title": "Seasonal Cheesecake ",
-          "uuid": "db914f40-60fe-45f9-a478-4651e8b6aad9",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": false,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "a6f53863-88cd-461a-a535-1745fcf47efb": {
-          "description": "Vanilla, chocolate, or strawberry.",
-          "imageUrl": "",
-          "price": 500,
-          "title": "Milkshakes",
-          "uuid": "a6f53863-88cd-461a-a535-1745fcf47efb",
-          "nutritionalInfo": {
-            "allergens": [
-              ""
-            ],
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "0c7f3797-2f5b-48e0-af89-5b23a52e7b52": {
-          "description": "Milkshake and espresso.",
-          "imageUrl": "",
-          "price": 600,
-          "title": "Espresso Shakes",
-          "uuid": "0c7f3797-2f5b-48e0-af89-5b23a52e7b52",
-          "nutritionalInfo": {
-            "allergens": [
-              ""
-            ],
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": false,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "ff866002-0668-44df-9a48-cebaf287efe6": {
-          "description": "Four layer chocolate cake topped with strawberries.",
-          "imageUrl": "",
-          "price": 900,
-          "title": "Chocolate Cake",
-          "uuid": "ff866002-0668-44df-9a48-cebaf287efe6",
-          "nutritionalInfo": {
-            "allergens": [
-              ""
-            ],
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": false,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "4975febe-70cf-4d08-b760-ced3af6be210": {
-          "description": "Tri-colored tortellini pasta stuffed with a 4 cheese blend and tossed in basil pesto and parmesan cheese. ",
-          "imageUrl": "",
-          "price": 800,
-          "title": "Basil Tortellini Pasta Salad",
-          "uuid": "4975febe-70cf-4d08-b760-ced3af6be210",
+          "price": 698,
+          "title": "Sausage Burrito",
+          "uuid": "c52caf4e-18e3-40f6-b8e5-248a33d30fad",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -164,12 +44,12 @@
           },
           "tagSection": null
         },
-        "4cc6e2fa-8a86-425a-b5af-ab5d70c42d3c": {
-          "description": null,
+        "cc4e06e1-eedc-4356-b01a-24bcfdfd087f": {
+          "description": "Served with two eggs, rice, and beans.",
           "imageUrl": "",
-          "price": 500,
-          "title": "Thai Iced Coffee",
-          "uuid": "4cc6e2fa-8a86-425a-b5af-ab5d70c42d3c",
+          "price": 809,
+          "title": "Huevos Rancheros",
+          "uuid": "cc4e06e1-eedc-4356-b01a-24bcfdfd087f",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -183,31 +63,12 @@
           },
           "tagSection": null
         },
-        "43e073a0-b435-4bc1-8fbb-6d217a5841de": {
-          "description": "Mozzarella balls, cherry tomatoes, and fresh basil tossed in olive oil with sea salt and fresh cracked pepper. ",
+        "a2c35816-73c6-4a05-b330-f197f8941bff": {
+          "description": "Served with two eggs, rice, and beans.",
           "imageUrl": "",
-          "price": 800,
-          "title": "Caprese Salad",
-          "uuid": "43e073a0-b435-4bc1-8fbb-6d217a5841de",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": false,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "8b4a4267-1df1-4cd2-87a0-411d89be00c3": {
-          "description": null,
-          "imageUrl": "",
-          "price": 375,
-          "title": "Cappuccino",
-          "uuid": "8b4a4267-1df1-4cd2-87a0-411d89be00c3",
+          "price": 1114,
+          "title": "Steak Ranchero",
+          "uuid": "a2c35816-73c6-4a05-b330-f197f8941bff",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -221,88 +82,12 @@
           },
           "tagSection": null
         },
-        "8f62b276-cda8-4ffd-a229-93cdedce7bf7": {
-          "description": "Classic marshmallows, Hershey's and graham crackers.  For 2 or for 4, must provide your own fire. ",
+        "782015bd-0a5e-4a2a-8fe3-de3ea08afb66": {
+          "description": "Eggs, bell pepper, onion, tomato, cheese and shredded beef. Served in a 14 inch flour tortilla",
           "imageUrl": "",
-          "price": 750,
-          "title": "S'mores",
-          "uuid": "8f62b276-cda8-4ffd-a229-93cdedce7bf7",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "d69fe178-4f26-4664-bcce-883c56b38862": {
-          "description": null,
-          "imageUrl": "",
-          "price": 450,
-          "title": "Mocha Latte",
-          "uuid": "d69fe178-4f26-4664-bcce-883c56b38862",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "bb9962ff-b918-4601-ac99-d35ae5a64f81": {
-          "description": "Quinoa, cucumber, red onion, feta, kalamata olives, and cherry tomatoes. ",
-          "imageUrl": "",
-          "price": 1100,
-          "title": "Greek Quinoa Salad",
-          "uuid": "bb9962ff-b918-4601-ac99-d35ae5a64f81",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": false,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "f09ce1a5-ed7e-4491-bb6b-398fa3ab1056": {
-          "description": null,
-          "imageUrl": "",
-          "price": 400,
-          "title": "Latte",
-          "uuid": "f09ce1a5-ed7e-4491-bb6b-398fa3ab1056",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "9d5caf60-1ce8-4e2e-8894-8170c826f60d": {
-          "description": null,
-          "imageUrl": "",
-          "price": 275,
-          "title": "Iced Tea",
-          "uuid": "9d5caf60-1ce8-4e2e-8894-8170c826f60d",
+          "price": 771,
+          "title": "Machaca Burrito",
+          "uuid": "782015bd-0a5e-4a2a-8fe3-de3ea08afb66",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -316,168 +101,12 @@
           },
           "tagSection": null
         },
-        "623b84c7-324f-48ce-bd8d-d27d9eafbc5b": {
-          "description": null,
+        "c8d796b2-23e3-49bd-b621-3c01d49301bb": {
+          "description": "Potatoes, eggs, and cheese. Served in a 14 inch flour tortilla",
           "imageUrl": "",
-          "price": 500,
-          "title": "Vietnamese Coffee",
-          "uuid": "623b84c7-324f-48ce-bd8d-d27d9eafbc5b",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "84363805-daf7-4c65-8f9d-5f396cd496e7": {
-          "description": null,
-          "imageUrl": "",
-          "price": 1500,
-          "title": "Antonelli\u2019s Cheese Board",
-          "uuid": "84363805-daf7-4c65-8f9d-5f396cd496e7",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": false,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "b1c776b8-aedb-45f1-93d8-9cce3046e159": {
-          "description": "Oven roasted turkey, pepper jack cheese with spicy maple mustard. Served on sourdough with chips.",
-          "imageUrl": "https://d1ralsognjng37.cloudfront.net/7705a6dc-0c63-4693-b5fd-9de5f8ac6ce0.jpeg",
-          "price": 800,
-          "title": "Turkey Sandwich",
-          "uuid": "b1c776b8-aedb-45f1-93d8-9cce3046e159",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "68f683a6-b5a0-4f6d-baf5-e6ba8e80d3c1": {
-          "description": null,
-          "imageUrl": "",
-          "price": 2000,
-          "title": "Antonelli\u2019s Cheese with Charcuterie Board",
-          "uuid": "68f683a6-b5a0-4f6d-baf5-e6ba8e80d3c1",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "312a57fb-bdca-4166-b666-ecb64e382b3c": {
-          "description": "Mango, strawberry, banana, or any combo.",
-          "imageUrl": "",
-          "price": 500,
-          "title": "Smoothie",
-          "uuid": "312a57fb-bdca-4166-b666-ecb64e382b3c",
-          "nutritionalInfo": {
-            "allergens": [
-              ""
-            ],
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "a1f5880d-6a93-446a-a521-f48054e75308": {
-          "description": "Kale, quinoa, garbanzo beans, sliced almonds, blueberries, avocado, sea salt, and cracked pepper with blueberry lemon vinaigrette. ",
-          "imageUrl": "",
-          "price": 1400,
-          "title": "Kale Blueberry Salad",
-          "uuid": "a1f5880d-6a93-446a-a521-f48054e75308",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": false,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "a32b2ace-72ce-4934-86f4-80c3440b045e": {
-          "description": null,
-          "imageUrl": "",
-          "price": 275,
-          "title": "Coffee",
-          "uuid": "a32b2ace-72ce-4934-86f4-80c3440b045e",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "29b0189f-e279-41fd-b93e-e0f63f4c6430": {
-          "description": "Oven roasted turkey, brie cheese, and mushroom pesto. Served on sourdough with chips.",
-          "imageUrl": "",
-          "price": 1150,
-          "title": "Turkey Brie Sandwich",
-          "uuid": "29b0189f-e279-41fd-b93e-e0f63f4c6430",
-          "nutritionalInfo": {
-            "allergens": [
-              ""
-            ],
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "97dc9c42-e543-4af9-a5d9-7d3f670d822b": {
-          "description": null,
-          "imageUrl": "",
-          "price": 500,
-          "title": "Mexican Hot Cocoa",
-          "uuid": "97dc9c42-e543-4af9-a5d9-7d3f670d822b",
+          "price": 686,
+          "title": "Country Burritos",
+          "uuid": "c8d796b2-23e3-49bd-b621-3c01d49301bb",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -491,71 +120,12 @@
           },
           "tagSection": null
         },
-        "670fe192-4034-445f-b2db-62ee1533a06e": {
-          "description": "Classic chicken salad with tarragon, celery, grapes, and capers. Served on sourdough with chips.",
-          "imageUrl": "https://d1ralsognjng37.cloudfront.net/4a9087de-4f1d-45ab-b0ce-d175495c8101.jpeg",
-          "price": 1300,
-          "title": "Chicken Salad Sandwich",
-          "uuid": "670fe192-4034-445f-b2db-62ee1533a06e",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "0b55547f-cc97-4a43-bc11-d24fca1e0587": {
-          "description": "Our signature, grandma\u2019s style carrot cake.",
+        "3ad71735-d2b9-4982-aca5-01dbeaf8a01e": {
+          "description": "Eggs & beef chorizo. Served in a 14 inch flour tortilla",
           "imageUrl": "",
-          "price": 900,
-          "title": "Carrot Cake",
-          "uuid": "0b55547f-cc97-4a43-bc11-d24fca1e0587",
-          "nutritionalInfo": {
-            "allergens": [
-              ""
-            ],
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": false,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "facaabf3-2122-4595-8613-f89a94402132": {
-          "description": "Quinoa, black beans, corn, red bell peppers, cherry tomatoes, green onions, and cilantro with a southwest ranch dressing. ",
-          "imageUrl": "",
-          "price": 1100,
-          "title": "Southwest Quinoa Bowl ",
-          "uuid": "facaabf3-2122-4595-8613-f89a94402132",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": false,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "6beadac7-685b-45b1-bb2a-895ea7823f0d": {
-          "description": "Ham, cheddar and caramelized onions",
-          "imageUrl": "",
-          "price": 600,
-          "title": "Quiche",
-          "uuid": "6beadac7-685b-45b1-bb2a-895ea7823f0d",
+          "price": 686,
+          "title": "Chorizo Burrito",
+          "uuid": "3ad71735-d2b9-4982-aca5-01dbeaf8a01e",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -569,90 +139,12 @@
           },
           "tagSection": null
         },
-        "d2e0bc4e-1da0-477b-9cc9-6b14aaba22c3": {
-          "description": "Home made chocolate brownie a la mode, topped with ice cream and chocolate syrup.",
+        "e253b09b-584b-4cc2-a8cb-b7b63d07916c": {
+          "description": "Eggs, steak and cheese. Served in a 14 inch flour tortilla",
           "imageUrl": "",
-          "price": 800,
-          "title": "Brownie in a Mug",
-          "uuid": "d2e0bc4e-1da0-477b-9cc9-6b14aaba22c3",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 8640000000,
-          "classifications": [],
-          "hasCustomizations": false,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "1ecde9b9-0870-4ec0-b5e6-22294d8c945d": {
-          "description": "Chicken, basil pesto, tomato, and parmesan. Served on sourdough with chips. No substitutions or additions.",
-          "imageUrl": "",
-          "price": 800,
-          "title": "Chicken Pesto Sandwich",
-          "uuid": "1ecde9b9-0870-4ec0-b5e6-22294d8c945d",
-          "nutritionalInfo": {
-            "allergens": [
-              ""
-            ],
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "7462e8c9-b37b-49d4-b2c2-584c7d9a62f6": {
-          "description": null,
-          "imageUrl": "",
-          "price": 375,
-          "title": "Cortado",
-          "uuid": "7462e8c9-b37b-49d4-b2c2-584c7d9a62f6",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "11655ac6-5f19-4f62-b39d-1bedad0b8c32": {
-          "description": null,
-          "imageUrl": "",
-          "price": 300,
-          "title": "Espresso",
-          "uuid": "11655ac6-5f19-4f62-b39d-1bedad0b8c32",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "7b750fe3-9ec7-4fa8-944d-848817ff1c83": {
-          "description": "Served with warm pita bread.",
-          "imageUrl": "",
-          "price": 800,
-          "title": "Spinach Artichoke Dip",
-          "uuid": "7b750fe3-9ec7-4fa8-944d-848817ff1c83",
+          "price": 841,
+          "title": "Steak Burrito",
+          "uuid": "e253b09b-584b-4cc2-a8cb-b7b63d07916c",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -666,12 +158,69 @@
           },
           "tagSection": null
         },
-        "f65f620e-f1de-467a-83b4-d2ab4fa71995": {
-          "description": null,
+        "3982f21a-af97-44d9-b193-d11f2e56b622": {
+          "description": "Shredded beef served with two eggs, rice, and beans.",
           "imageUrl": "",
-          "price": 300,
-          "title": "Hot Cocoa",
-          "uuid": "f65f620e-f1de-467a-83b4-d2ab4fa71995",
+          "price": 1114,
+          "title": "Machaca Plate",
+          "uuid": "3982f21a-af97-44d9-b193-d11f2e56b622",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "46c545a8-6197-41ae-8c58-60abbf4c5338": {
+          "description": "Served with two eggs, rice, and beans.",
+          "imageUrl": "",
+          "price": 918,
+          "title": "Spanish Omelette",
+          "uuid": "46c545a8-6197-41ae-8c58-60abbf4c5338",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "414859a4-5a3e-4a43-960b-df881bba54de": {
+          "description": "Served with two eggs, rice, and beans.",
+          "imageUrl": "",
+          "price": 1005,
+          "title": "Chorizo Plate",
+          "uuid": "414859a4-5a3e-4a43-960b-df881bba54de",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "0064e6d5-80ee-45d0-ac80-4d5e061aa703": {
+          "description": "Eggs, bacon and cheese. Served in a 14 inch flour tortilla",
+          "imageUrl": "",
+          "price": 698,
+          "title": "Bacon Burrito",
+          "uuid": "0064e6d5-80ee-45d0-ac80-4d5e061aa703",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -680,120 +229,1558 @@
           "suspendUntil": 0,
           "classifications": [],
           "hasCustomizations": false,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "b7990078-74a8-4811-b41f-240902701ce4": {
-          "description": "Grilled chicken, bacon, pepper jack, tomato, and spicy chipotle mayonnaise. Served on sourdough with chips.No substitutions or additions.",
-          "imageUrl": "",
-          "price": 800,
-          "title": "Spicy Chicken Sandwich",
-          "uuid": "b7990078-74a8-4811-b41f-240902701ce4",
-          "nutritionalInfo": {
-            "allergens": [
-              ""
-            ],
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "endorsement": {
-            "text": "Spicy",
-            "iconUrl": "https://uber-test.s3.amazonaws.com/badge_check@3x.png"
-          },
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "bfad7050-9c0a-4a2a-8a2c-1ffc134b85cd": {
-          "description": null,
-          "imageUrl": "",
-          "price": 300,
-          "title": "Macchiato",
-          "uuid": "bfad7050-9c0a-4a2a-8a2c-1ffc134b85cd",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "290e3107-eea0-430f-938d-51ea9e29971f": {
-          "description": "Cheddar, Monteray jack, tomatoes  ",
-          "imageUrl": "",
-          "price": 600,
-          "title": "Grilled Tomato and Cheese",
-          "uuid": "290e3107-eea0-430f-938d-51ea9e29971f",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
-          "itemAttributeInfo": {
-            "dietaryLabels": null
-          },
-          "tagSection": null
-        },
-        "f36f237f-a089-4c22-b3e4-08d3fb6c885c": {
-          "description": "Topped with freshly ground pepper, olive oil, and paprika and served with warm pita and veggies.",
-          "imageUrl": "https://d1ralsognjng37.cloudfront.net/f368eaac-a06b-41aa-a418-5343b1a56587.jpeg",
-          "price": 900,
-          "title": "Hummus",
-          "uuid": "f36f237f-a089-4c22-b3e4-08d3fb6c885c",
-          "nutritionalInfo": {
-            "allergens": "",
-            "displayString": ""
-          },
-          "suspendReason": null,
-          "suspendUntil": 0,
-          "classifications": [],
-          "hasCustomizations": true,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         }
       },
-      "c52d8fb3-c382-43d9-a11c-39bba1e369a5": {
-        "fe641d86-b7a7-44a9-941f-237c63fcecc7": {
-          "description": "Choose between cinnamon raisin, everything, or plain. Served with your choice of regular, strawberry, or herb cream cheese.",
+      "bba094db-65aa-4363-aa6e-2e19c2f3e298": {
+        "09e886ee-1fff-4e11-b836-57960ccc2ec1": {
+          "description": "",
+          "imageUrl": "",
+          "price": 923,
+          "title": "Adobada Bowl",
+          "uuid": "09e886ee-1fff-4e11-b836-57960ccc2ec1",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "6d5445e8-ba21-4536-812d-e032d5a4ad72": {
+          "description": "",
+          "imageUrl": "",
+          "price": 956,
+          "title": "Carne Asada Bowl",
+          "uuid": "6d5445e8-ba21-4536-812d-e032d5a4ad72",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "43685a86-2f66-4b00-ab7f-ae082baaab14": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1011,
+          "title": "Two Beef Tacos Platter",
+          "uuid": "43685a86-2f66-4b00-ab7f-ae082baaab14",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "9ac7f80f-de63-466e-84fc-ccd7d875a845": {
+          "description": "Pork. Includes guacamole.",
+          "imageUrl": "",
+          "price": 1054,
+          "title": "Carnitas Quesadila",
+          "uuid": "9ac7f80f-de63-466e-84fc-ccd7d875a845",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "d96f700d-8a5f-42cb-84b9-20eac7bdb64b": {
+          "description": "",
+          "imageUrl": "",
+          "price": 969,
+          "title": "Two Fish Tacos Platter",
+          "uuid": "d96f700d-8a5f-42cb-84b9-20eac7bdb64b",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "adcde6de-f8fa-4c69-ba46-7ee506ad1091": {
+          "description": "",
+          "imageUrl": "",
+          "price": 320,
+          "title": "Pina Juice",
+          "uuid": "adcde6de-f8fa-4c69-ba46-7ee506ad1091",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "776afb71-763c-422c-9a38-7fcbfded93ed": {
+          "description": "Beef burrito with guacamole & pico de gallo. Served in a 14 inch flour tortilla",
+          "imageUrl": "",
+          "price": 779,
+          "title": "Carne Asada Burrito",
+          "uuid": "776afb71-763c-422c-9a38-7fcbfded93ed",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "cfd1a4fd-e5ce-4c79-a490-24cf324fa4cd": {
+          "description": "Includes guacamole.",
+          "imageUrl": "",
+          "price": 1127,
+          "title": "Carne Asada Quesadila",
+          "uuid": "cfd1a4fd-e5ce-4c79-a490-24cf324fa4cd",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "e7da8df1-c3e5-413e-8a2b-d1ba6e910329": {
+          "description": "Fish, tartar sauce, cabbage and pico de gallo. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 705,
+          "title": "Fish Burrito",
+          "uuid": "e7da8df1-c3e5-413e-8a2b-d1ba6e910329",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "e8398854-f3d1-4fa7-8265-7affda19b057": {
+          "description": "",
+          "imageUrl": "",
+          "price": 215,
+          "title": "Guacamole",
+          "uuid": "e8398854-f3d1-4fa7-8265-7affda19b057",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "55e7f0ff-1f11-42cd-81c7-048b6c7c216a": {
+          "description": "",
+          "imageUrl": "",
+          "price": 532,
+          "title": "Cheese Quesadilla",
+          "uuid": "55e7f0ff-1f11-42cd-81c7-048b6c7c216a",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "da541c30-7128-4b93-a9a8-3c6d07b4a7de": {
+          "description": "",
+          "imageUrl": "",
+          "price": 266,
+          "title": "Raspberry Tea",
+          "uuid": "da541c30-7128-4b93-a9a8-3c6d07b4a7de",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 8640000000,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "f797e34b-dd1f-4035-b62f-5e21044c6148": {
+          "description": "",
+          "imageUrl": "",
+          "price": 185,
+          "title": "Jalapenos",
+          "uuid": "f797e34b-dd1f-4035-b62f-5e21044c6148",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "bbfb7ba6-bcee-4936-adee-913c02247e90": {
+          "description": "Bacon, carne asada, ham, pico de gallo and Monterrey jack cheese. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 962,
+          "title": "Patron Burrito",
+          "uuid": "bbfb7ba6-bcee-4936-adee-913c02247e90",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "1c18d9be-7986-4a35-b60d-a0bd5e0f5035": {
+          "description": "Two Anaheim peppers stuffed with Monterrey cheese, guacamole and pico de gallo. Served in a 14\" flour tortilla.",
+          "imageUrl": "",
+          "price": 705,
+          "title": "Chile Relleno Burrito",
+          "uuid": "1c18d9be-7986-4a35-b60d-a0bd5e0f5035",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "198e4690-de3f-4147-be6f-ebf3b90ea89c": {
+          "description": "Lengua (tounge), cilantro, beans and onions. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 889,
+          "title": "Lengua Burrito",
+          "uuid": "198e4690-de3f-4147-be6f-ebf3b90ea89c",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "a6963653-4e31-4592-b720-8d57a79f8859": {
+          "description": "",
+          "imageUrl": "",
+          "price": 354,
+          "title": "Pint of Rice",
+          "uuid": "a6963653-4e31-4592-b720-8d57a79f8859",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "cec07d4c-01e9-4a3b-8dbf-27b5963dea55": {
+          "description": "",
+          "imageUrl": "",
+          "price": 266,
+          "title": "Diet Coke",
+          "uuid": "cec07d4c-01e9-4a3b-8dbf-27b5963dea55",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "86a0521a-65b1-4ea2-990e-eb422a91bf7c": {
+          "description": "",
+          "imageUrl": "",
+          "price": 985,
+          "title": "Adobada Platter",
+          "uuid": "86a0521a-65b1-4ea2-990e-eb422a91bf7c",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "30ab524d-94cb-4130-81e6-55f9621bc2e4": {
+          "description": "Beans and cheese torta.",
+          "imageUrl": "",
+          "price": 673,
+          "title": "Machaca Torta",
+          "uuid": "30ab524d-94cb-4130-81e6-55f9621bc2e4",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "08dfcd1e-2232-442e-af0e-0fef5c94688e": {
+          "description": "Includes guacamole.",
+          "imageUrl": "",
+          "price": 1127,
+          "title": "Pollo Quesadila",
+          "uuid": "08dfcd1e-2232-442e-af0e-0fef5c94688e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "e149c515-8a71-466a-a0c6-cad1c642a14c": {
+          "description": "",
+          "imageUrl": "",
+          "price": 320,
+          "title": "Jamaica Juice",
+          "uuid": "e149c515-8a71-466a-a0c6-cad1c642a14c",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "853719fc-1c92-4c66-89b7-51fa6f9d51ce": {
+          "description": "3 rolled corn tortillas stuffed with shredded beef and topped with cheese and guacamole.",
+          "imageUrl": "",
+          "price": 465,
+          "title": "Three Rolled Beef & Cheese Tacos with Guacamole",
+          "uuid": "853719fc-1c92-4c66-89b7-51fa6f9d51ce",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "f136d9df-f55e-442c-8456-c53ea890ad9f": {
+          "description": "steak,shrimp,onions and red sauce",
+          "imageUrl": "",
+          "price": 1225,
+          "title": "Mar y tierra Quesadilla",
+          "uuid": "f136d9df-f55e-442c-8456-c53ea890ad9f",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "3f39c9ff-7098-4a60-836f-b1ed02e05465": {
+          "description": "",
+          "imageUrl": "",
+          "price": 185,
+          "title": "Pico de Gallo",
+          "uuid": "3f39c9ff-7098-4a60-836f-b1ed02e05465",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "8d89dd91-863c-4b86-8784-866a873d596a": {
+          "description": "Beef",
+          "imageUrl": "",
+          "price": 795,
+          "title": "Carne Asada Torta",
+          "uuid": "8d89dd91-863c-4b86-8784-866a873d596a",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "c88b3595-e465-4a1d-86f9-c29c27857d9d": {
+          "description": "Grilled chicken, guacamole and pico de gallo. Served in a hard shell taco.",
+          "imageUrl": "",
+          "price": 349,
+          "title": "Pollo Asada Taco",
+          "uuid": "c88b3595-e465-4a1d-86f9-c29c27857d9d",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "02ce170c-5e0b-4939-99c2-450f26c244ed": {
+          "description": "Carne asada, cheese, fries, pico de gallo and guacamole. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 962,
+          "title": "California Burrito",
+          "uuid": "02ce170c-5e0b-4939-99c2-450f26c244ed",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "52b5ba83-9a3a-4daf-85a8-f4e50c47dcb4": {
+          "description": "",
+          "imageUrl": "",
+          "price": 825,
+          "title": "Carne Asada Salad",
+          "uuid": "52b5ba83-9a3a-4daf-85a8-f4e50c47dcb4",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "ca33d8e6-cdd4-4478-9c5e-db60e316a9c9": {
+          "description": "Carne asada, pollo asado, shrimp, beans, cheese and red sauce. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 1067,
+          "title": "Gordo Burrito",
+          "uuid": "ca33d8e6-cdd4-4478-9c5e-db60e316a9c9",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "9ee9d6fe-de34-470b-8bc1-b33ee85efd97": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1825,
+          "title": "Super Nachos and Cheese Enchilada Bundle",
+          "uuid": "9ee9d6fe-de34-470b-8bc1-b33ee85efd97",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "dfce0dba-aff6-44d6-9794-29920a07c591": {
+          "description": "",
+          "imageUrl": "",
+          "price": 170,
+          "title": "Enchilada Style",
+          "uuid": "dfce0dba-aff6-44d6-9794-29920a07c591",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "3e451d66-06fa-4eef-a890-23c8b365c2c2": {
+          "description": "pollo asado,lettuce,chips and pico",
+          "imageUrl": "",
+          "price": 771,
+          "title": "Fili Chicken salad",
+          "uuid": "3e451d66-06fa-4eef-a890-23c8b365c2c2",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "7c324754-80c5-47bb-9d88-487b99deace9": {
+          "description": "Fried corn tortilla topped with refried beans and lettuce.",
+          "imageUrl": "",
+          "price": 349,
+          "title": "Bean Tostada",
+          "uuid": "7c324754-80c5-47bb-9d88-487b99deace9",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "14cdca77-5d9e-4348-a66b-bba465cdfd0a": {
+          "description": "Chorizo, eggs, beans and cheese.",
+          "imageUrl": "",
+          "price": 589,
+          "title": "Chorizo Torta",
+          "uuid": "14cdca77-5d9e-4348-a66b-bba465cdfd0a",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "210b0a38-8587-4f45-9916-beba0184f0f4": {
+          "description": "",
+          "imageUrl": "",
+          "price": 320,
+          "title": "Tamarindo Juice",
+          "uuid": "210b0a38-8587-4f45-9916-beba0184f0f4",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "22b30fcf-8465-4d8b-b746-9428e681abb9": {
+          "description": "Marinated pork, guacamole, pico de gallo and cabbage. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 705,
+          "title": "Adobada Burrito",
+          "uuid": "22b30fcf-8465-4d8b-b746-9428e681abb9",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "a85ad167-6715-491e-a8b6-eeb67e775c97": {
+          "description": "Fanta\u00ae Orange",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/51e1a7aa-3aeb-4fc4-a3ab-2b610e1048d9.jpeg",
+          "price": 266,
+          "title": "Fanta\u00ae Orange",
+          "uuid": "a85ad167-6715-491e-a8b6-eeb67e775c97",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "9c99c620-0600-4d24-951d-2b1df3605efd": {
+          "description": "",
+          "imageUrl": "",
+          "price": 735,
+          "title": "Ham salad",
+          "uuid": "9c99c620-0600-4d24-951d-2b1df3605efd",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "b20d1a01-ddcd-4d1b-a050-00abd369ddf3": {
+          "description": "",
+          "imageUrl": "",
+          "price": 428,
+          "title": "Jr. Bean and Cheese Burrito",
+          "uuid": "b20d1a01-ddcd-4d1b-a050-00abd369ddf3",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "1a75ad4e-d87e-42e9-abdd-ff61fa8c9666": {
+          "description": "Fried corn tortilla topped with beans, lettuce and chicken mixed with red sauce.",
+          "imageUrl": "",
+          "price": 538,
+          "title": "Chicken Tostada",
+          "uuid": "1a75ad4e-d87e-42e9-abdd-ff61fa8c9666",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "3b433543-943b-46b3-848a-367c83d9b1e9": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1054,
+          "title": "Four Rolled Tacos with Guacamole Platter",
+          "uuid": "3b433543-943b-46b3-848a-367c83d9b1e9",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "1a1f4eec-74fd-4d7c-a24e-29ac666cd45b": {
+          "description": "",
+          "imageUrl": "",
+          "price": 398,
+          "title": "Chips with Salsa",
+          "uuid": "1a1f4eec-74fd-4d7c-a24e-29ac666cd45b",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "9e31ee37-9dd7-431b-b045-73c85935fa8e": {
+          "description": "",
+          "imageUrl": "",
+          "price": 931,
+          "title": "Shrimp Salad",
+          "uuid": "9e31ee37-9dd7-431b-b045-73c85935fa8e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "850da963-a6d2-4f0b-aa6a-ce8a7333a8c4": {
+          "description": "Chips, guacamole and cheese.",
+          "imageUrl": "",
+          "price": 673,
+          "title": "Chips with Guacamole Tostada",
+          "uuid": "850da963-a6d2-4f0b-aa6a-ce8a7333a8c4",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "b0a55a82-1940-4f3d-a237-5d4dce09ba37": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1268,
+          "title": "Fajitas Platter",
+          "uuid": "b0a55a82-1940-4f3d-a237-5d4dce09ba37",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "da48e6b8-7ae2-4f8c-8652-df41fb6bbdeb": {
+          "description": "Two Anaheim peppers stuffed with mozzarella cheese, battered and fried.Topped with enchilada sauce, cheese, guacamole, sour cream and pico de gallo.",
+          "imageUrl": "",
+          "price": 748,
+          "title": "Two Chile Rellenos Enchilada",
+          "uuid": "da48e6b8-7ae2-4f8c-8652-df41fb6bbdeb",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "c91283bd-c1a5-4a5a-8c1a-bcee4536147b": {
+          "description": "",
+          "imageUrl": "",
+          "price": 185,
+          "title": "Sour Cream",
+          "uuid": "c91283bd-c1a5-4a5a-8c1a-bcee4536147b",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "96c37d67-8f67-44c0-9749-49dc1e06ba7e": {
+          "description": "beans,meat,sour cream,pico,guacamole and cotija cheese",
+          "imageUrl": "",
+          "price": 1390,
+          "title": "3 sopes",
+          "uuid": "96c37d67-8f67-44c0-9749-49dc1e06ba7e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "4219ee4f-be76-439d-9538-1e291ba252a4": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1022,
+          "title": "Carne Asada Fries",
+          "uuid": "4219ee4f-be76-439d-9538-1e291ba252a4",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "071bcb48-f4ff-45de-b0e8-fa3319e005f0": {
+          "description": "Two beef enchiladas topped with lettuce and cheese.",
+          "imageUrl": "",
+          "price": 722,
+          "title": "Beef Enchilada",
+          "uuid": "071bcb48-f4ff-45de-b0e8-fa3319e005f0",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "51a249c2-267b-475c-80c6-13633b884e91": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1011,
+          "title": "Burrito and Enchilada Platter",
+          "uuid": "51a249c2-267b-475c-80c6-13633b884e91",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "66fa79ac-59c3-4480-8ce5-ccbdb85200a7": {
+          "description": "Cabeza, onions and cilantro. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 779,
+          "title": "Cabeza Burrito",
+          "uuid": "66fa79ac-59c3-4480-8ce5-ccbdb85200a7",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "ca91d054-2a1f-4161-bc03-6294b527267e": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1058,
+          "title": "Carnitas Platter",
+          "uuid": "ca91d054-2a1f-4161-bc03-6294b527267e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "2e081ab6-885a-4e25-b61c-ed77cb921572": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1022,
+          "title": "Green Chile Platter",
+          "uuid": "2e081ab6-885a-4e25-b61c-ed77cb921572",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "13809588-721a-4a14-9405-dd0355419219": {
+          "description": "Beans, guacamole, rice, lettuce and pico de gallo. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 649,
+          "title": "Veggie Burrito",
+          "uuid": "13809588-721a-4a14-9405-dd0355419219",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "e5ae6e6f-1320-4282-9029-7bcd7706360a": {
+          "description": "3 rolled corn tortillas stuffed with shredded beef and topped with cheese",
+          "imageUrl": "",
+          "price": 391,
+          "title": "Three Rolled Beef and Cheese Tacos",
+          "uuid": "e5ae6e6f-1320-4282-9029-7bcd7706360a",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "40886a4f-dc74-472d-8c5c-fa56143e69d1": {
+          "description": "Pork",
+          "imageUrl": "",
+          "price": 722,
+          "title": "Carnitas Torta",
+          "uuid": "40886a4f-dc74-472d-8c5c-fa56143e69d1",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "1236c280-ee5f-4722-bdcc-b6b1c635b755": {
+          "description": "Chicken mixed with red sauce, served in a hard shell taco.",
+          "imageUrl": "",
+          "price": 295,
+          "title": "Chicken Taco",
+          "uuid": "1236c280-ee5f-4722-bdcc-b6b1c635b755",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "7ef6c404-c978-4cfc-8ceb-2a828757b0da": {
+          "description": "",
+          "imageUrl": "",
+          "price": 320,
+          "title": "Lemonade Juice",
+          "uuid": "7ef6c404-c978-4cfc-8ceb-2a828757b0da",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "823aae35-7966-4199-89c9-1d5192435fba": {
+          "description": "Shredded beef served in a hard shell taco.",
+          "imageUrl": "",
+          "price": 333,
+          "title": "Beef Taco",
+          "uuid": "823aae35-7966-4199-89c9-1d5192435fba",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "ccfe99f6-543d-48e9-a332-814270d60865": {
+          "description": "Two chicken enchiladas topped with lettuce and cheese.",
+          "imageUrl": "",
+          "price": 649,
+          "title": "Chicken Enchilada",
+          "uuid": "ccfe99f6-543d-48e9-a332-814270d60865",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "90bb33a0-ccba-4943-9aaa-d2ec87cb454f": {
+          "description": "Flavored, Electrolyte Ehanced Sports Drinks",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/498c189f-5a73-48ba-a069-eed9205226a8.jpeg",
+          "price": 266,
+          "title": "Powerade\u00ae",
+          "uuid": "90bb33a0-ccba-4943-9aaa-d2ec87cb454f",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "06c57913-d520-4173-b468-48e988aed7cb": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1009,
+          "title": "Pint of Guacamole",
+          "uuid": "06c57913-d520-4173-b468-48e988aed7cb",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "7b9dfeca-c841-4377-b743-af57485bdcb5": {
+          "description": "",
+          "imageUrl": "",
+          "price": 354,
+          "title": "Pint of Beans",
+          "uuid": "7b9dfeca-c841-4377-b743-af57485bdcb5",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "af4886db-61a7-4f2d-904c-efbad99aeaff": {
+          "description": "",
+          "imageUrl": "",
+          "price": 266,
+          "title": "Coke",
+          "uuid": "af4886db-61a7-4f2d-904c-efbad99aeaff",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "a7347c9d-f7a7-4e27-8acc-e97cc1e48151": {
+          "description": "Pork, guacamole & pico de gallo. Served in a 14 inch flour tortilla",
+          "imageUrl": "",
+          "price": 705,
+          "title": "Carnitas Burrito",
+          "uuid": "a7347c9d-f7a7-4e27-8acc-e97cc1e48151",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "57ebb2cd-c030-4c83-9362-b4d369f05caa": {
+          "description": "",
+          "imageUrl": "",
+          "price": 893,
+          "title": "Five Rolled Tacos with Carne Asada",
+          "uuid": "57ebb2cd-c030-4c83-9362-b4d369f05caa",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "3ef590f6-9dba-446e-9cb4-beed5495191b": {
+          "description": "Marinated pork.",
+          "imageUrl": "",
+          "price": 722,
+          "title": "Adobada Torta",
+          "uuid": "3ef590f6-9dba-446e-9cb4-beed5495191b",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "3b1bceae-816d-4199-b725-213aea611aba": {
+          "description": "Chicken, potato, cheese and sour cream. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 705,
+          "title": "Texas Burrito",
+          "uuid": "3b1bceae-816d-4199-b725-213aea611aba",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "81baf03a-5111-4428-aed6-b3979cf6b967": {
+          "description": "Beef tongue, cilantro and onions.",
           "imageUrl": "",
           "price": 450,
-          "title": "Rockstar Bagels",
-          "uuid": "fe641d86-b7a7-44a9-941f-237c63fcecc7",
+          "title": "Lengua Taco",
+          "uuid": "81baf03a-5111-4428-aed6-b3979cf6b967",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 8640000000,
+          "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
-        "a67b51e1-f57c-41f2-a409-8b1bece1d59d": {
-          "description": "Choose between bacon egg and cheese, potato egg and cheese, or migas. Served on flour or corn tortilla.",
+        "0aa79c06-f062-40dc-99ce-7b00e7425ab8": {
+          "description": "Shrimp, cabbage, pico de gallo and tartar sauce. Served in a 14 inch flour tortilla.",
           "imageUrl": "",
-          "price": 400,
-          "title": "Tacos",
-          "uuid": "a67b51e1-f57c-41f2-a409-8b1bece1d59d",
+          "price": 889,
+          "title": "Shrimp Burrito",
+          "uuid": "0aa79c06-f062-40dc-99ce-7b00e7425ab8",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "97d4a01c-fb78-4635-bf53-41b978367eed": {
+          "description": "Shredded beef, bell peppers, onion & tomato. Served in a 14 inch flour tortilla",
+          "imageUrl": "",
+          "price": 698,
+          "title": "Beef Burrito",
+          "uuid": "97d4a01c-fb78-4635-bf53-41b978367eed",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "3821eb99-4b90-4d3b-918f-5db44f2d9c5e": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1296,
+          "title": "Camarones Rancheros Platter",
+          "uuid": "3821eb99-4b90-4d3b-918f-5db44f2d9c5e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "643c5c3d-80eb-4f45-90f7-c7f5b737c653": {
+          "description": "",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/877b7829-8dd2-4fbe-a04b-9da241ffb4c9.jpeg",
+          "price": 1022,
+          "title": "Two Chiles Rellenos Platter",
+          "uuid": "643c5c3d-80eb-4f45-90f7-c7f5b737c653",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "112529af-03f4-4e26-9fc1-e04b570af51a": {
+          "description": "Pork mixed with green sauce. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 705,
+          "title": "Green Chile Burrito",
+          "uuid": "112529af-03f4-4e26-9fc1-e04b570af51a",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "76b5d1e9-e543-41fe-9cba-658f0d74f3f6": {
+          "description": "",
+          "imageUrl": "",
+          "price": 937,
+          "title": "Two Enchiladas Platter",
+          "uuid": "76b5d1e9-e543-41fe-9cba-658f0d74f3f6",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "91e2924d-2aeb-4fc2-952c-ce79a2db718d": {
+          "description": "Two cheese enchiladas topped with lettuce and cheese",
+          "imageUrl": "",
+          "price": 649,
+          "title": "Cheese Enchilada",
+          "uuid": "91e2924d-2aeb-4fc2-952c-ce79a2db718d",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "6c87fb10-dd8f-46c3-9da8-eeba537e431e": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1022,
+          "title": "Cowboy Fries",
+          "uuid": "6c87fb10-dd8f-46c3-9da8-eeba537e431e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "c6902932-d077-4a84-815a-bee783283b95": {
+          "description": "Marinated pork, cabbage, guacamole and pico de gallo.",
+          "imageUrl": "",
+          "price": 349,
+          "title": "Adobada Taco",
+          "uuid": "c6902932-d077-4a84-815a-bee783283b95",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "06772e82-502c-44ad-8937-d79abd1270e6": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1058,
+          "title": "Chimichanga Platter",
+          "uuid": "06772e82-502c-44ad-8937-d79abd1270e6",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "827dfa6c-1374-4e8a-8f66-6d0adaa5b868": {
+          "description": "",
+          "imageUrl": "",
+          "price": 320,
+          "title": "Horchata Juice",
+          "uuid": "827dfa6c-1374-4e8a-8f66-6d0adaa5b868",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -807,16 +1794,318 @@
           },
           "tagSection": null
         },
-        "a76f3583-891e-44ff-aa97-d178517b6f70": {
-          "description": "Served with maple cream cheese spread, blueberries, and strawberries.",
+        "5bcd7bac-8b1d-430c-b0be-66af9bff0338": {
+          "description": "",
           "imageUrl": "",
-          "price": 1000,
-          "title": "Overnight French Toast",
-          "uuid": "a76f3583-891e-44ff-aa97-d178517b6f70",
+          "price": 589,
+          "title": "Chicken Torta",
+          "uuid": "5bcd7bac-8b1d-430c-b0be-66af9bff0338",
           "nutritionalInfo": {
-            "allergens": [
-              ""
-            ],
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "972ed25b-bf00-4ee2-956a-44f1a3c1a0fd": {
+          "description": "",
+          "imageUrl": "",
+          "price": 771,
+          "title": "chicken salad",
+          "uuid": "972ed25b-bf00-4ee2-956a-44f1a3c1a0fd",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "95264b3e-4a6c-4109-be9a-8c742627ebd8": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1317,
+          "title": "Carne Asada Platter",
+          "uuid": "95264b3e-4a6c-4109-be9a-8c742627ebd8",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "b1f7800a-7f75-4cb7-a075-e33de8db27a1": {
+          "description": "",
+          "imageUrl": "",
+          "price": 591,
+          "title": "Fish Torta",
+          "uuid": "b1f7800a-7f75-4cb7-a075-e33de8db27a1",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "4797f0de-038b-47e0-9dc0-2c09a2ab1b92": {
+          "description": "",
+          "imageUrl": "",
+          "price": 859,
+          "title": "Carnitas Bowl",
+          "uuid": "4797f0de-038b-47e0-9dc0-2c09a2ab1b92",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "47ae08f8-a26b-48c8-bafc-992edfc8de35": {
+          "description": "Chicken mixed with red sauce. Served in a 14 inch flour tortilla",
+          "imageUrl": "",
+          "price": 625,
+          "title": "Chicken Burrito",
+          "uuid": "47ae08f8-a26b-48c8-bafc-992edfc8de35",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "a0c87cee-c804-4904-85f4-9b7baea9a3ba": {
+          "description": "5 rolled corn tortillas stuffed with shredded beef and topped with cheese and guacamole.",
+          "imageUrl": "",
+          "price": 599,
+          "title": "Five Rolled Beef and Cheese Tacos with Guacamole",
+          "uuid": "a0c87cee-c804-4904-85f4-9b7baea9a3ba",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "77b846ba-3deb-42a3-ac1f-2e302b5ba185": {
+          "description": "Chimichanga stuffed with shredded beef, bell pepper, onion, tomato, beans and cheese. Topped with guacamole, sour cream, pico de gallo and lettuce.",
+          "imageUrl": "",
+          "price": 924,
+          "title": "Chimichanga Tostada",
+          "uuid": "77b846ba-3deb-42a3-ac1f-2e302b5ba185",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "31268a9b-8d94-4a8f-90d8-c84d1bf8de80": {
+          "description": "Grilled chicken",
+          "imageUrl": "",
+          "price": 1022,
+          "title": "Pollo Asado Platter",
+          "uuid": "31268a9b-8d94-4a8f-90d8-c84d1bf8de80",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "4f9e4e58-12ef-4738-8bc1-25113b5dd981": {
+          "description": "Fried corn tortilla topped with beans, lettuce and steak.",
+          "imageUrl": "",
+          "price": 612,
+          "title": "Carne Asada Tostada",
+          "uuid": "4f9e4e58-12ef-4738-8bc1-25113b5dd981",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "b31be5a4-61b1-4f4e-961f-b858627fcd34": {
+          "description": "",
+          "imageUrl": "",
+          "price": 185,
+          "title": "Cheese",
+          "uuid": "b31be5a4-61b1-4f4e-961f-b858627fcd34",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "8611272c-90a9-4c47-ab23-c576fcb692ab": {
+          "description": "Fried corn tortilla topped with beans, lettuce and pork.",
+          "imageUrl": "",
+          "price": 538,
+          "title": "Carnitas Tostada",
+          "uuid": "8611272c-90a9-4c47-ab23-c576fcb692ab",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "0ff2d8ed-6cea-483d-a1b2-9a60cb3eba18": {
+          "description": "Fish, cabbage, tartar sauce and pico de gallo.",
+          "imageUrl": "",
+          "price": 349,
+          "title": "Fish Taco",
+          "uuid": "0ff2d8ed-6cea-483d-a1b2-9a60cb3eba18",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "6c30f7b3-1600-42c1-aebb-aa58df6dc3f8": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1011,
+          "title": "Two Chicken Tacos Platter",
+          "uuid": "6c30f7b3-1600-42c1-aebb-aa58df6dc3f8",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "d1c765e7-59d1-4d56-9714-1e6b3b1309bd": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1011,
+          "title": "Tostada and Taco Platter",
+          "uuid": "d1c765e7-59d1-4d56-9714-1e6b3b1309bd",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "aadf9433-c63c-4052-9851-49f4c0456003": {
+          "description": "",
+          "imageUrl": "",
+          "price": 428,
+          "title": "Chicken Nuggets",
+          "uuid": "aadf9433-c63c-4052-9851-49f4c0456003",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "a1a32cff-3a38-4a37-9cd0-6eeb07e96756": {
+          "description": "",
+          "imageUrl": "",
+          "price": 266,
+          "title": "Hi-C Fruit Punch",
+          "uuid": "a1a32cff-3a38-4a37-9cd0-6eeb07e96756",
+          "nutritionalInfo": {
+            "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
@@ -828,31 +2117,50 @@
           },
           "tagSection": null
         },
-        "b6682f58-84f2-4915-954b-03992662a476": {
-          "description": "Toasted bagel of choice, lox, cream cheese, tomatoes, capers, and red onion.",
-          "imageUrl": "",
-          "price": 1000,
-          "title": "Bagels and Lox",
-          "uuid": "b6682f58-84f2-4915-954b-03992662a476",
+        "f0e73cc8-e769-44ac-aec7-b7bd2f01efec": {
+          "description": "",
+          "imageUrl": "https://d1ralsognjng37.cloudfront.net/cc72fad5-af13-41b7-b319-1902e9d73cd1.jpeg",
+          "price": 413,
+          "title": "Beans Burrito",
+          "uuid": "f0e73cc8-e769-44ac-aec7-b7bd2f01efec",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
           },
           "suspendReason": null,
-          "suspendUntil": 8640000000,
+          "suspendUntil": 0,
           "classifications": [],
-          "hasCustomizations": true,
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
           "tagSection": null
         },
-        "347be6a6-93f7-4ed4-8d9c-ace7e7e4b2cf": {
-          "description": "Choose:\nbacon, egg & cheese\npotato, egg & cheese\nmigas",
+        "7532516e-cfca-46df-bf0b-70f5fddb9821": {
+          "description": "",
           "imageUrl": "",
-          "price": 1000,
-          "title": "Burrito",
-          "uuid": "347be6a6-93f7-4ed4-8d9c-ace7e7e4b2cf",
+          "price": 1011,
+          "title": "Taco and Enchilada Platter",
+          "uuid": "7532516e-cfca-46df-bf0b-70f5fddb9821",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "2f12dffc-2c9b-436f-8d50-b240064953c7": {
+          "description": "",
+          "imageUrl": "",
+          "price": 266,
+          "title": "Sprite",
+          "uuid": "2f12dffc-2c9b-436f-8d50-b240064953c7",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -866,12 +2174,164 @@
           },
           "tagSection": null
         },
-        "35dc10d8-304a-4f6c-bf33-3b82a675ba33": {
-          "description": "Toast, bacon, egg, Cheddar, and spicy mayonnaise.",
+        "78e32851-6fee-4b42-928e-13982ae142e9": {
+          "description": "",
           "imageUrl": "",
-          "price": 850,
-          "title": "Breakfast Sandwich",
-          "uuid": "35dc10d8-304a-4f6c-bf33-3b82a675ba33",
+          "price": 1176,
+          "title": "Super Nachos",
+          "uuid": "78e32851-6fee-4b42-928e-13982ae142e9",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "f1a98e28-3a2a-4426-8814-332731b50178": {
+          "description": "Steak, potatoes, pico de gallo and cheese. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 779,
+          "title": "Arizona Burrito",
+          "uuid": "f1a98e28-3a2a-4426-8814-332731b50178",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "1b44916a-6ec6-4232-8ca7-3a79a47c7c8f": {
+          "description": "Carne asada, pollo asado, onion, bell pepper, tomato and guacamole. Served in a 14 inch flour tortilla.",
+          "imageUrl": "",
+          "price": 944,
+          "title": "Extreme Fajita Burrito",
+          "uuid": "1b44916a-6ec6-4232-8ca7-3a79a47c7c8f",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "e288a95b-2364-4ff7-ae5b-e4f817c9d23f": {
+          "description": "",
+          "imageUrl": "",
+          "price": 428,
+          "title": "Jr. Quesadilla",
+          "uuid": "e288a95b-2364-4ff7-ae5b-e4f817c9d23f",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "715f2f43-6e33-47f7-a969-acbd6cf77355": {
+          "description": "",
+          "imageUrl": "",
+          "price": 857,
+          "title": "Chicken Bowl",
+          "uuid": "715f2f43-6e33-47f7-a969-acbd6cf77355",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "be8a06a0-9319-4d8c-b1a1-cdb57e113d30": {
+          "description": "",
+          "imageUrl": "",
+          "price": 845,
+          "title": "Taco Salad",
+          "uuid": "be8a06a0-9319-4d8c-b1a1-cdb57e113d30",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "13b853f8-c6e7-4516-8bba-2176d7c88433": {
+          "description": "Steak, guacamole and pico de gallo. Served in a hard shell taco.",
+          "imageUrl": "",
+          "price": 403,
+          "title": "Carne Asada Taco",
+          "uuid": "13b853f8-c6e7-4516-8bba-2176d7c88433",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "99d7aab7-3f41-4576-9908-50ce7876e37e": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1011,
+          "title": "Burrito and Taco Platter",
+          "uuid": "99d7aab7-3f41-4576-9908-50ce7876e37e",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "48d4b27d-1cde-458e-927f-7099af16de48": {
+          "description": "",
+          "imageUrl": "",
+          "price": 266,
+          "title": "Mr. Pibb",
+          "uuid": "48d4b27d-1cde-458e-927f-7099af16de48",
           "nutritionalInfo": {
             "allergens": "",
             "displayString": ""
@@ -880,6 +2340,101 @@
           "suspendUntil": 0,
           "classifications": [],
           "hasCustomizations": true,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "cf978e8a-f56f-4ff6-8bbc-3a1e942e1187": {
+          "description": "Shrimp, tartar sauce and pico de gallo.",
+          "imageUrl": "",
+          "price": 403,
+          "title": "Shrimp Taco",
+          "uuid": "cf978e8a-f56f-4ff6-8bbc-3a1e942e1187",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "06e5bb49-4595-44d5-bb4c-f9f34d305ce4": {
+          "description": "Grilled chicken with guacamole & pico de gallo. Served in a 14 inch flour tortilla",
+          "imageUrl": "",
+          "price": 705,
+          "title": "Pollo Asada Burrito",
+          "uuid": "06e5bb49-4595-44d5-bb4c-f9f34d305ce4",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "4f759d42-f8d9-4a3e-8d6e-9f2fdb504faa": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1268,
+          "title": "Two Carne Asada Tacos Platter",
+          "uuid": "4f759d42-f8d9-4a3e-8d6e-9f2fdb504faa",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "e1d9e308-762c-431b-a9b1-6baca08d15bb": {
+          "description": "",
+          "imageUrl": "",
+          "price": 1513,
+          "title": "Two Carne Asada Burrito Platter",
+          "uuid": "e1d9e308-762c-431b-a9b1-6baca08d15bb",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
+          "itemAttributeInfo": {
+            "dietaryLabels": null
+          },
+          "tagSection": null
+        },
+        "0942b1c9-9acf-4a32-adf8-b96c6cc1e135": {
+          "description": "Pork, pico de gallo and guacamole. Served in a hard shell taco.",
+          "imageUrl": "",
+          "price": 349,
+          "title": "Carnitas Taco",
+          "uuid": "0942b1c9-9acf-4a32-adf8-b96c6cc1e135",
+          "nutritionalInfo": {
+            "allergens": "",
+            "displayString": ""
+          },
+          "suspendReason": null,
+          "suspendUntil": 0,
+          "classifications": [],
+          "hasCustomizations": false,
           "itemAttributeInfo": {
             "dietaryLabels": null
           },
@@ -890,164 +2445,381 @@
     "sections": [
       {
         "subsectionUuids": [
-          "7e12b8f3-084e-55e3-a667-a883e633c17c",
-          "f2280b25-7b12-4093-85f5-030d9ebccec7",
-          "0d737f2a-cc46-4957-a809-e9c258d927cf",
-          "dfd0862e-5280-473d-b22f-209fde98fc24",
-          "dc7ff924-8919-45c4-a1c9-2daeff877cf3",
-          "3ad1d2e0-b3eb-420a-a534-9ed14e97e4be",
-          "8db7d821-cf92-4b19-a54b-982fbf7d14ff"
+          "7e12b8f3-47c0-5deb-852b-54c2a908e0c8",
+          "141ccb73-3ac3-4c65-abd9-1a5d03fa8e79",
+          "7a71ce05-6c34-4aed-9367-35672470e449"
         ],
-        "title": "Menu",
-        "subtitle": "8:00 AM \u2013 2:00 AM",
-        "uuid": "e247e06e-6493-4226-9503-7403db46c5ce",
+        "title": "Breakfast",
+        "subtitle": "6:00 AM \u2013 1:00 AM",
+        "uuid": "1db7df79-d9cb-4a56-869f-3f8f7f4ccf4e",
         "isTop": true,
         "isOnSale": true
       },
       {
         "subsectionUuids": [
-          "8da1fa3d-04b3-4964-81ab-f336ea3cc7d0"
+          "7e12b8f3-669b-5750-9c8e-2640e0e62625",
+          "549fdd90-ee51-4593-8ee8-2492e067dd75",
+          "f598d944-5ef9-430b-b751-42af1aa908ec",
+          "c52aebfc-c3a7-45c7-9569-a1e548c1196c",
+          "f29205c3-7a3f-46ab-93d9-3494cb99c4d1",
+          "c2e4901f-d59f-426f-99b8-2f06d79ae123",
+          "37c2bc3e-976e-4b8b-9197-5db23be4c4ba",
+          "413a994d-6c9d-4dc4-b818-0450b472a693",
+          "e9f2a4b2-124c-4fae-aa08-c0d96b265a70",
+          "4b562712-6c56-4e5a-be86-d81832178a16",
+          "9e061781-8bd6-406b-b4d6-91ae4762f3a4",
+          "aa9f6b9d-75c6-42ad-b643-85ee76b86da4",
+          "f04a034c-268a-4d95-9cd9-e82babb420e4",
+          "1c2ac4d4-5dbd-44d9-98c3-bc642d1cc2e1",
+          "ad1ad240-60dd-41d6-ab17-ed8151de844c",
+          "79842ff1-b457-4984-a3a1-993d209163f2",
+          "df416fb1-1a78-49d0-8794-041f4fcaa49b"
         ],
-        "title": "Breakfast",
-        "subtitle": "Sun 8:00 AM \u2013 11:00 AM",
-        "uuid": "c52d8fb3-c382-43d9-a11c-39bba1e369a5",
+        "title": "Menu",
+        "subtitle": "6:00 AM \u2013 2:00 AM",
+        "uuid": "bba094db-65aa-4363-aa6e-2e19c2f3e298",
         "isTop": false,
-        "isOnSale": false
+        "isOnSale": true
       }
     ],
     "subsectionsMap": {
-      "8db7d821-cf92-4b19-a54b-982fbf7d14ff": {
+      "37c2bc3e-976e-4b8b-9197-5db23be4c4ba": {
         "itemUuids": [
-          "9d5caf60-1ce8-4e2e-8894-8170c826f60d",
-          "48878081-d840-4741-b663-c72afe664ade",
-          "f65f620e-f1de-467a-83b4-d2ab4fa71995",
-          "97dc9c42-e543-4af9-a5d9-7d3f670d822b"
+          "91e2924d-2aeb-4fc2-952c-ce79a2db718d",
+          "071bcb48-f4ff-45de-b0e8-fa3319e005f0",
+          "ccfe99f6-543d-48e9-a332-814270d60865",
+          "da48e6b8-7ae2-4f8c-8652-df41fb6bbdeb"
         ],
         "subtitle": null,
-        "title": "Other Drink",
-        "uuid": "8db7d821-cf92-4b19-a54b-982fbf7d14ff",
+        "title": "Enchiladas",
+        "uuid": "37c2bc3e-976e-4b8b-9197-5db23be4c4ba",
         "displayType": null
       },
-      "8da1fa3d-04b3-4964-81ab-f336ea3cc7d0": {
+      "f04a034c-268a-4d95-9cd9-e82babb420e4": {
         "itemUuids": [
-          "35dc10d8-304a-4f6c-bf33-3b82a675ba33",
-          "a67b51e1-f57c-41f2-a409-8b1bece1d59d",
-          "a76f3583-891e-44ff-aa97-d178517b6f70",
-          "347be6a6-93f7-4ed4-8d9c-ace7e7e4b2cf"
-        ],
-        "subtitle": "",
-        "title": "Breakfast",
-        "uuid": "8da1fa3d-04b3-4964-81ab-f336ea3cc7d0",
-        "displayType": null
-      },
-      "f2280b25-7b12-4093-85f5-030d9ebccec7": {
-        "itemUuids": [
-          "b7990078-74a8-4811-b41f-240902701ce4",
-          "1ecde9b9-0870-4ec0-b5e6-22294d8c945d",
-          "b1c776b8-aedb-45f1-93d8-9cce3046e159",
-          "290e3107-eea0-430f-938d-51ea9e29971f"
-        ],
-        "subtitle": "",
-        "title": "Sandwiches",
-        "uuid": "f2280b25-7b12-4093-85f5-030d9ebccec7",
-        "displayType": null
-      },
-      "0d737f2a-cc46-4957-a809-e9c258d927cf": {
-        "itemUuids": [
-          "7b750fe3-9ec7-4fa8-944d-848817ff1c83",
-          "f36f237f-a089-4c22-b3e4-08d3fb6c885c",
-          "6beadac7-685b-45b1-bb2a-895ea7823f0d"
+          "09e886ee-1fff-4e11-b836-57960ccc2ec1",
+          "715f2f43-6e33-47f7-a969-acbd6cf77355",
+          "6d5445e8-ba21-4536-812d-e032d5a4ad72",
+          "4797f0de-038b-47e0-9dc0-2c09a2ab1b92"
         ],
         "subtitle": null,
-        "title": "Snacks",
-        "uuid": "0d737f2a-cc46-4957-a809-e9c258d927cf",
+        "title": "Bowls",
+        "uuid": "f04a034c-268a-4d95-9cd9-e82babb420e4",
         "displayType": null
       },
-      "dfd0862e-5280-473d-b22f-209fde98fc24": {
+      "df416fb1-1a78-49d0-8794-041f4fcaa49b": {
         "itemUuids": [
-          "4975febe-70cf-4d08-b760-ced3af6be210"
+          "af4886db-61a7-4f2d-904c-efbad99aeaff",
+          "cec07d4c-01e9-4a3b-8dbf-27b5963dea55",
+          "2f12dffc-2c9b-436f-8d50-b240064953c7",
+          "48d4b27d-1cde-458e-927f-7099af16de48",
+          "a85ad167-6715-491e-a8b6-eeb67e775c97",
+          "a1a32cff-3a38-4a37-9cd0-6eeb07e96756",
+          "90bb33a0-ccba-4943-9aaa-d2ec87cb454f"
         ],
-        "subtitle": "",
-        "title": "Salads and Bowls",
-        "uuid": "dfd0862e-5280-473d-b22f-209fde98fc24",
+        "subtitle": null,
+        "title": "Fountain Drinks",
+        "uuid": "df416fb1-1a78-49d0-8794-041f4fcaa49b",
         "displayType": null
       },
-      "dc7ff924-8919-45c4-a1c9-2daeff877cf3": {
+      "1c2ac4d4-5dbd-44d9-98c3-bc642d1cc2e1": {
         "itemUuids": [
-          "ff866002-0668-44df-9a48-cebaf287efe6",
-          "0b55547f-cc97-4a43-bc11-d24fca1e0587",
-          "8f62b276-cda8-4ffd-a229-93cdedce7bf7"
+          "55e7f0ff-1f11-42cd-81c7-048b6c7c216a",
+          "a6963653-4e31-4592-b720-8d57a79f8859",
+          "7b9dfeca-c841-4377-b743-af57485bdcb5",
+          "06c57913-d520-4173-b468-48e988aed7cb",
+          "1a1f4eec-74fd-4d7c-a24e-29ac666cd45b"
         ],
-        "subtitle": "",
-        "title": "Desserts",
-        "uuid": "dc7ff924-8919-45c4-a1c9-2daeff877cf3",
+        "subtitle": null,
+        "title": "Sides",
+        "uuid": "1c2ac4d4-5dbd-44d9-98c3-bc642d1cc2e1",
         "displayType": null
       },
-      "7e12b8f3-084e-55e3-a667-a883e633c17c": {
+      "7a71ce05-6c34-4aed-9367-35672470e449": {
         "itemUuids": [
-          "ff866002-0668-44df-9a48-cebaf287efe6",
-          "0b55547f-cc97-4a43-bc11-d24fca1e0587",
-          "48878081-d840-4741-b663-c72afe664ade",
-          "97dc9c42-e543-4af9-a5d9-7d3f670d822b",
-          "4cc6e2fa-8a86-425a-b5af-ab5d70c42d3c"
+          "1330384d-65b0-4124-857b-d7a7467444da",
+          "0064e6d5-80ee-45d0-ac80-4d5e061aa703",
+          "c8d796b2-23e3-49bd-b621-3c01d49301bb",
+          "c52caf4e-18e3-40f6-b8e5-248a33d30fad",
+          "e253b09b-584b-4cc2-a8cb-b7b63d07916c",
+          "3ad71735-d2b9-4982-aca5-01dbeaf8a01e",
+          "782015bd-0a5e-4a2a-8fe3-de3ea08afb66"
+        ],
+        "subtitle": null,
+        "title": "Burritos",
+        "uuid": "7a71ce05-6c34-4aed-9367-35672470e449",
+        "displayType": null
+      },
+      "aa9f6b9d-75c6-42ad-b643-85ee76b86da4": {
+        "itemUuids": [
+          "e288a95b-2364-4ff7-ae5b-e4f817c9d23f",
+          "b20d1a01-ddcd-4d1b-a050-00abd369ddf3",
+          "aadf9433-c63c-4052-9851-49f4c0456003"
+        ],
+        "subtitle": null,
+        "title": "Kid's Mains",
+        "uuid": "aa9f6b9d-75c6-42ad-b643-85ee76b86da4",
+        "displayType": null
+      },
+      "549fdd90-ee51-4593-8ee8-2492e067dd75": {
+        "itemUuids": [
+          "9ee9d6fe-de34-470b-8bc1-b33ee85efd97"
+        ],
+        "subtitle": null,
+        "title": "Family Bundles",
+        "uuid": "549fdd90-ee51-4593-8ee8-2492e067dd75",
+        "displayType": null
+      },
+      "f598d944-5ef9-430b-b751-42af1aa908ec": {
+        "itemUuids": [
+          "be8a06a0-9319-4d8c-b1a1-cdb57e113d30",
+          "972ed25b-bf00-4ee2-956a-44f1a3c1a0fd",
+          "9e31ee37-9dd7-431b-b045-73c85935fa8e",
+          "52b5ba83-9a3a-4daf-85a8-f4e50c47dcb4",
+          "9c99c620-0600-4d24-951d-2b1df3605efd",
+          "3e451d66-06fa-4eef-a890-23c8b365c2c2"
+        ],
+        "subtitle": null,
+        "title": "Salads",
+        "uuid": "f598d944-5ef9-430b-b751-42af1aa908ec",
+        "displayType": null
+      },
+      "c52aebfc-c3a7-45c7-9569-a1e548c1196c": {
+        "itemUuids": [
+          "31268a9b-8d94-4a8f-90d8-c84d1bf8de80",
+          "99d7aab7-3f41-4576-9908-50ce7876e37e",
+          "43685a86-2f66-4b00-ab7f-ae082baaab14",
+          "b0a55a82-1940-4f3d-a237-5d4dce09ba37",
+          "76b5d1e9-e543-41fe-9cba-658f0d74f3f6",
+          "3821eb99-4b90-4d3b-918f-5db44f2d9c5e",
+          "d1c765e7-59d1-4d56-9714-1e6b3b1309bd",
+          "3b433543-943b-46b3-848a-367c83d9b1e9",
+          "95264b3e-4a6c-4109-be9a-8c742627ebd8",
+          "6c30f7b3-1600-42c1-aebb-aa58df6dc3f8",
+          "2e081ab6-885a-4e25-b61c-ed77cb921572",
+          "86a0521a-65b1-4ea2-990e-eb422a91bf7c",
+          "06772e82-502c-44ad-8937-d79abd1270e6",
+          "e1d9e308-762c-431b-a9b1-6baca08d15bb",
+          "ca91d054-2a1f-4161-bc03-6294b527267e",
+          "d96f700d-8a5f-42cb-84b9-20eac7bdb64b",
+          "643c5c3d-80eb-4f45-90f7-c7f5b737c653",
+          "4f759d42-f8d9-4a3e-8d6e-9f2fdb504faa",
+          "51a249c2-267b-475c-80c6-13633b884e91",
+          "7532516e-cfca-46df-bf0b-70f5fddb9821"
+        ],
+        "subtitle": null,
+        "title": "Combination Platters",
+        "uuid": "c52aebfc-c3a7-45c7-9569-a1e548c1196c",
+        "displayType": null
+      },
+      "7e12b8f3-669b-5750-9c8e-2640e0e62625": {
+        "itemUuids": [
+          "4219ee4f-be76-439d-9538-1e291ba252a4",
+          "78e32851-6fee-4b42-928e-13982ae142e9",
+          "827dfa6c-1374-4e8a-8f66-6d0adaa5b868",
+          "776afb71-763c-422c-9a38-7fcbfded93ed",
+          "55e7f0ff-1f11-42cd-81c7-048b6c7c216a"
         ],
         "subtitle": null,
         "title": "Picked For You",
-        "uuid": "7e12b8f3-084e-55e3-a667-a883e633c17c",
+        "uuid": "7e12b8f3-669b-5750-9c8e-2640e0e62625",
         "displayType": null
       },
-      "3ad1d2e0-b3eb-420a-a534-9ed14e97e4be": {
+      "f29205c3-7a3f-46ab-93d9-3494cb99c4d1": {
         "itemUuids": [
-          "a32b2ace-72ce-4934-86f4-80c3440b045e",
-          "8b4a4267-1df1-4cd2-87a0-411d89be00c3",
-          "f09ce1a5-ed7e-4491-bb6b-398fa3ab1056",
-          "11655ac6-5f19-4f62-b39d-1bedad0b8c32",
-          "ba7fb8a6-78b5-4372-8e22-8e3fc433344d",
-          "7462e8c9-b37b-49d4-b2c2-584c7d9a62f6",
-          "bfad7050-9c0a-4a2a-8a2c-1ffc134b85cd",
-          "d69fe178-4f26-4664-bcce-883c56b38862",
-          "4cc6e2fa-8a86-425a-b5af-ab5d70c42d3c",
-          "0fad383e-af39-432a-8727-8b4b7542f43a",
-          "623b84c7-324f-48ce-bd8d-d27d9eafbc5b"
+          "06e5bb49-4595-44d5-bb4c-f9f34d305ce4",
+          "776afb71-763c-422c-9a38-7fcbfded93ed",
+          "97d4a01c-fb78-4635-bf53-41b978367eed",
+          "47ae08f8-a26b-48c8-bafc-992edfc8de35",
+          "f0e73cc8-e769-44ac-aec7-b7bd2f01efec",
+          "a7347c9d-f7a7-4e27-8acc-e97cc1e48151",
+          "e7da8df1-c3e5-413e-8a2b-d1ba6e910329",
+          "1c18d9be-7986-4a35-b60d-a0bd5e0f5035",
+          "22b30fcf-8465-4d8b-b746-9428e681abb9",
+          "112529af-03f4-4e26-9fc1-e04b570af51a",
+          "f1a98e28-3a2a-4426-8814-332731b50178",
+          "0aa79c06-f062-40dc-99ce-7b00e7425ab8",
+          "bbfb7ba6-bcee-4936-adee-913c02247e90",
+          "3b1bceae-816d-4199-b725-213aea611aba",
+          "1b44916a-6ec6-4232-8ca7-3a79a47c7c8f",
+          "13809588-721a-4a14-9405-dd0355419219",
+          "02ce170c-5e0b-4939-99c2-450f26c244ed",
+          "ca33d8e6-cdd4-4478-9c5e-db60e316a9c9",
+          "198e4690-de3f-4147-be6f-ebf3b90ea89c",
+          "66fa79ac-59c3-4480-8ce5-ccbdb85200a7"
         ],
         "subtitle": null,
-        "title": "Coffee",
-        "uuid": "3ad1d2e0-b3eb-420a-a534-9ed14e97e4be",
+        "title": "Burritos",
+        "uuid": "f29205c3-7a3f-46ab-93d9-3494cb99c4d1",
+        "displayType": null
+      },
+      "7e12b8f3-47c0-5deb-852b-54c2a908e0c8": {
+        "itemUuids": [
+          "0064e6d5-80ee-45d0-ac80-4d5e061aa703",
+          "a2c35816-73c6-4a05-b330-f197f8941bff",
+          "e253b09b-584b-4cc2-a8cb-b7b63d07916c",
+          "3ad71735-d2b9-4982-aca5-01dbeaf8a01e",
+          "414859a4-5a3e-4a43-960b-df881bba54de"
+        ],
+        "subtitle": null,
+        "title": "Picked For You",
+        "uuid": "7e12b8f3-47c0-5deb-852b-54c2a908e0c8",
+        "displayType": null
+      },
+      "e9f2a4b2-124c-4fae-aa08-c0d96b265a70": {
+        "itemUuids": [
+          "1a75ad4e-d87e-42e9-abdd-ff61fa8c9666",
+          "4f9e4e58-12ef-4738-8bc1-25113b5dd981",
+          "8611272c-90a9-4c47-ab23-c576fcb692ab",
+          "7c324754-80c5-47bb-9d88-487b99deace9",
+          "850da963-a6d2-4f0b-aa6a-ce8a7333a8c4",
+          "77b846ba-3deb-42a3-ac1f-2e302b5ba185"
+        ],
+        "subtitle": null,
+        "title": "Tostadas",
+        "uuid": "e9f2a4b2-124c-4fae-aa08-c0d96b265a70",
+        "displayType": null
+      },
+      "9e061781-8bd6-406b-b4d6-91ae4762f3a4": {
+        "itemUuids": [
+          "cfd1a4fd-e5ce-4c79-a490-24cf324fa4cd",
+          "9ac7f80f-de63-466e-84fc-ccd7d875a845",
+          "08dfcd1e-2232-442e-af0e-0fef5c94688e",
+          "f136d9df-f55e-442c-8456-c53ea890ad9f"
+        ],
+        "subtitle": null,
+        "title": "Quesadillas Supreme",
+        "uuid": "9e061781-8bd6-406b-b4d6-91ae4762f3a4",
+        "displayType": null
+      },
+      "141ccb73-3ac3-4c65-abd9-1a5d03fa8e79": {
+        "itemUuids": [
+          "cc4e06e1-eedc-4356-b01a-24bcfdfd087f",
+          "46c545a8-6197-41ae-8c58-60abbf4c5338",
+          "a2c35816-73c6-4a05-b330-f197f8941bff",
+          "414859a4-5a3e-4a43-960b-df881bba54de",
+          "3982f21a-af97-44d9-b193-d11f2e56b622"
+        ],
+        "subtitle": null,
+        "title": "Platters",
+        "uuid": "141ccb73-3ac3-4c65-abd9-1a5d03fa8e79",
+        "displayType": null
+      },
+      "c2e4901f-d59f-426f-99b8-2f06d79ae123": {
+        "itemUuids": [
+          "1236c280-ee5f-4722-bdcc-b6b1c635b755",
+          "823aae35-7966-4199-89c9-1d5192435fba",
+          "c88b3595-e465-4a1d-86f9-c29c27857d9d",
+          "13b853f8-c6e7-4516-8bba-2176d7c88433",
+          "0942b1c9-9acf-4a32-adf8-b96c6cc1e135",
+          "e5ae6e6f-1320-4282-9029-7bcd7706360a",
+          "853719fc-1c92-4c66-89b7-51fa6f9d51ce",
+          "a0c87cee-c804-4904-85f4-9b7baea9a3ba",
+          "57ebb2cd-c030-4c83-9362-b4d369f05caa",
+          "0ff2d8ed-6cea-483d-a1b2-9a60cb3eba18",
+          "cf978e8a-f56f-4ff6-8bbc-3a1e942e1187",
+          "c6902932-d077-4a84-815a-bee783283b95",
+          "81baf03a-5111-4428-aed6-b3979cf6b967"
+        ],
+        "subtitle": null,
+        "title": "Tacos",
+        "uuid": "c2e4901f-d59f-426f-99b8-2f06d79ae123",
+        "displayType": null
+      },
+      "79842ff1-b457-4984-a3a1-993d209163f2": {
+        "itemUuids": [
+          "827dfa6c-1374-4e8a-8f66-6d0adaa5b868",
+          "e149c515-8a71-466a-a0c6-cad1c642a14c",
+          "210b0a38-8587-4f45-9916-beba0184f0f4",
+          "adcde6de-f8fa-4c69-ba46-7ee506ad1091",
+          "7ef6c404-c978-4cfc-8ceb-2a828757b0da"
+        ],
+        "subtitle": null,
+        "title": "Mexican Juices",
+        "uuid": "79842ff1-b457-4984-a3a1-993d209163f2",
+        "displayType": null
+      },
+      "413a994d-6c9d-4dc4-b818-0450b472a693": {
+        "itemUuids": [
+          "14cdca77-5d9e-4348-a66b-bba465cdfd0a",
+          "30ab524d-94cb-4130-81e6-55f9621bc2e4",
+          "8d89dd91-863c-4b86-8784-866a873d596a",
+          "40886a4f-dc74-472d-8c5c-fa56143e69d1",
+          "b1f7800a-7f75-4cb7-a075-e33de8db27a1",
+          "3ef590f6-9dba-446e-9cb4-beed5495191b",
+          "5bcd7bac-8b1d-430c-b0be-66af9bff0338"
+        ],
+        "subtitle": null,
+        "title": "Tortas",
+        "uuid": "413a994d-6c9d-4dc4-b818-0450b472a693",
+        "displayType": null
+      },
+      "ad1ad240-60dd-41d6-ab17-ed8151de844c": {
+        "itemUuids": [
+          "b31be5a4-61b1-4f4e-961f-b858627fcd34",
+          "e8398854-f3d1-4fa7-8265-7affda19b057",
+          "c91283bd-c1a5-4a5a-8c1a-bcee4536147b",
+          "3f39c9ff-7098-4a60-836f-b1ed02e05465",
+          "dfce0dba-aff6-44d6-9794-29920a07c591",
+          "f797e34b-dd1f-4035-b62f-5e21044c6148"
+        ],
+        "subtitle": null,
+        "title": "Extras",
+        "uuid": "ad1ad240-60dd-41d6-ab17-ed8151de844c",
+        "displayType": null
+      },
+      "4b562712-6c56-4e5a-be86-d81832178a16": {
+        "itemUuids": [
+          "78e32851-6fee-4b42-928e-13982ae142e9",
+          "6c87fb10-dd8f-46c3-9da8-eeba537e431e",
+          "57ebb2cd-c030-4c83-9362-b4d369f05caa",
+          "4219ee4f-be76-439d-9538-1e291ba252a4",
+          "96c37d67-8f67-44c0-9749-49dc1e06ba7e"
+        ],
+        "subtitle": null,
+        "title": "Fili's Favorite",
+        "uuid": "4b562712-6c56-4e5a-be86-d81832178a16",
         "displayType": null
       }
     },
-    "title": "Halcyon Coffee, Bar & Lounge (Austin Downtown)",
-    "sanitizedTitle": "Halcyon Coffee, Bar &amp; Lounge (Austin Downtown)",
-    "uuid": "d93123ab-88b7-44bb-9607-831728c759cf",
-    "cityId": 4,
+    "title": "Filibertos Mexican Food",
+    "sanitizedTitle": "Filibertos Mexican Food",
+    "uuid": "f5628411-9d6f-4b1e-ad14-a129d96ba51e",
+    "cityId": 48,
     "categories": [
       "$",
-      "American",
-      "Breakfast and Brunch",
-      "Desserts",
+      "Mexican",
+      "Latin American",
+      "New Mexican",
+      "Family Meals",
       "Local Eats"
     ],
     "categoryLinks": [
       {
-        "text": "American",
-        "link": "/category/austin-tx/american"
+        "text": "Mexican",
+        "link": "/category/tucson-az/mexican"
       },
       {
-        "text": "Breakfast and Brunch",
-        "link": "/category/austin-tx/breakfast-and-brunch"
+        "text": "Latin American",
+        "link": "/category/tucson-az/latin-american"
       },
       {
-        "text": "Desserts",
-        "link": "/category/austin-tx/dessert"
+        "text": "New Mexican",
+        "link": "/category/tucson-az/new-mexican"
+      },
+      {
+        "text": "Family Meals",
+        "link": "/category/tucson-az/family-meals"
       },
       {
         "text": "Local Eats"
       }
     ],
     "cuisineList": [
-      "American",
-      "Breakfast and Brunch",
-      "Desserts",
+      "Mexican",
+      "Latin American",
+      "New Mexican",
+      "Family Meals",
       "Local Eats"
     ],
     "priceBucket": "$",
@@ -1084,27 +2856,27 @@
     "shouldIndex": true,
     "heroImageUrls": [
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/88c67d12-a36e-4123-8f04-aa0e86e994e0.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/70e227ab-1c01-4f3a-b881-55d71f557a56.jpeg",
         "width": 240
       },
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/a5432432-f88a-4858-b021-aac98dcfd9d9.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/49437ce6-6db5-4bf1-bf9f-0118ad488634.jpeg",
         "width": 550
       },
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/3d395e61-c8d5-4cee-b275-f7ddbc809855.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/07beb35a-babf-4691-8268-343737cd1c30.jpeg",
         "width": 640
       },
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/aa1b6d0a-ffc8-4713-ba46-a44d7c98f275.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/525bd72f-dfe3-4daa-a2e9-00f21ef25d33.jpeg",
         "width": 750
       },
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/427f7288-ad5c-4e32-9bec-c36eb85bbdaa.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/9d229319-6c51-4f04-8007-4377476c6048.jpeg",
         "width": 1080
       },
       {
-        "url": "https://d1ralsognjng37.cloudfront.net/9218fb72-7163-4035-a8d1-d829c9b84640.jpeg",
+        "url": "https://d1ralsognjng37.cloudfront.net/2a95d811-ad6a-48bb-a9fb-2b43bc63dc99.jpeg",
         "width": 2880
       }
     ],
@@ -1112,31 +2884,61 @@
     "currencyCode": "USD",
     "closedMessage": "",
     "location": {
-      "address": "218 W 4th St, Austin, TX 78701",
-      "streetAddress": "218 W 4th St",
-      "city": "Austin",
+      "address": "635 E Wetmore Rd, Tucson, AZ 85705",
+      "streetAddress": "635 E Wetmore Rd",
+      "city": "Tucson",
       "country": "US",
-      "postalCode": "78701",
-      "region": "TX",
-      "latitude": 30.2669671,
-      "longitude": -97.7456713
+      "postalCode": "85705",
+      "region": "AZ",
+      "latitude": 32.2870204,
+      "longitude": -110.9624549
     },
     "isDeliveryBandwagon": false,
     "isDeliveryOverTheTop": false,
     "isDeliveryThirdParty": false,
     "hours": [
       {
-        "dayRange": "Every Day",
+        "dayRange": "Sunday",
         "sectionHours": [
           {
-            "startTime": 480,
-            "endTime": 120,
-            "sectionTitle": "Menu"
+            "startTime": 360,
+            "endTime": 0,
+            "sectionTitle": "Breakfast"
           },
           {
             "startTime": 480,
-            "endTime": 660,
+            "endTime": 1320,
+            "sectionTitle": "Menu"
+          }
+        ]
+      },
+      {
+        "dayRange": "Monday - Thursday",
+        "sectionHours": [
+          {
+            "startTime": 360,
+            "endTime": 60,
             "sectionTitle": "Breakfast"
+          },
+          {
+            "startTime": 360,
+            "endTime": 1380,
+            "sectionTitle": "Menu"
+          }
+        ]
+      },
+      {
+        "dayRange": "Friday - Saturday",
+        "sectionHours": [
+          {
+            "startTime": 360,
+            "endTime": 60,
+            "sectionTitle": "Breakfast"
+          },
+          {
+            "startTime": 360,
+            "endTime": 120,
+            "sectionTitle": "Menu"
           }
         ]
       }
@@ -1145,10 +2947,10 @@
     "disableCheckoutInstruction": false,
     "nuggets": [],
     "isWithinDeliveryRange": true,
-    "slug": "halcyon-coffee-bar-&-lounge-austin-downtown",
-    "citySlug": "austin",
-    "phoneNumber": "+15124729637",
-    "metaJson": "{\"@context\":\"http:\\u002F\\u002Fschema.org\",\"@type\":\"Restaurant\",\"@id\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Faustin\\u002Ffood-delivery\\u002Fhalcyon-coffee-bar-%26-lounge-austin-downtown\\u002F2TEjq4i3RLuWB4MXKMdZzw\",\"name\":\"Halcyon Coffee, Bar &amp; Lounge (Austin Downtown)\",\"servesCuisine\":[\"American\",\"Breakfast and Brunch\",\"Desserts\",\"Local Eats\"],\"priceRange\":\"$\",\"image\":[\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F88c67d12-a36e-4123-8f04-aa0e86e994e0.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Fa5432432-f88a-4858-b021-aac98dcfd9d9.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F3d395e61-c8d5-4cee-b275-f7ddbc809855.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002Faa1b6d0a-ffc8-4713-ba46-a44d7c98f275.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F427f7288-ad5c-4e32-9bec-c36eb85bbdaa.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F9218fb72-7163-4035-a8d1-d829c9b84640.jpeg\"],\"potentialAction\":{\"@type\":\"OrderAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Faustin\\u002Ffood-delivery\\u002Fhalcyon-coffee-bar-%26-lounge-austin-downtown\\u002F2TEjq4i3RLuWB4MXKMdZzw?utm_campaign=order-action&amp;utm_medium=organic\",\"inLanguage\":\"English\",\"actionPlatform\":[\"http:\\u002F\\u002Fschema.org\\u002FDesktopWebPlatform\",\"http:\\u002F\\u002Fschema.org\\u002FMobileWebPlatform\"]},\"deliveryMethod\":[\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModeOwnFleet\",\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModePickUp\"]},\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Austin\",\"addressRegion\":\"TX\",\"postalCode\":\"78701\",\"addressCountry\":\"US\",\"streetAddress\":\"218 W 4th St\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":30.2669671,\"longitude\":-97.7456713},\"telephone\":\"+15124729637\",\"aggregateRating\":{},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"8:0\",\"closes\":\"2:0\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"8:0\",\"closes\":\"11:0\"}]}",
+    "slug": "filibertos-mexican-food",
+    "citySlug": "tucson",
+    "phoneNumber": "+13863153942",
+    "metaJson": "{\"@context\":\"http:\\u002F\\u002Fschema.org\",\"@type\":\"Restaurant\",\"@id\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Ftucson\\u002Ffood-delivery\\u002Ffilibertos-mexican-food\\u002F9WKEEZ1vSx6tFKEp2WulHg\",\"name\":\"Filibertos Mexican Food\",\"servesCuisine\":[\"Mexican\",\"Latin American\",\"New Mexican\",\"Family Meals\",\"Local Eats\"],\"priceRange\":\"$\",\"image\":[\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F70e227ab-1c01-4f3a-b881-55d71f557a56.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F49437ce6-6db5-4bf1-bf9f-0118ad488634.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F07beb35a-babf-4691-8268-343737cd1c30.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F525bd72f-dfe3-4daa-a2e9-00f21ef25d33.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F9d229319-6c51-4f04-8007-4377476c6048.jpeg\",\"https:\\u002F\\u002Fd1ralsognjng37.cloudfront.net\\u002F2a95d811-ad6a-48bb-a9fb-2b43bc63dc99.jpeg\"],\"potentialAction\":{\"@type\":\"OrderAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\u002F\\u002Fwww.ubereats.com\\u002Ftucson\\u002Ffood-delivery\\u002Ffilibertos-mexican-food\\u002F9WKEEZ1vSx6tFKEp2WulHg?utm_campaign=order-action&amp;utm_medium=organic\",\"inLanguage\":\"English\",\"actionPlatform\":[\"http:\\u002F\\u002Fschema.org\\u002FDesktopWebPlatform\",\"http:\\u002F\\u002Fschema.org\\u002FMobileWebPlatform\"]},\"deliveryMethod\":[\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModeOwnFleet\",\"http:\\u002F\\u002Fpurl.org\\u002Fgoodrelations\\u002Fv1#DeliveryModePickUp\"]},\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Tucson\",\"addressRegion\":\"AZ\",\"postalCode\":\"85705\",\"addressCountry\":\"US\",\"streetAddress\":\"635 E Wetmore Rd\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":32.2870204,\"longitude\":-110.9624549},\"telephone\":\"+13863153942\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":4.5,\"reviewCount\":\"57\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Sunday\",\"opens\":\"6:0\",\"closes\":\"0:0\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Sunday\",\"opens\":\"8:0\",\"closes\":\"22:0\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"6:0\",\"closes\":\"1:0\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\"],\"opens\":\"6:0\",\"closes\":\"23:0\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Friday\",\"Saturday\"],\"opens\":\"6:0\",\"closes\":\"1:0\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Friday\",\"Saturday\"],\"opens\":\"6:0\",\"closes\":\"2:0\"}]}",
     "promoTrackings": [],
     "suggestedPromotion": {
       "text": "",
@@ -1217,8 +3019,11 @@
         "promoUuid": null
       }
     },
-    "rating": null,
-    "menuUUID": "d93123ab-88b7-44bb-9607-831728c759cf",
+    "rating": {
+      "ratingValue": 4.5,
+      "reviewCount": "57"
+    },
+    "menuUUID": "f5628411-9d6f-4b1e-ad14-a129d96ba51e",
     "hasMultipleMenus": false,
     "isChain": false,
     "specialInstructionHintText": "Add a note (extra sauce, no onions, etc.)",
@@ -1238,6 +3043,14 @@
       ],
       "timeRanges": {
         "2021-02-06": [
+          {
+            "startTime": 1245,
+            "endTime": 1275
+          },
+          {
+            "startTime": 1260,
+            "endTime": 1290
+          },
           {
             "startTime": 1275,
             "endTime": 1305
@@ -1311,6 +3124,38 @@
           {
             "startTime": 105,
             "endTime": 135
+          },
+          {
+            "startTime": 420,
+            "endTime": 450
+          },
+          {
+            "startTime": 435,
+            "endTime": 465
+          },
+          {
+            "startTime": 450,
+            "endTime": 480
+          },
+          {
+            "startTime": 465,
+            "endTime": 495
+          },
+          {
+            "startTime": 480,
+            "endTime": 510
+          },
+          {
+            "startTime": 495,
+            "endTime": 525
+          },
+          {
+            "startTime": 510,
+            "endTime": 540
+          },
+          {
+            "startTime": 525,
+            "endTime": 555
           },
           {
             "startTime": 540,
@@ -1551,36 +3396,36 @@
         ],
         "2021-02-08": [
           {
-            "startTime": 0,
-            "endTime": 30
+            "startTime": 420,
+            "endTime": 450
           },
           {
-            "startTime": 15,
-            "endTime": 45
+            "startTime": 435,
+            "endTime": 465
           },
           {
-            "startTime": 30,
-            "endTime": 60
+            "startTime": 450,
+            "endTime": 480
           },
           {
-            "startTime": 45,
-            "endTime": 75
+            "startTime": 465,
+            "endTime": 495
           },
           {
-            "startTime": 60,
-            "endTime": 90
+            "startTime": 480,
+            "endTime": 510
           },
           {
-            "startTime": 75,
-            "endTime": 105
+            "startTime": 495,
+            "endTime": 525
           },
           {
-            "startTime": 90,
-            "endTime": 120
+            "startTime": 510,
+            "endTime": 540
           },
           {
-            "startTime": 105,
-            "endTime": 135
+            "startTime": 525,
+            "endTime": 555
           },
           {
             "startTime": 540,
@@ -1837,20 +3682,36 @@
             "endTime": 75
           },
           {
-            "startTime": 60,
-            "endTime": 90
+            "startTime": 420,
+            "endTime": 450
           },
           {
-            "startTime": 75,
-            "endTime": 105
+            "startTime": 435,
+            "endTime": 465
           },
           {
-            "startTime": 90,
-            "endTime": 120
+            "startTime": 450,
+            "endTime": 480
           },
           {
-            "startTime": 105,
-            "endTime": 135
+            "startTime": 465,
+            "endTime": 495
+          },
+          {
+            "startTime": 480,
+            "endTime": 510
+          },
+          {
+            "startTime": 495,
+            "endTime": 525
+          },
+          {
+            "startTime": 510,
+            "endTime": 540
+          },
+          {
+            "startTime": 525,
+            "endTime": 555
           },
           {
             "startTime": 540,
@@ -2107,20 +3968,36 @@
             "endTime": 75
           },
           {
-            "startTime": 60,
-            "endTime": 90
+            "startTime": 420,
+            "endTime": 450
           },
           {
-            "startTime": 75,
-            "endTime": 105
+            "startTime": 435,
+            "endTime": 465
           },
           {
-            "startTime": 90,
-            "endTime": 120
+            "startTime": 450,
+            "endTime": 480
           },
           {
-            "startTime": 105,
-            "endTime": 135
+            "startTime": 465,
+            "endTime": 495
+          },
+          {
+            "startTime": 480,
+            "endTime": 510
+          },
+          {
+            "startTime": 495,
+            "endTime": 525
+          },
+          {
+            "startTime": 510,
+            "endTime": 540
+          },
+          {
+            "startTime": 525,
+            "endTime": 555
           },
           {
             "startTime": 540,
@@ -2377,20 +4254,36 @@
             "endTime": 75
           },
           {
-            "startTime": 60,
-            "endTime": 90
+            "startTime": 420,
+            "endTime": 450
           },
           {
-            "startTime": 75,
-            "endTime": 105
+            "startTime": 435,
+            "endTime": 465
           },
           {
-            "startTime": 90,
-            "endTime": 120
+            "startTime": 450,
+            "endTime": 480
           },
           {
-            "startTime": 105,
-            "endTime": 135
+            "startTime": 465,
+            "endTime": 495
+          },
+          {
+            "startTime": 480,
+            "endTime": 510
+          },
+          {
+            "startTime": 495,
+            "endTime": 525
+          },
+          {
+            "startTime": 510,
+            "endTime": 540
+          },
+          {
+            "startTime": 525,
+            "endTime": 555
           },
           {
             "startTime": 540,
@@ -2647,20 +4540,36 @@
             "endTime": 75
           },
           {
-            "startTime": 60,
-            "endTime": 90
+            "startTime": 420,
+            "endTime": 450
           },
           {
-            "startTime": 75,
-            "endTime": 105
+            "startTime": 435,
+            "endTime": 465
           },
           {
-            "startTime": 90,
-            "endTime": 120
+            "startTime": 450,
+            "endTime": 480
           },
           {
-            "startTime": 105,
-            "endTime": 135
+            "startTime": 465,
+            "endTime": 495
+          },
+          {
+            "startTime": 480,
+            "endTime": 510
+          },
+          {
+            "startTime": 495,
+            "endTime": 525
+          },
+          {
+            "startTime": 510,
+            "endTime": 540
+          },
+          {
+            "startTime": 525,
+            "endTime": 555
           },
           {
             "startTime": 540,
@@ -2904,8 +4813,8 @@
     },
     "eaterConsent": null,
     "seoMeta": {
-      "title": "Halcyon Coffee, Bar & Lounge (Austin Downtown) Delivery | Austin | Uber Eats",
-      "description": "Use your Uber account to order delivery from Halcyon Coffee, Bar & Lounge (Austin Downtown) in Austin. Browse the menu, view popular items, and track your order.",
+      "title": "Filibertos Mexican Food Delivery | Tucson | Uber Eats",
+      "description": "Use your Uber account to order delivery from Filibertos Mexican Food in Tucson. Browse the menu, view popular items, and track your order.",
       "content": ""
     }
   }
