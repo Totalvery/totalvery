@@ -1,23 +1,23 @@
 {
-  "_id": "601f89bd511c46db3f9cadc4",
-  "latitude": 32.177614,
-  "longitude": -111.0001671,
+  "_id": "601f97ae511c46db3f9cae2a",
+  "latitude": 40.6781784,
+  "longitude": -73.9441579,
   "data": [
     {
-      "name": "Jack in the Box (3749 S Mission Rd)",
+      "name": "McDonald's\u00ae - Brooklyn (Atlantic Ave & Vanderbilt)",
       "data": {
-        "image": "https://d1ralsognjng37.cloudfront.net/5d5d001b-d099-400b-8546-7cddd70d713a.jpeg",
+        "image": "https://d1ralsognjng37.cloudfront.net/b53bbb9c-278f-4535-a1c1-8aaa9df1e91c.jpeg",
         "rating": 4.2,
         "categories": [
           "American",
-          "burger",
-          "Fast Food"
+          "Fast Food",
+          "Burgers"
         ],
         "platform": [
           {
             "ubereats": {
               "support": true,
-              "id": "9b376e21-d203-4732-bbe6-b67cc82b9fdf",
+              "id": "839e6213-e8aa-41ad-8063-bb57304a9ed8",
               "delivery_fee": "$0.49 Delivery Fee"
             },
             "doordash": {
@@ -35,19 +35,243 @@
       }
     },
     {
-      "name": "Carl's Jr.",
+      "name": "Popeyes - Bedford-Stuyvesant (Fulton St)",
       "data": {
-        "image": "",
+        "image": "https://d1ralsognjng37.cloudfront.net/7c21e574-6849-4def-9486-f593219127fa.jpeg",
+        "rating": 4.1,
+        "categories": [
+          "American",
+          "Fast Food",
+          "Southern",
+          "Wings",
+          "Family Friendly",
+          "Family Meals"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "228bef73-1352-4ea5-a249-cb08f9912ef1",
+              "delivery_fee": "$0.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Krazy Chicken and Pizza",
+      "data": {
+        "image": "https://duyt4h9nfnj50.cloudfront.net/resized/e5d4a17dd1f7fbd48fab53bbe0250326-w550-08.jpg",
+        "rating": 3.8,
+        "categories": [
+          "Black-owned",
+          "Pizza",
+          "Wings",
+          "Fast Food",
+          "Family Meals",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "aaa1e39b-eb71-4e3b-a2ac-b4dfc3d6312d",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Killer Wings",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/83f4b176-0eeb-42bb-8c0c-2175908e92ef.jpeg",
+        "rating": 3.2,
+        "categories": [
+          "Wings",
+          "American",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "e6798a65-3f90-4d51-b9a9-1e750db9ce1b",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": true,
+              "id": "1082563",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2215807",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Devil's Hot Wings",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/d752a5c1-5d37-44e9-8883-f59ccc6aadae.jpeg",
         "rating": 0,
         "categories": [
+          "Wings",
+          "American",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "2ed2d854-f56e-4e3e-a8c5-a6799fd26d0b",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ali's Gyro Lab",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/882af143-30cb-44d7-abf2-ef042d137c4a.jpeg",
+        "rating": 0,
+        "categories": [
+          "Mediterranean",
+          "Greek",
+          "Fast Food",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "b0e12127-0142-4a1d-baea-c368135e0418",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Pancake Spot",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/45617878-ee99-4747-ab7e-3e846f01e9a6.jpeg",
+        "rating": 0,
+        "categories": [
+          "Breakfast and Brunch",
+          "American",
+          "Fast Food",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "ae87f3b1-3215-4050-b580-90df2ae812bc",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Burger Trilogy",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/d4135c98-4cec-456a-8c8d-ab923bc20ca7.jpeg",
+        "rating": 0,
+        "categories": [
+          "Burgers",
+          "American",
+          "Fast Food",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "58487d2a-5851-4a0f-a8a2-c4344242a2f8",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "White Castle",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/14014560-503d-44e6-b114-1df8488774d6-retina-large-jpeg",
+        "rating": 0,
+        "categories": [
+          "Breakfast",
           "Fast Food",
           "Burgers",
-          "Dinner",
-          "Sandwich",
-          "Cocktail Bar",
-          "Alcohol",
           "Lunch",
-          "Breakfast"
+          "Sandwich",
+          "Sandwiches"
         ],
         "platform": [
           {
@@ -58,7 +282,7 @@
             },
             "doordash": {
               "support": true,
-              "id": "200814",
+              "id": "322465",
               "delivery_fee": 0
             },
             "grubhub": {
@@ -71,18 +295,14 @@
       }
     },
     {
-      "name": "Jack in the Box",
+      "name": "Checkers",
       "data": {
-        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/20b15044-e463-4581-a7d0-a378f4d472bc-retina-large-jpeg",
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/6c65a6da-cbcf-4204-b22b-9a6ee202b261-retina-large.jpg",
         "rating": 0,
         "categories": [
+          "Late Night",
           "American (New)",
-          "Sandwich",
-          "Breakfast",
-          "Mexican",
           "Burgers",
-          "Dessert",
-          "Chicken",
           "Fast Food"
         ],
         "platform": [
@@ -94,88 +314,7 @@
             },
             "doordash": {
               "support": true,
-              "id": "1103714",
-              "delivery_fee": 0
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Subway",
-      "data": {
-        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto,quality=50/https://doordash-static.s3.amazonaws.com/media/photos/db13291c-1ff1-4b8c-93c3-476358b72370-retina-large-jpeg",
-        "rating": 0,
-        "categories": [
-          "Sandwiches",
-          "Salad",
-          "Fast Food",
-          "Breakfast",
-          "Healthy",
-          "Lunch",
-          "Dessert",
-          "Takeout",
-          "Delis",
-          "Catering",
-          "Salads",
-          "Dinner",
-          "Sandwich",
-          "Pickup",
-          "Sandwich",
-          "Breakfast",
-          "Alcohol",
-          "Breakfast",
-          "Cocktail Bar"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "doordash": {
-              "support": true,
-              "id": "402476",
-              "delivery_fee": 0
-            },
-            "grubhub": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "Whataburger",
-      "data": {
-        "image": "",
-        "rating": 0,
-        "categories": [
-          "Burgers",
-          "Fast Food",
-          "Dinner",
-          "Lunch",
-          "Sandwich",
-          "Breakfast"
-        ],
-        "platform": [
-          {
-            "ubereats": {
-              "support": false,
-              "id": "",
-              "delivery_fee": ""
-            },
-            "doordash": {
-              "support": true,
-              "id": "200802",
+              "id": "643382",
               "delivery_fee": 0
             },
             "grubhub": {
@@ -209,7 +348,43 @@
             },
             "doordash": {
               "support": true,
-              "id": "1196313",
+              "id": "1196243",
+              "delivery_fee": 0
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Burger King",
+      "data": {
+        "image": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://cdn.doordash.com/media/photos/02f16fae-097c-4785-89a7-ae42f6817689-retina-large.png",
+        "rating": 0,
+        "categories": [
+          "American (New)",
+          "Burgers",
+          "Sandwiches",
+          "Chicken",
+          "Fast Food",
+          "Family Meals",
+          "Cocktail Bar",
+          "Alcohol"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": true,
+              "id": "252070",
               "delivery_fee": 0
             },
             "grubhub": {
@@ -229,8 +404,8 @@
         "categories": [
           "Fast Food",
           "Burgers",
-          "Breakfast",
           "Ice Cream",
+          "Breakfast",
           "American (New)",
           "Dinner"
         ],
@@ -243,7 +418,7 @@
             },
             "doordash": {
               "support": true,
-              "id": "655529",
+              "id": "837670",
               "delivery_fee": 0
             },
             "grubhub": {
@@ -259,21 +434,7 @@
   "DoordashOffer": {
     "totalDeals": 50,
     "data": {
-      "1213822": [
-        {
-          "title": "$5 off",
-          "description": "$5 off orders over $25."
-        },
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        },
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "862680": [
+      "738231": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $15, up to $5."
@@ -283,35 +444,63 @@
           "description": "$10 off orders over $25."
         }
       ],
-      "869986": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "200814": [
+      "371927": [
         {
           "title": "$0 delivery fee",
           "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "1108127": [
+      "293524": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $15, up to $5."
         }
       ],
-      "1451889": [
+      "420033": [
         {
-          "title": "$5 off",
-          "description": "$5 off orders over $25."
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $25."
+        }
+      ],
+      "178420": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "469115": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "144742": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1154755": [
+        {
+          "title": "15% off, up to $3",
+          "description": "15% off orders over $15, up to $3."
         },
         {
           "title": "$0 delivery fee",
           "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "1340576": [
+      "852452": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "15% off, up to $12",
+          "description": "15% off orders over $50, up to $12."
+        }
+      ],
+      "1184943": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $15, up to $5."
@@ -321,215 +510,203 @@
           "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "901667": [
+      "610402": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $15, up to $5."
         }
       ],
-      "1119214": [
+      "1291751": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $15, up to $5."
         }
       ],
-      "1108123": [
+      "214112": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $15, up to $5."
         }
       ],
-      "1235981": [
+      "1082563": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1093906": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1194616": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1082479": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1211237": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1192874": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1244720": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1047554": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "698539": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1050758": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1047524": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1416410": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        },
         {
           "title": "GAMEDAY10",
           "description": "$10 off orders over $25."
         }
       ],
-      "1114000": [
+      "441605": [
+        {
+          "title": "$3 off",
+          "description": "$3 off orders over $15."
+        }
+      ],
+      "1231722": [
         {
           "title": "GAMEDAY10",
           "description": "$10 off orders over $25."
         }
       ],
-      "171134": [
+      "915049": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $15, up to $5."
         }
       ],
-      "207676": [
-        {
-          "title": "$5 off",
-          "description": "$5 off orders over $20."
-        },
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $10, up to $5."
-        },
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "307062": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        },
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "170384": [
-        {
-          "title": "$5 off",
-          "description": "$5 off orders over $25."
-        }
-      ],
-      "199111": [
+      "967882": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $15, up to $5."
         }
       ],
-      "1124177": [
-        {
-          "title": "$8 off",
-          "description": "$8 off orders over $55."
-        },
+      "28640": [
         {
           "title": "$0 delivery fee",
           "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "456544": [
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "171693": [
+      "136456": [
         {
           "title": "20% off, up to $5",
           "description": "20% off orders over $15, up to $5."
         }
       ],
-      "1028697": [
+      "213825": [
         {
           "title": "$0 delivery fee",
           "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "1079933": [
+      "338495": [
         {
-          "title": "15% off, up to $4",
-          "description": "15% off orders over $20, up to $4."
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "132598": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "4778": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "336152": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
         },
         {
           "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $20."
+          "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "420124": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "1051517": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "170320": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "631106": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "202767": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $25, up to $5."
-        }
-      ],
-      "1241629": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        },
-        {
-          "title": "$3 off",
-          "description": "$3 off orders over $15."
-        }
-      ],
-      "1193585": [
+      "213906": [
         {
           "title": "$0 delivery fee",
           "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "167197": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "167141": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "199119": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        }
-      ],
-      "677654": [
-        {
-          "title": "$3 off",
-          "description": "$3 off orders over $15."
-        }
-      ],
-      "1078684": [
-        {
-          "title": "20% off, up to $5",
-          "description": "20% off orders over $15, up to $5."
-        },
-        {
-          "title": "$3 off",
-          "description": "$3 off orders over $15."
-        }
-      ],
-      "167199": [
+      "255529": [
         {
           "title": "$0 delivery fee",
           "description": "$0 delivery fee on orders over $15."
         }
       ],
-      "1023038": [
-        {
-          "title": "$3 off",
-          "description": "$3 off orders over $20."
-        }
-      ],
-      "171127": [
-        {
-          "title": "$0 delivery fee",
-          "description": "$0 delivery fee on orders over $15."
-        }
-      ],
-      "230334": [
+      "132826": [
         {
           "title": "$0 delivery fee",
           "description": "$0 delivery fee on orders over $15."

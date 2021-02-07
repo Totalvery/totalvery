@@ -65,9 +65,9 @@ class AddressSearch extends React.Component {
     const url = "http://127.0.0.1:8000/api/getFeed/";
     //const url = "https://totalvery.herokuapp.com/api/getFeed/";
     const data = {
-      location: this.state.location,
-      lat: this.state.lat,
-      lon: this.state.lng,
+      location: JSON.stringify(this.state.locCookie),
+      lat: parseFloat(this.state.lat),
+      lon: parseFloat(this.state.lng),
     };
     this.fetchData(url, data);
   }
@@ -94,9 +94,9 @@ class AddressSearch extends React.Component {
   handleAll(){
     const url = "http://127.0.0.1:8000/api/getFeed/";
     const data = {
-      location: this.state.location,
-      lat: this.state.lat,
-      lon: this.state.lng,
+      location: JSON.stringify(this.state.locCookie),
+      lat: parseFloat(this.state.lat),
+      lon: parseFloat(this.state.lng),
     };
     this.fetchData(url, data);
   }
