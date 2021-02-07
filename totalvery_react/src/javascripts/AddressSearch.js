@@ -182,7 +182,7 @@ class AddressSearch extends React.Component {
               justifyContent:"left",
               fontSize: "20px",
               fontStyle:"italic",
-              color:"#CDCDCD",
+              color:"grey",
               fontFamily: "Exo",
             }}
           >

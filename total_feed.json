@@ -1,0 +1,2886 @@
+{
+  "latitude": 32.2332841,
+  "longitude": -110.9488008,
+  "data": [
+    {
+      "name": "McDonald's\u00ae (Grant & 1st Ave)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/b53bbb9c-278f-4535-a1c1-8aaa9df1e91c.jpeg",
+        "rating": 4.4,
+        "categories": [
+          "American",
+          "Burgers",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "b7346870-7461-4be3-87e2-8c42a25533c1",
+              "delivery_fee": "$3.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taco Bell (1818 E. Speedway Blvd.)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/90b58466-2aae-448e-87e0-216e8d3b3c50.jpeg",
+        "rating": 4.4,
+        "categories": [
+          "Burritos",
+          "Fast Food",
+          "Mexican"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "16df88e0-a001-4cd4-8b48-f0c10397f904",
+              "delivery_fee": "$3.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jack in the Box (3121 N Campbell Ave)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/5d5d001b-d099-400b-8546-7cddd70d713a.jpeg",
+        "rating": 4.6,
+        "categories": [
+          "American",
+          "burger",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "ed6d04d8-ac37-4e39-9a40-cfebe48c059e",
+              "delivery_fee": "$3.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "No Anchovies",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/d769dfed-9e17-4737-82cb-ee161b62dc17.jpeg",
+        "rating": 4.3,
+        "categories": [
+          "Pizza",
+          "American",
+          "Italian",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "2fd5320d-4187-4e9b-841d-e57fd7eec76f",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1409552",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Los Betos Mexican food",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/2fe3dd9c-1042-4e31-93cd-c8d771213205.jpeg",
+        "rating": 4.4,
+        "categories": [
+          "Mexican",
+          "Latin American",
+          "New Mexican",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "c020ea7d-e5e4-45e0-8ea9-910bc27d3a13",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wendy's  (1005 N. CAMPBELL AVE.)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/644b5e4c-6bc0-4dbf-a15c-8e7003de4fa3.jpeg",
+        "rating": 4.6,
+        "categories": [
+          "American",
+          "Burgers",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "a8da7b9a-a1a3-462f-ada4-74a5b71612e4",
+              "delivery_fee": "$3.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Buffalo Spot (Tucson)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/2c57878a-2f14-4743-ab46-4da17109abf9.jpeg",
+        "rating": 4,
+        "categories": [
+          "BBQ",
+          "American",
+          "Burgers",
+          "Wings",
+          "Family Meals",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "b4fd5edc-7667-482f-af37-b8e235edbd06",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Southwest Grillers",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/7ed83d68-4f36-444e-9dbf-63e0b9642cb4",
+        "rating": 4,
+        "categories": [
+          "Burgers",
+          "American",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "fc6973c1-b4a9-40af-8bdc-08442d6d8c6f",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1124747",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cold Stone Creamery (1927 E Speedway Blvd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/3e2c7aee-445a-4c82-a34b-6887574d95aa",
+        "rating": 4.8,
+        "categories": [
+          "Desserts",
+          "Ice Cream and Frozen Yogurt"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "9c9de37a-7661-414c-8d43-37018d2a1bcb",
+              "delivery_fee": "$1.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fuku Sushi (University Blvd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/c4559f39-b66c-4ef9-b954-e6b3945c01d6.jpeg",
+        "rating": 4.5,
+        "categories": [
+          "Sushi",
+          "Family Friendly",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "c5effce3-5bff-4600-aee7-aaec1823523b",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Urban Pita",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/885865a3-edb1-41a1-86b6-acd1db209c8a",
+        "rating": 4.6,
+        "categories": [
+          "Mediterranean",
+          "Street Food",
+          "American",
+          "Comfort Food",
+          "Soul Food",
+          "New American",
+          "Sandwich",
+          "Salads",
+          "Desserts",
+          "Middle Eastern",
+          "Healthy",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "7cd7cfe3-f83d-4c8b-b21f-d2e7b7580bf8",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "345499",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Burger King (3485 East Ajo Way #9644)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/6619174b-637d-47c7-b98e-3eec895f4ff8.jpeg",
+        "rating": 0,
+        "categories": [
+          "American",
+          "burger",
+          "Fast Food",
+          "Family Meals"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "dd5b5093-3041-4edd-9917-c588045cd737",
+              "delivery_fee": "$4.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Riliberto\u2019s (Tuscon)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/83633ae9-ed6a-41b9-af61-705049d2bcbb.jpeg",
+        "rating": 4,
+        "categories": [
+          "Mexican",
+          "Family Meals",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "be8f40d6-f63f-4fe2-9f93-f411353c6d2e",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hana Hawaiian Grill",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/ffc5abf9-61f4-4749-9040-9c3e52ba8a9d.jpeg",
+        "rating": 4.5,
+        "categories": [
+          "American",
+          "New American",
+          "Salads",
+          "Sandwich",
+          "Healthy",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "bcce9ea4-aa5a-4006-91e9-f162a89d7d37",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2249952",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gentle Ben's Brewing Company",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/f69f60e3-b2fe-4810-a631-54dbac37f597",
+        "rating": 4.6,
+        "categories": [
+          "American",
+          "Burgers",
+          "Sandwich",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "9a6cc74a-c355-477e-9744-48d048010192",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "321829",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Blind Pig",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/204b2e62-7f3d-488f-8adf-fdbc2ba08890.jpeg",
+        "rating": 0,
+        "categories": [
+          "BBQ",
+          "American",
+          "Burgers",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "ff56e5ca-bf14-4392-94ff-409eed990376",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Empire Pizza & Pub",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/1bf5a917-e5b3-4888-8bc0-bc885080eb62.webp",
+        "rating": 0,
+        "categories": [
+          "Pizza",
+          "American",
+          "Italian"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "a5ea1e8a-eb69-4f0e-a01b-72a4a97365f1",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Del Taco (840 E Broadway Blvd | 859)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/c76ef7b1-1a49-4009-a270-339d5b7fd2ea.jpeg",
+        "rating": 4.6,
+        "categories": [
+          "Fast Food",
+          "Mexican",
+          "Tacos"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "c8a39ffe-1ea0-4b2c-8117-59a9d5da4227",
+              "delivery_fee": "$3.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sushi Sensei",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/16e7400c-8243-4151-a47e-0e2a25d3edc6.jpeg",
+        "rating": 0,
+        "categories": [
+          "Asian Fusion",
+          "Asian",
+          "Korean"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "d479a161-a5db-47a5-a9ab-c4d43c2c9d72",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2313382",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "IHOP (Grant & Dragoon)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/f6bb2fd1-308d-4f9b-8a97-931f6670fc69.jpeg",
+        "rating": 4.5,
+        "categories": [
+          "American",
+          "Breakfast and Brunch",
+          "Family Meals"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "54c04bb9-8308-4c74-95cc-7eea98803d45",
+              "delivery_fee": "$7.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sexy Grilled Cheese and Salad Company",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/9cad14be-87cc-4061-a5ab-40bd0aeb2b74.jpeg",
+        "rating": 4.6,
+        "categories": [
+          "Burgers",
+          "American",
+          "Sandwiches",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "72c9c74a-6fab-422b-bc7c-a86f48a18424",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2288213",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Subway (5480 E Speedway Blvd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/923d6aa9-fe6e-40b2-829c-fb4cab499d54.jpeg",
+        "rating": 4.4,
+        "categories": [
+          "Fast Food",
+          "Sandwich",
+          "American"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "34e3ccd8-9575-4035-be9d-80c6258b8f79",
+              "delivery_fee": "$6.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Oy Vey N.Y. Delicatessen",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/841a358c-5983-4b22-9798-d961c9ed2a6c.webp",
+        "rating": 0,
+        "categories": [
+          "Burgers",
+          "American",
+          "Sandwiches"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "24183fe9-9940-4d3a-8d02-e7906cf444b1",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Denny's (555 N Freeway)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/b0017738-ac42-447f-87e5-41e1d3af79b2.jpeg",
+        "rating": 4.2,
+        "categories": [
+          "American",
+          "Breakfast and Brunch",
+          "Coffee and Tea",
+          "Diner",
+          "Desserts",
+          "Salads",
+          "Steak",
+          "Sandwich",
+          "Healthy"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "b0d24d8b-da0a-4b59-85c4-c5d12b973fbf",
+              "delivery_fee": "$1.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Riliberto's Fresh Mexican Food",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/d4d9404a-71d6-4e4b-a95f-a6c83b695689.jpeg",
+        "rating": 3.8,
+        "categories": [
+          "Mexican",
+          "Latin American",
+          "New Mexican",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "080ea38a-bbfe-4efc-ab37-7de6fa812f1c",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1400510",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shaka Sushi And Teriyaki",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/22b411e3-bfc2-4fc5-96a9-039bdd77ba7e.jpeg",
+        "rating": 0,
+        "categories": [
+          "Japanese: Sushi",
+          "Hawaiian",
+          "Asian",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "26d9ac65-cfbd-4ed9-b288-c0a3c6ab4921",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dante's Fire",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/dd3a639b-7185-49ea-a04f-0fd7ccf7a4c4.jpeg",
+        "rating": 0,
+        "categories": [
+          "Burgers",
+          "American",
+          "Sandwiches",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "076367f5-6f02-4fcc-aa9e-5c4829550081",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "287517",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wienerschnitzel (1481 S Alvernon Way)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/e3316524-be3a-4cb6-a43d-60f4a0b61e0f.jpeg",
+        "rating": 4.7,
+        "categories": [
+          "Hot Dog",
+          "Sandwich",
+          "American",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "b2d61349-f40a-4f77-9107-9b0c9663db9a",
+              "delivery_fee": "$2.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taro Sushi",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/a1b0c992-6a61-464a-8576-fddfd758d271.jpeg",
+        "rating": 4.3,
+        "categories": [
+          "Japanese: Sushi",
+          "Asian",
+          "Japanese",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "de8e30be-455f-4152-ab0f-28f7f561e8bd",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "7-Eleven (3501 East Grant Rd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/59393ca7-b5fa-41c1-b211-4d2e74bd70a6.jpeg",
+        "rating": 4.5,
+        "categories": [
+          "Grocery",
+          "Convenience",
+          "Home & Personal Care",
+          "Snacks",
+          "Everyday Essentials",
+          "American",
+          "Pizza"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "41c2d4ea-6f96-426d-8b05-135a56efdc2a",
+              "delivery_fee": "$5.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Viva Burrito (Irvington)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/55e7dfd2-d19c-41d4-87f5-68f3014ffc13.jpeg",
+        "rating": 4.1,
+        "categories": [
+          "Mexican",
+          "Latin American",
+          "New Mexican",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "d62d9c31-1682-453d-b42c-58ec2eb3f743",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Postino (Grant)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/7dc541ff-9c8f-4478-8263-83a9a99ace45.jpeg",
+        "rating": 4.6,
+        "categories": [
+          "Italian",
+          "Pasta",
+          "Comfort Food",
+          "Family Meals",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "06b82bc4-8de2-44a7-9c42-862f67ea7c76",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Applebee's (Broadway & Park Pl)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/37728231-b0ef-4c1c-9385-8e1cc652b75d.jpeg",
+        "rating": 4.1,
+        "categories": [
+          "American",
+          "Burgers",
+          "Sandwich",
+          "Comfort Food",
+          "Pasta",
+          "Salads",
+          "Sandwiches",
+          "Steak",
+          "Wings"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "471fffaf-7ddf-474c-a3f5-c05bf0200ef3",
+              "delivery_fee": "$7.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Filiberto's Mexican Food (5010 S Campbell Ave)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/0ca1e893-20f3-4372-9327-ed6b52b1c42e.jpeg",
+        "rating": 4.4,
+        "categories": [
+          "Mexican",
+          "Latin American",
+          "New Mexican",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "3849edde-1acf-4b19-b698-1108228f0e18",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "El Burrito Borracho",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/3c312865-6363-4056-928c-457f7fba2ad8.jpeg",
+        "rating": 3.5,
+        "categories": [
+          "Mexican",
+          "Latin American",
+          "New Mexican"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "ce769d68-07a4-47b5-b5e4-b6125cc1695d",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2215888",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sushi Cutie",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/f14588cd-bc44-4de0-ba93-e5176dc22c25.jpeg",
+        "rating": 4,
+        "categories": [
+          "Asian Fusion",
+          "Asian",
+          "Korean"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "ea4d9da3-fb1b-4fc3-a5b8-d324ea082cd8",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2313672",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Mexican Cocina",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/ae901c51-5e2c-457f-96a4-6dfba65e6c47.jpeg",
+        "rating": 3.5,
+        "categories": [
+          "Mexican",
+          "Latin American",
+          "New Mexican",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "9e8df786-ebee-491f-b0b4-9a88a7037781",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2548768",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Papa John's (1610 W Valencia Rd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/6513fd88-1569-4802-bb7d-0b5e34148c76.jpeg",
+        "rating": 4.3,
+        "categories": [
+          "Pizza",
+          "Wings",
+          "Desserts",
+          "Sandwiches"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "357ba322-ca99-4ae4-b67f-1648bf64fd05",
+              "delivery_fee": "$6.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Carl's Jr. (3289 E Valencia Rd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/ff21527b-0361-44ec-89e1-1c840d61b9da.jpeg",
+        "rating": 3.5,
+        "categories": [
+          "Breakfast and Brunch",
+          "Sandwich",
+          "Burgers",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "5fbe9154-92ab-41ec-831c-26983666c095",
+              "delivery_fee": "$5.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Burger King (454 West Grant)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/6619174b-637d-47c7-b98e-3eec895f4ff8.jpeg",
+        "rating": 4.2,
+        "categories": [
+          "American",
+          "burger",
+          "Fast Food",
+          "Family Meals"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "1e4a2c8d-d128-4f81-810a-8890312ffab7",
+              "delivery_fee": "$3.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wendy's  (5391 E SPEEDWAY)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/fd37ed04-41b8-4baf-a00f-19c22d82bf67.jpeg",
+        "rating": 4.5,
+        "categories": [
+          "American",
+          "Burgers",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "47629c4f-20e3-49bd-a4d1-a69cad6b4cf9",
+              "delivery_fee": "$5.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jack in the Box (3749 S Mission Rd)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/5d5d001b-d099-400b-8546-7cddd70d713a.jpeg",
+        "rating": 4.2,
+        "categories": [
+          "American",
+          "burger",
+          "Fast Food"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "9b376e21-d203-4732-bbe6-b67cc82b9fdf",
+              "delivery_fee": "$4.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taco Bell (4951 S Campbell Ave)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/90b58466-2aae-448e-87e0-216e8d3b3c50.jpeg",
+        "rating": 4.3,
+        "categories": [
+          "Burritos",
+          "Fast Food",
+          "Mexican"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "07230af0-a6fd-4061-bd6d-714c64105233",
+              "delivery_fee": "$6.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Filibertos Mexican Food",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/49437ce6-6db5-4bf1-bf9f-0118ad488634.jpeg",
+        "rating": 4.5,
+        "categories": [
+          "Mexican",
+          "Latin American",
+          "New Mexican",
+          "Family Meals",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "f5628411-9d6f-4b1e-ad14-a129d96ba51e",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Viva Burrito (Craycroft)",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/55990739-37ce-48b1-a570-c6201dd97024.jpeg",
+        "rating": 0,
+        "categories": [
+          "Mexican",
+          "Latin American",
+          "Desserts",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "800c6d5f-3fad-4522-b66d-336127d23b86",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kettle Restaurant",
+      "data": {
+        "image": "rushmore.uberinternal.com/business/location/<550b2268-795b-4599-86b2-272d2fa865ea>",
+        "rating": 0,
+        "categories": [
+          "Breakfast and Brunch",
+          "American",
+          "Sandwiches",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "9c8999eb-7b08-46f9-b5a9-e9ed4e403452",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thank U, Mex",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/5f4d400d-5d19-48aa-afae-b9b78e8a469e.jpeg",
+        "rating": 0,
+        "categories": [
+          "Mexican",
+          "Latin American",
+          "New Mexican",
+          "Exclusive to Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "98d2aa2b-9cd7-41bd-8668-10a5fc39fe7c",
+              "delivery_fee": "$2.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2197927",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Breakfast Burrito Snob",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/857a607c-ac55-4dc4-8909-e47e92d3d886.jpeg",
+        "rating": 0,
+        "categories": [
+          "Breakfast and Brunch",
+          "American",
+          "New Mexican",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "8e68d0cb-021a-4e5c-9ecc-a6fd7d60b4de",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2550896",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Burrito Snob",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/c5aa1569-488a-41f4-b6f7-edea21d563c5.jpeg",
+        "rating": 4.2,
+        "categories": [
+          "Mexican",
+          "New Mexican",
+          "Salads",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "48a18337-8a2c-4816-b8aa-b1bfcffcede0",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2382052",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jay's Breakfast Bar",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/376e37cd-041b-4788-9a66-c192e9ec10ed.jpeg",
+        "rating": 4.4,
+        "categories": [
+          "Breakfast and Brunch",
+          "Mexican",
+          "New Mexican",
+          "Local Eats"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "3d37da73-faa5-46db-8f62-fc645b9a57a7",
+              "delivery_fee": "$0 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2460021",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mary's Breakfast Burritos",
+      "data": {
+        "image": "https://d1ralsognjng37.cloudfront.net/3b0f6b5f-ea6a-4b97-89fe-66ff2417e760.jpeg",
+        "rating": 0,
+        "categories": [
+          "Breakfast and Brunch",
+          "American",
+          "Sandwiches"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": true,
+              "id": "188923a7-e5cd-4658-b03c-9fade1a70779",
+              "delivery_fee": "$0.49 Delivery Fee"
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2460413",
+              "delivery_fee": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fuku Sushi",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1556946994/k4k7sz5vzu8kbbr8nj6c.png",
+        "rating": "4",
+        "categories": [
+          "Asian",
+          "Lunch Specials",
+          "Noodles",
+          "Sushi"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "288402",
+              "delivery_fee": 199
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "McDonald's",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1604203242/u1qpsfyly2thulxf5mek.png",
+        "rating": "0",
+        "categories": [
+          "American",
+          "Coffee and Tea",
+          "Hamburgers"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2468267",
+              "delivery_fee": 199
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taco Bell",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1507761709/pqssgagabmtgqjwodrqq.png",
+        "rating": "3",
+        "categories": [
+          "Mexican",
+          "Tacos",
+          "Vegetarian"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "928617",
+              "delivery_fee": 399
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Los Betos",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1588960194/ogibehegl2rw2varu1a9.jpg",
+        "rating": "3",
+        "categories": [
+          "Burritos",
+          "Mexican",
+          "Salads",
+          "Tacos"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2134956",
+              "delivery_fee": 649
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Filiberto's Mexican Food",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1591653446/bqjmepuhiqw84dpibjyw.png",
+        "rating": "3",
+        "categories": [
+          "Bowls",
+          "Burritos",
+          "Dessert",
+          "Kids Menu",
+          "Mexican",
+          "Tacos"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2199197",
+              "delivery_fee": 649
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "El Chapo Restaurant",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1588581254/incnwexsqrnwxfootitv.png",
+        "rating": "3",
+        "categories": [
+          "Dessert",
+          "Potato",
+          "Tacos"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2064801",
+              "delivery_fee": 499
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Famous Sam's at Golf Links",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1527705632/rjdjbka4bfx52uyujjdc.png",
+        "rating": "4",
+        "categories": [
+          "American",
+          "Dessert",
+          "Hamburgers",
+          "Kids Menu",
+          "Salads",
+          "Sandwiches",
+          "Soup",
+          "Wings"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "832440",
+              "delivery_fee": 999
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taka Teriyaki",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1595428691/ls2jknvqni2sm2zpbey1.jpg",
+        "rating": "3",
+        "categories": [
+          "Japanese"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2313379",
+              "delivery_fee": 199
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sunny & Fine's Breakfast Burritos",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1588694286/bephvsywph75d8kat2zv.jpg",
+        "rating": "3",
+        "categories": [],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2215693",
+              "delivery_fee": 499
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "filibertos mexican food",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1591319405/vxozouicyii3owopdan3.jpg",
+        "rating": "4",
+        "categories": [
+          "Kids Menu",
+          "Mexican",
+          "Tacos"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2198642",
+              "delivery_fee": 499
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Rolling Sushi",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1574798822/tvgkg0cv4qb7errqapcw.jpg",
+        "rating": "3",
+        "categories": [
+          "Sushi"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2313262",
+              "delivery_fee": 199
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hi-Fi Kitchen & Cocktails",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1603796338/yrldl05uv4xyeretsjyn.jpg",
+        "rating": "0",
+        "categories": [
+          "Hamburgers",
+          "Salads",
+          "Sandwiches",
+          "Snacks",
+          "Wraps"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2418895",
+              "delivery_fee": 349
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Burrito Clasico",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1574806244/u3jxey524zjnv5bnviit.jpg",
+        "rating": "3",
+        "categories": [
+          "Burritos",
+          "Mexican"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2198300",
+              "delivery_fee": 499
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taco Taco Burrito Burrito",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1585864449/knfqompxvlua4gnsgedk.jpg",
+        "rating": "3",
+        "categories": [
+          "Burritos",
+          "Mexican",
+          "Tacos"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2040730",
+              "delivery_fee": 499
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cold Stone Creamery",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1478735056/kdffrsjpn9ecppkz94to.png",
+        "rating": "4",
+        "categories": [
+          "Dessert",
+          "Ice Cream"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1171599",
+              "delivery_fee": 199
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Buffalo Spot",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1573222528/hqj44ihgz3l9iwrqzwiu.png",
+        "rating": "4",
+        "categories": [
+          "Salads",
+          "Wings",
+          "Wraps"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1703089",
+              "delivery_fee": 199
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Insomnia Cookies",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1462383035/qlotyea1qygnkfpoapec.jpg",
+        "rating": "3",
+        "categories": [
+          "American",
+          "Bakery",
+          "Dessert",
+          "Ice Cream",
+          "Snacks"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2328586",
+              "delivery_fee": 299
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blackjack Pizza & Salads",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1510257333/pp2idnnmza1wrysol6g7.png",
+        "rating": "4",
+        "categories": [
+          "Calzones",
+          "Italian",
+          "Pizza",
+          "Salads"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1447195",
+              "delivery_fee": 450
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "7-Eleven",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1601307393/ejn7cwuktve7vnihgakx.jpg",
+        "rating": "3",
+        "categories": [
+          "Candy",
+          "Chicken",
+          "Grocery Items",
+          "Ice Cream",
+          "Pizza",
+          "Snacks",
+          "Wings"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2116653",
+              "delivery_fee": 499
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Burger King",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1612307131/kaork1onyw1evg9es26u.png",
+        "rating": "4",
+        "categories": [
+          "American",
+          "Dessert",
+          "Hamburgers",
+          "Sandwiches"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1075275",
+              "delivery_fee": 499
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Waffle House",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1589205736/chz74pfvtnqpiibkto94.jpg",
+        "rating": "0",
+        "categories": [
+          "American",
+          "Sandwiches"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2128582",
+              "delivery_fee": 599
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wendy's",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1574870004/un8zbyvnajrk67741xfy.png",
+        "rating": "4",
+        "categories": [
+          "American",
+          "Hamburgers"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1670851",
+              "delivery_fee": 499
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "IHOP",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1594238161/qcvvlzbcrnyb8yqzlcas.jpg",
+        "rating": "4",
+        "categories": [
+          "American",
+          "Chicken",
+          "Coffee & Tea",
+          "Diner",
+          "Hamburgers",
+          "Kids Menu",
+          "Vegetarian"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "893322",
+              "delivery_fee": 649
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Carl's Jr",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1602560460/kk39m1fvucthvhbjze5c.png",
+        "rating": "3",
+        "categories": [
+          "American",
+          "Hamburgers"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2133234",
+              "delivery_fee": 649
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "SUBWAY\u00ae",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1502991819/aqrepgbnapm7fcqeslqi.png",
+        "rating": "4",
+        "categories": [
+          "American",
+          "Sandwiches",
+          "Subs",
+          "Wraps"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1113403",
+              "delivery_fee": 949
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Viva Burrito",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1584985993/tx53rbcrqq7jrqjmgsty.png",
+        "rating": "4",
+        "categories": [
+          "Mexican"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1218441",
+              "delivery_fee": 799
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Applebee's",
+      "data": {
+        "image": "https://res.cloudinary.com/grubhub/image/upload/v1519941933/boxt1slwar1s6zxtqihj.png",
+        "rating": "3",
+        "categories": [
+          "American",
+          "BBQ",
+          "Bar Food",
+          "Chicken",
+          "Classic",
+          "Grill",
+          "Hamburgers",
+          "New American",
+          "Pasta",
+          "Pub Food",
+          "Ribs",
+          "Salads",
+          "Sandwiches",
+          "Steak",
+          "Wings"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1429129",
+              "delivery_fee": 799
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Neighborhood Wings",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1601061256/tr7hxvtivitusp0ha50k.png",
+        "rating": "3",
+        "categories": [
+          "American",
+          "BBQ",
+          "Bar Food",
+          "Chicken",
+          "Pub Food",
+          "Snacks",
+          "Soul Food",
+          "Wings"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2120398",
+              "delivery_fee": 799
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Opa's Grill Greek American Cuisine",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1605098645/tgifp97zdfxmi3g4yokj.png",
+        "rating": "4",
+        "categories": [
+          "Greek",
+          "Salads",
+          "Sandwiches",
+          "Soup"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "2443616",
+              "delivery_fee": 349
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Panera Bread",
+      "data": {
+        "image": "https://media-cdn.grubhub.com/image/upload/v1602792215/le8hybhlwhq6qxfcenu9.png",
+        "rating": "3",
+        "categories": [
+          "American",
+          "Bakery",
+          "Cafe",
+          "Coffee and Tea",
+          "Healthy",
+          "Pizza",
+          "Salads",
+          "Sandwiches",
+          "Soup",
+          "Vegetarian"
+        ],
+        "platform": [
+          {
+            "ubereats": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "doordash": {
+              "support": false,
+              "id": "",
+              "delivery_fee": ""
+            },
+            "grubhub": {
+              "support": true,
+              "id": "1294743",
+              "delivery_fee": 199
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "DoordashOffer": {
+    "totalDeals": 50,
+    "data": {
+      "171134": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "207676": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $20."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $10, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "170384": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        }
+      ],
+      "199111": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "171117": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1213822": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "869986": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "862671": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "200814": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1079933": [
+        {
+          "title": "15% off, up to $4",
+          "description": "15% off orders over $20, up to $4."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $20."
+        }
+      ],
+      "420124": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1051517": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1236963": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1134674": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1108127": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1335945": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "932777": [
+        {
+          "title": "$8 off",
+          "description": "$8 off orders over $40."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1451889": [
+        {
+          "title": "$5 off",
+          "description": "$5 off orders over $25."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1340576": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "901667": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1119214": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1119157": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1108123": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "512593": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "1481850": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1178634": [
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "1113031": [
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "1235981": [
+        {
+          "title": "GAMEDAY10",
+          "description": "$10 off orders over $25."
+        }
+      ],
+      "307062": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "167176": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1028342": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "1124177": [
+        {
+          "title": "$8 off",
+          "description": "$8 off orders over $55."
+        },
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "171693": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ],
+      "170340": [
+        {
+          "title": "15% off, up to $5",
+          "description": "15% off orders over $15, up to $5."
+        }
+      ],
+      "189647": [
+        {
+          "title": "$0 delivery fee",
+          "description": "$0 delivery fee on orders over $15."
+        }
+      ],
+      "170320": [
+        {
+          "title": "20% off, up to $5",
+          "description": "20% off orders over $15, up to $5."
+        }
+      ]
+    }
+  }
+}
