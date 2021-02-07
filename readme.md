@@ -27,10 +27,25 @@ Check your CONTAINER ID of the 'totalvery_web' IMAGE:
    $ docker ps
    ```
 
-Replace [CONTAINER ID] with the ID that you checked above:
+It will be like this:
+   ```
+   $ docker ps
+   CONTAINER ID   IMAGE                COMMAND                  CREATED          STATUS          PORTS                    NAMES
+   7468f0fe33d5   totalvery_web        "python manage.py ru…"   19 minutes ago   Up 19 minutes   0.0.0.0:8000->8000/tcp   totalvery_web_1
+   ca269c4f4a10   totalvery_frontend   "docker-entrypoint.s…"   19 minutes ago   Up 19 minutes   0.0.0.0:3000->3000/tcp   totalvery_frontend_1
+   016f221cbb3b   totalvery_my_db      "docker-entrypoint.s…"   19 minutes ago   Up 19 minutes   27017/tcp                totalvery_my_db_1
+   ```
+
+Replace [CONTAINER ID] with the most top ID that you checked above:
    ```
    docker exec -it [CONTAINER ID] python manage.py makemigrations
    docker exec -it [CONTAINER ID] python manage.py migrate
+   ```
+
+For exeample:
+   ```
+   docker exec -it 7468f0fe33d5 python manage.py makemigrations
+   docker exec -it 7468f0fe33d5 python manage.py migrate
    ```
 
 Then you can see the demo web page with your local computer:
