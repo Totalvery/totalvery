@@ -20,8 +20,9 @@ function AvailableElement({ items, fallback }) {
       return (
         <Element id={item} className="menu-item">
           <div className="menu-description">
-            <b>{item.name}</b>
-            <br></br>
+            <div id="menu-title">
+              <b>{item.name}</b>
+            </div>
             {item.description}
             <br></br>
             <br></br>

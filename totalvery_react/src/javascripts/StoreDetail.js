@@ -16,7 +16,7 @@ import grubhub_logo from "../images/grubhub_logo.png";
 import doordash_logo from "../images/doordash_logo.png";
 
 function UbereatsOffers({ items, fallback }) {
-  if (!items || items.length === 0 || items == null) {
+  if (!items || items.length === 0) {
     return fallback;
   } else {
     return items.map((item) => {
@@ -33,7 +33,7 @@ function UbereatsOffers({ items, fallback }) {
 }
 
 function DoordashOffers({ items, fallback }) {
-  if (!items || items.length === 0 || items == "") {
+  if (!items || items.length === 0) {
     return fallback;
   } else {
     return items.map((item) => {
@@ -53,13 +53,19 @@ function GrubhubOffers({ items, fallback }) {
   if (!items || items.length === 0) {
     return fallback;
   } else {
+    var prev = "";
     return items.map((item) => {
       let title = item.title;
+      let dp = "block";
       let descrp = item.description;
+      if (descrp === prev) {
+        return "";
+      }
+      prev = descrp;
       if (descrp.startsWith("Offer valid for orders of ")) {
         const regexp = /\$[0-9]+(\.[0-9]{1,2})?/g;
-        let money = (item.title + item.description).matchAll(regexp);
-        title = "";
+        let money = (item.title + item.description).match(regexp);
+        dp = "none";
         descrp = "Spend " + money[1] + ", Save " + money[0];
       }
       return (
@@ -68,8 +74,10 @@ function GrubhubOffers({ items, fallback }) {
             <img id="logo" src={grubhub_logo}></img>
           </div>
           <div id="offer-description">
-            {title}
-            <br></br>
+            <span id="offer-title" style={{ display: dp }}>
+              {title}
+              <br></br>
+            </span>
             {descrp}
           </div>
         </div>
@@ -288,6 +296,23 @@ class StoreDetail extends React.Component {
       } catch {
         doordash_fee += "$0 Service Fee ∙ ";
       }
+      try {
+        var reguratory = ["San Jose", "Mountain View"];
+        let city = this.state.locCookie.addressComponents.city;
+        if (city === "Tucson") {
+          doordash_fee += "$2.00 Tucson Fee ∙ ";
+          total += 2;
+        } else if (city === "Washington") {
+          doordash_fee += "$1.00 Washington State Fee ∙ ";
+          total += 1;
+        } else if (city === "Oregon") {
+          doordash_fee += "$1.50 Regulatory Response Fee ∙ ";
+          total += 1.5;
+        } else if (reguratory.includes(city)) {
+          doordash_fee += "$2.00 Regulatory Response Fee ∙ ";
+          total += 2;
+        }
+      } catch (error) {}
       total_doordash_fee = "$" + total.toFixed(2) + " Total Estimated Fees";
       doordash_eta =
         " ∙ " +
@@ -391,17 +416,22 @@ class StoreDetail extends React.Component {
           <div className="address">{this.state.location}</div>{" "}
         </div>
         <div className="fees-order-container">
+          <div className="names-wrapper">
+            <div className="app-name">UberEats</div>
+            <div className="app-name">DoorDash</div>
+            <div className="app-name">GrubHub</div>
+          </div>
           <div className="fees-wrapper">
             <div className="ubereats-fee-wrapper">
-              UberEats ☛ {ubereats_fee}
+              {ubereats_fee}
               <span id="total-fee"> {total_ubereats_fee} </span> {ubereats_eta}
             </div>
             <div className="doordash-fee-wrapper">
-              DoorDash ☛ {doordash_fee}
+              {doordash_fee}
               <span id="total-fee"> {total_doordash_fee} </span> {doordash_eta}
             </div>
             <div className="grubhub-fee-wrapper">
-              GrubHub ☛ {grubhub_fee}
+              {grubhub_fee}
               <span id="total-fee"> {total_grubhub_fee} </span> {grubhub_eta}
             </div>
           </div>
