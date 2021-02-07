@@ -11,7 +11,7 @@
 
 ## Instruction
 
-_First of all, you need US IP because some apps where Totalvery crawls data in real-time may not be available in your country other than US. You can set US IP with VPN._
+_First of all, you need a __US IP__ because some apps where Totalvery crawls data in real-time may not be available in your country other than the US. You can set a US IP with VPN. Then, you have to install __Docker__ in order to build the environment._
 
 To run this app:
 
